@@ -1,0 +1,1568 @@
+---
+Acre:
+- Timezones:
+  - America/Eirunepe
+  - America/Rio_Branco
+  To: '2008-06-24T05:00:00+00:00'
+Afghanistan:
+- Timezones:
+  - Asia/Kabul
+Africa_Central:
+- Timezones:
+  - Africa/Windhoek
+  From: '1990-03-20T22:00:00+00:00'
+  To: '1994-04-02T22:00:00+00:00'
+- Timezones:
+  - Africa/Juba
+  - Africa/Khartoum
+  To: '2000-01-15T10:00:00+00:00'
+- Timezones:
+  - Africa/Blantyre
+  - Africa/Bujumbura
+  - Africa/Gaborone
+  - Africa/Harare
+  - Africa/Kigali
+  - Africa/Lubumbashi
+  - Africa/Lusaka
+  - Africa/Maputo
+Africa_Eastern:
+- Timezones:
+  - Africa/Addis_Ababa
+  - Africa/Asmera
+  - Africa/Dar_es_Salaam
+  - Africa/Djibouti
+  - Africa/Kampala
+  - Africa/Mogadishu
+  - Africa/Nairobi
+  - Indian/Antananarivo
+  - Indian/Comoro
+  - Indian/Mayotte
+- Timezones:
+  - Africa/Juba
+  - Africa/Khartoum
+  From: '2000-01-15T10:00:00+00:00'
+Africa_FarWestern:
+- Timezones:
+  - Africa/Bissau
+  To: '1975-01-01T01:00:00+00:00'
+- Timezones:
+  - Africa/El_Aaiun
+  To: '1976-04-14T01:00:00+00:00'
+Africa_Southern:
+- Timezones:
+  - Africa/Windhoek
+  To: '1990-03-20T22:00:00+00:00'
+- Timezones:
+  - Africa/Johannesburg
+  - Africa/Maseru
+  - Africa/Mbabane
+Africa_Western:
+- Timezones:
+  - Africa/Bangui
+  - Africa/Brazzaville
+  - Africa/Douala
+  - Africa/Kinshasa
+  - Africa/Lagos
+  - Africa/Libreville
+  - Africa/Luanda
+  - Africa/Malabo
+  - Africa/Ndjamena
+  - Africa/Niamey
+  - Africa/Porto-Novo
+- Timezones:
+  - Africa/Windhoek
+  From: '1994-04-02T22:00:00+00:00'
+Aktyubinsk:
+- Timezones:
+  - Asia/Aqtobe
+  To: '1991-12-15T19:00:00+00:00'
+Alaska:
+- Timezones:
+  - America/Anchorage
+  - America/Juneau
+  - America/Nome
+  - America/Sitka
+  - America/Yakutat
+  From: '1983-11-30T09:00:00+00:00'
+Alaska_Hawaii:
+- Timezones:
+  - America/Anchorage
+  - Pacific/Honolulu
+  - Pacific/Johnston
+  To: '1983-10-30T11:00:00+00:00'
+Almaty:
+- Timezones:
+  - Asia/Almaty
+  To: '2005-03-14T18:00:00+00:00'
+Amazon:
+- Timezones:
+  - America/Santarem
+  To: '2008-06-24T04:00:00+00:00'
+- Timezones:
+  - America/Boa_Vista
+  - America/Campo_Grande
+  - America/Cuiaba
+  - America/Manaus
+  - America/Porto_Velho
+- Timezones:
+  - America/Eirunepe
+  - America/Rio_Branco
+  From: '2008-06-24T05:00:00+00:00'
+America_Central:
+- Timezones:
+  - America/Managua
+  To: '1973-05-01T06:00:00+00:00'
+- Timezones:
+  - America/Indiana/Marengo
+  - America/Louisville
+  From: '1974-01-06T07:00:00+00:00'
+  To: '1974-10-27T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Petersburg
+  To: '1977-10-30T07:00:00+00:00'
+- Timezones:
+  - America/Cancun
+  - America/Merida
+  To: '1981-12-23T06:00:00+00:00'
+- Timezones:
+  - America/Indiana/Knox
+  To: '1991-10-27T07:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1975-02-16T05:00:00+00:00'
+  To: '1992-01-01T10:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1992-09-24T05:00:00+00:00'
+  To: '1993-01-01T06:00:00+00:00'
+- Timezones:
+  - America/Chihuahua
+  - America/Ojinaga
+  To: '1998-04-05T09:00:00+00:00'
+- Timezones:
+  - America/Kentucky/Monticello
+  - America/Rankin_Inlet
+  - America/Resolute
+  To: '2000-10-29T07:00:00+00:00'
+- Timezones:
+  - America/Iqaluit
+  - America/Pangnirtung
+  From: '1999-10-31T06:00:00+00:00'
+  To: '2000-10-29T07:00:00+00:00'
+- Timezones:
+  - America/Cambridge_Bay
+  From: '1999-10-31T08:00:00+00:00'
+  To: '2000-10-29T07:00:00+00:00'
+- Timezones:
+  - America/Cambridge_Bay
+  From: '2000-11-05T05:00:00+00:00'
+  To: '2001-04-01T09:00:00+00:00'
+- Timezones:
+  - America/Resolute
+  From: '2001-04-01T08:00:00+00:00'
+  To: '2006-10-29T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Winamac
+  From: '2006-04-02T07:00:00+00:00'
+  To: '2007-03-11T08:00:00+00:00'
+- Timezones:
+  - America/Indiana/Petersburg
+  - America/Indiana/Vincennes
+  From: '2006-04-02T07:00:00+00:00'
+  To: '2007-11-04T07:00:00+00:00'
+- Timezones:
+  - America/Belize
+  - America/Chicago
+  - America/Costa_Rica
+  - America/El_Salvador
+  - America/Guatemala
+  - America/Matamoros
+  - America/Mexico_City
+  - America/Monterrey
+  - America/Rainy_River
+  - America/Regina
+  - America/Tegucigalpa
+  - America/Winnipeg
+  - CST6CDT
+- Timezones:
+  - America/Swift_Current
+  From: '1972-04-30T09:00:00+00:00'
+- Timezones:
+  - America/Menominee
+  From: '1973-04-29T07:00:00+00:00'
+- Timezones:
+  - America/Merida
+  From: '1982-12-02T05:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/Center
+  From: '1992-10-25T08:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1997-01-01T05:00:00+00:00'
+- Timezones:
+  - America/Cancun
+  From: '1998-08-02T06:00:00+00:00'
+- Timezones:
+  - America/Rankin_Inlet
+  From: '2001-04-01T08:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/New_Salem
+  From: '2003-10-26T08:00:00+00:00'
+- Timezones:
+  - America/Indiana/Knox
+  - America/Indiana/Tell_City
+  From: '2006-04-02T07:00:00+00:00'
+- Timezones:
+  - America/Resolute
+  From: '2007-03-11T08:00:00+00:00'
+- Timezones:
+  - America/Bahia_Banderas
+  From: '2010-04-04T09:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/Beulah
+  From: '2010-11-07T08:00:00+00:00'
+America_Eastern:
+- Timezones:
+  - America/Menominee
+  To: '1973-04-29T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Marengo
+  - America/Louisville
+  To: '1974-01-06T07:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1973-05-01T06:00:00+00:00'
+  To: '1975-02-16T05:00:00+00:00'
+- Timezones:
+  - America/Merida
+  From: '1981-12-23T06:00:00+00:00'
+  To: '1982-12-02T05:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1992-01-01T10:00:00+00:00'
+  To: '1992-09-24T05:00:00+00:00'
+- Timezones:
+  - America/Managua
+  From: '1993-01-01T06:00:00+00:00'
+  To: '1997-01-01T05:00:00+00:00'
+- Timezones:
+  - America/Cancun
+  From: '1981-12-23T06:00:00+00:00'
+  To: '1998-08-02T06:00:00+00:00'
+- Timezones:
+  - America/Iqaluit
+  To: '1999-10-31T06:00:00+00:00'
+- Timezones:
+  - America/Pangnirtung
+  From: '1995-04-02T06:00:00+00:00'
+  To: '1999-10-31T06:00:00+00:00'
+- Timezones:
+  - America/Cambridge_Bay
+  From: '2000-10-29T07:00:00+00:00'
+  To: '2000-11-05T05:00:00+00:00'
+- Timezones:
+  - America/Santo_Domingo
+  From: '2000-10-29T06:00:00+00:00'
+  To: '2000-12-03T06:00:00+00:00'
+- Timezones:
+  - America/Rankin_Inlet
+  - America/Resolute
+  From: '2000-10-29T07:00:00+00:00'
+  To: '2001-04-01T08:00:00+00:00'
+- Timezones:
+  - America/Indiana/Tell_City
+  - America/Indiana/Vincennes
+  - America/Indiana/Winamac
+  To: '2006-04-02T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Petersburg
+  From: '1977-10-30T07:00:00+00:00'
+  To: '2006-04-02T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Knox
+  From: '1991-10-27T07:00:00+00:00'
+  To: '2006-04-02T07:00:00+00:00'
+- Timezones:
+  - America/Resolute
+  From: '2006-10-29T07:00:00+00:00'
+  To: '2007-03-11T08:00:00+00:00'
+- Timezones:
+  - America/Cayman
+  - America/Coral_Harbour
+  - America/Detroit
+  - America/Grand_Turk
+  - America/Indiana/Vevay
+  - America/Indianapolis
+  - America/Jamaica
+  - America/Montreal
+  - America/Nassau
+  - America/New_York
+  - America/Nipigon
+  - America/Panama
+  - America/Port-au-Prince
+  - America/Thunder_Bay
+  - America/Toronto
+  - EST5EDT
+- Timezones:
+  - America/Indiana/Marengo
+  - America/Louisville
+  From: '1974-10-27T07:00:00+00:00'
+- Timezones:
+  - America/Iqaluit
+  - America/Kentucky/Monticello
+  - America/Pangnirtung
+  From: '2000-10-29T07:00:00+00:00'
+- Timezones:
+  - America/Indiana/Winamac
+  From: '2007-03-11T08:00:00+00:00'
+- Timezones:
+  - America/Indiana/Petersburg
+  - America/Indiana/Vincennes
+  From: '2007-11-04T07:00:00+00:00'
+America_Mountain:
+- Timezones:
+  - America/Swift_Current
+  To: '1972-04-30T09:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/Center
+  To: '1992-10-25T08:00:00+00:00'
+- Timezones:
+  - America/Cambridge_Bay
+  To: '1999-10-31T08:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/New_Salem
+  To: '2003-10-26T08:00:00+00:00'
+- Timezones:
+  - America/Bahia_Banderas
+  From: '1970-01-01T08:00:00+00:00'
+  To: '2010-04-04T09:00:00+00:00'
+- Timezones:
+  - America/North_Dakota/Beulah
+  To: '2010-11-07T08:00:00+00:00'
+- Timezones:
+  - America/Boise
+  - America/Creston
+  - America/Denver
+  - America/Edmonton
+  - America/Phoenix
+  - America/Shiprock
+  - America/Yellowknife
+  - MST7MDT
+- Timezones:
+  - America/Hermosillo
+  - America/Mazatlan
+  From: '1970-01-01T08:00:00+00:00'
+- Timezones:
+  - America/Dawson_Creek
+  From: '1972-08-30T09:00:00+00:00'
+- Timezones:
+  - America/Inuvik
+  From: '1979-04-29T10:00:00+00:00'
+- Timezones:
+  - America/Chihuahua
+  - America/Ojinaga
+  From: '1998-04-05T09:00:00+00:00'
+- Timezones:
+  - America/Cambridge_Bay
+  From: '2001-04-01T09:00:00+00:00'
+America_Pacific:
+- Timezones:
+  - America/Bahia_Banderas
+  - America/Hermosillo
+  - America/Mazatlan
+  To: '1970-01-01T08:00:00+00:00'
+- Timezones:
+  - America/Dawson_Creek
+  To: '1972-08-30T09:00:00+00:00'
+- Timezones:
+  - America/Inuvik
+  To: '1979-04-29T10:00:00+00:00'
+- Timezones:
+  - America/Juneau
+  To: '1980-04-27T10:00:00+00:00'
+- Timezones:
+  - America/Sitka
+  To: '1983-10-30T09:00:00+00:00'
+- Timezones:
+  - America/Juneau
+  From: '1980-10-26T10:00:00+00:00'
+  To: '1983-10-30T09:00:00+00:00'
+- Timezones:
+  - America/Los_Angeles
+  - America/Metlakatla
+  - America/Santa_Isabel
+  - America/Tijuana
+  - America/Vancouver
+  - America/Whitehorse
+  - PST8PDT
+- Timezones:
+  - America/Dawson
+  From: '1973-10-28T09:00:00+00:00'
+Anadyr:
+- Timezones:
+  - Asia/Anadyr
+  To: '2010-03-27T14:00:00+00:00'
+Aqtau:
+- Timezones:
+  - Asia/Aqtau
+  From: '1991-12-15T19:00:00+00:00'
+  To: '2005-03-14T20:00:00+00:00'
+Aqtobe:
+- Timezones:
+  - Asia/Aqtobe
+  From: '1991-12-15T19:00:00+00:00'
+  To: '2005-03-14T19:00:00+00:00'
+Arabian:
+- Timezones:
+  - Asia/Aden
+  - Asia/Baghdad
+  - Asia/Kuwait
+  - Asia/Riyadh
+- Timezones:
+  - Asia/Bahrain
+  - Asia/Qatar
+  From: '1972-05-31T20:00:00+00:00'
+Argentina:
+- Timezones:
+  - Antarctica/Palmer
+  To: '1982-05-01T03:00:00+00:00'
+- Timezones:
+  - America/Jujuy
+  - America/Mendoza
+  To: '1990-03-04T02:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  To: '1990-03-14T02:00:00+00:00'
+- Timezones:
+  - America/Argentina/La_Rioja
+  - America/Argentina/San_Juan
+  To: '1991-03-01T02:00:00+00:00'
+- Timezones:
+  - America/Argentina/Salta
+  - America/Argentina/Tucuman
+  - America/Catamarca
+  - America/Cordoba
+  To: '1991-03-03T02:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '1991-06-01T04:00:00+00:00'
+  To: '1999-10-03T03:00:00+00:00'
+- Timezones:
+  - America/Mendoza
+  From: '1992-10-18T04:00:00+00:00'
+  To: '2004-05-23T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/Ushuaia
+  To: '2004-05-30T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Juan
+  From: '1991-05-07T04:00:00+00:00'
+  To: '2004-05-31T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '2000-03-03T03:00:00+00:00'
+  To: '2004-05-31T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/Rio_Gallegos
+  To: '2004-06-01T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/La_Rioja
+  From: '1991-05-07T04:00:00+00:00'
+  To: '2004-06-01T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/Tucuman
+  - America/Catamarca
+  From: '1991-10-20T04:00:00+00:00'
+  To: '2004-06-01T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '2004-07-25T04:00:00+00:00'
+  To: '2008-01-21T02:00:00+00:00'
+- Timezones:
+  - America/Buenos_Aires
+- Timezones:
+  - America/Jujuy
+  From: '1991-10-06T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/Salta
+  - America/Cordoba
+  From: '1991-10-20T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/Tucuman
+  From: '2004-06-13T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/La_Rioja
+  - America/Argentina/Rio_Gallegos
+  - America/Argentina/Ushuaia
+  - America/Catamarca
+  From: '2004-06-20T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Juan
+  From: '2004-07-25T04:00:00+00:00'
+- Timezones:
+  - America/Mendoza
+  From: '2004-09-26T04:00:00+00:00'
+Argentina_Western:
+- Timezones:
+  - America/Argentina/La_Rioja
+  - America/Argentina/San_Juan
+  From: '1991-03-01T02:00:00+00:00'
+  To: '1991-05-07T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '1990-03-14T02:00:00+00:00'
+  To: '1991-06-01T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '1999-10-03T03:00:00+00:00'
+  To: '2000-03-03T03:00:00+00:00'
+- Timezones:
+  - America/Argentina/Tucuman
+  From: '2004-06-01T03:00:00+00:00'
+  To: '2004-06-13T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/La_Rioja
+  - America/Argentina/Rio_Gallegos
+  - America/Catamarca
+  From: '2004-06-01T03:00:00+00:00'
+  To: '2004-06-20T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Juan
+  - America/Argentina/San_Luis
+  From: '2004-05-31T03:00:00+00:00'
+  To: '2004-07-25T04:00:00+00:00'
+- Timezones:
+  - America/Argentina/San_Luis
+  From: '2008-01-21T02:00:00+00:00'
+Armenia:
+- Timezones:
+  - Asia/Yerevan
+  From: '1991-09-22T20:00:00+00:00'
+Ashkhabad:
+- Timezones:
+  - Asia/Ashgabat
+  To: '1991-10-26T20:00:00+00:00'
+Atlantic:
+- Timezones:
+  - America/Miquelon
+  To: '1980-05-01T04:00:00+00:00'
+- Timezones:
+  - America/Goose_Bay
+  To: '1988-04-03T04:01:00+00:00'
+- Timezones:
+  - America/Pangnirtung
+  To: '1995-04-02T06:00:00+00:00'
+- Timezones:
+  - America/Santo_Domingo
+  From: '1974-10-27T05:00:00+00:00'
+  To: '2000-10-29T06:00:00+00:00'
+- Timezones:
+  - America/Anguilla
+  - America/Antigua
+  - America/Aruba
+  - America/Barbados
+  - America/Blanc-Sablon
+  - America/Curacao
+  - America/Dominica
+  - America/Glace_Bay
+  - America/Grenada
+  - America/Guadeloupe
+  - America/Halifax
+  - America/Kralendijk
+  - America/Lower_Princes
+  - America/Marigot
+  - America/Martinique
+  - America/Moncton
+  - America/Montserrat
+  - America/Port_of_Spain
+  - America/Puerto_Rico
+  - America/St_Barthelemy
+  - America/St_Kitts
+  - America/St_Lucia
+  - America/St_Thomas
+  - America/St_Vincent
+  - America/Thule
+  - America/Tortola
+  - Atlantic/Bermuda
+- Timezones:
+  - America/Goose_Bay
+  From: '1988-10-30T02:01:00+00:00'
+- Timezones:
+  - America/Santo_Domingo
+  From: '2000-12-03T06:00:00+00:00'
+Australia_Central:
+- Timezones:
+  - Australia/Adelaide
+  - Australia/Broken_Hill
+  - Australia/Darwin
+Australia_CentralWestern:
+- Timezones:
+  - Australia/Eucla
+Australia_Eastern:
+- Timezones:
+  - Australia/Lord_Howe
+  To: '1981-02-28T14:00:00+00:00'
+- Timezones:
+  - Antarctica/Macquarie
+  To: '2010-04-03T16:00:00+00:00'
+- Timezones:
+  - Australia/Brisbane
+  - Australia/Currie
+  - Australia/Hobart
+  - Australia/Lindeman
+  - Australia/Melbourne
+  - Australia/Sydney
+Australia_Western:
+- Timezones:
+  - Antarctica/Casey
+  To: '2009-10-17T18:00:00+00:00'
+- Timezones:
+  - Antarctica/Casey
+  From: '2010-03-04T15:00:00+00:00'
+  To: '2011-10-27T18:00:00+00:00'
+- Timezones:
+  - Australia/Perth
+- Timezones:
+  - Antarctica/Casey
+  From: '2012-02-21T17:00:00+00:00'
+Azerbaijan:
+- Timezones:
+  - Asia/Baku
+  From: '1991-08-29T20:00:00+00:00'
+Azores:
+- Timezones:
+  - Atlantic/Azores
+  To: '1992-09-27T02:00:00+00:00'
+- Timezones:
+  - Atlantic/Azores
+  From: '1993-03-28T01:00:00+00:00'
+Baku:
+- Timezones:
+  - Asia/Baku
+  To: '1991-08-29T20:00:00+00:00'
+Bangladesh:
+- Timezones:
+  - Asia/Dhaka
+  From: '1971-03-25T18:00:00+00:00'
+Bering:
+- Timezones:
+  - America/Adak
+  - America/Nome
+  - Pacific/Apia
+  - Pacific/Midway
+  - Pacific/Pago_Pago
+  To: '1983-10-30T12:00:00+00:00'
+Bhutan:
+- Timezones:
+  - Asia/Thimphu
+  From: '1987-09-30T18:30:00+00:00'
+Bolivia:
+- Timezones:
+  - America/La_Paz
+Borneo:
+- Timezones:
+  - Asia/Kuching
+  To: '1981-12-31T16:00:00+00:00'
+Brasilia:
+- Timezones:
+  - America/Araguaina
+  - America/Bahia
+  - America/Belem
+  - America/Fortaleza
+  - America/Maceio
+  - America/Recife
+  - America/Sao_Paulo
+- Timezones:
+  - America/Santarem
+  From: '2008-06-24T04:00:00+00:00'
+British:
+- Timezones:
+  - Europe/Guernsey
+  - Europe/Isle_of_Man
+  - Europe/Jersey
+  - Europe/London
+  To: '1971-10-31T02:00:00+00:00'
+Brunei:
+- Timezones:
+  - Asia/Brunei
+Cape_Verde:
+- Timezones:
+  - Atlantic/Cape_Verde
+Casey:
+- Timezones:
+  - Antarctica/Casey
+  From: '2009-10-17T18:00:00+00:00'
+  To: '2010-03-04T15:00:00+00:00'
+- Timezones:
+  - Antarctica/Casey
+  From: '2011-10-27T18:00:00+00:00'
+  To: '2012-02-21T17:00:00+00:00'
+Chamorro:
+- Timezones:
+  - Pacific/Guam
+  - Pacific/Saipan
+  From: '2000-12-22T14:00:00+00:00'
+Changbai:
+- Timezones:
+  - Asia/Harbin
+  To: '1980-04-30T15:30:00+00:00'
+Chatham:
+- Timezones:
+  - Pacific/Chatham
+Chile:
+- Timezones:
+  - America/Santiago
+- Timezones:
+  - Antarctica/Palmer
+  From: '1982-05-01T03:00:00+00:00'
+China:
+- Timezones:
+  - Asia/Shanghai
+- Timezones:
+  - Asia/Harbin
+  From: '1980-04-30T15:30:00+00:00'
+- Timezones:
+  - Asia/Chongqing
+  From: '1980-04-30T17:00:00+00:00'
+- Timezones:
+  - Asia/Urumqi
+  From: '1980-04-30T18:00:00+00:00'
+- Timezones:
+  - Asia/Kashgar
+  From: '1980-04-30T19:00:00+00:00'
+- Timezones:
+  - Asia/Macau
+  From: '1999-12-19T16:00:00+00:00'
+Choibalsan:
+- Timezones:
+  - Asia/Choibalsan
+  From: '1983-03-31T16:00:00+00:00'
+Christmas:
+- Timezones:
+  - Indian/Christmas
+Cocos:
+- Timezones:
+  - Indian/Cocos
+Colombia:
+- Timezones:
+  - America/Bogota
+Cook:
+- Timezones:
+  - Pacific/Rarotonga
+Cuba:
+- Timezones:
+  - America/Havana
+Dacca:
+- Timezones:
+  - Asia/Dhaka
+  To: '1971-03-25T18:00:00+00:00'
+Davis:
+- Timezones:
+  - Antarctica/Davis
+Dominican:
+- Timezones:
+  - America/Santo_Domingo
+  To: '1974-10-27T05:00:00+00:00'
+DumontDUrville:
+- Timezones:
+  - Antarctica/DumontDUrville
+Dushanbe:
+- Timezones:
+  - Asia/Dushanbe
+  To: '1991-09-08T21:00:00+00:00'
+Dutch_Guiana:
+- Timezones:
+  - America/Paramaribo
+  To: '1975-11-20T03:30:00+00:00'
+East_Timor:
+- Timezones:
+  - Asia/Dili
+  To: '1976-05-02T15:00:00+00:00'
+- Timezones:
+  - Asia/Dili
+  From: '2000-09-16T16:00:00+00:00'
+Easter:
+- Timezones:
+  - Pacific/Easter
+Ecuador:
+- Timezones:
+  - Pacific/Galapagos
+  To: '1986-01-01T05:00:00+00:00'
+- Timezones:
+  - America/Guayaquil
+Europe_Central:
+- Timezones:
+  - Europe/Lisbon
+  To: '1976-09-26T00:00:00+00:00'
+- Timezones:
+  - Africa/Algiers
+  From: '1977-10-20T23:00:00+00:00'
+  To: '1979-10-25T23:00:00+00:00'
+- Timezones:
+  - Africa/Casablanca
+  From: '1984-03-16T00:00:00+00:00'
+  To: '1985-12-31T23:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  From: '1981-12-31T22:00:00+00:00'
+  To: '1990-05-03T23:00:00+00:00'
+- Timezones:
+  - Europe/Uzhgorod
+  From: '1990-06-30T23:00:00+00:00'
+  To: '1991-03-31T02:00:00+00:00'
+- Timezones:
+  - Europe/Lisbon
+  From: '1992-09-27T01:00:00+00:00'
+  To: '1996-03-31T01:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  From: '1996-09-29T22:00:00+00:00'
+  To: '1997-10-03T22:00:00+00:00'
+- Timezones:
+  - Europe/Vilnius
+  From: '1998-03-29T01:00:00+00:00'
+  To: '1999-10-31T01:00:00+00:00'
+- Timezones:
+  - Africa/Tunis
+  - Arctic/Longyearbyen
+  - Europe/Amsterdam
+  - Europe/Andorra
+  - Europe/Belgrade
+  - Europe/Berlin
+  - Europe/Bratislava
+  - Europe/Brussels
+  - Europe/Budapest
+  - Europe/Busingen
+  - Europe/Copenhagen
+  - Europe/Gibraltar
+  - Europe/Ljubljana
+  - Europe/Luxembourg
+  - Europe/Madrid
+  - Europe/Malta
+  - Europe/Monaco
+  - Europe/Oslo
+  - Europe/Paris
+  - Europe/Podgorica
+  - Europe/Prague
+  - Europe/Rome
+  - Europe/San_Marino
+  - Europe/Sarajevo
+  - Europe/Skopje
+  - Europe/Stockholm
+  - Europe/Tirane
+  - Europe/Vaduz
+  - Europe/Vatican
+  - Europe/Vienna
+  - Europe/Warsaw
+  - Europe/Zagreb
+  - Europe/Zurich
+- Timezones:
+  - Africa/Algiers
+  From: '1981-05-01T00:00:00+00:00'
+- Timezones:
+  - Africa/Ceuta
+  From: '1984-03-16T00:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  From: '2012-11-10T00:00:00+00:00'
+Europe_Eastern:
+- Timezones:
+  - Europe/Istanbul
+  To: '1978-10-14T21:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  To: '1981-12-31T22:00:00+00:00'
+- Timezones:
+  - Europe/Moscow
+  From: '1991-03-30T23:00:00+00:00'
+  To: '1992-01-19T00:00:00+00:00'
+- Timezones:
+  - Europe/Simferopol
+  From: '1990-06-30T23:00:00+00:00'
+  To: '1994-04-30T21:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  From: '1990-05-03T23:00:00+00:00'
+  To: '1996-09-29T22:00:00+00:00'
+- Timezones:
+  - Europe/Vilnius
+  From: '1991-03-30T23:00:00+00:00'
+  To: '1998-03-29T01:00:00+00:00'
+- Timezones:
+  - Europe/Kaliningrad
+  - Europe/Minsk
+  From: '1991-03-30T23:00:00+00:00'
+  To: '2011-03-27T00:00:00+00:00'
+- Timezones:
+  - Africa/Tripoli
+  From: '1997-10-03T22:00:00+00:00'
+  To: '2012-11-10T00:00:00+00:00'
+- Timezones:
+  - Africa/Cairo
+  - Asia/Amman
+  - Asia/Beirut
+  - Asia/Damascus
+  - Asia/Nicosia
+  - Europe/Athens
+  - Europe/Bucharest
+  - Europe/Helsinki
+  - Europe/Mariehamn
+  - Europe/Sofia
+- Timezones:
+  - Europe/Istanbul
+  From: '1985-04-19T21:00:00+00:00'
+- Timezones:
+  - Europe/Riga
+  - Europe/Tallinn
+  From: '1989-03-25T23:00:00+00:00'
+- Timezones:
+  - Europe/Chisinau
+  From: '1990-05-05T21:00:00+00:00'
+- Timezones:
+  - Europe/Kiev
+  From: '1990-06-30T23:00:00+00:00'
+- Timezones:
+  - Europe/Zaporozhye
+  From: '1991-03-30T23:00:00+00:00'
+- Timezones:
+  - Europe/Uzhgorod
+  From: '1991-03-31T02:00:00+00:00'
+- Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  From: '1995-12-31T22:00:00+00:00'
+- Timezones:
+  - Europe/Simferopol
+  From: '1997-03-30T01:00:00+00:00'
+- Timezones:
+  - Europe/Vilnius
+  From: '1999-10-31T01:00:00+00:00'
+Europe_Western:
+- Timezones:
+  - Africa/Algiers
+  To: '1977-10-20T23:00:00+00:00'
+- Timezones:
+  - Africa/Algiers
+  From: '1979-10-25T23:00:00+00:00'
+  To: '1981-05-01T00:00:00+00:00'
+- Timezones:
+  - Africa/Casablanca
+  - Africa/Ceuta
+  To: '1984-03-16T00:00:00+00:00'
+- Timezones:
+  - Europe/Lisbon
+  From: '1976-09-26T00:00:00+00:00'
+  To: '1992-09-27T01:00:00+00:00'
+- Timezones:
+  - Atlantic/Azores
+  From: '1992-09-27T02:00:00+00:00'
+  To: '1993-03-28T01:00:00+00:00'
+- Timezones:
+  - Atlantic/Canary
+  - Atlantic/Faeroe
+  - Atlantic/Madeira
+- Timezones:
+  - Africa/El_Aaiun
+  From: '1976-04-14T01:00:00+00:00'
+- Timezones:
+  - Africa/Casablanca
+  From: '1985-12-31T23:00:00+00:00'
+- Timezones:
+  - Europe/Lisbon
+  From: '1996-03-31T01:00:00+00:00'
+Falkland:
+- Timezones:
+  - Atlantic/Stanley
+Fiji:
+- Timezones:
+  - Pacific/Fiji
+French_Guiana:
+- Timezones:
+  - America/Cayenne
+French_Southern:
+- Timezones:
+  - Indian/Kerguelen
+Frunze:
+- Timezones:
+  - Asia/Bishkek
+  To: '1991-08-30T20:00:00+00:00'
+GMT:
+- Timezones:
+  - Africa/Abidjan
+  - Africa/Accra
+  - Africa/Bamako
+  - Africa/Banjul
+  - Africa/Conakry
+  - Africa/Dakar
+  - Africa/Freetown
+  - Africa/Lome
+  - Africa/Nouakchott
+  - Africa/Ouagadougou
+  - Africa/Sao_Tome
+  - Atlantic/Reykjavik
+  - Atlantic/St_Helena
+- Timezones:
+  - Europe/Dublin
+  - Europe/Guernsey
+  - Europe/Isle_of_Man
+  - Europe/Jersey
+  - Europe/London
+  From: '1971-10-31T02:00:00+00:00'
+- Timezones:
+  - Africa/Monrovia
+  From: '1972-05-01T00:45:00+00:00'
+- Timezones:
+  - Africa/Bissau
+  From: '1975-01-01T01:00:00+00:00'
+- Timezones:
+  - America/Danmarkshavn
+  From: '1996-01-01T03:00:00+00:00'
+Galapagos:
+- Timezones:
+  - Pacific/Galapagos
+  From: '1986-01-01T05:00:00+00:00'
+Gambier:
+- Timezones:
+  - Pacific/Gambier
+Georgia:
+- Timezones:
+  - Asia/Tbilisi
+  From: '1991-04-08T20:00:00+00:00'
+Gilbert_Islands:
+- Timezones:
+  - Pacific/Tarawa
+Goose_Bay:
+- Timezones:
+  - America/Goose_Bay
+  From: '1988-04-03T04:01:00+00:00'
+  To: '1988-10-30T02:01:00+00:00'
+Greenland_Central:
+- Timezones:
+  - America/Scoresbysund
+  To: '1981-03-29T02:00:00+00:00'
+Greenland_Eastern:
+- Timezones:
+  - America/Scoresbysund
+  From: '1981-03-29T02:00:00+00:00'
+Greenland_Western:
+- Timezones:
+  - America/Danmarkshavn
+  To: '1996-01-01T03:00:00+00:00'
+- Timezones:
+  - America/Godthab
+Guam:
+- Timezones:
+  - Pacific/Guam
+  To: '2000-12-22T14:00:00+00:00'
+Gulf:
+- Timezones:
+  - Asia/Bahrain
+  - Asia/Qatar
+  To: '1972-05-31T20:00:00+00:00'
+- Timezones:
+  - Asia/Dubai
+  - Asia/Muscat
+Guyana:
+- Timezones:
+  - America/Guyana
+Hawaii_Aleutian:
+- Timezones:
+  - Pacific/Honolulu
+  - Pacific/Johnston
+  From: '1983-10-30T11:00:00+00:00'
+- Timezones:
+  - America/Adak
+  From: '1983-11-30T10:00:00+00:00'
+Hong_Kong:
+- Timezones:
+  - Asia/Hong_Kong
+Hovd:
+- Timezones:
+  - Asia/Hovd
+India:
+- Timezones:
+  - Asia/Thimphu
+  To: '1987-09-30T18:30:00+00:00'
+- Timezones:
+  - Asia/Colombo
+  To: '1996-05-24T18:30:00+00:00'
+- Timezones:
+  - Asia/Calcutta
+- Timezones:
+  - Asia/Colombo
+  From: '2006-04-14T18:30:00+00:00'
+Indian_Ocean:
+- Timezones:
+  - Indian/Chagos
+Indochina:
+- Timezones:
+  - Asia/Bangkok
+  - Asia/Phnom_Penh
+  - Asia/Saigon
+  - Asia/Vientiane
+Indonesia_Central:
+- Timezones:
+  - Asia/Pontianak
+  To: '1987-12-31T16:00:00+00:00'
+- Timezones:
+  - Asia/Dili
+  From: '1976-05-02T15:00:00+00:00'
+  To: '2000-09-16T16:00:00+00:00'
+- Timezones:
+  - Asia/Makassar
+Indonesia_Eastern:
+- Timezones:
+  - Asia/Jayapura
+Indonesia_Western:
+- Timezones:
+  - Asia/Jakarta
+- Timezones:
+  - Asia/Pontianak
+  From: '1987-12-31T16:00:00+00:00'
+Iran:
+- Timezones:
+  - Asia/Tehran
+Irish:
+- Timezones:
+  - Europe/Dublin
+  To: '1971-10-31T02:00:00+00:00'
+Irkutsk:
+- Timezones:
+  - Asia/Irkutsk
+Israel:
+- Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  To: '1995-12-31T22:00:00+00:00'
+- Timezones:
+  - Asia/Jerusalem
+Japan:
+- Timezones:
+  - Asia/Tokyo
+Kamchatka:
+- Timezones:
+  - Asia/Kamchatka
+  To: '2010-03-27T14:00:00+00:00'
+Karachi:
+- Timezones:
+  - Asia/Karachi
+  To: '1971-03-25T19:00:00+00:00'
+Kashgar:
+- Timezones:
+  - Asia/Kashgar
+  To: '1980-04-30T19:00:00+00:00'
+Kazakhstan_Eastern:
+- Timezones:
+  - Asia/Almaty
+  - Asia/Qyzylorda
+  From: '2005-03-14T18:00:00+00:00'
+Kazakhstan_Western:
+- Timezones:
+  - Asia/Aqtobe
+  From: '2005-03-14T19:00:00+00:00'
+- Timezones:
+  - Asia/Aqtau
+  - Asia/Oral
+  From: '2005-03-14T20:00:00+00:00'
+Kizilorda:
+- Timezones:
+  - Asia/Qyzylorda
+  To: '1991-12-15T19:00:00+00:00'
+Korea:
+- Timezones:
+  - Asia/Pyongyang
+  - Asia/Seoul
+Kosrae:
+- Timezones:
+  - Pacific/Kosrae
+Krasnoyarsk:
+- Timezones:
+  - Asia/Novokuznetsk
+  To: '2010-03-27T19:00:00+00:00'
+- Timezones:
+  - Asia/Krasnoyarsk
+Kuybyshev:
+- Timezones:
+  - Europe/Samara
+  To: '1991-10-20T00:00:00+00:00'
+Kwajalein:
+- Timezones:
+  - Pacific/Kwajalein
+  To: '1993-08-20T12:00:00+00:00'
+Kyrgystan:
+- Timezones:
+  - Asia/Bishkek
+  From: '1991-08-30T20:00:00+00:00'
+Lanka:
+- Timezones:
+  - Asia/Colombo
+  From: '1996-05-24T18:30:00+00:00'
+  To: '2006-04-14T18:30:00+00:00'
+Liberia:
+- Timezones:
+  - Africa/Monrovia
+  To: '1972-05-01T00:45:00+00:00'
+Line_Islands:
+- Timezones:
+  - Pacific/Kiritimati
+Long_Shu:
+- Timezones:
+  - Asia/Chongqing
+  To: '1980-04-30T17:00:00+00:00'
+Lord_Howe:
+- Timezones:
+  - Australia/Lord_Howe
+  From: '1981-02-28T14:00:00+00:00'
+Macau:
+- Timezones:
+  - Asia/Macau
+  To: '1999-12-19T16:00:00+00:00'
+Macquarie:
+- Timezones:
+  - Antarctica/Macquarie
+  From: '2010-04-03T16:00:00+00:00'
+Magadan:
+- Timezones:
+  - Asia/Ust-Nera
+  From: '1981-03-31T15:00:00+00:00'
+  To: '2011-09-12T12:00:00+00:00'
+- Timezones:
+  - Asia/Magadan
+- Timezones:
+  - Asia/Anadyr
+  - Asia/Kamchatka
+  From: '2010-03-27T14:00:00+00:00'
+Malaya:
+- Timezones:
+  - Asia/Kuala_Lumpur
+  To: '1981-12-31T16:30:00+00:00'
+Malaysia:
+- Timezones:
+  - Asia/Kuching
+  From: '1981-12-31T16:00:00+00:00'
+- Timezones:
+  - Asia/Kuala_Lumpur
+  From: '1981-12-31T16:30:00+00:00'
+Maldives:
+- Timezones:
+  - Indian/Maldives
+Marquesas:
+- Timezones:
+  - Pacific/Marquesas
+Marshall_Islands:
+- Timezones:
+  - Pacific/Majuro
+- Timezones:
+  - Pacific/Kwajalein
+  From: '1993-08-20T12:00:00+00:00'
+Mauritius:
+- Timezones:
+  - Indian/Mauritius
+Mawson:
+- Timezones:
+  - Antarctica/Mawson
+Mongolia:
+- Timezones:
+  - Asia/Choibalsan
+  To: '1983-03-31T16:00:00+00:00'
+- Timezones:
+  - Asia/Ulaanbaatar
+Moscow:
+- Timezones:
+  - Europe/Riga
+  - Europe/Tallinn
+  To: '1989-03-25T23:00:00+00:00'
+- Timezones:
+  - Europe/Chisinau
+  To: '1990-05-05T21:00:00+00:00'
+- Timezones:
+  - Europe/Kiev
+  - Europe/Simferopol
+  - Europe/Uzhgorod
+  To: '1990-06-30T23:00:00+00:00'
+- Timezones:
+  - Europe/Kaliningrad
+  - Europe/Minsk
+  - Europe/Moscow
+  - Europe/Vilnius
+  - Europe/Zaporozhye
+  To: '1991-03-30T23:00:00+00:00'
+- Timezones:
+  - Europe/Simferopol
+  From: '1994-04-30T21:00:00+00:00'
+  To: '1997-03-30T01:00:00+00:00'
+- Timezones:
+  - Europe/Moscow
+  From: '1992-01-19T00:00:00+00:00'
+- Timezones:
+  - Europe/Samara
+  From: '2010-03-27T22:00:00+00:00'
+Myanmar:
+- Timezones:
+  - Asia/Rangoon
+Nauru:
+- Timezones:
+  - Pacific/Nauru
+Nepal:
+- Timezones:
+  - Asia/Katmandu
+New_Caledonia:
+- Timezones:
+  - Pacific/Noumea
+New_Zealand:
+- Timezones:
+  - Antarctica/McMurdo
+  - Pacific/Auckland
+Newfoundland:
+- Timezones:
+  - America/St_Johns
+Niue:
+- Timezones:
+  - Pacific/Niue
+Norfolk:
+- Timezones:
+  - Pacific/Norfolk
+Noronha:
+- Timezones:
+  - America/Noronha
+North_Mariana:
+- Timezones:
+  - Pacific/Saipan
+  To: '2000-12-22T14:00:00+00:00'
+Novosibirsk:
+- Timezones:
+  - Asia/Novosibirsk
+- Timezones:
+  - Asia/Novokuznetsk
+  From: '2010-03-27T19:00:00+00:00'
+Omsk:
+- Timezones:
+  - Asia/Omsk
+Oral:
+- Timezones:
+  - Asia/Oral
+  From: '1991-12-15T20:00:00+00:00'
+  To: '2005-03-14T20:00:00+00:00'
+Pakistan:
+- Timezones:
+  - Asia/Karachi
+  From: '1971-03-25T19:00:00+00:00'
+Palau:
+- Timezones:
+  - Pacific/Palau
+Papua_New_Guinea:
+- Timezones:
+  - Pacific/Port_Moresby
+Paraguay:
+- Timezones:
+  - America/Asuncion
+Peru:
+- Timezones:
+  - America/Lima
+Philippines:
+- Timezones:
+  - Asia/Manila
+Phoenix_Islands:
+- Timezones:
+  - Pacific/Enderbury
+Pierre_Miquelon:
+- Timezones:
+  - America/Miquelon
+  From: '1980-05-01T04:00:00+00:00'
+Pitcairn:
+- Timezones:
+  - Pacific/Pitcairn
+Ponape:
+- Timezones:
+  - Pacific/Ponape
+Qyzylorda:
+- Timezones:
+  - Asia/Qyzylorda
+  From: '1991-12-15T19:00:00+00:00'
+  To: '2005-03-14T18:00:00+00:00'
+Reunion:
+- Timezones:
+  - Indian/Reunion
+Rothera:
+- Timezones:
+  - Antarctica/Rothera
+Sakhalin:
+- Timezones:
+  - Asia/Sakhalin
+Samara:
+- Timezones:
+  - Europe/Samara
+  From: '1991-10-20T00:00:00+00:00'
+  To: '2010-03-27T22:00:00+00:00'
+Samarkand:
+- Timezones:
+  - Asia/Samarkand
+  To: '1981-09-30T18:00:00+00:00'
+- Timezones:
+  - Asia/Samarkand
+  From: '1982-03-31T18:00:00+00:00'
+  To: '1991-08-31T18:00:00+00:00'
+Samoa:
+- Timezones:
+  - Pacific/Apia
+  - Pacific/Midway
+  - Pacific/Pago_Pago
+  From: '1983-10-30T12:00:00+00:00'
+Seychelles:
+- Timezones:
+  - Indian/Mahe
+Shevchenko:
+- Timezones:
+  - Asia/Aqtau
+  To: '1991-12-15T19:00:00+00:00'
+Singapore:
+- Timezones:
+  - Asia/Singapore
+Solomon:
+- Timezones:
+  - Pacific/Guadalcanal
+South_Georgia:
+- Timezones:
+  - Atlantic/South_Georgia
+Suriname:
+- Timezones:
+  - America/Paramaribo
+  From: '1975-11-20T03:30:00+00:00'
+Sverdlovsk:
+- Timezones:
+  - Asia/Yekaterinburg
+  To: '1992-01-18T22:00:00+00:00'
+Syowa:
+- Timezones:
+  - Antarctica/Syowa
+Tahiti:
+- Timezones:
+  - Pacific/Tahiti
+Taipei:
+- Timezones:
+  - Asia/Taipei
+Tajikistan:
+- Timezones:
+  - Asia/Dushanbe
+  From: '1991-09-08T21:00:00+00:00'
+Tashkent:
+- Timezones:
+  - Asia/Samarkand
+  From: '1981-09-30T18:00:00+00:00'
+  To: '1982-03-31T18:00:00+00:00'
+- Timezones:
+  - Asia/Tashkent
+  To: '1991-08-31T18:00:00+00:00'
+Tbilisi:
+- Timezones:
+  - Asia/Tbilisi
+  To: '1991-04-08T20:00:00+00:00'
+Tokelau:
+- Timezones:
+  - Pacific/Fakaofo
+Tonga:
+- Timezones:
+  - Pacific/Tongatapu
+Truk:
+- Timezones:
+  - Pacific/Truk
+Turkey:
+- Timezones:
+  - Europe/Istanbul
+  From: '1978-10-14T21:00:00+00:00'
+  To: '1985-04-19T21:00:00+00:00'
+Turkmenistan:
+- Timezones:
+  - Asia/Ashgabat
+  From: '1991-10-26T20:00:00+00:00'
+Tuvalu:
+- Timezones:
+  - Pacific/Funafuti
+Uralsk:
+- Timezones:
+  - Asia/Oral
+  To: '1991-12-15T20:00:00+00:00'
+Uruguay:
+- Timezones:
+  - America/Montevideo
+Urumqi:
+- Timezones:
+  - Asia/Urumqi
+  To: '1980-04-30T18:00:00+00:00'
+Uzbekistan:
+- Timezones:
+  - Asia/Samarkand
+  - Asia/Tashkent
+  From: '1991-08-31T18:00:00+00:00'
+Vanuatu:
+- Timezones:
+  - Pacific/Efate
+Venezuela:
+- Timezones:
+  - America/Caracas
+Vladivostok:
+- Timezones:
+  - Asia/Khandyga
+  From: '2003-12-31T15:00:00+00:00'
+  To: '2011-09-12T13:00:00+00:00'
+- Timezones:
+  - Asia/Vladivostok
+- Timezones:
+  - Asia/Ust-Nera
+  From: '2011-09-12T12:00:00+00:00'
+Volgograd:
+- Timezones:
+  - Europe/Volgograd
+Vostok:
+- Timezones:
+  - Antarctica/Vostok
+Wake:
+- Timezones:
+  - Pacific/Wake
+Wallis:
+- Timezones:
+  - Pacific/Wallis
+Yakutsk:
+- Timezones:
+  - Asia/Ust-Nera
+  To: '1981-03-31T15:00:00+00:00'
+- Timezones:
+  - Asia/Khandyga
+  To: '2003-12-31T15:00:00+00:00'
+- Timezones:
+  - Asia/Yakutsk
+- Timezones:
+  - Asia/Khandyga
+  From: '2011-09-12T13:00:00+00:00'
+Yekaterinburg:
+- Timezones:
+  - Asia/Yekaterinburg
+  From: '1992-01-18T22:00:00+00:00'
+Yerevan:
+- Timezones:
+  - Asia/Yerevan
+  To: '1991-09-22T20:00:00+00:00'
+Yukon:
+- Timezones:
+  - America/Dawson
+  To: '1973-10-28T09:00:00+00:00'
+- Timezones:
+  - America/Juneau
+  From: '1980-04-27T10:00:00+00:00'
+  To: '1980-10-26T10:00:00+00:00'
+- Timezones:
+  - America/Yakutat
+  To: '1983-11-30T09:00:00+00:00'
+- Timezones:
+  - America/Juneau
+  - America/Sitka
+  From: '1983-10-30T09:00:00+00:00'
+  To: '1983-11-30T09:00:00+00:00'
+- Timezones:
+  - America/Anchorage
+  From: '1983-10-30T11:00:00+00:00'
+  To: '1983-11-30T09:00:00+00:00'
+- Timezones:
+  - America/Nome
+  From: '1983-10-30T12:00:00+00:00'
+  To: '1983-11-30T09:00:00+00:00'
