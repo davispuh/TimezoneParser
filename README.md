@@ -58,7 +58,7 @@ Or install it yourself as:
 
 ### To get UTC offsets from Timezone abbreviations
 
-```irb
+```ruby
 > require 'timezone_parser'
 => true
 > offsets = TimezoneParser::Abbreviation.new('FKT').getOffsets
@@ -69,21 +69,21 @@ Or install it yourself as:
 
 ### Timezone name to Timezone identifier
 
-```irb
+```ruby
 > TimezoneParser::Timezone.new('Nord-Marianene-tid').getTimezones
 => ["Pacific/Saipan"]
 ```
 
 ### Localized Windows zone to original Windows zone identifier
 
-```irb
+```ruby
 > TimezoneParser::WindowsZone.new('Jerusalem (normaltid)').getZone
 => "Israel Standard Time"
 ```
 
 ### Find actual Timezones from uknown platform-dependent Ruby zone
 
-```irb
+```ruby
 > tz = Time.now.zone # on localized Windows
 => "FLE standarta laiks"
 > TimezoneParser::getTimezones(tz)
