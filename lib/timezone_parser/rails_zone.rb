@@ -29,11 +29,11 @@ module TimezoneParser
             @Name = name
             @Data = RailsData.new
             @Valid = nil
-            set(DateTime.now, @@Locales.dup, true)
+            setTime
+            set(@@Locales.dup, true)
         end
 
-        def set(time, locales = nil, all = true)
-            @Time = time
+        def set(locales = nil, all = true)
             @Locales = locales unless locales.nil?
             @All = all ? true : false
             self
@@ -80,7 +80,7 @@ module TimezoneParser
 
         def getOffsets
             if not @Offsets and not getTimezones.empty?
-                @Offsets = @Data.findOffsets(@Time).to_a
+                @Offsets = @Data.findOffsets(@ToTime, @FromTime).to_a
             else
                 super
             end
@@ -92,23 +92,23 @@ module TimezoneParser
         end
 
         def self.isValid?(name, locales = nil)
-            self.new(name).set(nil, locales).isValid?
+            self.new(name).set(locales).isValid?
         end
 
-        def self.getOffsets(name, time = DateTime.now, locales = nil, all = true)
-            self.new(name).set(time, locales, all).getOffsets
+        def self.getOffsets(name, toTime, fromTime, locales = nil, all = true)
+            self.new(name).setTime(toTime, fromTime).set(locales, all).getOffsets
         end
 
         def self.getTimezones(name, locales = nil, all = true)
-            self.new(name).set(nil, locales, all).getTimezones
+            self.new(name).set(locales, all).getTimezones
         end
 
         def self.getMetazones(name, locales = nil, all = true)
-            self.new(name).set(nil, locales, all).getMetazones
+            self.new(name).set(locales, all).getMetazones
         end
 
         def self.getZone(name, locales = nil, all = true)
-            self.new(name).set(nil, locales, all).getZone
+            self.new(name).set(locales, all).getZone
         end
     end
 end

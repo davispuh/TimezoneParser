@@ -31,11 +31,11 @@ describe TimezoneParser do
             end
 
             it 'it should not find "Hawaii" in "es" locale' do
-                expect(TimezoneParser::RailsZone.new('Hawaii').set(nil, ['es']).getTimezones).to be_empty
+                expect(TimezoneParser::RailsZone.new('Hawaii').set(['es']).getTimezones).to be_empty
             end
 
             it 'should look for timezone in "pt" locale' do
-                expect(TimezoneParser::RailsZone.new('Hora do Pacífico (EUA e Canadá)').set(nil, ['pt']).getTimezones).to eq(['America/Los_Angeles'])
+                expect(TimezoneParser::RailsZone.new('Hora do Pacífico (EUA e Canadá)').set(['pt']).getTimezones).to eq(['America/Los_Angeles'])
             end
 
         end

@@ -10,11 +10,11 @@ module TimezoneParser
         def initialize(abbreviation)
             @Abbreviation = abbreviation
             @Data = Data.new
-            set(DateTime.now, @@Regions.dup, nil)
+            setTime
+            set(@@Regions.dup, nil)
         end
 
-        def set(time, regions = nil, type = nil)
-            @Time = time
+        def set(regions = nil, type = nil)
             @Regions = regions unless regions.nil?
             @Type = type.to_s if type
             self
@@ -30,12 +30,12 @@ module TimezoneParser
                 if isValid?
                     data = Data::Storage.Abbreviations[@Abbreviation]
                     if data.count == 1
-                        @Data.processEntry(data.first, @Time)
+                        @Data.processEntry(data.first, @ToTime, @FromTime)
                         return @Data
                     end
-                    entries = Data.filterData(data, @Time, @Type, @Regions)
+                    entries = Data.filterData(data, @ToTime, @FromTime, @Type, @Regions)
                     entries.each do |entry|
-                        @Data.processEntry(entry, @Time)
+                        @Data.processEntry(entry, @ToTime, @FromTime)
                     end
                     return @Data
                 end
@@ -49,7 +49,7 @@ module TimezoneParser
                 if @Offsets.empty? and not getTimezones.empty?
                     types = nil
                     types = [@Type] if @Type
-                    @Offsets = @Data.findOffsets(@Time, @Regions, types).to_a
+                    @Offsets = @Data.findOffsets(@ToTime, @FromTime, @Regions, types).to_a
                 end
             end
             @Offsets
@@ -59,16 +59,16 @@ module TimezoneParser
             Data::Storage.Abbreviations.has_key?(abbreviation)
         end
 
-        def self.getOffsets(abbreviation, time = DateTime.now, regions = nil, type = nil)
-            self.new(abbreviation).set(time, regions, type).getOffsets
+        def self.getOffsets(abbreviation, toTime = nil, fromTime = nil, regions = nil, type = nil)
+            self.new(abbreviation).setTime(toTime, fromTime).set(regions, type).getOffsets
         end
 
-        def self.getTimezones(abbreviation, time = DateTime.now, regions = nil, type = nil)
-            self.new(abbreviation).set(time, regions, type).getTimezones
+        def self.getTimezones(abbreviation, toTime = nil, fromTime = nil, regions = nil, type = nil)
+            self.new(abbreviation).setTime(toTime, fromTime).set(regions, type).getTimezones
         end
 
-        def self.getMetazones(abbreviation, time = DateTime.now, regions = nil, type = nil)
-            self.new(abbreviation).set(time, regions, type).getMetazones
+        def self.getMetazones(abbreviation, toTime = nil, fromTime = nil, regions = nil, type = nil)
+            self.new(abbreviation).setTime(toTime, fromTime).set(regions, type).getMetazones
         end
     end
 end

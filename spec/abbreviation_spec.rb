@@ -34,31 +34,31 @@ describe TimezoneParser do
 
             context 'before specified time' do
                 it 'should return correct offsets' do
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('1982-04-30T20:59:59+00:00')).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('1982-04-30T21:00:00+00:00')).getOffsets).to eq([-10800, 14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('1982-09-30T19:59:59+00:00')).getOffsets).to eq([-10800, 14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('1982-09-30T20:00:01+00:00')).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-04-30T21:00:00+00:00')).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-04-30T21:00:01+00:00')).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T19:59:59+00:00')).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1983-03-30T21:00:00+00:00'), DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800])
                 end
             end
 
             context 'in specified region' do
                 it 'should return correct offsets' do
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('2007-04-01T00:00:00+00:00'), []).getOffsets).to eq([-10800, 14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('2007-04-01T00:00:00+00:00'), ['IQ']).getOffsets).to eq([14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('2007-04-01T00:00:00+00:00'), ['GL']).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(DateTime.parse('2007-09-30T23:59:59+00:00'), ['IQ', 'CA']).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').set([]).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').set(['IQ']).getOffsets).to eq([14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').set(['GL']).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('2007-10-01T00:00:00+00:00')).set(['IQ', 'CA']).getOffsets).to eq([-10800, 14400])
                 end
             end
 
             context 'with specified type' do
                 it 'should return correct offsets' do
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-02-05T10:00:00+00:00'), nil ).getOffsets).to eq([-36000, -32400, -12600])
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-04-05T10:00:00+00:00'), nil ).getOffsets).to eq([-36000, -32400, -9000])
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-02-05T10:00:00+00:00'), nil, :standard ).getOffsets).to eq([-36000, -12600])
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-02-05T10:00:00+00:00'), nil, :daylight ).getOffsets).to eq([-36000, -32400, -12600])
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-04-05T10:00:00+00:00'), nil, :standard ).getOffsets).to eq([-36000, -32400, -9000])
-                    expect(TimezoneParser::Abbreviation.new('HAT').set(DateTime.parse('2014-04-05T10:00:00+00:00'), nil, :daylight ).getOffsets).to eq([-36000, -32400, -9000])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-02-05T10:00:00+00:00')).set(nil).getOffsets).to eq([-36000, -32400, -12600, -9000])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-04-05T10:00:00+00:00')).set(nil).getOffsets).to eq([-36000, -32400, -12600, -9000])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-02-05T10:00:00+00:00')).set(nil, :standard ).getOffsets).to eq([-36000, -12600])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-02-05T10:00:00+00:00')).set(nil, :daylight ).getOffsets).to eq([-32400, -9000])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-04-05T10:00:00+00:00')).set(nil, :standard ).getOffsets).to eq([-36000, -12600])
+                    expect(TimezoneParser::Abbreviation.new('HAT').setTime(DateTime.parse('2014-04-05T10:00:00+00:00')).set(nil, :daylight ).getOffsets).to eq([-32400, -9000])
                 end
             end
         end

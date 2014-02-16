@@ -116,21 +116,19 @@ module TimezoneParser
                 preloaded
             end
 
-            def self.getTimezones(metazone, time)
-                timezones = []
+            def self.getTimezones(metazone, toTime, fromTime)
+                timezones = SortedSet.new
                 if self.Metazones.has_key?(metazone)
-                    entries = Data::loadEntries(self.Metazones[metazone], time)
+                    entries = Data::loadEntries(self.Metazones[metazone], toTime, fromTime)
                     entries.each do |entry|
                         timezones += entry['Timezones']
                     end
-                    timezones.uniq!
-                    timezones.sort!
                 end
                 timezones
             end
 
             def self.getTimezones2(zone, regions = [])
-                timezones = []
+                timezones = SortedSet.new
                 if self.WindowsTimezones.has_key?(zone)
                     entries = self.WindowsTimezones[zone]
                     regions = entries.keys if regions.empty?
@@ -138,14 +136,12 @@ module TimezoneParser
                         next unless entries.has_key?(region)
                         timezones += entries[region]
                     end
-                    timezones.uniq!
-                    timezones.sort!
                 end
                 timezones
             end
 
             def self.getOffsets(zone, types = [])
-                offsets = []
+                offsets = SortedSet.new
                 if self.WindowsOffsets.has_key?(zone)
                     data = self.WindowsOffsets[zone]
                     types = ['standard', 'daylight'] if types.empty?
@@ -153,8 +149,6 @@ module TimezoneParser
                         next unless data.has_key?(type)
                         offsets << data[type]
                     end
-                    offsets.uniq!
-                    offsets.sort!
                 end
                 offsets
             end

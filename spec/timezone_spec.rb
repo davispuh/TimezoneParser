@@ -27,7 +27,7 @@ describe TimezoneParser do
 
         describe '#getOffsets' do
             it 'should return all offsets for "Պարսկաստանի ամառային ժամանակ"' do
-                expect(TimezoneParser::Timezone.new('Պարսկաստանի ամառային ժամանակ').getOffsets).to eq([12600, 16200])
+                expect(TimezoneParser::Timezone.new('Պարսկաստանի ամառային ժամանակ').getOffsets).to eq([16200])
             end
         end
 
@@ -38,15 +38,15 @@ describe TimezoneParser do
 
             describe 'timezones from specific locales' do
                 it 'should look for timezone in only "zh" locale' do
-                    expect(TimezoneParser::Timezone.new('阿尤恩').set(DateTime.now, ['zh']).getTimezones).to eq(['Africa/El_Aaiun'])
+                    expect(TimezoneParser::Timezone.new('阿尤恩').set(['zh']).getTimezones).to eq(['Africa/El_Aaiun'])
                 end
 
                 it 'should find timezones for "en_Dsrt" locale' do
-                    expect(TimezoneParser::Timezone.new('𐐁𐑍𐐿𐐲𐑉𐐮𐐾').set(DateTime.now, ['en_Dsrt']).getTimezones).to eq(['America/Anchorage'])
+                    expect(TimezoneParser::Timezone.new('𐐁𐑍𐐿𐐲𐑉𐐮𐐾').set(['en_Dsrt']).getTimezones).to eq(['America/Anchorage'])
                 end
 
                 it 'it should not find "China Summer Time" in "en" locale' do
-                    expect(TimezoneParser::Timezone.new('China Summer Time').set(DateTime.now, ['en']).getTimezones).to be_empty
+                    expect(TimezoneParser::Timezone.new('China Summer Time').set(['en']).getTimezones).to be_empty
                 end
             end
         end

@@ -8,7 +8,16 @@ module TimezoneParser
         @Timezones = nil
         @Metazones = nil
 
-        attr_accessor :Time
+        attr_accessor :ToTime
+        attr_accessor :FromTime
+        def setTime(toTime = nil, fromTime = nil)
+            @ToTime = toTime
+            @ToTime = DateTime.now unless @ToTime
+            @FromTime = fromTime
+            @FromTime = DateTime.new(@ToTime.year - 1) unless @FromTime
+            self
+        end
+
         def isValid?(name)
             false
         end
