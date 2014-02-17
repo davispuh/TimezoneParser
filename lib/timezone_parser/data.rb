@@ -40,9 +40,7 @@ module TimezoneParser
             @Timezones.each do |timezone|
                 if regions and not regions.empty?
                     timezoneRegions = Data::Storage.TimezoneCountries[timezone]
-                    if timezoneRegions and (timezoneRegions & regions).empty?
-                        next
-                    end
+                    next if timezoneRegions and (timezoneRegions & regions).empty?
                 end
                 begin
                     tz = TZInfo::Timezone.get(timezone)
@@ -50,10 +48,14 @@ module TimezoneParser
                     tz = nil
                 end
                 next unless tz
+                offsets = []
+                ts = false
                 tz.transitions_up_to(toTime, fromTime).each do |transition|
-                    offset = transition.offset
-                    @Offsets << offset.utc_total_offset if (offset.dst? and types.include?('daylight')) or (not offset.dst? and types.include?('standard'))
+                    ts = true
+                    self.class.addOffset(offsets, transition.offset, types)
                 end
+                self.class.addOffset(offsets, tz.period_for_utc(toTime - 0.001).offset, types) unless ts
+                @Offsets += offsets
             end
             @Offsets
         end
@@ -103,6 +105,10 @@ module TimezoneParser
                 j += 1
             end until entry.nil? or (entry and entry['Offset'])
             entry
+        end
+
+        def self.addOffset(offsets, offset, types)
+            offsets << offset.utc_total_offset if (offset.dst? and types.include?('daylight')) or (not offset.dst? and types.include?('standard'))
         end
 
     end
