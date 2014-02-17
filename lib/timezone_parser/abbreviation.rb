@@ -67,8 +67,8 @@ module TimezoneParser
             self.new(abbreviation).setTime(toTime, fromTime).set(regions, type).getTimezones
         end
 
-        def self.getMetazones(abbreviation, toTime = nil, fromTime = nil, regions = nil, type = nil)
-            self.new(abbreviation).setTime(toTime, fromTime).set(regions, type).getMetazones
+        def self.getMetazones(abbreviation)
+            self.new(abbreviation).getMetazones
         end
     end
 end
