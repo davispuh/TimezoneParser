@@ -74,5 +74,35 @@ describe TimezoneParser do
             end
         end
 
+        describe '#getTypes' do
+            it 'should return types for "Nord-Marianene-tid"' do
+                expect(TimezoneParser::Timezone.new('Nord-Marianene-tid').getTypes).to eq([:standard])
+            end
+        end
+
+        describe '.isValid?' do
+            it 'should be valid timezone' do
+                expect(TimezoneParser::Timezone::isValid?('பெட்ரோபவ்லோவ்ஸ்க் கம்சட்ஸ்கி நேரம்')).to be_true
+            end
+        end
+
+        describe '.getOffsets' do
+            it 'should find offsets for "सामोआ प्रमाण वेळ" zone and in "UM" region' do
+                expect(TimezoneParser::Timezone::getOffsets('सामोआ प्रमाण वेळ', nil, nil, nil, ['UM'])).to eq([-39600])
+            end
+        end
+
+        describe '.getTimezones' do
+            it 'should return all timezones for "Grinwish gaƒoƒome"' do
+                expect(TimezoneParser::Timezone::getTimezones('Grinwish gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/Isle_of_Man'])
+            end
+        end
+
+        describe '.getMetazones' do
+            it 'should return all metazones for "ནུབ་ཕྱོགས་གིརིན་ལེནཌ་ཆུ་ཚོད"' do
+                expect(TimezoneParser::Timezone::getMetazones('ནུབ་ཕྱོགས་གིརིན་ལེནཌ་ཆུ་ཚོད')).to eq(['Greenland_Western'])
+            end
+        end
+
     end
 end

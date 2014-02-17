@@ -35,7 +35,7 @@ describe TimezoneParser do
                 expect(TimezoneParser::WindowsZone.new('GMT Daylight Time').set(['en-GB']).getTimezones).to be_empty
             end
 
-            it 'should look for timezone in "SR" region and with "sl-SI" locale' do
+            it 'should find timezones for "SR" region and in "sl-SI" locale' do
                 expect(TimezoneParser::WindowsZone.new('Južnoameriški vzh. stand. čas').set(['sl-SI'], ['SR']).getTimezones).to eq(['America/Paramaribo'])
             end
 
@@ -46,5 +46,36 @@ describe TimezoneParser do
                 expect(TimezoneParser::WindowsZone.new('ora legale Medioatlantico').getZone).to eq('Mid-Atlantic Standard Time')
             end
         end
+
+        describe '.isValid?' do
+            it 'should be valid Windows zone' do
+                expect(TimezoneParser::WindowsZone::isValid?('Ekaterinburg, oră standard', ['ro-RO'])).to be_true
+            end
+        end
+
+        describe '.getOffsets' do
+            it 'should return all offsets for "Sør-Amerika (østlig sommertid)"' do
+                expect(TimezoneParser::WindowsZone::getOffsets('Sør-Amerika (østlig sommertid)', ['lt-LT', 'nb-NO'])).to eq([-7200])
+            end
+        end
+
+        describe '.getTimezones' do
+            it 'should find timezones for "Južnoafriški poletni čas"' do
+                expect(TimezoneParser::WindowsZone::getTimezones('Južnoafriški poletni čas', nil, ['MW', 'MZ'])).to eq(['Africa/Blantyre', 'Africa/Maputo'])
+            end
+        end
+
+        describe '.getMetazones' do
+            it 'should find metazones for "Južnoafriški poletni čas"' do
+                expect(TimezoneParser::WindowsZone::getMetazones('Južnoafriški poletni čas')).to eq(['South Africa Standard Time'])
+            end
+        end
+
+        describe '.getZone' do
+            it 'should return zone name' do
+                expect(TimezoneParser::WindowsZone::getZone('Južnoafriški poletni čas')).to eq('South Africa Standard Time')
+            end
+        end
+
     end
 end
