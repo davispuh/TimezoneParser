@@ -7,12 +7,13 @@ module TimezoneParser
         def processEntry(data, rails)
             if rails
                 @RailsZone = rails
+                @Metazones << rails
                 @Timezones << data
             else
                 rails = Storage.RailsZones[data]
                 if rails
                     @RailsZone = data
-                    @Metazones << rails
+                    @Metazones << data
                     @Timezones << rails
                 end
             end
