@@ -36,8 +36,8 @@ describe TimezoneParser do
                 expect(TimezoneParser::Timezone.new('Bécs').getTimezones).to eq(['Europe/Vienna'])
             end
 
-            describe 'timezones from specific locales' do
-                it 'should look for timezone in only "zh" locale' do
+            context 'timezones from specified locales' do
+                it 'should find timezones for only "zh" locale' do
                     expect(TimezoneParser::Timezone.new('阿尤恩').set(['zh']).getTimezones).to eq(['Africa/El_Aaiun'])
                 end
 
@@ -47,6 +47,23 @@ describe TimezoneParser do
 
                 it 'it should not find "China Summer Time" in "en" locale' do
                     expect(TimezoneParser::Timezone.new('China Summer Time').set(['en']).getTimezones).to be_empty
+                end
+            end
+
+            context 'timezones from specified regions' do
+                it 'should find  timezones in only "LT" region' do
+                    expect(TimezoneParser::Timezone.new('ເວລາເອີຣົບຕາເວັນອອກ').set(nil, ['LT']).getTimezones).to eq(['Europe/Vilnius'])
+                end
+
+                it 'should find timezones in only "GR", "FI" and "BG" regions' do
+                    expect(TimezoneParser::Timezone.new('ເວລາເອີຣົບຕາເວັນອອກ').set(nil, ['GR', 'FI', 'BG']).getTimezones).to eq(['Europe/Athens', 'Europe/Helsinki', 'Europe/Sofia'])
+                end
+            end
+
+            context 'timezones from specified time range' do
+                it 'should find timezones between specified time range' do
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('1992-01-19T00:00:00+00:00'), DateTime.parse('1991-03-30T23:00:00+00:00')).getTimezones).to eq(['Europe/Kaliningrad', 'Europe/Minsk', 'Europe/Moscow', 'Europe/Vilnius', 'Europe/Zaporozhye'])
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('2010-03-27T22:00:00+00:00'), DateTime.parse('1992-01-19T00:00:00+00:00')).getTimezones).to eq(['Europe/Moscow', 'Europe/Simferopol'])
                 end
             end
         end
