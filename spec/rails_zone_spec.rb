@@ -14,6 +14,10 @@ describe TimezoneParser do
                 expect(TimezoneParser::RailsZone.new('노보시비르스크').isValid?).to be_true
             end
 
+            it 'should not be valid Rails zone in "ru" locale' do
+                expect(TimezoneParser::RailsZone.new('노보시비르스크').set(['ru']).isValid?).to be_false
+            end
+
             it 'should not be valid Rails zone' do
                 expect(TimezoneParser::RailsZone.new('NotExisistinge').isValid?).to be_false
             end
@@ -34,7 +38,7 @@ describe TimezoneParser do
                 expect(TimezoneParser::RailsZone.new('Hawaii').set(['es']).getTimezones).to be_empty
             end
 
-            it 'should look for timezone in "pt" locale' do
+            it 'should find timezones for "pt" locale' do
                 expect(TimezoneParser::RailsZone.new('Hora do Pacífico (EUA e Canadá)').set(['pt']).getTimezones).to eq(['America/Los_Angeles'])
             end
 
@@ -45,5 +49,36 @@ describe TimezoneParser do
                 expect(TimezoneParser::RailsZone.new('Североамериканское атлантическое время').getZone).to eq('Atlantic Time (Canada)')
             end
         end
+
+        describe '.isValid?' do
+            it 'should be valid Rails zone' do
+                expect(TimezoneParser::RailsZone::isValid?('La Paz', ['en'])).to be_true
+            end
+        end
+
+        describe '.getOffsets' do
+            it 'should return all offsets for "Nuku\'alofa"' do
+                expect(TimezoneParser::RailsZone::getOffsets('Nuku\'alofa', DateTime.now, nil, ['en', 'ru'], true)).to eq([46800])
+            end
+        end
+
+        describe '.getTimezones' do
+            it 'should find timezones' do
+                expect(TimezoneParser::RailsZone::getTimezones('치와와', [], true)).to eq(['America/Chihuahua'])
+            end
+        end
+
+        describe '.getMetazones' do
+            it 'should return zone names' do
+                expect(TimezoneParser::RailsZone::getMetazones('치와와')).to eq(['Chihuahua'])
+            end
+        end
+
+        describe '.getZone' do
+            it 'should return zone name' do
+                expect(TimezoneParser::RailsZone::getZone('치와와')).to eq('Chihuahua')
+            end
+        end
+
     end
 end
