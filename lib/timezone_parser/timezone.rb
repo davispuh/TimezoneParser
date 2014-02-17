@@ -60,7 +60,7 @@ module TimezoneParser
         def getOffsets
             if not @Offsets and not getTimezones.empty?
                 types = [@Type] if @Type
-                @Offsets = @Data.findOffsets(@ToTime, @FromTime, types).to_a
+                @Offsets = @Data.findOffsets(@ToTime, @FromTime, @Regions, types).to_a
             else
                 super
             end
@@ -71,15 +71,15 @@ module TimezoneParser
             self.new(timezone).set(locales).isValid?
         end
 
-        def self.getOffsets(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+        def self.getOffsets(timezone, toTime = nil, fromTime = nil, locales = nil, regions = nil, all = true)
             self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getOffsets
         end
 
-        def self.getTimezones(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+        def self.getTimezones(timezone, toTime = nil, fromTime = nil, locales = nil, regions = nil, all = true)
             self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getTimezones
         end
 
-        def self.getMetazones(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+        def self.getMetazones(timezone, toTime = nil, fromTime = nil, locales = nil, regions = nil, all = true)
             self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getMetazones
         end
     end

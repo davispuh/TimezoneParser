@@ -96,7 +96,7 @@ module TimezoneParser
             self.new(name).set(locales).isValid?
         end
 
-        def self.getOffsets(name, toTime, fromTime, locales = nil, all = true)
+        def self.getOffsets(name, toTime = nil, fromTime = nil, locales = nil, all = true)
             self.new(name).setTime(toTime, fromTime).set(locales, all).getOffsets
         end
 
