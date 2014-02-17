@@ -74,17 +74,12 @@ module TimezoneParser
             end
             data.each_index do |i|
                 entry = data[i]
-                if offsets
-                    nextentry = getNextEntry(data, i)
-                else
-                    nextentry = data[i+1]
-                end
-                result << entry if ( entry['From'] && entry['To'] and
-                ((toTime > entry['From'] and fromTime < entry['To']) or
-                (i.zero? and toTime <= entry['From']) or (nextentry.nil? and fromTime >= entry['To']) or
-                (nextentry and nextentry['From'] and toTime <= nextentry['From'] and fromTime >= entry['To'])) ) or
-                ( entry['From'] && !entry['To'] and (toTime > entry['From'] or (i.zero? and toTime <= entry['From'])) ) or
-                ( !entry['From'] && entry['To'] and (fromTime < entry['To'] or (nextentry.nil? and fromTime >= entry['To'])) )
+                nextentry = offsets ? getNextEntry(data, i) : data[i+1]
+                result << entry if ( entry['From'] && entry['To'] and toTime > entry['From'] and fromTime < entry['To'] ) or
+                ( entry['To'] and ( (nextentry.nil? and fromTime >= entry['To']) or
+                (nextentry and nextentry['From'] and fromTime >= entry['To'] and toTime <= nextentry['From']) or
+                (!entry['From'] and fromTime < entry['To']) ) ) or
+                ( entry['From'] and ( (i.zero? and toTime <= entry['From']) or (!entry['To'] and toTime > entry['From']) ) )
             end
             result
         end
