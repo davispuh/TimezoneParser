@@ -18,12 +18,8 @@ module TimezoneParser
             self
         end
 
-        def isValid?(name)
-            false
-        end
-
         def getData
-            @Data
+            raise StandardError, '#getData must be implemented in subclass'
         end
 
         def getOffsets
@@ -54,20 +50,5 @@ module TimezoneParser
             @Metazones
         end
 
-        def self.isValid?(name)
-            false
-        end
-
-        def self.getOffsets(name)
-            nil
-        end
-
-        def self.getTimezones(name)
-            nil
-        end
-
-        def self.getMetazones(name)
-            nil
-        end
     end
 end
