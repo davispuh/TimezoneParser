@@ -16,7 +16,7 @@ module TimezoneParser
 
         def set(regions = nil, type = nil)
             @Regions = regions unless regions.nil?
-            @Type = type.to_s if type
+            @Type = type.to_sym if type
             self
         end
 

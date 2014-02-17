@@ -152,7 +152,7 @@ module TimezoneParser
                 offsets = SortedSet.new
                 if self.WindowsOffsets.has_key?(zone)
                     data = self.WindowsOffsets[zone]
-                    types = ['standard', 'daylight'] if types.empty?
+                    types = [:standard, :daylight] if types.empty?
                     types.each do |type|
                         next unless data.has_key?(type)
                         offsets << data[type]

@@ -24,7 +24,7 @@ module TimezoneParser
         def processEntry(entry, toTime, fromTime, regions = [])
             @Timezones += entry['Timezones'] if entry['Timezones']
             @Offsets << entry['Offset'] if entry['Offset']
-            @Types += entry['Types'] if entry['Types']
+            @Types += entry['Types'].map(&:to_sym) if entry['Types']
             if entry.has_key?('Metazones')
                 entry['Metazones'].each do |zone|
                     @Metazones << zone
@@ -36,7 +36,7 @@ module TimezoneParser
 
         def findOffsets(toTime, fromTime, regions = nil, types = nil)
             types = @Types.to_a unless types
-            types = ['daylight', 'standard'] if types.empty?
+            types = [:daylight, :standard] if types.empty?
             @Timezones.each do |timezone|
                 if regions and not regions.empty?
                     timezoneRegions = Data::Storage.TimezoneCountries[timezone]
@@ -108,7 +108,7 @@ module TimezoneParser
         end
 
         def self.addOffset(offsets, offset, types)
-            offsets << offset.utc_total_offset if (offset.dst? and types.include?('daylight')) or (not offset.dst? and types.include?('standard'))
+            offsets << offset.utc_total_offset if (offset.dst? and types.include?(:daylight)) or (not offset.dst? and types.include?(:standard))
         end
 
     end
