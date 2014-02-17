@@ -116,12 +116,20 @@ module TimezoneParser
                 preloaded
             end
 
-            def self.getTimezones(metazone, toTime, fromTime)
+            def self.getTimezones(metazone, toTime, fromTime, regions = [])
                 timezones = SortedSet.new
                 if self.Metazones.has_key?(metazone)
                     entries = Data::loadEntries(self.Metazones[metazone], toTime, fromTime)
                     entries.each do |entry|
-                        timezones += entry['Timezones']
+                        add = true
+                        timezones += entry['Timezones'].select do |timezone|
+                            if regions.empty?
+                                true
+                            else
+                                timezoneRegions = self.TimezoneCountries[timezone]
+                                timezoneRegions && !(regions & timezoneRegions).empty?
+                            end
+                        end
                     end
                 end
                 timezones

@@ -30,12 +30,12 @@ module TimezoneParser
                 if isValid?
                     data = Data::Storage.Abbreviations[@Abbreviation]
                     if data.count == 1
-                        @Data.processEntry(data.first, @ToTime, @FromTime)
+                        @Data.processEntry(data.first, @ToTime, @FromTime, @Regions)
                         return @Data
                     end
                     entries = Data.filterData(data, @ToTime, @FromTime, @Type, @Regions)
                     entries.each do |entry|
-                        @Data.processEntry(entry, @ToTime, @FromTime)
+                        @Data.processEntry(entry, @ToTime, @FromTime, @Regions)
                     end
                     return @Data
                 end

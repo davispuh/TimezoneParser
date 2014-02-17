@@ -3,20 +3,23 @@
 module TimezoneParser
     class Timezone < ZoneInfo
         @@Locales = []
+        @@Regions = []
         @Timezone = nil
 
         attr_accessor :Locales
+        attr_accessor :Regions
         attr_accessor :All
         def initialize(timezone)
             @Timezone = timezone
             @Data = Data.new
             @Valid = nil
             setTime
-            set(@@Locales.dup, true)
+            set(@@Locales.dup, @@Regions.dup, true)
         end
 
-        def set(locales = nil, all = true)
+        def set(locales = nil, regions = nil, all = true)
             @Locales = locales unless locales.nil?
+            @Regions = regions unless regions.nil?
             @All = all ? true : false
             self
         end
@@ -45,7 +48,7 @@ module TimezoneParser
                     next unless Data::Storage.Timezones.has_key?(locale)
                     entry = Data::Storage.Timezones[locale][@Timezone]
                     if entry
-                        @Data.processEntry(entry, @ToTime, @FromTime)
+                        @Data.processEntry(entry, @ToTime, @FromTime, @Regions)
                         @Valid = true
                         return @Data unless @All
                     end
@@ -68,16 +71,16 @@ module TimezoneParser
             self.new(timezone).set(locales).isValid?
         end
 
-        def self.getOffsets(timezone, toTime, fromTime, locales = nil, all = true)
-            self.new(timezone).setTime(toTime, fromTime).set(locales, all).getOffsets
+        def self.getOffsets(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+            self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getOffsets
         end
 
-        def self.getTimezones(timezone, toTime, fromTime, locales = nil, all = true)
-            self.new(timezone).setTime(toTime, fromTime).set(locales, all).getTimezones
+        def self.getTimezones(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+            self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getTimezones
         end
 
-        def self.getMetazones(timezone, toTime, fromTime, locales = nil, all = true)
-            self.new(timezone).setTime(toTime, fromTime).set(locales, all).getMetazones
+        def self.getMetazones(timezone, toTime, fromTime, locales = nil, regions = nil, all = true)
+            self.new(timezone).setTime(toTime, fromTime).set(locales, regions, all).getMetazones
         end
     end
 end

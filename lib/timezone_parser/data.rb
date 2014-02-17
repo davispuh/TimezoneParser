@@ -21,14 +21,14 @@ module TimezoneParser
             @Metazones = SortedSet.new
         end
 
-        def processEntry(entry, toTime, fromTime)
+        def processEntry(entry, toTime, fromTime, regions = [])
             @Timezones += entry['Timezones'] if entry['Timezones']
             @Offsets << entry['Offset'] if entry['Offset']
             @Types += entry['Types'] if entry['Types']
             if entry.has_key?('Metazones')
                 entry['Metazones'].each do |zone|
                     @Metazones << zone
-                    @Timezones += Storage.getTimezones(zone, toTime, fromTime)
+                    @Timezones += Storage.getTimezones(zone, toTime, fromTime, regions)
                 end
             end
             self
