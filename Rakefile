@@ -29,8 +29,8 @@ def repo_location
 end
 
 def update
-    require 'timezone_parser/tzinfo'
-    require 'timezone_parser/cldr'
+    require 'timezone_parser/data/tzinfo'
+    require 'timezone_parser/data/cldr'
     require 'active_support/time'
     TimezoneParser::TZInfo::init
     countries = TimezoneParser::TZInfo::getTimezoneCountries
@@ -67,7 +67,7 @@ end
 def update_windows
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
-        require 'timezone_parser/windows'
+        require 'timezone_parser/data/windows'
         version = YAML.load_file(data_location + 'version.yml')
         version['WindowsZones'] = TimezoneParser::Windows.getVersion
         if version['WindowsZones'].nil?
@@ -83,7 +83,7 @@ def update_windows
 end
 
 def import_timezones
-    require 'timezone_parser/windows'
+    require 'timezone_parser/data/windows'
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
         metazones = YAML.load_file(vendor_location + 'tzres.yml')
@@ -96,12 +96,12 @@ def import_timezones
 end
 
 def download_tz
-    require 'timezone_parser/tzinfo'
+    require 'timezone_parser/data/tzinfo'
     TimezoneParser::TZInfo::download
 end
 
 def download_cldr
-    require 'timezone_parser/cldr'
+    require 'timezone_parser/data/cldr'
     TimezoneParser::CLDR::download
 end
 
