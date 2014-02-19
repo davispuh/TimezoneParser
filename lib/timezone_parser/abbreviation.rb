@@ -3,10 +3,13 @@
 module TimezoneParser
     class Abbreviation < ZoneInfo
         @@Regions = []
-        @Abbreviation = nil
+        def self.Regions
+            @@Regions
+        end
 
         attr_accessor :Regions
         attr_accessor :Type
+
         def initialize(abbreviation)
             @Abbreviation = abbreviation
             @Data = Data.new

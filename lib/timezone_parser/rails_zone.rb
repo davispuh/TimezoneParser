@@ -23,9 +23,12 @@ module TimezoneParser
 
     class RailsZone < ZoneInfo
         @@Locales = []
-        @Name = nil
+        def self.Locales
+            @@Locales
+        end
 
         attr_accessor :All
+
         def initialize(name)
             @Name = name
             @Data = RailsData.new
@@ -48,6 +51,7 @@ module TimezoneParser
                 locales = @Locales
                 locales = Data::Storage.RailsTranslated.keys if locales.empty?
                 locales.each do |locale|
+                    next unless Data::Storage.RailsTranslated.has_key?(locale)
                     @Valid = Data::Storage.RailsTranslated[locale].has_key?(@Name)
                     return @Valid if @Valid
                 end

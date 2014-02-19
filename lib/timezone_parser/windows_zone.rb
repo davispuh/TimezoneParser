@@ -21,10 +21,18 @@ module TimezoneParser
     class WindowsZone < ZoneInfo
         @@Locales = []
         @@Regions = []
-        @Name = nil
+        def self.Locales
+            @@Locales
+        end
+
+        def self.Regions
+            @@Regions
+        end
 
         attr_accessor :Locales
+        attr_accessor :Regions
         attr_accessor :All
+
         def initialize(name)
             @Name = name
             @Data = WindowsData.new

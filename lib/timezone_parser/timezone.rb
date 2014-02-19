@@ -4,11 +4,18 @@ module TimezoneParser
     class Timezone < ZoneInfo
         @@Locales = []
         @@Regions = []
-        @Timezone = nil
+        def self.Locales
+            @@Locales
+        end
+
+        def self.Regions
+            @@Regions
+        end
 
         attr_accessor :Locales
         attr_accessor :Regions
         attr_accessor :All
+
         def initialize(timezone)
             @Timezone = timezone
             @Data = Data.new
@@ -29,6 +36,7 @@ module TimezoneParser
                 locales = @Locales
                 locales = Data::Storage.Timezones.keys if locales.empty?
                 locales.each do |locale|
+                    next unless Data::Storage.Timezones.has_key?(locale)
                     if Data::Storage.Timezones[locale].has_key?(@Timezone)
                         @Valid = true
                         return @Valid
