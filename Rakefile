@@ -151,5 +151,10 @@ end
 
 desc 'Export data'
 task 'export' do
-    # TODO: Implement YAML data export to binary format
+    ['abbreviations.yml', 'timezones.yml', 'countries.yml', 'metazones.yml',
+        'windows_zonenames.yml', 'windows_timezones.yml', 'windows_offsets.yml',
+        'rails.yml', 'rails_i18n.yml'].each do |name|
+        path = data_location + name
+        Marshal.dump(YAML.load_file(path), File.open(path.dirname + (path.basename('.*').to_s + '.dat'), 'wb'))
+    end
 end

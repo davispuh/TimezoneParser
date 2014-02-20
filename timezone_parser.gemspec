@@ -14,6 +14,14 @@ Gem::Specification.new do |spec|
   spec.license       = 'UNLICENSE'
 
   spec.files         = `git ls-files`.split($/)
+  spec.files.delete_if { |name| name[-4, 4] == '.yml' }
+  spec.files         << 'data/version.yml'
+  ['abbreviations.dat', 'countries.dat', 'metazones.dat',
+  'rails.dat', 'rails_i18n.dat', 'timezones.dat',
+  'windows_offsets.dat', 'windows_timezones.dat', 'windows_zonenames.dat'].each do |name|
+    spec.files       << 'data/' + name
+  end
+
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']

@@ -17,7 +17,7 @@ module TimezoneParser
             @@RailsTranslated = nil
             def self.Abbreviations
                 unless @@Abbreviations
-                    @@Abbreviations = YAML.load_file(Data::DataDir + 'abbreviations.yml').insensitive
+                    @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat')).insensitive
                     @@Abbreviations.each do |abbr, data|
                         data.each do |entry|
                             entry['From'] = DateTime.parse(entry['From']) if entry['From']
@@ -30,21 +30,21 @@ module TimezoneParser
 
             def self.Timezones
                 unless @@Timezones
-                    @@Timezones = YAML.load_file(Data::DataDir + 'timezones.yml').insensitive
+                    @@Timezones = Marshal.load(File.open(Data::DataDir + 'timezones.dat')).insensitive
                 end
                 @@Timezones
             end
 
             def self.TimezoneCountries
                 unless @@TimezoneCountries
-                    @@TimezoneCountries = YAML.load_file(Data::DataDir + 'countries.yml').insensitive
+                    @@TimezoneCountries = Marshal.load(File.open(Data::DataDir + 'countries.dat')).insensitive
                 end
                 @@TimezoneCountries
             end
 
             def self.Metazones
                 unless @@Metazones
-                    @@Metazones = YAML.load_file(Data::DataDir + 'metazones.yml').insensitive
+                    @@Metazones = Marshal.load(File.open(Data::DataDir + 'metazones.dat')).insensitive
                     @@Metazones.each do |zone, data|
                         data.each do |entry|
                             entry['From'] = DateTime.parse(entry['From']) if entry['From']
@@ -57,35 +57,35 @@ module TimezoneParser
 
             def self.WindowsZones
                 unless @@WindowsZones
-                    @@WindowsZones = YAML.load_file(Data::DataDir + 'windows_zonenames.yml').insensitive
+                    @@WindowsZones = Marshal.load(File.open(Data::DataDir + 'windows_zonenames.dat')).insensitive
                 end
                 @@WindowsZones
             end
 
             def self.WindowsTimezones
                 unless @@WindowsTimezones
-                    @@WindowsTimezones = YAML.load_file(Data::DataDir + 'windows_timezones.yml').insensitive
+                    @@WindowsTimezones = Marshal.load(File.open(Data::DataDir + 'windows_timezones.dat')).insensitive
                 end
                 @@WindowsTimezones
             end
 
             def self.WindowsOffsets
                 unless @@WindowsOffsets
-                    @@WindowsOffsets = YAML.load_file(Data::DataDir + 'windows_offsets.yml').insensitive
+                    @@WindowsOffsets = Marshal.load(File.open(Data::DataDir + 'windows_offsets.dat')).insensitive
                 end
                 @@WindowsOffsets
             end
 
             def self.RailsZones
                 unless @@RailsZones
-                    @@RailsZones = YAML.load_file(Data::DataDir + 'rails.yml').insensitive
+                    @@RailsZones = Marshal.load(File.open(Data::DataDir + 'rails.dat')).insensitive
                 end
                 @@RailsZones
             end
 
             def self.RailsTranslated
                 unless @@RailsTranslated
-                    @@RailsTranslated = YAML.load_file(Data::DataDir + 'rails_i18n.yml').insensitive
+                    @@RailsTranslated = Marshal.load(File.open(Data::DataDir + 'rails_i18n.dat')).insensitive
                 end
                 @@RailsTranslated
             end
