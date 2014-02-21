@@ -19,10 +19,7 @@ module TimezoneParser
                 unless @@Abbreviations
                     @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat')).insensitive
                     @@Abbreviations.each do |abbr, data|
-                        data.each do |entry|
-                            entry['From'] = DateTime.parse(entry['From']) if entry['From']
-                            entry['To'] = DateTime.parse(entry['To']) if entry['To']
-                        end
+                        proccessData(data)
                     end
                 end
                 @@Abbreviations
@@ -46,10 +43,7 @@ module TimezoneParser
                 unless @@Metazones
                     @@Metazones = Marshal.load(File.open(Data::DataDir + 'metazones.dat')).insensitive
                     @@Metazones.each do |zone, data|
-                        data.each do |entry|
-                            entry['From'] = DateTime.parse(entry['From']) if entry['From']
-                            entry['To'] = DateTime.parse(entry['To']) if entry['To']
-                        end
+                        proccessData(data)
                     end
                 end
                 @@Metazones
@@ -159,6 +153,15 @@ module TimezoneParser
                     end
                 end
                 offsets
+            end
+
+            protected
+
+            def self.proccessData(data)
+                data.each do |entry|
+                    entry['From'] = DateTime.parse(entry['From']) if entry['From']
+                    entry['To'] = DateTime.parse(entry['To']) if entry['To']
+                end
             end
         end
     end
