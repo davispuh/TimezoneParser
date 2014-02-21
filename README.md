@@ -100,7 +100,7 @@ RSpec and simplecov are required, to run tests just `rake spec`
 code coverage will also be generated
 
 ## Code status
-
+[![Gem Version](https://badge.fury.io/rb/TimezoneParser.png)](http://badge.fury.io/rb/TimezoneParser)
 [![Build Status](https://travis-ci.org/davispuh/TimezoneParser.png?branch=master)](https://travis-ci.org/davispuh/TimezoneParser)
 [![Dependency Status](https://gemnasium.com/davispuh/TimezoneParser.png)](https://gemnasium.com/davispuh/TimezoneParser)
 [![Coverage Status](https://coveralls.io/repos/davispuh/TimezoneParser/badge.png)](https://coveralls.io/r/davispuh/TimezoneParser)
