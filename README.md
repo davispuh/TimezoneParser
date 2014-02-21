@@ -38,7 +38,7 @@ Output formats:
 
 Add this line to your application's Gemfile:
 
-    gem 'timezone_parser'
+    gem 'TimezoneParser'
 
 And then execute:
 
@@ -46,7 +46,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install timezone_parser
+    $ gem install TimezoneParser
 
 
 ### Dependencies
