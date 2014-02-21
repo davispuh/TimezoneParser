@@ -6,9 +6,16 @@ require 'cldr/export/data/timezones'
 require 'pathname'
 
 module TimezoneParser
+    # CLDR module
     module CLDR
-        @@Version = nil
+
+        # Data directory
         DataDir = Pathname.new(Cldr::Export::Data.dir)
+
+        protected
+        @@Version = nil
+
+        public
         def self.download(source = 'http://unicode.org/Public/cldr/latest/core.zip', target = nil)
             Cldr.download(source, target)
         end

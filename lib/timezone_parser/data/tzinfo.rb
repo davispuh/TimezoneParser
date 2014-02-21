@@ -10,13 +10,23 @@ require 'pathname'
 require 'timezone_parser/data'
 
 module TimezoneParser
+    # TZInfo module
     module TZInfo
-        TZDataSource = 'ftp://ftp.iana.org/tz/tzdata-latest.tar.gz'
-        TZDataPath = TimezoneParser::Data::VendorDir + 'zoneinfo'
-        TZInfoData = TimezoneParser::Data::VendorDir + 'tzinfo'
-        LastTimestamp = 2147483647
+
+        protected
         @@Version = nil
         @@TimezoneCountries = nil
+
+        public
+
+        # TZData source location
+        TZDataSource = 'ftp://ftp.iana.org/tz/tzdata-latest.tar.gz'
+        # Extracted TZData path
+        TZDataPath = TimezoneParser::Data::VendorDir + 'zoneinfo'
+        # TZInfo data path
+        TZInfoData = TimezoneParser::Data::VendorDir + 'tzinfo'
+        # Max Timestamp
+        LastTimestamp = 2147483647
         def self.download(source = TZDataSource, location = TZDataPath, target = TZInfoData)
             URI.parse(source).open do |tempfile|
                 FileUtils.mkdir_p(location)

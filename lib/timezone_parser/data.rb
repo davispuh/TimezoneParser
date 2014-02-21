@@ -5,9 +5,13 @@ require 'tzinfo'
 require 'timezone_parser/data/storage'
 
 module TimezoneParser
+    # Timezone data
     class Data
+        # Library Root directory
         RootDir = Pathname.new(__FILE__).realpath.dirname.parent.parent
+        # Path to Data directory
         DataDir = RootDir + 'data'
+        # Path to Vendor directory
         VendorDir = RootDir + 'vendor'
 
         attr_reader :Offsets
@@ -62,6 +66,8 @@ module TimezoneParser
 
         # Load data entries which match specified time
         # @param data [Array<Hash>] array of entries
+        # @param toTime [DateTime] entries before this date, exclusive
+        # @param fromTime [DateTime] entries after/at this date, inclusive
         # @return [Array<Hash>] resulting array containing filtered entries
         def self.loadEntries(data, toTime, fromTime, offsets = false)
             result = []

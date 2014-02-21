@@ -3,11 +3,17 @@ require 'win32/registry'
 require 'fiddle'
 
 module TimezoneParser
+    # Windows module
     module Windows
-        TimeZonePath = 'SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Time Zones'
+
+        protected
 
         @@Version = nil
         @@Errors = ''
+
+        public
+        # Windows Registry path to Time Zone data
+        TimeZonePath = 'SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Time Zones'
         def self.errors
             @@Errors
         end
@@ -99,6 +105,7 @@ module TimezoneParser
             metazones
         end
 
+        # Windows Kernel32 library
         kernel32 = Fiddle.dlopen('kernel32')
 
         # function
@@ -111,6 +118,7 @@ module TimezoneParser
         # @see http://msdn.microsoft.com/en-us/library/windows/desktop/dd318698.aspx
         LCIDToLocaleName = Fiddle::Function.new( kernel32['LCIDToLocaleName'],
         [Fiddle::TYPE_LONG, Fiddle::TYPE_VOIDP, Fiddle::TYPE_INT, Fiddle::TYPE_LONG], Fiddle::TYPE_INT )
+        # Max locale length
         LOCALE_NAME_MAX_LENGTH = 85
     end
 end

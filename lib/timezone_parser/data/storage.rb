@@ -5,7 +5,9 @@ require 'insensitive_hash'
 
 module TimezoneParser
     class Data
+        # Timezone data Storage class
         class Storage
+            protected
             @@Abbreviations = nil
             @@Timezones = nil
             @@TimezoneCountries = nil
@@ -15,6 +17,8 @@ module TimezoneParser
             @@WindowsOffsets = nil
             @@RailsZones = nil
             @@RailsTranslated = nil
+
+            public
             def self.Abbreviations
                 unless @@Abbreviations
                     @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat')).insensitive
