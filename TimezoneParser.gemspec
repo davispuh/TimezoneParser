@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'timezone_parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'timezone_parser'
+  spec.name          = 'TimezoneParser'
   spec.version       = TimezoneParser::VERSION
   spec.authors       = ['Dāvis']
   spec.email         = ['davispuh@gmail.com']
