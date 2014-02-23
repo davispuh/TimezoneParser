@@ -4,8 +4,8 @@ require 'spec_helper'
 describe TimezoneParser do
     describe TimezoneParser::RailsZone do
         describe '#new' do
-            it 'should be an instance of a RailsZone class' do
-                expect(TimezoneParser::RailsZone.new('노보시비르스크')).to be_an_instance_of TimezoneParser::RailsZone
+            it 'should not raise error' do
+                expect { TimezoneParser::RailsZone.new('노보시비르스크') }.not_to raise_error
             end
         end
 

@@ -4,8 +4,8 @@ require 'spec_helper'
 describe TimezoneParser do
     describe TimezoneParser::Abbreviation do
         describe '#new' do
-            it 'should be an instance of a Abbreviation class' do
-                expect(TimezoneParser::Abbreviation.new('CET')).to be_an_instance_of TimezoneParser::Abbreviation
+            it 'should not raise error' do
+                expect { TimezoneParser::Abbreviation.new('CET') }.not_to raise_error
             end
         end
 

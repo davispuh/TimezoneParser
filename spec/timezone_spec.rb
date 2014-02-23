@@ -4,8 +4,8 @@ require 'spec_helper'
 describe TimezoneParser do
     describe TimezoneParser::Timezone do
         describe '#new' do
-            it 'should be an instance of a Timezone class' do
-                expect(TimezoneParser::Timezone.new('Argentinische Normalzeit')).to be_an_instance_of TimezoneParser::Timezone
+            it 'should not raise error' do
+                expect { TimezoneParser::Timezone.new('Argentinische Normalzeit') }.not_to raise_error
             end
         end
 

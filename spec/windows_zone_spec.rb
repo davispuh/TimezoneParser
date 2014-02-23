@@ -4,8 +4,8 @@ require 'spec_helper'
 describe TimezoneParser do
     describe TimezoneParser::WindowsZone do
         describe '#new' do
-            it 'should be an instance of a WindowsZone class' do
-                expect(TimezoneParser::WindowsZone.new('Azerbaijan Summer Time')).to be_an_instance_of TimezoneParser::WindowsZone
+            it 'should not raise error' do
+                expect { TimezoneParser::WindowsZone.new('Azerbaijan Summer Time') }.not_to raise_error
             end
         end
 
