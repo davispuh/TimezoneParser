@@ -4,29 +4,29 @@ require 'spec_helper'
 describe TimezoneParser do
     describe '.preload' do
         it 'should preload data files' do
-            expect(TimezoneParser.preload).to be_true
+            expect(TimezoneParser.preload).to be true
         end
     end
 
     describe '.isValid?' do
         it 'should be valid timezone abbreviation' do
-            expect(TimezoneParser.isValid?('HAP')).to be_true
+            expect(TimezoneParser.isValid?('HAP')).to be true
         end
 
         it 'should be valid timezone name' do
-            expect(TimezoneParser.isValid?('גיברלטר', ['he'])).to be_true
+            expect(TimezoneParser.isValid?('גיברלטר', ['he'])).to be true
         end
 
         it 'should be valid Windows timezone name' do
-            expect(TimezoneParser.isValid?('Θερινή ώρα Μαλαϊκής χερσονήσου', ['el-GR'])).to be_true
+            expect(TimezoneParser.isValid?('Θερινή ώρα Μαλαϊκής χερσονήσου', ['el-GR'])).to be true
         end
 
         it 'should be valid Rails zone name' do
-            expect(TimezoneParser.isValid?('ブエノスアイレス', ['ja'])).to be_true
+            expect(TimezoneParser.isValid?('ブエノスアイレス', ['ja'])).to be true
         end
 
         it 'should not be valid' do
-            expect(TimezoneParser.isValid?('blah')).to be_false
+            expect(TimezoneParser.isValid?('blah')).to be false
         end
     end
 

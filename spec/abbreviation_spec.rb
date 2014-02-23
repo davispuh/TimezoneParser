@@ -11,15 +11,15 @@ describe TimezoneParser do
 
         describe '#isValid?' do
             it 'should be valid abbreviation' do
-                expect(TimezoneParser::Abbreviation.new('CET').isValid?).to be_true
+                expect(TimezoneParser::Abbreviation.new('CET').isValid?).to be true
             end
 
             it 'should not be valid abbreviation' do
-                expect(TimezoneParser::Abbreviation.new('LOL').isValid?).to be_false
+                expect(TimezoneParser::Abbreviation.new('LOL').isValid?).to be false
             end
 
             it 'should be valid case-insensitive abbreviation' do
-                expect(TimezoneParser::Abbreviation.new('Pst').isValid?).to be_true
+                expect(TimezoneParser::Abbreviation.new('Pst').isValid?).to be true
             end
         end
 
@@ -96,7 +96,7 @@ describe TimezoneParser do
 
         describe '.isValid?' do
             it 'should be valid abbreviation' do
-                expect(TimezoneParser::Abbreviation::isValid?('WGT')).to be_true
+                expect(TimezoneParser::Abbreviation::isValid?('WGT')).to be true
             end
         end
 

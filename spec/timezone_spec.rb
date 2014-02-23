@@ -11,17 +11,17 @@ describe TimezoneParser do
 
         describe '#isValid?' do
             it 'should be valid timezone' do
-                expect(TimezoneParser::Timezone.new('Argentinische Normalzeit').isValid?).to be_true
+                expect(TimezoneParser::Timezone.new('Argentinische Normalzeit').isValid?).to be true
             end
 
             it 'should not be valid timezone' do
-                expect(TimezoneParser::Timezone.new('Random place').isValid?).to be_false
+                expect(TimezoneParser::Timezone.new('Random place').isValid?).to be false
             end
 
             it 'should be valid case-insensitive' do
-                expect(TimezoneParser::Timezone.new('büsingen').isValid?).to be_true
+                expect(TimezoneParser::Timezone.new('büsingen').isValid?).to be true
                 pending('TODO: Unicode case insensitivity')
-                expect(TimezoneParser::Timezone.new('bÜsingen').isValid?).to be_true
+                expect(TimezoneParser::Timezone.new('bÜsingen').isValid?).to be true
             end
         end
 
@@ -82,7 +82,7 @@ describe TimezoneParser do
 
         describe '.isValid?' do
             it 'should be valid timezone' do
-                expect(TimezoneParser::Timezone::isValid?('பெட்ரோபவ்லோவ்ஸ்க் கம்சட்ஸ்கி நேரம்')).to be_true
+                expect(TimezoneParser::Timezone::isValid?('பெட்ரோபவ்லோவ்ஸ்க் கம்சட்ஸ்கி நேரம்')).to be true
             end
         end
 

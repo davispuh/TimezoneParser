@@ -11,11 +11,11 @@ describe TimezoneParser do
 
         describe '#isValid?' do
             it 'should be valid Windows zone' do
-                expect(TimezoneParser::WindowsZone.new('Azerbaijan Summer Time').isValid?).to be_true
+                expect(TimezoneParser::WindowsZone.new('Azerbaijan Summer Time').isValid?).to be true
             end
 
             it 'should not be valid Windows zone' do
-                expect(TimezoneParser::WindowsZone.new('NotExisistinge').isValid?).to be_false
+                expect(TimezoneParser::WindowsZone.new('NotExisistinge').isValid?).to be false
             end
 
         end
@@ -49,7 +49,7 @@ describe TimezoneParser do
 
         describe '.isValid?' do
             it 'should be valid Windows zone' do
-                expect(TimezoneParser::WindowsZone::isValid?('Ekaterinburg, oră standard', ['ro-RO'])).to be_true
+                expect(TimezoneParser::WindowsZone::isValid?('Ekaterinburg, oră standard', ['ro-RO'])).to be true
             end
         end
 

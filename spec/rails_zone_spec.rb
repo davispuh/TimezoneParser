@@ -11,15 +11,15 @@ describe TimezoneParser do
 
         describe '#isValid?' do
             it 'should be valid Rails zone' do
-                expect(TimezoneParser::RailsZone.new('노보시비르스크').isValid?).to be_true
+                expect(TimezoneParser::RailsZone.new('노보시비르스크').isValid?).to be true
             end
 
             it 'should not be valid Rails zone in "ru" locale' do
-                expect(TimezoneParser::RailsZone.new('노보시비르스크').set(['ru']).isValid?).to be_false
+                expect(TimezoneParser::RailsZone.new('노보시비르스크').set(['ru']).isValid?).to be false
             end
 
             it 'should not be valid Rails zone' do
-                expect(TimezoneParser::RailsZone.new('NotExisistinge').isValid?).to be_false
+                expect(TimezoneParser::RailsZone.new('NotExisistinge').isValid?).to be false
             end
         end
 
@@ -52,7 +52,7 @@ describe TimezoneParser do
 
         describe '.isValid?' do
             it 'should be valid Rails zone' do
-                expect(TimezoneParser::RailsZone::isValid?('La Paz', ['en'])).to be_true
+                expect(TimezoneParser::RailsZone::isValid?('La Paz', ['en'])).to be true
             end
         end
 
