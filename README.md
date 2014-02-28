@@ -106,6 +106,12 @@ code coverage will also be generated
 [![Coverage Status](https://coveralls.io/repos/davispuh/TimezoneParser/badge.png)](https://coveralls.io/r/davispuh/TimezoneParser)
 [![Code Climate](https://codeclimate.com/github/davispuh/TimezoneParser.png)](https://codeclimate.com/github/davispuh/TimezoneParser)
 
+## Other
+
+Did you found this library useful? Tell about it [![Tweet #2FTimezoneParser](http://i.imgur.com/ah3eSk3.png)](https://twitter.com/intent/tweet?hashtags=TimezoneParser&original_referer=https%3A%2F%2Fgithub.com%2Fdavispuh%2FTimezoneParser&related=davispuh&tw_p=tweetbutton&url=https%3A%2F%2Fgithub.com%2Fdavispuh%2FTimezoneParser)
+
+You can also [![Flattr FTimezoneParser](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=davispuh&url=https%3A%2F%2Fgithub.com%2Fdavispuh%2FTimezoneParser&title=TimezoneParser&language=english&tags=github&category=software) 
+
 ## Unlicense
 
 ![Copyright-Free](http://unlicense.org/pd-icon.png)
