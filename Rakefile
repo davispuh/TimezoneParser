@@ -39,7 +39,11 @@ def update
     metazones = TimezoneParser::CLDR::getMetazones
     windowsZones = TimezoneParser::CLDR::getWindowsZones
     TimezoneParser::CLDR::updateAbbreviations(abbreviations)
-    version = { 'TZInfo' => TimezoneParser::TZInfo::getVersion, 'CLDR' => TimezoneParser::CLDR::getVersion, 'Rails' => ActiveSupport::VERSION::STRING, 'WindowsZones' => nil }
+    version = YAML.load_file(data_location + 'version.yml')
+    version['TZInfo'] = TimezoneParser::TZInfo::getVersion
+    version['CLDR'] = TimezoneParser::CLDR::getVersion
+    version['Rails'] = ActiveSupport::VERSION::STRING
+    version['WindowsZones'] = nil unless version.has_key?('WindowsZones')
     File.write(data_location + 'countries.yml', countries.to_yaml)
     File.write(data_location + 'timezones.yml', timezones.to_yaml)
     File.write(data_location + 'metazones.yml', metazones.to_yaml)
