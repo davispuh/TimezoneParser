@@ -22,7 +22,7 @@ describe TimezoneParser do
 
         describe '#getOffsets' do
             it 'should return all offsets for "Severoázijský čas (normálny)"' do
-                expect(TimezoneParser::WindowsZone.new('Severoázijský čas (normálny)').getOffsets).to eq([28800])
+                expect(TimezoneParser::WindowsZone.new('Severoázijský čas (normálny)').getOffsets).to eq([25200])
             end
         end
 

@@ -62,8 +62,8 @@ describe TimezoneParser do
 
             context 'timezones from specified time range' do
                 it 'should find timezones between specified time range' do
-                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('1992-01-19T00:00:00+00:00'), DateTime.parse('1991-03-30T23:00:00+00:00')).getTimezones).to eq(['Europe/Kaliningrad', 'Europe/Minsk', 'Europe/Moscow', 'Europe/Vilnius', 'Europe/Zaporozhye'])
-                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('2010-03-27T22:00:00+00:00'), DateTime.parse('1992-01-19T00:00:00+00:00')).getTimezones).to eq(['Europe/Moscow', 'Europe/Simferopol'])
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('1991-03-30T23:00:00+00:00'), DateTime.parse('1990-06-30T23:00:00+00:00')).getTimezones).to eq(['Europe/Kaliningrad', 'Europe/Minsk', 'Europe/Moscow', 'Europe/Samara', 'Europe/Vilnius', 'Europe/Zaporozhye'])
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('2010-03-27T22:00:00+00:00'), DateTime.parse('1997-03-30T01:00:00+00:00')).getTimezones).to eq(['Europe/Moscow', 'Europe/Volgograd'])
                 end
             end
         end
@@ -94,7 +94,7 @@ describe TimezoneParser do
 
         describe '.getTimezones' do
             it 'should return all timezones for "Grinwish gaƒoƒome"' do
-                expect(TimezoneParser::Timezone::getTimezones('Grinwish gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/Isle_of_Man'])
+                expect(TimezoneParser::Timezone::getTimezones('Grinwish gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/London'])
             end
         end
 
