@@ -37,4 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'tzinfo-data'
   spec.add_development_dependency 'ruby-cldr'
   spec.add_development_dependency 'activesupport'
+  spec.add_development_dependency 'rubyzip'
 end
