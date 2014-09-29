@@ -41,8 +41,8 @@ describe TimezoneParser do
                     expect(TimezoneParser::Timezone.new('阿尤恩').set(['zh']).getTimezones).to eq(['Africa/El_Aaiun'])
                 end
 
-                it 'should find timezones for "en_Dsrt" locale' do
-                    expect(TimezoneParser::Timezone.new('𐐁𐑍𐐿𐐲𐑉𐐮𐐾').set(['en_Dsrt']).getTimezones).to eq(['America/Anchorage'])
+                it 'should find timezones for "ka" locale' do
+                    expect(TimezoneParser::Timezone.new('ენქორაჯი').set(['ka']).getTimezones).to eq(['America/Anchorage'])
                 end
 
                 it 'it should not find "China Summer Time" in "en" locale' do
@@ -52,11 +52,11 @@ describe TimezoneParser do
 
             context 'timezones from specified regions' do
                 it 'should find  timezones in only "LT" region' do
-                    expect(TimezoneParser::Timezone.new('ເວລາເອີຣົບຕາເວັນອອກ').set(nil, ['LT']).getTimezones).to eq(['Europe/Vilnius'])
+                    expect(TimezoneParser::Timezone.new('ვილნიუსი').set(nil, ['LT']).getTimezones).to eq(['Europe/Vilnius'])
                 end
 
                 it 'should find timezones in only "GR", "FI" and "BG" regions' do
-                    expect(TimezoneParser::Timezone.new('ເວລາເອີຣົບຕາເວັນອອກ').set(nil, ['GR', 'FI', 'BG']).getTimezones).to eq(['Europe/Athens', 'Europe/Helsinki', 'Europe/Sofia'])
+                    expect(TimezoneParser::Timezone.new('აღმოსავლეთ ევროპის დრო').set(nil, ['GR', 'FI', 'BG']).getTimezones).to eq(['Europe/Athens', 'Europe/Helsinki', 'Europe/Sofia'])
                 end
             end
 
