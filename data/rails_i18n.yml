@@ -151,9 +151,8 @@ de:
   Adelaide: Adelaide
   Alaska: Alaska
   Almaty: Almaty
-  Amerikanisch Samoa: American Samoa
+  Amerikanisch-Samoa: American Samoa
   Amsterdam: Amsterdam
-  Amérique centrale: Central America
   Arizona: Arizona
   Astana: Astana
   Athen: Athens
@@ -161,13 +160,13 @@ de:
   Auckland: Auckland
   Azoren: Azores
   Bagdad: Baghdad
-  Bakou: Baku
+  Baku: Baku
   Bangkok: Bangkok
   Belgrad: Belgrade
   Berlin: Berlin
   Bern: Bern
-  Bogota: Bogota
-  Brasilia: Brasilia
+  Bogotá: Bogota
+  Brasília: Brasilia
   Bratislava: Bratislava
   Brisbane: Brisbane
   Brüssel: Brussels
@@ -175,11 +174,10 @@ de:
   Buenos Aires: Buenos Aires
   Bukarest: Bucharest
   Canberra: Canberra
-  Cape Verde: Cape Verde Is.
   Caracas: Caracas
   Casablanca: Casablanca
   Central Time (USA u. Kanada): Central Time (US & Canada)
-  Chatham Inseln: Chatham Is.
+  Chatham-Inseln: Chatham Is.
   Chennai: Chennai
   Chihuahua: Chihuahua
   Chongqing: Chongqing
@@ -187,8 +185,7 @@ de:
   Dhaka: Dhaka
   Dublin: Dublin
   Eastern Time (USA u. Kanada): Eastern Time (US & Canada)
-  Edinburg: Edinburgh
-  Eriwan: Yerevan
+  Edinburgh: Edinburgh
   Fidschi: Fiji
   Georgetown: Georgetown
   Grönland: Greenland
@@ -199,20 +196,23 @@ de:
   Hawaii: Hawaii
   Helsinki: Helsinki
   Hobart: Hobart
-  Hong Kong: Hong Kong
-  Indiana Ost: Indiana (East)
-  International Datumsgrenze: International Date Line West
+  Hongkong: Hong Kong
+  Indiana (Ost): Indiana (East)
+  Internationale Datumsgrenze: International Date Line West
   Irkutsk: Irkutsk
   Islamabad: Islamabad
   Istanbul: Istanbul
   Jakarta: Jakarta
+  Jakutsk: Yakutsk
   Jekaterinburg: Ekaterinburg
+  Jerewan: Yerevan
   Jerusalem: Jerusalem
   Kabul: Kabul
   Kairo: Cairo
   Kalkutta: Kolkata
   Kamtschatka: Kamchatka
-  Karachi: Karachi
+  Kapverdische Inseln: Cape Verde Is.
+  Karatschi: Karachi
   Kathmandu: Kathmandu
   Kiew: Kyiv
   Kopenhagen: Copenhagen
@@ -226,14 +226,14 @@ de:
   London: London
   Madrid: Madrid
   Magadan: Magadan
-  Marshall Inseln: Marshall Is.
-  Mascate: Muscat
+  Marshallinseln: Marshall Is.
+  Maskat: Muscat
   Mazatlán: Mazatlan
   Melbourne: Melbourne
-  Mexico: Mexico City
-  Mid-Atlantic: Mid-Atlantic
-  Midway Inseln: Midway Island
+  Mexiko-Stadt: Mexico City
+  Midwayinseln: Midway Island
   Minsk: Minsk
+  Mittelatlantik: Mid-Atlantic
   Monrovia: Monrovia
   Monterrey: Monterrey
   Montevideo: Montevideo
@@ -241,14 +241,14 @@ de:
   Mountain Time (USA u. Kanada): Mountain Time (US & Canada)
   Mumbai: Mumbai
   Nairobi: Nairobi
+  Neu-Delhi: New Delhi
   Neufundland: Newfoundland
   Neukaledonien: New Caledonia
-  New Delhi: New Delhi
-  Novosibirsk: Novosibirsk
+  Nowosibirsk: Novosibirsk
   Nuku'alofa: Nuku'alofa
   Osaka: Osaka
+  Pacific Time (USA u. Kanada): Pacific Time (US & Canada)
   Paris: Paris
-  Pazific Time (USA u. Kanada): Pacific Time (US & Canada)
   Peking: Beijing
   Perth: Perth
   Port Moresby: Port Moresby
@@ -256,11 +256,12 @@ de:
   Pretoria: Pretoria
   Quito: Quito
   Rangun: Rangoon
+  Riad: Riyadh
   Riga: Riga
-  Riyad: Riyadh
   Rom: Rome
-  Salomon Inseln: Solomon Is.
+  Salomonen: Solomon Is.
   Samoa: Samoa
+  Sankt Petersburg: St. Petersburg
   Santiago: Santiago
   Sapporo: Sapporo
   Sarajevo: Sarajevo
@@ -269,8 +270,7 @@ de:
   Singapur: Singapore
   Skopje: Skopje
   Sofia: Sofia
-  Sri Jayawardenapura: Sri Jayawardenepura
-  St. Petersburg: St. Petersburg
+  Sri Jayawardenepura: Sri Jayawardenepura
   Stockholm: Stockholm
   Sydney: Sydney
   Taipei: Taipei
@@ -280,18 +280,18 @@ de:
   Tiflis: Tbilisi
   Tijuana: Tijuana
   Tokelau: Tokelau Is.
-  Tokyo: Tokyo
+  Tokio: Tokyo
   UTC: UTC
   Ulaanbaatar: Ulaanbaatar
   Vilnius: Vilnius
   Warschau: Warsaw
   Wellington: Wellington
-  Westzentralafrika: West Central Africa
+  West-Zentralafrika: West Central Africa
   Wien: Vienna
   Wladiwostok: Vladivostok
   Wolgograd: Volgograd
-  Yakutsk: Yakutsk
   Zagreb: Zagreb
+  Zentralamerika: Central America
   "Ürümqi": Urumqi
 es:
   Abu Dhabi: Abu Dhabi
@@ -1474,6 +1474,153 @@ ru:
   "Эдинбург": Edinburgh
   "Эр-Рияд": Riyadh
   "Якутск": Yakutsk
+zh-CN:
+  "世界标準时间": UTC
+  "东京": Tokyo
+  "东部时区(美国与加拿大)": Eastern Time (US & Canada)
+  "中美洲": Central America
+  "中西非时区": West Central Africa
+  "中途岛": Midway Island
+  "中部时区(美国与加拿大)": Central Time (US & Canada)
+  "乌兰巴托": Ulaanbaatar
+  "乌鲁木齐": Urumqi
+  "乔治城": Georgetown
+  "亚利桑那州": Arizona
+  "亚速群岛": Azores
+  "仰光": Rangoon
+  "伊尔库茨克": Irkutsk
+  "伊斯兰玛巴德": Islamabad
+  "伊斯坦堡": Istanbul
+  "伏尔加格勒": Volgograd
+  "伦敦": London
+  "伯恩": Bern
+  "克拉斯诺亚尔斯克": Krasnoyarsk
+  "关岛": Guam
+  "利雅德": Riyadh
+  "利马": Lima
+  "加尔各答": Kolkata
+  "加德满都": Kathmandu
+  "努瓜娄发": Nuku'alofa
+  "北京": Beijing
+  "华沙": Warsaw
+  "卡拉卡斯": Caracas
+  "卢比安纳": Ljubljana
+  "印第安那州(东部)": Indiana (East)
+  "台北": Taipei
+  "史高比耶": Skopje
+  "叶卡捷琳堡": Ekaterinburg
+  "叶里温": Yerevan
+  "吉隆坡": Kuala Lumpur
+  "哈拉雷": Harare
+  "哥本哈根": Copenhagen
+  "喀布尔": Kabul
+  "喀拉蚩": Karachi
+  "国际换日线(西)": International Date Line West
+  "圣地亚哥": Santiago
+  "圣彼得堡": St. Petersburg
+  "坎培拉": Canberra
+  "基多": Quito
+  "基辅": Kyiv
+  "堪察加": Kamchatka
+  "塔什干": Tashkent
+  "塔林": Tallinn
+  "塞拉耶佛": Sarajevo
+  "墨尔本": Melbourne
+  "墨西哥市": Mexico City
+  "夏威夷": Hawaii
+  "大西洋中部": Mid-Atlantic
+  "大西洋时间(加拿大)": Atlantic Time (Canada)
+  "大阪": Osaka
+  "太平洋时区(美国与加拿大)": Pacific Time (US & Canada)
+  "奈洛比": Nairobi
+  "契瓦瓦": Chihuahua
+  "奥克兰": Auckland
+  "威灵顿": Wellington
+  "孟买": Mumbai
+  "山区时区(美国与加拿大)": Mountain Time (US & Canada)
+  "巴库": Baku
+  "巴格达": Baghdad
+  "巴西利亚": Brasilia
+  "巴黎": Paris
+  "布加勒斯特": Bucharest
+  "布宜诺斯艾利斯": Buenos Aires
+  "布拉提斯拉瓦": Bratislava
+  "布拉格": Prague
+  "布达佩斯": Budapest
+  "布里斯本": Brisbane
+  "布鲁塞尔": Brussels
+  "开罗": Cairo
+  "德黑兰": Tehran
+  "托克劳群岛": Tokelau Is.
+  "拉巴斯": La Paz
+  "提华纳": Tijuana
+  "提比里斯": Tbilisi
+  "斐济": Fiji
+  "斯德哥尔摩": Stockholm
+  "新加坡": Singapore
+  "新喀里多尼亚": New Caledonia
+  "新德里": New Delhi
+  "新西伯利亚": Novosibirsk
+  "明斯克": Minsk
+  "普勒托利亚": Pretoria
+  "曼谷": Bangkok
+  "札幌": Sapporo
+  "札格瑞布": Zagreb
+  "柏林": Berlin
+  "查塔姆": Chatham Is.
+  "格陵兰": Greenland
+  "河内": Hanoi
+  "波哥大": Bogota
+  "海参崴": Vladivostok
+  "清奈": Chennai
+  "爱丁堡": Edinburgh
+  "珀斯": Perth
+  "瓜达拉哈拉": Guadalajara
+  "科威特": Kuwait
+  "科泰": Sri Jayawardenepura
+  "索罗门群岛": Solomon Is.
+  "索菲亚": Sofia
+  "纽芬兰": Newfoundland
+  "维也纳": Vienna
+  "维尔纽斯": Vilnius
+  "维德角岛": Cape Verde Is.
+  "罗马": Rome
+  "美属萨摩亚群岛": American Samoa
+  "耶路撒冷": Jerusalem
+  "荷巴特": Hobart
+  "莫士比港": Port Moresby
+  "莫斯科": Moscow
+  "萨摩亚": Samoa
+  "萨斯喀彻温": Saskatchewan
+  "蒙得维的亚": Montevideo
+  "蒙特雷": Monterrey
+  "蒙罗维亚": Monrovia
+  "贝尔格勒": Belgrade
+  "赫尔辛基": Helsinki
+  "达卡": Dhaka
+  "达尔文": Darwin
+  "达尔贝达": Casablanca
+  "都布林": Dublin
+  "里加": Riga
+  "里斯本": Lisbon
+  "重庆": Chongqing
+  "阿姆斯特丹": Amsterdam
+  "阿布达比": Abu Dhabi
+  "阿得雷德": Adelaide
+  "阿拉斯加": Alaska
+  "阿拉木图": Almaty
+  "阿斯塔纳": Astana
+  "雅典": Athens
+  "雅加达": Jakarta
+  "雅库茨克": Yakutsk
+  "雪梨": Sydney
+  "首尔": Seoul
+  "香港": Hong Kong
+  "马加丹": Magadan
+  "马德里": Madrid
+  "马斯喀特": Muscat
+  "马绍尔群岛": Marshall Is.
+  "马萨特兰": Mazatlan
 zh-TW:
   "世界標準時間": UTC
   "中美洲": Central America
