@@ -38,6 +38,9 @@ Bahia Standard Time:
 Bangladesh Standard Time:
   standard: 21600
   daylight: 25200
+Belarus Standard Time:
+  standard: 10800
+  daylight: 14400
 Canada Central Standard Time:
   standard: -21600
   daylight: -18000
@@ -99,8 +102,8 @@ Egypt Standard Time:
   standard: 7200
   daylight: 10800
 Ekaterinburg Standard Time:
-  standard: 21600
-  daylight: 25200
+  standard: 18000
+  daylight: 21600
 FLE Standard Time:
   standard: 7200
   daylight: 10800
@@ -135,11 +138,11 @@ Israel Standard Time:
   standard: 7200
   daylight: 10800
 Jordan Standard Time:
-  standard: 10800
-  daylight: 14400
+  standard: 7200
+  daylight: 10800
 Kaliningrad Standard Time:
-  standard: 10800
-  daylight: 14400
+  standard: 7200
+  daylight: 10800
 Kamchatka Standard Time:
   standard: 43200
   daylight: 46800
@@ -149,9 +152,12 @@ Korea Standard Time:
 Libya Standard Time:
   standard: 7200
   daylight: 10800
+Line Islands Standard Time:
+  standard: 50400
+  daylight: 54000
 Magadan Standard Time:
-  standard: 43200
-  daylight: 46800
+  standard: 36000
+  daylight: 43200
 Mauritius Standard Time:
   standard: 14400
   daylight: 18000
@@ -177,8 +183,8 @@ Myanmar Standard Time:
   standard: 23400
   daylight: 27000
 N. Central Asia Standard Time:
-  standard: 25200
-  daylight: 28800
+  standard: 21600
+  daylight: 25200
 Namibia Standard Time:
   standard: 3600
   daylight: 7200
@@ -192,11 +198,11 @@ Newfoundland Standard Time:
   standard: -12600
   daylight: -9000
 North Asia East Standard Time:
-  standard: 32400
-  daylight: 36000
-North Asia Standard Time:
   standard: 28800
   daylight: 32400
+North Asia Standard Time:
+  standard: 25200
+  daylight: 28800
 Pacific SA Standard Time:
   standard: -14400
   daylight: -10800
@@ -215,9 +221,18 @@ Paraguay Standard Time:
 Romance Standard Time:
   standard: 3600
   daylight: 7200
-Russian Standard Time:
+Russia Time Zone 10:
+  standard: 39600
+  daylight: 43200
+Russia Time Zone 11:
+  standard: 43200
+  daylight: 46800
+Russia Time Zone 3:
   standard: 14400
   daylight: 18000
+Russian Standard Time:
+  standard: 10800
+  daylight: 14400
 SA Eastern Standard Time:
   standard: -10800
   daylight: -7200
@@ -285,8 +300,8 @@ Venezuela Standard Time:
   standard: -16200
   daylight: -12600
 Vladivostok Standard Time:
-  standard: 39600
-  daylight: 43200
+  standard: 36000
+  daylight: 39600
 W. Australia Standard Time:
   standard: 28800
   daylight: 32400
@@ -303,5 +318,5 @@ West Pacific Standard Time:
   standard: 36000
   daylight: 39600
 Yakutsk Standard Time:
-  standard: 36000
-  daylight: 39600
+  standard: 32400
+  daylight: 36000

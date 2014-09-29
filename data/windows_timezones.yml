@@ -151,6 +151,8 @@ Central Asia Standard Time:
   - Asia/Almaty
   AQ:
   - Antarctica/Vostok
+  CN:
+  - Asia/Urumqi
   IO:
   - Indian/Chagos
   KG:
@@ -244,10 +246,6 @@ China Standard Time:
   - Asia/Shanghai
   CN:
   - Asia/Shanghai
-  - Asia/Chongqing
-  - Asia/Harbin
-  - Asia/Kashgar
-  - Asia/Urumqi
   HK:
   - Asia/Hong_Kong
   MO:
@@ -294,17 +292,11 @@ E. Australia Standard Time:
   AU:
   - Australia/Brisbane
   - Australia/Lindeman
-E. Europe Standard Time:
-  '001':
-  - Asia/Nicosia
-  CY:
-  - Asia/Nicosia
 E. South America Standard Time:
   '001':
   - America/Sao_Paulo
   BR:
   - America/Sao_Paulo
-  - America/Araguaina
 Eastern Standard Time:
   '001':
   - America/New_York
@@ -321,8 +313,6 @@ Eastern Standard Time:
   - America/Havana
   HT:
   - America/Port-au-Prince
-  TC:
-  - America/Grand_Turk
   US:
   - America/New_York
   - America/Detroit
@@ -360,7 +350,6 @@ FLE Standard Time:
   - Europe/Riga
   UA:
   - Europe/Kiev
-  - Europe/Simferopol
   - Europe/Uzhgorod
   - Europe/Zaporozhye
 Fiji Standard Time:
@@ -391,6 +380,8 @@ GMT Standard Time:
 GTB Standard Time:
   '001':
   - Europe/Bucharest
+  CY:
+  - Asia/Nicosia
   GR:
   - Europe/Athens
   MD:
@@ -414,8 +405,6 @@ Greenwich Standard Time:
   - Africa/Ouagadougou
   CI:
   - Africa/Abidjan
-  EH:
-  - Africa/El_Aaiun
   GH:
   - Africa/Accra
   GM:
@@ -494,6 +483,13 @@ Libya Standard Time:
   - Africa/Tripoli
   LY:
   - Africa/Tripoli
+Line Islands Standard Time:
+  '001':
+  - Pacific/Kiritimati
+  KI:
+  - Pacific/Kiritimati
+  ZZ:
+  - Etc/GMT-14
 Magadan Standard Time:
   '001':
   - Asia/Magadan
@@ -501,6 +497,7 @@ Magadan Standard Time:
   - Asia/Magadan
   - Asia/Anadyr
   - Asia/Kamchatka
+  - Asia/Srednekolymsk
 Mauritius Standard Time:
   '001':
   - Indian/Mauritius
@@ -523,6 +520,8 @@ Montevideo Standard Time:
 Morocco Standard Time:
   '001':
   - Africa/Casablanca
+  EH:
+  - Africa/El_Aaiun
   MA:
   - Africa/Casablanca
 Mountain Standard Time:
@@ -538,7 +537,6 @@ Mountain Standard Time:
   US:
   - America/Denver
   - America/Boise
-  - America/Shiprock
   ZZ:
   - MST7MDT
 Mountain Standard Time (Mexico):
@@ -575,7 +573,6 @@ New Zealand Standard Time:
   '001':
   - Pacific/Auckland
   AQ:
-  - Antarctica/South_Pole
   - Antarctica/McMurdo
   NZ:
   - Pacific/Auckland
@@ -647,6 +644,7 @@ Russian Standard Time:
   RU:
   - Europe/Moscow
   - Europe/Samara
+  - Europe/Simferopol
   - Europe/Volgograd
 SA Eastern Standard Time:
   '001':
@@ -655,6 +653,7 @@ SA Eastern Standard Time:
   - Antarctica/Rothera
   BR:
   - America/Fortaleza
+  - America/Araguaina
   - America/Belem
   - America/Maceio
   - America/Recife
@@ -670,6 +669,9 @@ SA Eastern Standard Time:
 SA Pacific Standard Time:
   '001':
   - America/Bogota
+  BR:
+  - America/Rio_Branco
+  - America/Eirunepe
   CA:
   - America/Coral_Harbour
   CO:
@@ -706,9 +708,7 @@ SA Western Standard Time:
   BR:
   - America/Manaus
   - America/Boa_Vista
-  - America/Eirunepe
   - America/Porto_Velho
-  - America/Rio_Branco
   CA:
   - America/Blanc-Sablon
   CW:
@@ -737,6 +737,8 @@ SA Western Standard Time:
   - America/Puerto_Rico
   SX:
   - America/Lower_Princes
+  TC:
+  - America/Grand_Turk
   TT:
   - America/Port_of_Spain
   VC:
@@ -1065,4 +1067,5 @@ Yakutsk Standard Time:
   - Asia/Yakutsk
   RU:
   - Asia/Yakutsk
+  - Asia/Chita
   - Asia/Khandyga
