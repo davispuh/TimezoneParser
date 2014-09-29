@@ -84,7 +84,7 @@ def update_windows
             File.write(data_location + 'version.yml', version.to_yaml, options)
         end
     else
-        puts 'Sorry, you must be running Windows'
+        puts 'Skipped Windows Zone update. Need to be run from Windows.'
     end
 end
 
@@ -92,12 +92,16 @@ def import_timezones
     require 'timezone_parser/data/windows'
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
+        unless File.exist?(vendor_location + 'tzres.yml')
+          puts 'File `tzres.yml` not found. Windows Zone name importing skipped.'
+          return
+        end
         metazones = YAML.load_file(vendor_location + 'tzres.yml')
         offsets = TimezoneParser::Windows.getMUIOffsets
         metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets)
         File.write(data_location + 'windows_zonenames.yml', metazone_names.to_yaml, { :cr_newline => false, :encoding => 'UTF-8:UTF-8' })
     else
-        puts 'Sorry, you must be running Windows'
+        puts 'Can\'t import Windows Zone names. Need to be run from Windows.'
     end
 end
 
