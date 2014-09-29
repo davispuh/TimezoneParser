@@ -21,7 +21,7 @@ module TimezoneParser
             public
             def self.Abbreviations
                 unless @@Abbreviations
-                    @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat')).insensitive
+                    @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat'))
                     @@Abbreviations.each do |abbr, data|
                         proccessData(data)
                     end
@@ -45,7 +45,7 @@ module TimezoneParser
 
             def self.Metazones
                 unless @@Metazones
-                    @@Metazones = Marshal.load(File.open(Data::DataDir + 'metazones.dat')).insensitive
+                    @@Metazones = Marshal.load(File.open(Data::DataDir + 'metazones.dat'))
                     @@Metazones.each do |zone, data|
                         proccessData(data)
                     end

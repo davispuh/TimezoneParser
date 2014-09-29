@@ -18,8 +18,8 @@ describe TimezoneParser do
                 expect(TimezoneParser::Abbreviation.new('LOL').isValid?).to be false
             end
 
-            it 'should be valid case-insensitive abbreviation' do
-                expect(TimezoneParser::Abbreviation.new('Pst').isValid?).to be true
+            it 'should be invalid case-insensitive abbreviation' do
+                expect(TimezoneParser::Abbreviation.new('Pst').isValid?).to be false
             end
         end
 
@@ -97,6 +97,20 @@ describe TimezoneParser do
         describe '.isValid?' do
             it 'should be valid abbreviation' do
                 expect(TimezoneParser::Abbreviation::isValid?('WGT')).to be true
+            end
+        end
+
+        describe '.couldBeValid?' do
+            it 'should be valid abbreviation' do
+                expect(TimezoneParser::Abbreviation.couldBeValid?('cet')).to be true
+            end
+
+            it 'should not be valid abbreviation' do
+                expect(TimezoneParser::Abbreviation.couldBeValid?('WZE')).to be false
+            end
+
+            it 'should be valid case-insensitive abbreviation' do
+                expect(TimezoneParser::Abbreviation.couldBeValid?('Pst')).to be true
             end
         end
 

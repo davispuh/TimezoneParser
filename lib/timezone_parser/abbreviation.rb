@@ -80,11 +80,21 @@ module TimezoneParser
             @Offsets
         end
 
-        # Check if given Timezone abbreviation is a valid timezone
+        # Check if given Timezone abbreviation (case-sensitive) is a valid timezone
         # @param abbreviation [String] Timezone abbreviation
         # @return [Boolean] whether Timezone is valid
         def self.isValid?(abbreviation)
             Data::Storage.Abbreviations.has_key?(abbreviation)
+        end
+
+        # Check if given Timezone abbreviation (case-insensitive) could be a valid timezone
+        # @param abbreviation [String] Timezone abbreviation to check for
+        # @return [Boolean] whether Timezone is valid
+        def self.couldBeValid?(abbreviation)
+            Data::Storage.Abbreviations.each_key do |abbr|
+              return true if abbr.casecmp(abbreviation).zero?
+            end
+            false
         end
 
         # Get UTC offsets in seconds for given Timezone abbreviation
