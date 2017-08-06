@@ -25,7 +25,7 @@ def vendor_location
 end
 
 def repo_location
-    TimezoneParser::Data::RootDir.parent.parent
+    TimezoneParser::Data::RootDir
 end
 
 def update
@@ -63,7 +63,7 @@ def update_rails
     timezone_path.each_child(false) do |file|
         YAML.load_file(timezone_path + file).each do |locale, data|
             namesArray = data['timezones'].invert.to_a
-            namesArray.map { |e| e.map!(&:strip) }
+            namesArray.each { |e| e.map!(&:strip) }
             names[locale] = Hash[namesArray.sort_by { |d| d.first } ]
         end
     end
@@ -90,13 +90,13 @@ def update_windows
 end
 
 def import_timezones
-    require 'timezone_parser/data/windows'
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
         unless File.exist?(vendor_location + 'tzres.yml')
           puts 'File `tzres.yml` not found. Windows Zone name importing skipped.'
           return
         end
+        require 'timezone_parser/data/windows'
         metazones = YAML.load_file(vendor_location + 'tzres.yml')
         offsets = TimezoneParser::Windows.getMUIOffsets
         metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets)

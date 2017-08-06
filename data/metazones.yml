@@ -88,6 +88,9 @@ Alaska:
   - America/Sitka
   - America/Yakutat
   From: '1983-11-30T09:00:00+00:00'
+- Timezones:
+  - America/Metlakatla
+  From: '2015-11-01T10:00:00+00:00'
 Alaska_Hawaii:
 - Timezones:
   - America/Anchorage
@@ -97,7 +100,7 @@ Alaska_Hawaii:
 Almaty:
 - Timezones:
   - Asia/Almaty
-  To: '2005-03-14T18:00:00+00:00'
+  To: '2004-10-30T20:00:00+00:00'
 Amazon:
 - Timezones:
   - America/Santarem
@@ -176,6 +179,10 @@ America_Central:
   From: '2006-04-02T07:00:00+00:00'
   To: '2007-11-04T07:00:00+00:00'
 - Timezones:
+  - America/Cancun
+  From: '1998-08-02T06:00:00+00:00'
+  To: '2015-02-01T08:00:00+00:00'
+- Timezones:
   - America/Belize
   - America/Chicago
   - America/Costa_Rica
@@ -204,9 +211,6 @@ America_Central:
 - Timezones:
   - America/Managua
   From: '1997-01-01T05:00:00+00:00'
-- Timezones:
-  - America/Cancun
-  From: '1998-08-02T06:00:00+00:00'
 - Timezones:
   - America/Rankin_Inlet
   From: '2001-04-01T08:00:00+00:00'
@@ -293,7 +297,7 @@ America_Eastern:
   To: '2007-03-11T08:00:00+00:00'
 - Timezones:
   - America/Grand_Turk
-  To: '2014-11-02T06:00:00+00:00'
+  To: '2015-11-01T06:00:00+00:00'
 - Timezones:
   - America/Cayman
   - America/Coral_Harbour
@@ -325,6 +329,9 @@ America_Eastern:
   - America/Indiana/Petersburg
   - America/Indiana/Vincennes
   From: '2007-11-04T07:00:00+00:00'
+- Timezones:
+  - America/Cancun
+  From: '2015-02-01T08:00:00+00:00'
 America_Mountain:
 - Timezones:
   - America/Swift_Current
@@ -365,6 +372,9 @@ America_Mountain:
 - Timezones:
   - America/Cambridge_Bay
   From: '2001-04-01T09:00:00+00:00'
+- Timezones:
+  - America/Fort_Nelson
+  From: '2015-03-08T10:00:00+00:00'
 America_Pacific:
 - Timezones:
   - America/Bahia_Banderas
@@ -388,8 +398,13 @@ America_Pacific:
   From: '1980-10-26T10:00:00+00:00'
   To: '1983-10-30T09:00:00+00:00'
 - Timezones:
-  - America/Los_Angeles
+  - America/Fort_Nelson
+  To: '2015-03-08T10:00:00+00:00'
+- Timezones:
   - America/Metlakatla
+  To: '2015-11-01T10:00:00+00:00'
+- Timezones:
+  - America/Los_Angeles
   - America/Tijuana
   - America/Vancouver
   - America/Whitehorse
@@ -401,6 +416,9 @@ Anadyr:
 - Timezones:
   - Asia/Anadyr
   To: '2010-03-27T14:00:00+00:00'
+- Timezones:
+  - Asia/Anadyr
+  From: '2014-10-25T14:00:00+00:00'
 Apia:
 - Timezones:
   - Pacific/Apia
@@ -408,12 +426,12 @@ Aqtau:
 - Timezones:
   - Asia/Aqtau
   From: '1991-12-15T19:00:00+00:00'
-  To: '2005-03-14T20:00:00+00:00'
+  To: '2004-10-30T22:00:00+00:00'
 Aqtobe:
 - Timezones:
   - Asia/Aqtobe
   From: '1991-12-15T19:00:00+00:00'
-  To: '2005-03-14T19:00:00+00:00'
+  To: '2004-10-30T21:00:00+00:00'
 Arabian:
 - Timezones:
   - Asia/Aden
@@ -594,7 +612,7 @@ Atlantic:
   From: '2000-12-03T06:00:00+00:00'
 - Timezones:
   - America/Grand_Turk
-  From: '2014-11-02T06:00:00+00:00'
+  From: '2015-11-01T06:00:00+00:00'
 Australia_Central:
 - Timezones:
   - Australia/Adelaide
@@ -626,10 +644,11 @@ Australia_Western:
   From: '2010-03-04T15:00:00+00:00'
   To: '2011-10-27T18:00:00+00:00'
 - Timezones:
-  - Australia/Perth
-- Timezones:
   - Antarctica/Casey
   From: '2012-02-21T17:00:00+00:00'
+  To: '2016-10-21T16:00:00+00:00'
+- Timezones:
+  - Australia/Perth
 Azerbaijan:
 - Timezones:
   - Asia/Baku
@@ -701,6 +720,9 @@ Casey:
   - Antarctica/Casey
   From: '2011-10-27T18:00:00+00:00'
   To: '2012-02-21T17:00:00+00:00'
+- Timezones:
+  - Antarctica/Casey
+  From: '2016-10-21T16:00:00+00:00'
 Chamorro:
 - Timezones:
   - Pacific/Guam
@@ -711,10 +733,14 @@ Chatham:
   - Pacific/Chatham
 Chile:
 - Timezones:
-  - America/Santiago
+  - America/Punta_Arenas
+  To: '2016-12-03T23:00:00+00:00'
 - Timezones:
   - Antarctica/Palmer
   From: '1982-05-01T03:00:00+00:00'
+  To: '2016-12-03T23:00:00+00:00'
+- Timezones:
+  - America/Santiago
 China:
 - Timezones:
   - Asia/Shanghai
@@ -879,10 +905,13 @@ Europe_Eastern:
   To: '1996-09-29T22:00:00+00:00'
 - Timezones:
   - Europe/Vilnius
-  From: '1991-03-30T23:00:00+00:00'
+  From: '1989-03-25T23:00:00+00:00'
   To: '1998-03-29T01:00:00+00:00'
 - Timezones:
   - Europe/Kaliningrad
+  From: '1989-03-25T23:00:00+00:00'
+  To: '2011-03-27T00:00:00+00:00'
+- Timezones:
   - Europe/Minsk
   From: '1991-03-30T23:00:00+00:00'
   To: '2011-03-27T00:00:00+00:00'
@@ -895,6 +924,13 @@ Europe_Eastern:
   From: '1997-03-30T01:00:00+00:00'
   To: '2014-03-30T00:00:00+00:00'
 - Timezones:
+  - Europe/Istanbul
+  From: '1985-04-19T21:00:00+00:00'
+  To: '2016-09-06T21:00:00+00:00'
+- Timezones:
+  - Asia/Famagusta
+  To: '2016-09-07T21:00:00+00:00'
+- Timezones:
   - Africa/Cairo
   - Asia/Amman
   - Asia/Beirut
@@ -905,9 +941,6 @@ Europe_Eastern:
   - Europe/Helsinki
   - Europe/Mariehamn
   - Europe/Sofia
-- Timezones:
-  - Europe/Istanbul
-  From: '1985-04-19T21:00:00+00:00'
 - Timezones:
   - Europe/Riga
   - Europe/Tallinn
@@ -945,6 +978,7 @@ Europe_Further_Eastern:
 - Timezones:
   - Europe/Minsk
   From: '2011-03-27T00:00:00+00:00'
+  To: '2014-10-26T22:00:00+00:00'
 Europe_Western:
 - Timezones:
   - Africa/Algiers
@@ -1010,6 +1044,7 @@ GMT:
   - Antarctica/Troll
   - Atlantic/Reykjavik
   - Atlantic/St_Helena
+  - Etc/GMT
 - Timezones:
   - Europe/Dublin
   - Europe/Guernsey
@@ -1107,8 +1142,10 @@ Indochina:
 - Timezones:
   - Asia/Bangkok
   - Asia/Phnom_Penh
-  - Asia/Saigon
   - Asia/Vientiane
+- Timezones:
+  - Asia/Saigon
+  From: '1975-06-12T16:00:00+00:00'
 Indonesia_Central:
 - Timezones:
   - Asia/Pontianak
@@ -1137,10 +1174,11 @@ Irish:
   To: '1971-10-31T02:00:00+00:00'
 Irkutsk:
 - Timezones:
-  - Asia/Irkutsk
-- Timezones:
   - Asia/Chita
   From: '2014-10-25T16:00:00+00:00'
+  To: '2016-03-26T18:00:00+00:00'
+- Timezones:
+  - Asia/Irkutsk
 Israel:
 - Timezones:
   - Asia/Gaza
@@ -1154,7 +1192,6 @@ Japan:
 Kamchatka:
 - Timezones:
   - Asia/Kamchatka
-  To: '2010-03-27T14:00:00+00:00'
 Karachi:
 - Timezones:
   - Asia/Karachi
@@ -1162,16 +1199,19 @@ Karachi:
 Kazakhstan_Eastern:
 - Timezones:
   - Asia/Almaty
+  From: '2004-10-30T20:00:00+00:00'
+- Timezones:
   - Asia/Qyzylorda
-  From: '2005-03-14T18:00:00+00:00'
+  From: '2004-10-30T21:00:00+00:00'
 Kazakhstan_Western:
 - Timezones:
-  - Asia/Aqtobe
-  From: '2005-03-14T19:00:00+00:00'
-- Timezones:
   - Asia/Aqtau
+  - Asia/Atyrau
   - Asia/Oral
-  From: '2005-03-14T20:00:00+00:00'
+  From: '2004-10-30T22:00:00+00:00'
+- Timezones:
+  - Asia/Aqtobe
+  From: '2005-10-30T21:00:00+00:00'
 Kizilorda:
 - Timezones:
   - Asia/Qyzylorda
@@ -1179,6 +1219,8 @@ Kizilorda:
 Korea:
 - Timezones:
   - Asia/Pyongyang
+  To: '2015-08-14T15:00:00+00:00'
+- Timezones:
   - Asia/Seoul
 Kosrae:
 - Timezones:
@@ -1196,10 +1238,6 @@ Kuybyshev:
 - Timezones:
   - Europe/Samara
   To: '1989-03-25T22:00:00+00:00'
-- Timezones:
-  - Europe/Samara
-  From: '1991-09-29T00:00:00+00:00'
-  To: '1991-10-20T00:00:00+00:00'
 Kwajalein:
 - Timezones:
   - Pacific/Kwajalein
@@ -1241,11 +1279,11 @@ Magadan:
   - Asia/Srednekolymsk
   To: '2014-10-25T14:00:00+00:00'
 - Timezones:
-  - Asia/Magadan
-- Timezones:
   - Asia/Anadyr
-  - Asia/Kamchatka
   From: '2010-03-27T14:00:00+00:00'
+  To: '2014-10-25T14:00:00+00:00'
+- Timezones:
+  - Asia/Magadan
 Malaya:
 - Timezones:
   - Asia/Kuala_Lumpur
@@ -1294,8 +1332,10 @@ Mongolia:
   - Asia/Ulaanbaatar
 Moscow:
 - Timezones:
+  - Europe/Kaliningrad
   - Europe/Riga
   - Europe/Tallinn
+  - Europe/Vilnius
   To: '1989-03-25T23:00:00+00:00'
 - Timezones:
   - Europe/Chisinau
@@ -1308,10 +1348,8 @@ Moscow:
   - Europe/Uzhgorod
   To: '1990-06-30T23:00:00+00:00'
 - Timezones:
-  - Europe/Kaliningrad
   - Europe/Minsk
   - Europe/Moscow
-  - Europe/Vilnius
   - Europe/Zaporozhye
   To: '1991-03-30T23:00:00+00:00'
 - Timezones:
@@ -1323,17 +1361,29 @@ Moscow:
   From: '1994-04-30T21:00:00+00:00'
   To: '1997-03-30T01:00:00+00:00'
 - Timezones:
+  - Europe/Ulyanovsk
+  From: '1992-01-19T00:00:00+00:00'
+  To: '2016-03-26T23:00:00+00:00'
+- Timezones:
+  - Europe/Astrakhan
+  From: '1992-03-28T22:00:00+00:00'
+  To: '2016-03-26T23:00:00+00:00'
+- Timezones:
+  - Europe/Saratov
+  From: '1992-03-28T22:00:00+00:00'
+  To: '2016-12-03T23:00:00+00:00'
+- Timezones:
   - Europe/Moscow
   From: '1992-01-19T00:00:00+00:00'
 - Timezones:
   - Europe/Volgograd
   From: '1992-03-28T22:00:00+00:00'
 - Timezones:
-  - Europe/Samara
-  From: '2010-03-27T22:00:00+00:00'
-- Timezones:
   - Europe/Simferopol
   From: '2014-03-30T00:00:00+00:00'
+- Timezones:
+  - Europe/Minsk
+  From: '2014-10-26T22:00:00+00:00'
 Myanmar:
 - Timezones:
   - Asia/Rangoon
@@ -1380,7 +1430,7 @@ Oral:
 - Timezones:
   - Asia/Oral
   From: '1991-12-15T20:00:00+00:00'
-  To: '2005-03-14T20:00:00+00:00'
+  To: '2004-10-30T22:00:00+00:00'
 Pakistan:
 - Timezones:
   - Asia/Karachi
@@ -1389,6 +1439,9 @@ Palau:
 - Timezones:
   - Pacific/Palau
 Papua_New_Guinea:
+- Timezones:
+  - Pacific/Bougainville
+  To: '2014-12-27T16:00:00+00:00'
 - Timezones:
   - Pacific/Port_Moresby
 Paraguay:
@@ -1413,11 +1466,15 @@ Pitcairn:
 Ponape:
 - Timezones:
   - Pacific/Ponape
+Pyongyang:
+- Timezones:
+  - Asia/Pyongyang
+  From: '2015-08-14T15:00:00+00:00'
 Qyzylorda:
 - Timezones:
   - Asia/Qyzylorda
   From: '1991-12-15T19:00:00+00:00'
-  To: '2005-03-14T18:00:00+00:00'
+  To: '2004-10-30T21:00:00+00:00'
 Reunion:
 - Timezones:
   - Indian/Reunion
@@ -1430,8 +1487,7 @@ Sakhalin:
 Samara:
 - Timezones:
   - Europe/Samara
-  From: '1991-10-20T00:00:00+00:00'
-  To: '2010-03-27T22:00:00+00:00'
+  From: '1991-09-29T00:00:00+00:00'
 Samarkand:
 - Timezones:
   - Asia/Samarkand
@@ -1508,6 +1564,9 @@ Turkey:
   - Europe/Istanbul
   From: '1978-10-14T21:00:00+00:00'
   To: '1985-04-19T21:00:00+00:00'
+- Timezones:
+  - Europe/Istanbul
+  From: '2016-09-06T21:00:00+00:00'
 Turkmenistan:
 - Timezones:
   - Asia/Ashgabat
@@ -1574,6 +1633,9 @@ Yakutsk:
 - Timezones:
   - Asia/Khandyga
   From: '2011-09-12T13:00:00+00:00'
+- Timezones:
+  - Asia/Chita
+  From: '2016-03-26T18:00:00+00:00'
 Yekaterinburg:
 - Timezones:
   - Asia/Yekaterinburg

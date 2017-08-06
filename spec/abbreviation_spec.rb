@@ -35,9 +35,9 @@ describe TimezoneParser do
             context 'before specified time' do
                 it 'should return correct offsets for ADT' do
                     expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-04-30T21:00:00+00:00')).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-04-30T21:00:01+00:00')).getOffsets).to eq([-10800, 14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T19:59:59+00:00')).getOffsets).to eq([-10800, 14400])
-                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-04-30T21:00:01+00:00')).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T19:59:59+00:00')).getOffsets).to eq([-10800])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800])
                     expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('1983-03-30T21:00:00+00:00'), DateTime.parse('1982-09-30T20:00:00+00:00')).getOffsets).to eq([-10800])
                 end
             end
@@ -56,9 +56,9 @@ describe TimezoneParser do
             context 'in specified region' do
                 it 'should return correct offsets for ADT' do
                     expect(TimezoneParser::Abbreviation.new('ADT').set([]).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').set(['IQ']).getOffsets).to eq([14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').set(['BM']).getOffsets).to eq([-10800])
                     expect(TimezoneParser::Abbreviation.new('ADT').set(['GL']).getOffsets).to eq([-10800])
-                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('2007-10-01T00:00:00+00:00')).set(['IQ', 'CA']).getOffsets).to eq([-10800, 14400])
+                    expect(TimezoneParser::Abbreviation.new('ADT').setTime(DateTime.parse('2007-10-01T00:00:00+00:00')).set(['BM', 'CA']).getOffsets).to eq([-10800])
                 end
             end
 
@@ -96,7 +96,7 @@ describe TimezoneParser do
 
         describe '.isValid?' do
             it 'should be valid abbreviation' do
-                expect(TimezoneParser::Abbreviation::isValid?('WGT')).to be true
+                expect(TimezoneParser::Abbreviation::isValid?('WAST')).to be true
             end
         end
 
@@ -115,14 +115,14 @@ describe TimezoneParser do
         end
 
         describe '.getOffsets' do
-            it 'should return offsets for WGT abbreviation in GL region' do
-                expect(TimezoneParser::Abbreviation::getOffsets('WGT', DateTime.now, nil, ['GL'])).to eq([-10800])
+            it 'should return offsets for WAST abbreviation in NA region' do
+                expect(TimezoneParser::Abbreviation::getOffsets('WAST', DateTime.now, nil, ['NA'])).to eq([7200])
             end
         end
 
         describe '.getTimezones' do
-            it 'should return timezones for WGT abbreviation' do
-                expect(TimezoneParser::Abbreviation::getTimezones('WGT', DateTime.parse('1916-07-28T03:26:56+00:00'), DateTime.parse('1916-07-28T01:14:40+00:00'), ['GL'])).to eq(['America/Danmarkshavn'])
+            it 'should return timezones for WAST abbreviation' do
+                expect(TimezoneParser::Abbreviation::getTimezones('WAST', DateTime.parse('1988-07-28T03:26:56+00:00'), DateTime.parse('1994-07-28T01:14:40+00:00'), ['NA'])).to eq(['Africa/Windhoek'])
             end
         end
 

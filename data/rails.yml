@@ -17,7 +17,7 @@ Bangkok: Asia/Bangkok
 Beijing: Asia/Shanghai
 Belgrade: Europe/Belgrade
 Berlin: Europe/Berlin
-Bern: Europe/Berlin
+Bern: Europe/Zurich
 Bogota: America/Bogota
 Brasilia: America/Sao_Paulo
 Bratislava: Europe/Bratislava
@@ -63,6 +63,7 @@ Istanbul: Europe/Istanbul
 Jakarta: Asia/Jakarta
 Jerusalem: Asia/Jerusalem
 Kabul: Asia/Kabul
+Kaliningrad: Europe/Kaliningrad
 Kamchatka: Asia/Kamchatka
 Karachi: Asia/Karachi
 Kathmandu: Asia/Kathmandu
@@ -110,6 +111,7 @@ Rangoon: Asia/Rangoon
 Riga: Europe/Riga
 Riyadh: Asia/Riyadh
 Rome: Europe/Rome
+Samara: Europe/Samara
 Samoa: Pacific/Apia
 Santiago: America/Santiago
 Sapporo: Asia/Tokyo
@@ -120,6 +122,7 @@ Singapore: Asia/Singapore
 Skopje: Europe/Skopje
 Sofia: Europe/Sofia
 Solomon Is.: Pacific/Guadalcanal
+Srednekolymsk: Asia/Srednekolymsk
 Sri Jayawardenepura: Asia/Colombo
 St. Petersburg: Europe/Moscow
 Stockholm: Europe/Stockholm
@@ -138,10 +141,11 @@ Urumqi: Asia/Urumqi
 Vienna: Europe/Vienna
 Vilnius: Europe/Vilnius
 Vladivostok: Asia/Vladivostok
-Volgograd: Europe/Moscow
+Volgograd: Europe/Volgograd
 Warsaw: Europe/Warsaw
 Wellington: Pacific/Auckland
 West Central Africa: Africa/Algiers
 Yakutsk: Asia/Yakutsk
 Yerevan: Asia/Yerevan
 Zagreb: Europe/Zagreb
+Zurich: Europe/Zurich

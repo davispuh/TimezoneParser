@@ -21,9 +21,20 @@ Alaskan Standard Time:
   US:
   - America/Anchorage
   - America/Juneau
+  - America/Metlakatla
   - America/Nome
   - America/Sitka
   - America/Yakutat
+Aleutian Standard Time:
+  '001':
+  - America/Adak
+  US:
+  - America/Adak
+Altai Standard Time:
+  '001':
+  - Asia/Barnaul
+  RU:
+  - Asia/Barnaul
 Arab Standard Time:
   '001':
   - Asia/Riyadh
@@ -67,6 +78,13 @@ Argentina Standard Time:
   - America/Cordoba
   - America/Jujuy
   - America/Mendoza
+Astrakhan Standard Time:
+  '001':
+  - Europe/Astrakhan
+  RU:
+  - Europe/Astrakhan
+  - Europe/Saratov
+  - Europe/Ulyanovsk
 Atlantic Standard Time:
   '001':
   - America/Halifax
@@ -79,6 +97,11 @@ Atlantic Standard Time:
   - America/Moncton
   GL:
   - America/Thule
+Aus Central W. Standard Time:
+  '001':
+  - Australia/Eucla
+  AU:
+  - Australia/Eucla
 Azerbaijan Standard Time:
   '001':
   - Asia/Baku
@@ -103,6 +126,16 @@ Bangladesh Standard Time:
   - Asia/Dhaka
   BT:
   - Asia/Thimphu
+Belarus Standard Time:
+  '001':
+  - Europe/Minsk
+  BY:
+  - Europe/Minsk
+Bougainville Standard Time:
+  '001':
+  - Pacific/Bougainville
+  PG:
+  - Pacific/Bougainville
 Canada Central Standard Time:
   '001':
   - America/Regina
@@ -199,6 +232,8 @@ Central European Standard Time:
 Central Pacific Standard Time:
   '001':
   - Pacific/Guadalcanal
+  AQ:
+  - Antarctica/Casey
   AU:
   - Antarctica/Macquarie
   FM:
@@ -238,9 +273,13 @@ Central Standard Time (Mexico):
   MX:
   - America/Mexico_City
   - America/Bahia_Banderas
-  - America/Cancun
   - America/Merida
   - America/Monterrey
+Chatham Islands Standard Time:
+  '001':
+  - Pacific/Chatham
+  NZ:
+  - Pacific/Chatham
 China Standard Time:
   '001':
   - Asia/Shanghai
@@ -250,6 +289,11 @@ China Standard Time:
   - Asia/Hong_Kong
   MO:
   - Asia/Macau
+Cuba Standard Time:
+  '001':
+  - America/Havana
+  CU:
+  - America/Havana
 Dateline Standard Time:
   '001':
   - Etc/GMT+12
@@ -292,11 +336,21 @@ E. Australia Standard Time:
   AU:
   - Australia/Brisbane
   - Australia/Lindeman
+E. Europe Standard Time:
+  '001':
+  - Europe/Chisinau
+  MD:
+  - Europe/Chisinau
 E. South America Standard Time:
   '001':
   - America/Sao_Paulo
   BR:
   - America/Sao_Paulo
+Easter Island Standard Time:
+  '001':
+  - Pacific/Easter
+  CL:
+  - Pacific/Easter
 Eastern Standard Time:
   '001':
   - America/New_York
@@ -309,10 +363,6 @@ Eastern Standard Time:
   - America/Nipigon
   - America/Pangnirtung
   - America/Thunder_Bay
-  CU:
-  - America/Havana
-  HT:
-  - America/Port-au-Prince
   US:
   - America/New_York
   - America/Detroit
@@ -323,6 +373,11 @@ Eastern Standard Time:
   - America/Louisville
   ZZ:
   - EST5EDT
+Eastern Standard Time (Mexico):
+  '001':
+  - America/Cancun
+  MX:
+  - America/Cancun
 Egypt Standard Time:
   '001':
   - Africa/Cairo
@@ -384,8 +439,6 @@ GTB Standard Time:
   - Asia/Nicosia
   GR:
   - Europe/Athens
-  MD:
-  - Europe/Chisinau
   RO:
   - Europe/Bucharest
 Georgian Standard Time:
@@ -431,6 +484,11 @@ Greenwich Standard Time:
   - Africa/Sao_Tome
   TG:
   - Africa/Lome
+Haiti Standard Time:
+  '001':
+  - America/Port-au-Prince
+  HT:
+  - America/Port-au-Prince
 Hawaiian Standard Time:
   '001':
   - Pacific/Honolulu
@@ -467,15 +525,11 @@ Jordan Standard Time:
 Kaliningrad Standard Time:
   '001':
   - Europe/Kaliningrad
-  BY:
-  - Europe/Minsk
   RU:
   - Europe/Kaliningrad
 Korea Standard Time:
   '001':
   - Asia/Seoul
-  KP:
-  - Asia/Pyongyang
   KR:
   - Asia/Seoul
 Libya Standard Time:
@@ -490,14 +544,21 @@ Line Islands Standard Time:
   - Pacific/Kiritimati
   ZZ:
   - Etc/GMT-14
+Lord Howe Standard Time:
+  '001':
+  - Australia/Lord_Howe
+  AU:
+  - Australia/Lord_Howe
 Magadan Standard Time:
   '001':
   - Asia/Magadan
   RU:
   - Asia/Magadan
-  - Asia/Anadyr
-  - Asia/Kamchatka
-  - Asia/Srednekolymsk
+Marquesas Standard Time:
+  '001':
+  - Pacific/Marquesas
+  PF:
+  - Pacific/Marquesas
 Mauritius Standard Time:
   '001':
   - Indian/Mauritius
@@ -557,8 +618,6 @@ N. Central Asia Standard Time:
   - Asia/Novosibirsk
   RU:
   - Asia/Novosibirsk
-  - Asia/Novokuznetsk
-  - Asia/Omsk
 Namibia Standard Time:
   '001':
   - Africa/Windhoek
@@ -581,6 +640,11 @@ Newfoundland Standard Time:
   - America/St_Johns
   CA:
   - America/St_Johns
+Norfolk Standard Time:
+  '001':
+  - Pacific/Norfolk
+  NF:
+  - Pacific/Norfolk
 North Asia East Standard Time:
   '001':
   - Asia/Irkutsk
@@ -591,11 +655,20 @@ North Asia Standard Time:
   - Asia/Krasnoyarsk
   RU:
   - Asia/Krasnoyarsk
+  - Asia/Novokuznetsk
+North Korea Standard Time:
+  '001':
+  - Asia/Pyongyang
+  KP:
+  - Asia/Pyongyang
+Omsk Standard Time:
+  '001':
+  - Asia/Omsk
+  RU:
+  - Asia/Omsk
 Pacific SA Standard Time:
   '001':
   - America/Santiago
-  AQ:
-  - Antarctica/Palmer
   CL:
   - America/Santiago
 Pacific Standard Time:
@@ -605,16 +678,15 @@ Pacific Standard Time:
   - America/Vancouver
   - America/Dawson
   - America/Whitehorse
-  MX:
-  - America/Tijuana
   US:
   - America/Los_Angeles
   ZZ:
   - PST8PDT
 Pacific Standard Time (Mexico):
   '001':
-  - America/Santa_Isabel
+  - America/Tijuana
   MX:
+  - America/Tijuana
   - America/Santa_Isabel
 Pakistan Standard Time:
   '001':
@@ -638,26 +710,45 @@ Romance Standard Time:
   - Africa/Ceuta
   FR:
   - Europe/Paris
+Russia Time Zone 10:
+  '001':
+  - Asia/Srednekolymsk
+  RU:
+  - Asia/Srednekolymsk
+Russia Time Zone 11:
+  '001':
+  - Asia/Kamchatka
+  RU:
+  - Asia/Kamchatka
+  - Asia/Anadyr
+Russia Time Zone 3:
+  '001':
+  - Europe/Samara
+  RU:
+  - Europe/Samara
 Russian Standard Time:
   '001':
   - Europe/Moscow
   RU:
   - Europe/Moscow
-  - Europe/Samara
-  - Europe/Simferopol
+  - Europe/Kirov
   - Europe/Volgograd
+  UA:
+  - Europe/Simferopol
 SA Eastern Standard Time:
   '001':
   - America/Cayenne
   AQ:
   - Antarctica/Rothera
+  - Antarctica/Palmer
   BR:
   - America/Fortaleza
-  - America/Araguaina
   - America/Belem
   - America/Maceio
   - America/Recife
   - America/Santarem
+  CL:
+  - America/Punta_Arenas
   FK:
   - Atlantic/Stanley
   GF:
@@ -737,8 +828,6 @@ SA Western Standard Time:
   - America/Puerto_Rico
   SX:
   - America/Lower_Princes
-  TC:
-  - America/Grand_Turk
   TT:
   - America/Port_of_Spain
   VC:
@@ -763,14 +852,22 @@ SE Asia Standard Time:
   - Asia/Phnom_Penh
   LA:
   - Asia/Vientiane
-  MN:
-  - Asia/Hovd
   TH:
   - Asia/Bangkok
   VN:
   - Asia/Saigon
   ZZ:
   - Etc/GMT-7
+Saint Pierre Standard Time:
+  '001':
+  - America/Miquelon
+  PM:
+  - America/Miquelon
+Sakhalin Standard Time:
+  '001':
+  - Asia/Sakhalin
+  RU:
+  - Asia/Sakhalin
 Samoa Standard Time:
   '001':
   - Pacific/Apia
@@ -840,6 +937,11 @@ Tasmania Standard Time:
   AU:
   - Australia/Hobart
   - Australia/Currie
+Tocantins Standard Time:
+  '001':
+  - America/Araguaina
+  BR:
+  - America/Araguaina
 Tokyo Standard Time:
   '001':
   - Asia/Tokyo
@@ -853,6 +955,11 @@ Tokyo Standard Time:
   - Asia/Dili
   ZZ:
   - Etc/GMT-9
+Tomsk Standard Time:
+  '001':
+  - Asia/Tomsk
+  RU:
+  - Asia/Tomsk
 Tonga Standard Time:
   '001':
   - Pacific/Tongatapu
@@ -864,11 +971,23 @@ Tonga Standard Time:
   - Pacific/Tongatapu
   ZZ:
   - Etc/GMT-13
+Transbaikal Standard Time:
+  '001':
+  - Asia/Chita
+  RU:
+  - Asia/Chita
 Turkey Standard Time:
   '001':
   - Europe/Istanbul
+  CY:
+  - Asia/Famagusta
   TR:
   - Europe/Istanbul
+Turks And Caicos Standard Time:
+  '001':
+  - America/Grand_Turk
+  TC:
+  - America/Grand_Turk
 US Eastern Standard Time:
   '001':
   - America/Indianapolis
@@ -882,6 +1001,7 @@ US Mountain Standard Time:
   CA:
   - America/Dawson_Creek
   - America/Creston
+  - America/Fort_Nelson
   MX:
   - America/Hermosillo
   US:
@@ -895,6 +1015,7 @@ UTC:
   - America/Danmarkshavn
   ZZ:
   - Etc/GMT
+  - Etc/UTC
 UTC+12:
   '001':
   - Etc/GMT-12
@@ -922,6 +1043,20 @@ UTC-02:
   - Atlantic/South_Georgia
   ZZ:
   - Etc/GMT+2
+UTC-08:
+  '001':
+  - Etc/GMT+8
+  PN:
+  - Pacific/Pitcairn
+  ZZ:
+  - Etc/GMT+8
+UTC-09:
+  '001':
+  - Etc/GMT+9
+  PF:
+  - Pacific/Gambier
+  ZZ:
+  - Etc/GMT+9
 UTC-11:
   '001':
   - Etc/GMT+11
@@ -949,13 +1084,10 @@ Vladivostok Standard Time:
   - Asia/Vladivostok
   RU:
   - Asia/Vladivostok
-  - Asia/Sakhalin
   - Asia/Ust-Nera
 W. Australia Standard Time:
   '001':
   - Australia/Perth
-  AQ:
-  - Antarctica/Casey
   AU:
   - Australia/Perth
 W. Central Africa Standard Time:
@@ -1025,6 +1157,11 @@ W. Europe Standard Time:
   - Europe/San_Marino
   VA:
   - Europe/Vatican
+W. Mongolia Standard Time:
+  '001':
+  - Asia/Hovd
+  MN:
+  - Asia/Hovd
 West Asia Standard Time:
   '001':
   - Asia/Tashkent
@@ -1034,6 +1171,7 @@ West Asia Standard Time:
   - Asia/Oral
   - Asia/Aqtau
   - Asia/Aqtobe
+  - Asia/Atyrau
   MV:
   - Indian/Maldives
   TF:
@@ -1047,6 +1185,12 @@ West Asia Standard Time:
   - Asia/Samarkand
   ZZ:
   - Etc/GMT-5
+West Bank Standard Time:
+  '001':
+  - Asia/Hebron
+  PS:
+  - Asia/Hebron
+  - Asia/Gaza
 West Pacific Standard Time:
   '001':
   - Pacific/Port_Moresby
@@ -1067,5 +1211,4 @@ Yakutsk Standard Time:
   - Asia/Yakutsk
   RU:
   - Asia/Yakutsk
-  - Asia/Chita
   - Asia/Khandyga

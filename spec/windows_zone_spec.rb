@@ -28,7 +28,7 @@ describe TimezoneParser do
 
         describe '#getTimezones' do
             it 'should return all timezones for "كوريا - التوقيت الرسمي"' do
-                expect(TimezoneParser::WindowsZone.new('كوريا - التوقيت الرسمي').getTimezones).to eq(['Asia/Pyongyang', 'Asia/Seoul'])
+                expect(TimezoneParser::WindowsZone.new('كوريا - التوقيت الرسمي').getTimezones).to eq(['Asia/Seoul'])
             end
 
             it 'it should not find "GMT Daylight Time" in "en-GB" locale' do

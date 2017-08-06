@@ -20,14 +20,14 @@ describe TimezoneParser do
 
             it 'should be valid case-insensitive' do
                 expect(TimezoneParser::Timezone.new('büsingen').isValid?).to be true
-                pending('TODO: Unicode case insensitivity')
                 expect(TimezoneParser::Timezone.new('bÜsingen').isValid?).to be true
+                expect(TimezoneParser::Timezone.new('bÜsinGEN').isValid?).to be true
             end
         end
 
         describe '#getOffsets' do
-            it 'should return all offsets for "Պարսկաստանի ամառային ժամանակ"' do
-                expect(TimezoneParser::Timezone.new('Պարսկաստանի ամառային ժամանակ').getOffsets).to eq([16200])
+            it 'should return all offsets for "Ալյասկայի ամառային ժամանակ"' do
+                expect(TimezoneParser::Timezone.new('Ալյասկայի ամառային ժամանակ').getOffsets).to eq([-28800])
             end
         end
 
@@ -62,8 +62,8 @@ describe TimezoneParser do
 
             context 'timezones from specified time range' do
                 it 'should find timezones between specified time range' do
-                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('1991-03-30T23:00:00+00:00'), DateTime.parse('1990-06-30T23:00:00+00:00')).getTimezones).to eq(['Europe/Kaliningrad', 'Europe/Minsk', 'Europe/Moscow', 'Europe/Samara', 'Europe/Vilnius', 'Europe/Zaporozhye'])
-                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('2010-03-27T22:00:00+00:00'), DateTime.parse('1997-03-30T01:00:00+00:00')).getTimezones).to eq(['Europe/Moscow', 'Europe/Volgograd'])
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('1991-03-30T23:00:00+00:00'), DateTime.parse('1990-06-30T23:00:00+00:00')).getTimezones).to eq(['Europe/Minsk', 'Europe/Moscow', 'Europe/Samara', 'Europe/Zaporozhye'])
+                    expect(TimezoneParser::Timezone.new('Maskvos laikas').setTime(DateTime.parse('2010-03-27T22:00:00+00:00'), DateTime.parse('1997-03-30T01:00:00+00:00')).getTimezones).to eq(["Europe/Astrakhan", "Europe/Moscow", "Europe/Saratov", "Europe/Ulyanovsk", "Europe/Volgograd"])
                 end
             end
         end
@@ -93,8 +93,8 @@ describe TimezoneParser do
         end
 
         describe '.getTimezones' do
-            it 'should return all timezones for "Grinwish gaƒoƒome"' do
-                expect(TimezoneParser::Timezone::getTimezones('Grinwish gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/London'])
+            it 'should return all timezones for "Britain dzomeŋɔli gaƒoƒome"' do
+                expect(TimezoneParser::Timezone::getTimezones('Britain dzomeŋɔli gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/London'])
             end
         end
 

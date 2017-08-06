@@ -166,6 +166,8 @@ America/Eirunepe:
 - BR
 America/El_Salvador:
 - SV
+America/Fort_Nelson:
+- CA
 America/Fortaleza:
 - BR
 America/Glace_Bay:
@@ -298,6 +300,8 @@ America/Porto_Velho:
 - BR
 America/Puerto_Rico:
 - PR
+America/Punta_Arenas:
+- CL
 America/Rainy_River:
 - CA
 America/Rankin_Inlet:
@@ -310,8 +314,6 @@ America/Resolute:
 - CA
 America/Rio_Branco:
 - BR
-America/Santa_Isabel:
-- MX
 America/Santarem:
 - BR
 America/Santiago:
@@ -380,6 +382,8 @@ Asia/Aqtobe:
 - KZ
 Asia/Ashgabat:
 - TM
+Asia/Atyrau:
+- KZ
 Asia/Baghdad:
 - IQ
 Asia/Baku:
@@ -389,6 +393,8 @@ Asia/Bangkok:
 - LA
 - TH
 - VN
+Asia/Barnaul:
+- RU
 Asia/Beirut:
 - LB
 Asia/Bishkek:
@@ -412,10 +418,14 @@ Asia/Dubai:
 - OM
 Asia/Dushanbe:
 - TJ
+Asia/Famagusta:
+- CY
 Asia/Gaza:
 - PS
 Asia/Hebron:
 - PS
+Asia/Ho_Chi_Minh:
+- VN
 Asia/Hong_Kong:
 - HK
 Asia/Hovd:
@@ -473,8 +483,6 @@ Asia/Qatar:
 - QA
 Asia/Qyzylorda:
 - KZ
-Asia/Rangoon:
-- MM
 Asia/Riyadh:
 - KW
 - SA
@@ -503,6 +511,8 @@ Asia/Thimphu:
 - BT
 Asia/Tokyo:
 - JP
+Asia/Tomsk:
+- RU
 Asia/Ulaanbaatar:
 - MN
 Asia/Urumqi:
@@ -513,6 +523,8 @@ Asia/Vladivostok:
 - RU
 Asia/Yakutsk:
 - RU
+Asia/Yangon:
+- MM
 Asia/Yekaterinburg:
 - RU
 Asia/Yerevan:
@@ -563,6 +575,8 @@ Europe/Amsterdam:
 - NL
 Europe/Andorra:
 - AD
+Europe/Astrakhan:
+- RU
 Europe/Athens:
 - GR
 Europe/Belgrade:
@@ -597,6 +611,8 @@ Europe/Kaliningrad:
 - RU
 Europe/Kiev:
 - UA
+Europe/Kirov:
+- RU
 Europe/Lisbon:
 - PT
 Europe/London:
@@ -632,6 +648,8 @@ Europe/Rome:
 - VA
 Europe/Samara:
 - RU
+Europe/Saratov:
+- RU
 Europe/Simferopol:
 - RU
 Europe/Sofia:
@@ -642,6 +660,8 @@ Europe/Tallinn:
 - EE
 Europe/Tirane:
 - AL
+Europe/Ulyanovsk:
+- RU
 Europe/Uzhgorod:
 - UA
 Europe/Vienna:
@@ -680,6 +700,8 @@ Pacific/Apia:
 Pacific/Auckland:
 - AQ
 - NZ
+Pacific/Bougainville:
+- PG
 Pacific/Chatham:
 - NZ
 Pacific/Chuuk:
