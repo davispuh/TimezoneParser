@@ -32,8 +32,8 @@ module TimezoneParser
             return @@Version if @@Version
             content = File.read(source + 'dtd' + 'ldml.dtd')
             content.gsub!(/<!--.*?-->/, '')
-            data = content.match(/\s+cldrVersion\s+[\#\w\s]+\s+"(\d+)"\s*\>/)
-            @@Version = data[1].to_i if data
+            data = content.match(/\s+cldrVersion\s+[\#\w\s]+\s+"([\d\.]+)"\s*\>/)
+            @@Version = data[1] if data
             @@Version
         end
 
