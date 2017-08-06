@@ -31,6 +31,7 @@ end
 def update
     require 'timezone_parser/data/tzinfo'
     require 'timezone_parser/data/cldr'
+    require 'active_support/version'
     require 'active_support/time'
     TimezoneParser::TZInfo::init
     countries = TimezoneParser::TZInfo::getTimezoneCountries
