@@ -49,13 +49,7 @@ module TimezoneParser
 
         def self.getVersion(source = TZDataPath)
             return @@Version if @@Version
-            File.open(source + 'Makefile', 'r', { :encoding => 'UTF-8:UTF-8' }) do |file|
-                file.each_line do |line|
-                    line = line.gsub(/#.*$/, '')
-                    v = line.match(/^\s*VERSION\s*=\s*(\w+)\s*$/)
-                    @@Version = v[1] if v
-                end
-            end
+            @@Version = File.read(source + 'version', { :mode => 'r', :encoding => 'UTF-8:UTF-8' }).strip
             @@Version
         end
 
