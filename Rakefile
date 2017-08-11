@@ -28,6 +28,11 @@ def repo_location
     TimezoneParser::Data::RootDir
 end
 
+def write_yaml(filename, data)
+    options = { :cr_newline => false, :encoding => 'UTF-8:UTF-8' }
+    File.write(filename, data.to_yaml, options)
+end
+
 def update
     require 'timezone_parser/data/tzinfo'
     require 'timezone_parser/data/cldr'
@@ -45,16 +50,15 @@ def update
     version['CLDR'] = TimezoneParser::CLDR::getVersion
     version['Rails'] = ActiveSupport::VERSION::STRING
     version['WindowsZones'] = nil unless version.has_key?('WindowsZones')
-    options = { :cr_newline => false, :encoding => 'UTF-8:UTF-8' }
-    File.write(data_location + 'countries.yml', countries.to_yaml, options)
-    File.write(data_location + 'timezones.yml', timezones.to_yaml, options)
-    File.write(data_location + 'metazones.yml', metazones.to_yaml, options)
-    File.write(data_location + 'windows_timezones.yml', windowsZones.to_yaml, options)
+    write_yaml(data_location + 'countries.yml', countries)
+    write_yaml(data_location + 'timezones.yml', timezones)
+    write_yaml(data_location + 'metazones.yml', metazones)
+    write_yaml(data_location + 'windows_timezones.yml', windowsZones)
     abbreviations = Hash[abbreviations.to_a.sort_by { |d| d.first } ]
-    File.write(data_location + 'abbreviations.yml', abbreviations.to_yaml, options)
+    write_yaml(data_location + 'abbreviations.yml', abbreviations)
     rails = Hash[ActiveSupport::TimeZone::MAPPING.to_a.sort_by { |d| d.first } ]
-    File.write(data_location + 'rails.yml', rails.to_yaml, options)
-    File.write(data_location + 'version.yml', version.to_yaml, options)
+    write_yaml(data_location + 'rails.yml', rails)
+    write_yaml(data_location + 'version.yml', version)
 end
 
 def update_rails
@@ -67,22 +71,21 @@ def update_rails
             names[locale] = Hash[namesArray.sort_by { |d| d.first } ]
         end
     end
-    File.write(data_location + 'rails_i18n.yml', names.to_yaml, { :cr_newline => false, :encoding => 'UTF-8:UTF-8' })
+    write_yaml(data_location + 'rails_i18n.yml', names)
 end
 
 def update_windows
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
         require 'timezone_parser/data/windows'
-        options = { :cr_newline => false, :encoding => 'UTF-8:UTF-8' }
         version = YAML.load_file(data_location + 'version.yml')
         version['WindowsZones'] = TimezoneParser::Windows.getVersion
         if version['WindowsZones'].nil?
             $stderr.puts TimezoneParser::Windows.errors
         else
             timezones = TimezoneParser::Windows.getTimezones
-            File.write(data_location + 'windows_offsets.yml', timezones.to_yaml, options)
-            File.write(data_location + 'version.yml', version.to_yaml, options)
+            write_yaml(data_location + 'windows_offsets.yml', timezones)
+            write_yaml(data_location + 'version.yml', version)
         end
     else
         puts 'Skipped Windows Zone update. Need to be run from Windows.'
@@ -100,7 +103,7 @@ def import_timezones
         metazones = YAML.load_file(vendor_location + 'tzres.yml')
         offsets = TimezoneParser::Windows.getMUIOffsets
         metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets)
-        File.write(data_location + 'windows_zonenames.yml', metazone_names.to_yaml, { :cr_newline => false, :encoding => 'UTF-8:UTF-8' })
+        write_yaml(data_location + 'windows_zonenames.yml', metazone_names)
     else
         puts 'Can\'t import Windows Zone names. Need to be run from Windows.'
     end
