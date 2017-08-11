@@ -11,6 +11,12 @@ Afghanistan Standard Time:
 Alaskan Standard Time:
   standard: -32400
   daylight: -28800
+Aleutian Standard Time:
+  standard: -36000
+  daylight: -32400
+Altai Standard Time:
+  standard: 25200
+  daylight: 28800
 Arab Standard Time:
   standard: 10800
   daylight: 14400
@@ -23,9 +29,15 @@ Arabic Standard Time:
 Argentina Standard Time:
   standard: -10800
   daylight: -7200
+Astrakhan Standard Time:
+  standard: 14400
+  daylight: 18000
 Atlantic Standard Time:
   standard: -14400
   daylight: -10800
+Aus Central W. Standard Time:
+  standard: 31500
+  daylight: 35100
 Azerbaijan Standard Time:
   standard: 14400
   daylight: 18000
@@ -41,6 +53,9 @@ Bangladesh Standard Time:
 Belarus Standard Time:
   standard: 10800
   daylight: 14400
+Bougainville Standard Time:
+  standard: 39600
+  daylight: 43200
 Canada Central Standard Time:
   standard: -21600
   daylight: -18000
@@ -77,9 +92,15 @@ Central Standard Time:
 Central Standard Time (Mexico):
   standard: -21600
   daylight: -18000
+Chatham Islands Standard Time:
+  standard: 45900
+  daylight: 49500
 China Standard Time:
   standard: 28800
   daylight: 32400
+Cuba Standard Time:
+  standard: -18000
+  daylight: -14400
 Dateline Standard Time:
   standard: -43200
   daylight: -39600
@@ -95,7 +116,13 @@ E. Europe Standard Time:
 E. South America Standard Time:
   standard: -10800
   daylight: -7200
+Easter Island Standard Time:
+  standard: -21600
+  daylight: -18000
 Eastern Standard Time:
+  standard: -18000
+  daylight: -14400
+Eastern Standard Time (Mexico):
   standard: -18000
   daylight: -14400
 Egypt Standard Time:
@@ -125,6 +152,9 @@ Greenland Standard Time:
 Greenwich Standard Time:
   standard: 0
   daylight: 3600
+Haiti Standard Time:
+  standard: -18000
+  daylight: -14400
 Hawaiian Standard Time:
   standard: -36000
   daylight: -32400
@@ -155,9 +185,18 @@ Libya Standard Time:
 Line Islands Standard Time:
   standard: 50400
   daylight: 54000
+Lord Howe Standard Time:
+  standard: 37800
+  daylight: 39600
 Magadan Standard Time:
-  standard: 36000
+  standard: 39600
   daylight: 43200
+Magallanes Standard Time:
+  standard: -10800
+  daylight: -7200
+Marquesas Standard Time:
+  standard: -34200
+  daylight: -30600
 Mauritius Standard Time:
   standard: 14400
   daylight: 18000
@@ -183,8 +222,8 @@ Myanmar Standard Time:
   standard: 23400
   daylight: 27000
 N. Central Asia Standard Time:
-  standard: 21600
-  daylight: 25200
+  standard: 25200
+  daylight: 28800
 Namibia Standard Time:
   standard: 3600
   daylight: 7200
@@ -197,12 +236,21 @@ New Zealand Standard Time:
 Newfoundland Standard Time:
   standard: -12600
   daylight: -9000
+Norfolk Standard Time:
+  standard: 39600
+  daylight: 43200
 North Asia East Standard Time:
   standard: 28800
   daylight: 32400
 North Asia Standard Time:
   standard: 25200
   daylight: 28800
+North Korea Standard Time:
+  standard: 30600
+  daylight: 34200
+Omsk Standard Time:
+  standard: 21600
+  daylight: 25200
 Pacific SA Standard Time:
   standard: -14400
   daylight: -10800
@@ -245,9 +293,18 @@ SA Western Standard Time:
 SE Asia Standard Time:
   standard: 25200
   daylight: 28800
+Saint Pierre Standard Time:
+  standard: -10800
+  daylight: -7200
+Sakhalin Standard Time:
+  standard: 39600
+  daylight: 43200
 Samoa Standard Time:
   standard: 46800
   daylight: 50400
+Saratov Standard Time:
+  standard: 14400
+  daylight: 18000
 Singapore Standard Time:
   standard: 28800
   daylight: 32400
@@ -266,15 +323,27 @@ Taipei Standard Time:
 Tasmania Standard Time:
   standard: 36000
   daylight: 39600
+Tocantins Standard Time:
+  standard: -10800
+  daylight: -7200
 Tokyo Standard Time:
   standard: 32400
   daylight: 36000
+Tomsk Standard Time:
+  standard: 25200
+  daylight: 28800
 Tonga Standard Time:
   standard: 46800
   daylight: 50400
+Transbaikal Standard Time:
+  standard: 32400
+  daylight: 36000
 Turkey Standard Time:
-  standard: 7200
-  daylight: 10800
+  standard: 10800
+  daylight: 14400
+Turks And Caicos Standard Time:
+  standard: -14400
+  daylight: -10800
 US Eastern Standard Time:
   standard: -18000
   daylight: -14400
@@ -287,9 +356,18 @@ UTC:
 UTC+12:
   standard: 43200
   daylight: 43200
+UTC+13:
+  standard: 46800
+  daylight: 46800
 UTC-02:
   standard: -7200
   daylight: -7200
+UTC-08:
+  standard: -28800
+  daylight: -28800
+UTC-09:
+  standard: -32400
+  daylight: -32400
 UTC-11:
   standard: -39600
   daylight: -39600
@@ -297,8 +375,8 @@ Ulaanbaatar Standard Time:
   standard: 28800
   daylight: 32400
 Venezuela Standard Time:
-  standard: -16200
-  daylight: -12600
+  standard: -14400
+  daylight: -10800
 Vladivostok Standard Time:
   standard: 36000
   daylight: 39600
@@ -311,9 +389,15 @@ W. Central Africa Standard Time:
 W. Europe Standard Time:
   standard: 3600
   daylight: 7200
+W. Mongolia Standard Time:
+  standard: 25200
+  daylight: 28800
 West Asia Standard Time:
   standard: 18000
   daylight: 21600
+West Bank Standard Time:
+  standard: 7200
+  daylight: 10800
 West Pacific Standard Time:
   standard: 36000
   daylight: 39600
