@@ -63,39 +63,85 @@ module TimezoneParser
             begin
                 Win32::Registry::HKEY_LOCAL_MACHINE.open(path, Win32::Registry::KEY_READ).each_key do |key, wtime|
                     Win32::Registry::HKEY_LOCAL_MACHINE.open(path + '\\' + key, Win32::Registry::KEY_READ) do |reg|
+                        muiDisplay = reg.read_s('MUI_Display')
                         muiDlt = reg.read_s('MUI_Dlt')
                         muiStd = reg.read_s('MUI_Std')
 
-                        offsets[self.parseMUI(muiDlt)] = ['daylight', key]
-                        offsets[self.parseMUI(muiStd)] = ['standard', key]
+                        offsets[self.parseMUI(muiDisplay)] = { 'Type' => 'display', 'Name' => key }
+                        offsets[self.parseMUI(muiDlt)] = { 'Type' => 'daylight', 'Name' => key }
+                        offsets[self.parseMUI(muiStd)] = { 'Type' => 'standard', 'Name' => key }
                     end
                 end
             rescue Win32::Registry::Error => e
                 @@Errors << e.message
             end
-            puts @@Errors
-            offsets
+            puts @@Errors unless @@Errors.empty?
+            Hash[offsets.to_a.sort_by { |o| o.first }]
         end
 
         def self.parseMUI(str)
-            str.split(',').last.to_i.abs
+            parts = str.split(',')
+            puts "Warning: Unexpected dll name #{parts.first}" if parts.first != '@tzres.dll'
+            parts.last.to_i.abs
         end
 
-        def self.parseMetazones(metazoneList, offsets)
-            metazones = {}
-            metazoneList.each do |lcid, data|
+        def self.getLocales(lcids)
+            locales = {}
+            lcids.each do |lcid|
                 localeMem = Fiddle::Pointer.malloc(LOCALE_NAME_MAX_LENGTH)
                 chars = LCIDToLocaleName.call(lcid, localeMem, LOCALE_NAME_MAX_LENGTH, 0)
-                return nil if chars.zero?
+                if chars.zero?
+                    puts "Warning: Failed to translate LCID (#{lcid}) to locale name!"
+                    next
+                end
                 locale = localeMem.to_s((chars-1)*2).force_encoding(Encoding::UTF_16LE).encode(Encoding::UTF_8)
+                locales[lcid] = locale
+            end
+            locales
+        end
+
+        def self.collectMUIOffsets(metazoneList, locales)
+            enUS = locales.key('en-US')
+            baseMetazone = metazoneList[enUS]
+            types = ['display', 'daylight', 'standard']
+            type_bases = [0, 0, 0, 3, 3, 3, nil, 7, 7, 7]
+            offsets = {}
+            baseMetazone.each do |id, name|
+                data = {}
+                type = id % 10
+                type_base = type_bases[type]
+                data['Type'] = types[type - type_base]
+                data['Name'] = baseMetazone[(id / 10) * 10 + type_base + types.index('standard')]
+                offsets[id] = data unless data['Name'].nil?
+            end
+            offsets
+        end
+
+        def self.parseMetazones(metazoneList, offsets, locales)
+            metazones = {}
+            metazoneList.each do |lcid, data|
+                locale = locales[lcid]
+                if locale.nil?
+                    puts "Warning: No translation to locale name from LCID (#{lcid}), skipping!"
+                    next
+                end
                 metazones[locale] = {}
                 offsets.each do |id, info|
+                    unless data.has_key?(id)
+                        puts "Warning: Didn't found timezone name for #{id} for #{locale} locale, skipping!"
+                        next
+                    end
                     name = data[id]
                     metazones[locale][name] ||= {}
                     metazones[locale][name]['Types'] ||= []
                     metazones[locale][name]['Metazones'] ||= []
-                    metazones[locale][name]['Types'] << info.first
-                    metazones[locale][name]['Metazones'] << info.last
+                    types = []
+                    types << info['Type'] if info.has_key?('Type')
+                    if info['Type'] == 'display'
+                        types = ['daylight', 'standard']
+                    end
+                    metazones[locale][name]['Types'] += types
+                    metazones[locale][name]['Metazones'] << info['Name']
                     metazones[locale][name]['Types'].uniq!
                     metazones[locale][name]['Metazones'].uniq!
                 end

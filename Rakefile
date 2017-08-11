@@ -92,17 +92,43 @@ def update_windows
     end
 end
 
+def update_windows_mui
+    os = Gem::Platform.local.os
+    if (os == 'mingw32' or os == 'mingw64')
+        tzres = data_location + 'windows_tzres.yaml'
+        require 'timezone_parser/data/windows'
+        offsets = YAML.load_file(tzres)
+	offsets.merge!(TimezoneParser::Windows.getMUIOffsets)
+        write_yaml(tzres, offsets)
+    else
+        puts 'Can update Windows tzres MUI offsets only from Windows!'
+    end
+end
+
+def update_windows_mui_extended(metazones, locales)
+    tzres = data_location + 'windows_tzres.yaml'
+    offsets = YAML.load_file(tzres)
+    offsets.merge!(TimezoneParser::Windows.collectMUIOffsets(metazones, locales))
+    write_yaml(tzres, offsets)
+    update_windows_mui
+end
+
 def import_timezones
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
-        unless File.exist?(vendor_location + 'tzres.yml')
-          puts 'File `tzres.yml` not found. Windows Zone name importing skipped.'
+        timeZoneFile = vendor_location + 'tzres.yaml'
+        unless File.exist?(timeZoneFile)
+          puts 'File `tzres.yaml` not found. Windows Zone name importing skipped.'
           return
         end
         require 'timezone_parser/data/windows'
-        metazones = YAML.load_file(vendor_location + 'tzres.yml')
-        offsets = TimezoneParser::Windows.getMUIOffsets
-        metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets)
+        metazones = YAML.load_file(timeZoneFile)
+        locales = TimezoneParser::Windows.getLocales(metazones.keys.sort)
+        write_yaml(data_location + 'windows_locales.yaml', locales)
+        update_windows_mui_extended(metazones, locales)
+        tzres = data_location + 'windows_tzres.yaml'
+        offsets = YAML.load_file(tzres)
+        metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets, locales)
         write_yaml(data_location + 'windows_zonenames.yml', metazone_names)
     else
         puts 'Can\'t import Windows Zone names. Need to be run from Windows.'
@@ -148,6 +174,11 @@ end
 desc 'Update Windows data'
 task 'update:windows' do
     update_windows
+end
+
+desc 'Update Windows tzres MUI'
+task 'update:windows_mui' do
+    update_windows_mui
 end
 
 desc 'Import Windows localized timezones from tzres.yml'

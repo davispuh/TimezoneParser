@@ -1,0 +1,1600 @@
+---
+10:
+  Type: display
+  Name: Azores Standard Time
+11:
+  Type: daylight
+  Name: Azores Standard Time
+12:
+  Type: standard
+  Name: Azores Standard Time
+31:
+  Type: daylight
+  Name: Mid-Atlantic Standard Time
+32:
+  Type: standard
+  Name: Mid-Atlantic Standard Time
+40:
+  Type: display
+  Name: E. South America Standard Time
+41:
+  Type: daylight
+  Name: E. South America Standard Time
+42:
+  Type: standard
+  Name: E. South America Standard Time
+50:
+  Type: display
+  Name: Greenland Standard Time
+51:
+  Type: daylight
+  Name: Greenland Standard Time
+52:
+  Type: standard
+  Name: Greenland Standard Time
+70:
+  Type: display
+  Name: Newfoundland Standard Time
+71:
+  Type: daylight
+  Name: Newfoundland Standard Time
+72:
+  Type: standard
+  Name: Newfoundland Standard Time
+80:
+  Type: display
+  Name: Atlantic Standard Time
+81:
+  Type: daylight
+  Name: Atlantic Standard Time
+82:
+  Type: standard
+  Name: Atlantic Standard Time
+90:
+  Type: display
+  Name: Pacific SA Standard Time
+91:
+  Type: daylight
+  Name: Pacific SA Standard Time
+92:
+  Type: standard
+  Name: Pacific SA Standard Time
+104:
+  Type: daylight
+  Name: Central Brazilian Standard Time
+105:
+  Type: standard
+  Name: Central Brazilian Standard Time
+110:
+  Type: display
+  Name: Eastern Standard Time
+111:
+  Type: daylight
+  Name: Eastern Standard Time
+112:
+  Type: standard
+  Name: Eastern Standard Time
+120:
+  Type: display
+  Name: SA Pacific Standard Time
+121:
+  Type: daylight
+  Name: SA Pacific Standard Time
+122:
+  Type: standard
+  Name: SA Pacific Standard Time
+130:
+  Type: display
+  Name: US Eastern Standard Time
+131:
+  Type: daylight
+  Name: US Eastern Standard Time
+132:
+  Type: standard
+  Name: US Eastern Standard Time
+140:
+  Type: display
+  Name: Canada Central Standard Time
+141:
+  Type: daylight
+  Name: Canada Central Standard Time
+142:
+  Type: standard
+  Name: Canada Central Standard Time
+150:
+  Type: display
+  Name: Central America Standard Time
+151:
+  Type: daylight
+  Name: Central America Standard Time
+152:
+  Type: standard
+  Name: Central America Standard Time
+160:
+  Type: display
+  Name: Central Standard Time
+161:
+  Type: daylight
+  Name: Central Standard Time
+162:
+  Type: standard
+  Name: Central Standard Time
+170:
+  Type: display
+  Name: Central Standard Time (Mexico)
+171:
+  Type: daylight
+  Name: Central Standard Time (Mexico)
+172:
+  Type: standard
+  Name: Central Standard Time (Mexico)
+180:
+  Type: display
+  Name: Mountain Standard Time (Mexico)
+181:
+  Type: daylight
+  Name: Mountain Standard Time (Mexico)
+182:
+  Type: standard
+  Name: Mountain Standard Time (Mexico)
+190:
+  Type: display
+  Name: Mountain Standard Time
+191:
+  Type: daylight
+  Name: Mountain Standard Time
+192:
+  Type: standard
+  Name: Mountain Standard Time
+200:
+  Type: display
+  Name: US Mountain Standard Time
+201:
+  Type: daylight
+  Name: US Mountain Standard Time
+202:
+  Type: standard
+  Name: US Mountain Standard Time
+210:
+  Type: display
+  Name: Pacific Standard Time
+211:
+  Type: daylight
+  Name: Pacific Standard Time
+212:
+  Type: standard
+  Name: Pacific Standard Time
+214:
+  Type: daylight
+  Name: Pacific Standard Time (Mexico)
+215:
+  Type: standard
+  Name: Pacific Standard Time (Mexico)
+220:
+  Type: display
+  Name: Alaskan Standard Time
+221:
+  Type: daylight
+  Name: Alaskan Standard Time
+222:
+  Type: standard
+  Name: Alaskan Standard Time
+230:
+  Type: display
+  Name: Hawaiian Standard Time
+231:
+  Type: daylight
+  Name: Hawaiian Standard Time
+232:
+  Type: standard
+  Name: Hawaiian Standard Time
+241:
+  Type: daylight
+  Name: Samoa Standard Time
+242:
+  Type: standard
+  Name: Samoa Standard Time
+250:
+  Type: display
+  Name: Dateline Standard Time
+251:
+  Type: daylight
+  Name: Dateline Standard Time
+252:
+  Type: standard
+  Name: Dateline Standard Time
+261:
+  Type: daylight
+  Name: GMT Standard Time
+262:
+  Type: standard
+  Name: GMT Standard Time
+271:
+  Type: daylight
+  Name: Greenwich Standard Time
+272:
+  Type: standard
+  Name: Greenwich Standard Time
+280:
+  Type: display
+  Name: Central Europe Standard Time
+281:
+  Type: daylight
+  Name: Central Europe Standard Time
+282:
+  Type: standard
+  Name: Central Europe Standard Time
+290:
+  Type: display
+  Name: Central European Standard Time
+291:
+  Type: daylight
+  Name: Central European Standard Time
+292:
+  Type: standard
+  Name: Central European Standard Time
+300:
+  Type: display
+  Name: Romance Standard Time
+301:
+  Type: daylight
+  Name: Romance Standard Time
+302:
+  Type: standard
+  Name: Romance Standard Time
+310:
+  Type: display
+  Name: W. Central Africa Standard Time
+311:
+  Type: daylight
+  Name: W. Central Africa Standard Time
+312:
+  Type: standard
+  Name: W. Central Africa Standard Time
+320:
+  Type: display
+  Name: W. Europe Standard Time
+321:
+  Type: daylight
+  Name: W. Europe Standard Time
+322:
+  Type: standard
+  Name: W. Europe Standard Time
+331:
+  Type: daylight
+  Name: E. Europe Standard Time
+332:
+  Type: standard
+  Name: E. Europe Standard Time
+333:
+  Type: display
+  Name: Jordan Standard Time
+334:
+  Type: daylight
+  Name: Jordan Standard Time
+335:
+  Type: standard
+  Name: Jordan Standard Time
+340:
+  Type: display
+  Name: Egypt Standard Time
+341:
+  Type: daylight
+  Name: Egypt Standard Time
+342:
+  Type: standard
+  Name: Egypt Standard Time
+350:
+  Type: display
+  Name: FLE Standard Time
+351:
+  Type: daylight
+  Name: FLE Standard Time
+352:
+  Type: standard
+  Name: FLE Standard Time
+361:
+  Type: daylight
+  Name: GTB Standard Time
+362:
+  Type: standard
+  Name: GTB Standard Time
+363:
+  Type: display
+  Name: Middle East Standard Time
+364:
+  Type: daylight
+  Name: Middle East Standard Time
+365:
+  Type: standard
+  Name: Middle East Standard Time
+370:
+  Type: display
+  Name: Israel Standard Time
+371:
+  Type: daylight
+  Name: Israel Standard Time
+372:
+  Type: standard
+  Name: Israel Standard Time
+380:
+  Type: display
+  Name: South Africa Standard Time
+381:
+  Type: daylight
+  Name: South Africa Standard Time
+382:
+  Type: standard
+  Name: South Africa Standard Time
+384:
+  Type: daylight
+  Name: Namibia Standard Time
+385:
+  Type: standard
+  Name: Namibia Standard Time
+390:
+  Type: display
+  Name: Arab Standard Time
+391:
+  Type: daylight
+  Name: Arab Standard Time
+392:
+  Type: standard
+  Name: Arab Standard Time
+400:
+  Type: display
+  Name: Arabic Standard Time
+401:
+  Type: daylight
+  Name: Arabic Standard Time
+402:
+  Type: standard
+  Name: Arabic Standard Time
+410:
+  Type: display
+  Name: E. Africa Standard Time
+411:
+  Type: daylight
+  Name: E. Africa Standard Time
+412:
+  Type: standard
+  Name: E. Africa Standard Time
+430:
+  Type: display
+  Name: Iran Standard Time
+431:
+  Type: daylight
+  Name: Iran Standard Time
+432:
+  Type: standard
+  Name: Iran Standard Time
+434:
+  Type: daylight
+  Name: Georgian Standard Time
+435:
+  Type: standard
+  Name: Georgian Standard Time
+440:
+  Type: display
+  Name: Arabian Standard Time
+441:
+  Type: daylight
+  Name: Arabian Standard Time
+442:
+  Type: standard
+  Name: Arabian Standard Time
+447:
+  Type: display
+  Name: Azerbaijan Standard Time
+448:
+  Type: daylight
+  Name: Azerbaijan Standard Time
+449:
+  Type: standard
+  Name: Azerbaijan Standard Time
+450:
+  Type: display
+  Name: Caucasus Standard Time
+451:
+  Type: daylight
+  Name: Caucasus Standard Time
+452:
+  Type: standard
+  Name: Caucasus Standard Time
+460:
+  Type: display
+  Name: Afghanistan Standard Time
+461:
+  Type: daylight
+  Name: Afghanistan Standard Time
+462:
+  Type: standard
+  Name: Afghanistan Standard Time
+481:
+  Type: daylight
+  Name: West Asia Standard Time
+482:
+  Type: standard
+  Name: West Asia Standard Time
+490:
+  Type: display
+  Name: India Standard Time
+491:
+  Type: daylight
+  Name: India Standard Time
+492:
+  Type: standard
+  Name: India Standard Time
+500:
+  Type: display
+  Name: Nepal Standard Time
+501:
+  Type: daylight
+  Name: Nepal Standard Time
+502:
+  Type: standard
+  Name: Nepal Standard Time
+511:
+  Type: daylight
+  Name: Central Asia Standard Time
+512:
+  Type: standard
+  Name: Central Asia Standard Time
+530:
+  Type: display
+  Name: Sri Lanka Standard Time
+531:
+  Type: daylight
+  Name: Sri Lanka Standard Time
+532:
+  Type: standard
+  Name: Sri Lanka Standard Time
+540:
+  Type: display
+  Name: Myanmar Standard Time
+541:
+  Type: daylight
+  Name: Myanmar Standard Time
+542:
+  Type: standard
+  Name: Myanmar Standard Time
+560:
+  Type: display
+  Name: SE Asia Standard Time
+561:
+  Type: daylight
+  Name: SE Asia Standard Time
+562:
+  Type: standard
+  Name: SE Asia Standard Time
+570:
+  Type: display
+  Name: China Standard Time
+571:
+  Type: daylight
+  Name: China Standard Time
+572:
+  Type: standard
+  Name: China Standard Time
+590:
+  Type: display
+  Name: Singapore Standard Time
+591:
+  Type: daylight
+  Name: Singapore Standard Time
+592:
+  Type: standard
+  Name: Singapore Standard Time
+600:
+  Type: display
+  Name: Taipei Standard Time
+601:
+  Type: daylight
+  Name: Taipei Standard Time
+602:
+  Type: standard
+  Name: Taipei Standard Time
+610:
+  Type: display
+  Name: W. Australia Standard Time
+611:
+  Type: daylight
+  Name: W. Australia Standard Time
+612:
+  Type: standard
+  Name: W. Australia Standard Time
+620:
+  Type: display
+  Name: Korea Standard Time
+621:
+  Type: daylight
+  Name: Korea Standard Time
+622:
+  Type: standard
+  Name: Korea Standard Time
+630:
+  Type: display
+  Name: Tokyo Standard Time
+631:
+  Type: daylight
+  Name: Tokyo Standard Time
+632:
+  Type: standard
+  Name: Tokyo Standard Time
+650:
+  Type: display
+  Name: AUS Central Standard Time
+651:
+  Type: daylight
+  Name: AUS Central Standard Time
+652:
+  Type: standard
+  Name: AUS Central Standard Time
+660:
+  Type: display
+  Name: Cen. Australia Standard Time
+661:
+  Type: daylight
+  Name: Cen. Australia Standard Time
+662:
+  Type: standard
+  Name: Cen. Australia Standard Time
+670:
+  Type: display
+  Name: AUS Eastern Standard Time
+671:
+  Type: daylight
+  Name: AUS Eastern Standard Time
+672:
+  Type: standard
+  Name: AUS Eastern Standard Time
+680:
+  Type: display
+  Name: E. Australia Standard Time
+681:
+  Type: daylight
+  Name: E. Australia Standard Time
+682:
+  Type: standard
+  Name: E. Australia Standard Time
+690:
+  Type: display
+  Name: Tasmania Standard Time
+691:
+  Type: daylight
+  Name: Tasmania Standard Time
+692:
+  Type: standard
+  Name: Tasmania Standard Time
+710:
+  Type: display
+  Name: West Pacific Standard Time
+711:
+  Type: daylight
+  Name: West Pacific Standard Time
+712:
+  Type: standard
+  Name: West Pacific Standard Time
+721:
+  Type: daylight
+  Name: Central Pacific Standard Time
+722:
+  Type: standard
+  Name: Central Pacific Standard Time
+731:
+  Type: daylight
+  Name: Fiji Standard Time
+732:
+  Type: standard
+  Name: Fiji Standard Time
+740:
+  Type: display
+  Name: New Zealand Standard Time
+741:
+  Type: daylight
+  Name: New Zealand Standard Time
+742:
+  Type: standard
+  Name: New Zealand Standard Time
+750:
+  Type: display
+  Name: Tonga Standard Time
+751:
+  Type: daylight
+  Name: Tonga Standard Time
+752:
+  Type: standard
+  Name: Tonga Standard Time
+770:
+  Type: display
+  Name: Montevideo Standard Time
+771:
+  Type: daylight
+  Name: Montevideo Standard Time
+772:
+  Type: standard
+  Name: Montevideo Standard Time
+791:
+  Type: daylight
+  Name: SA Western Standard Time
+792:
+  Type: standard
+  Name: SA Western Standard Time
+811:
+  Type: daylight
+  Name: Venezuela Standard Time
+812:
+  Type: standard
+  Name: Venezuela Standard Time
+831:
+  Type: daylight
+  Name: SA Eastern Standard Time
+832:
+  Type: standard
+  Name: SA Eastern Standard Time
+841:
+  Type: daylight
+  Name: Argentina Standard Time
+842:
+  Type: standard
+  Name: Argentina Standard Time
+870:
+  Type: display
+  Name: Pakistan Standard Time
+871:
+  Type: daylight
+  Name: Pakistan Standard Time
+872:
+  Type: standard
+  Name: Pakistan Standard Time
+891:
+  Type: daylight
+  Name: Morocco Standard Time
+892:
+  Type: standard
+  Name: Morocco Standard Time
+910:
+  Type: display
+  Name: Mauritius Standard Time
+911:
+  Type: daylight
+  Name: Mauritius Standard Time
+912:
+  Type: standard
+  Name: Mauritius Standard Time
+930:
+  Type: display
+  Name: UTC
+931:
+  Type: daylight
+  Name: UTC
+932:
+  Type: standard
+  Name: UTC
+960:
+  Type: display
+  Name: Paraguay Standard Time
+961:
+  Type: daylight
+  Name: Paraguay Standard Time
+962:
+  Type: standard
+  Name: Paraguay Standard Time
+981:
+  Type: daylight
+  Name: Kamchatka Standard Time
+982:
+  Type: standard
+  Name: Kamchatka Standard Time
+1010:
+  Type: display
+  Name: Central Asia Standard Time
+1020:
+  Type: display
+  Name: Bangladesh Standard Time
+1021:
+  Type: daylight
+  Name: Bangladesh Standard Time
+1022:
+  Type: standard
+  Name: Bangladesh Standard Time
+1040:
+  Type: display
+  Name: Ulaanbaatar Standard Time
+1041:
+  Type: daylight
+  Name: Ulaanbaatar Standard Time
+1042:
+  Type: standard
+  Name: Ulaanbaatar Standard Time
+1070:
+  Type: display
+  Name: Georgian Standard Time
+1100:
+  Type: display
+  Name: Pacific Standard Time (Mexico)
+1110:
+  Type: display
+  Name: SA Eastern Standard Time
+1120:
+  Type: display
+  Name: Central Brazilian Standard Time
+1130:
+  Type: display
+  Name: SA Western Standard Time
+1140:
+  Type: display
+  Name: Fiji Standard Time
+1160:
+  Type: display
+  Name: UTC-02
+1161:
+  Type: daylight
+  Name: UTC-02
+1162:
+  Type: standard
+  Name: UTC-02
+1220:
+  Type: display
+  Name: UTC-08
+1221:
+  Type: daylight
+  Name: UTC-08
+1222:
+  Type: standard
+  Name: UTC-08
+1230:
+  Type: display
+  Name: UTC-09
+1231:
+  Type: daylight
+  Name: UTC-09
+1232:
+  Type: standard
+  Name: UTC-09
+1250:
+  Type: display
+  Name: UTC-11
+1251:
+  Type: daylight
+  Name: UTC-11
+1252:
+  Type: standard
+  Name: UTC-11
+1380:
+  Type: display
+  Name: UTC+12
+1381:
+  Type: daylight
+  Name: UTC+12
+1382:
+  Type: standard
+  Name: UTC+12
+1390:
+  Type: display
+  Name: UTC+13
+1391:
+  Type: daylight
+  Name: UTC+13
+1392:
+  Type: standard
+  Name: UTC+13
+1410:
+  Type: display
+  Name: Syria Standard Time
+1411:
+  Type: daylight
+  Name: Syria Standard Time
+1412:
+  Type: standard
+  Name: Syria Standard Time
+1420:
+  Type: display
+  Name: Kamchatka Standard Time
+1440:
+  Type: display
+  Name: Namibia Standard Time
+1460:
+  Type: display
+  Name: Central Pacific Standard Time
+1470:
+  Type: display
+  Name: Magadan Standard Time
+1471:
+  Type: daylight
+  Name: Magadan Standard Time
+1472:
+  Type: standard
+  Name: Magadan Standard Time
+1490:
+  Type: display
+  Name: GTB Standard Time
+1501:
+  Type: daylight
+  Name: Turkey Standard Time
+1502:
+  Type: standard
+  Name: Turkey Standard Time
+1640:
+  Type: display
+  Name: Samoa Standard Time
+1660:
+  Type: display
+  Name: Bahia Standard Time
+1661:
+  Type: daylight
+  Name: Bahia Standard Time
+1662:
+  Type: standard
+  Name: Bahia Standard Time
+1721:
+  Type: daylight
+  Name: Libya Standard Time
+1722:
+  Type: standard
+  Name: Libya Standard Time
+1740:
+  Type: display
+  Name: West Asia Standard Time
+1760:
+  Type: display
+  Name: Mid-Atlantic Standard Time
+1780:
+  Type: display
+  Name: Libya Standard Time
+1800:
+  Type: display
+  Name: Line Islands Standard Time
+1801:
+  Type: daylight
+  Name: Line Islands Standard Time
+1802:
+  Type: standard
+  Name: Line Islands Standard Time
+1821:
+  Type: daylight
+  Name: Kaliningrad Standard Time
+1822:
+  Type: standard
+  Name: Kaliningrad Standard Time
+1831:
+  Type: daylight
+  Name: Russian Standard Time
+1832:
+  Type: standard
+  Name: Russian Standard Time
+1841:
+  Type: daylight
+  Name: Ekaterinburg Standard Time
+1842:
+  Type: standard
+  Name: Ekaterinburg Standard Time
+1861:
+  Type: daylight
+  Name: North Asia Standard Time
+1862:
+  Type: standard
+  Name: North Asia Standard Time
+1871:
+  Type: daylight
+  Name: North Asia East Standard Time
+1872:
+  Type: standard
+  Name: North Asia East Standard Time
+1881:
+  Type: daylight
+  Name: Yakutsk Standard Time
+1882:
+  Type: standard
+  Name: Yakutsk Standard Time
+1891:
+  Type: daylight
+  Name: Russia Time Zone 3
+1892:
+  Type: standard
+  Name: Russia Time Zone 3
+1911:
+  Type: daylight
+  Name: Russia Time Zone 10
+1912:
+  Type: standard
+  Name: Russia Time Zone 10
+1931:
+  Type: daylight
+  Name: Russia Time Zone 11
+1932:
+  Type: standard
+  Name: Russia Time Zone 11
+1951:
+  Type: daylight
+  Name: Vladivostok Standard Time
+1952:
+  Type: standard
+  Name: Vladivostok Standard Time
+1970:
+  Type: display
+  Name: Belarus Standard Time
+1971:
+  Type: daylight
+  Name: Belarus Standard Time
+1972:
+  Type: standard
+  Name: Belarus Standard Time
+2000:
+  Type: display
+  Name: Cape Verde Standard Time
+2001:
+  Type: daylight
+  Name: Cape Verde Standard Time
+2002:
+  Type: standard
+  Name: Cape Verde Standard Time
+2040:
+  Type: display
+  Name: Eastern Standard Time (Mexico)
+2041:
+  Type: daylight
+  Name: Eastern Standard Time (Mexico)
+2042:
+  Type: standard
+  Name: Eastern Standard Time (Mexico)
+2060:
+  Type: display
+  Name: North Korea Standard Time
+2061:
+  Type: daylight
+  Name: North Korea Standard Time
+2062:
+  Type: standard
+  Name: North Korea Standard Time
+2080:
+  Type: display
+  Name: Argentina Standard Time
+2120:
+  Type: display
+  Name: Vladivostok Standard Time
+2140:
+  Type: display
+  Name: Transbaikal Standard Time
+2141:
+  Type: daylight
+  Name: Transbaikal Standard Time
+2142:
+  Type: standard
+  Name: Transbaikal Standard Time
+2160:
+  Type: display
+  Name: Altai Standard Time
+2161:
+  Type: daylight
+  Name: Altai Standard Time
+2162:
+  Type: standard
+  Name: Altai Standard Time
+2180:
+  Type: display
+  Name: Astrakhan Standard Time
+2181:
+  Type: daylight
+  Name: Astrakhan Standard Time
+2182:
+  Type: standard
+  Name: Astrakhan Standard Time
+2190:
+  Type: display
+  Name: Ekaterinburg Standard Time
+2200:
+  Type: display
+  Name: Kaliningrad Standard Time
+2230:
+  Type: display
+  Name: North Asia East Standard Time
+2240:
+  Type: display
+  Name: North Asia Standard Time
+2250:
+  Type: display
+  Name: Russia Time Zone 10
+2260:
+  Type: display
+  Name: Russia Time Zone 11
+2270:
+  Type: display
+  Name: Russia Time Zone 3
+2280:
+  Type: display
+  Name: Russian Standard Time
+2290:
+  Type: display
+  Name: Yakutsk Standard Time
+2320:
+  Type: display
+  Name: Sakhalin Standard Time
+2321:
+  Type: daylight
+  Name: Sakhalin Standard Time
+2322:
+  Type: standard
+  Name: Sakhalin Standard Time
+2340:
+  Type: display
+  Name: Haiti Standard Time
+2341:
+  Type: daylight
+  Name: Haiti Standard Time
+2342:
+  Type: standard
+  Name: Haiti Standard Time
+2370:
+  Type: display
+  Name: Easter Island Standard Time
+2371:
+  Type: daylight
+  Name: Easter Island Standard Time
+2372:
+  Type: standard
+  Name: Easter Island Standard Time
+2390:
+  Type: display
+  Name: Aleutian Standard Time
+2391:
+  Type: daylight
+  Name: Aleutian Standard Time
+2392:
+  Type: standard
+  Name: Aleutian Standard Time
+2410:
+  Type: display
+  Name: Marquesas Standard Time
+2411:
+  Type: daylight
+  Name: Marquesas Standard Time
+2412:
+  Type: standard
+  Name: Marquesas Standard Time
+2430:
+  Type: display
+  Name: Cuba Standard Time
+2431:
+  Type: daylight
+  Name: Cuba Standard Time
+2432:
+  Type: standard
+  Name: Cuba Standard Time
+2450:
+  Type: display
+  Name: Saint Pierre Standard Time
+2451:
+  Type: daylight
+  Name: Saint Pierre Standard Time
+2452:
+  Type: standard
+  Name: Saint Pierre Standard Time
+2470:
+  Type: display
+  Name: West Bank Standard Time
+2471:
+  Type: daylight
+  Name: West Bank Standard Time
+2472:
+  Type: standard
+  Name: West Bank Standard Time
+2490:
+  Type: display
+  Name: Aus Central W. Standard Time
+2491:
+  Type: daylight
+  Name: Aus Central W. Standard Time
+2492:
+  Type: standard
+  Name: Aus Central W. Standard Time
+2510:
+  Type: display
+  Name: Lord Howe Standard Time
+2511:
+  Type: daylight
+  Name: Lord Howe Standard Time
+2512:
+  Type: standard
+  Name: Lord Howe Standard Time
+2530:
+  Type: display
+  Name: Chatham Islands Standard Time
+2531:
+  Type: daylight
+  Name: Chatham Islands Standard Time
+2532:
+  Type: standard
+  Name: Chatham Islands Standard Time
+2550:
+  Type: display
+  Name: W. Mongolia Standard Time
+2551:
+  Type: daylight
+  Name: W. Mongolia Standard Time
+2552:
+  Type: standard
+  Name: W. Mongolia Standard Time
+2570:
+  Type: display
+  Name: Turks And Caicos Standard Time
+2571:
+  Type: daylight
+  Name: Turks And Caicos Standard Time
+2572:
+  Type: standard
+  Name: Turks And Caicos Standard Time
+2590:
+  Type: display
+  Name: Tocantins Standard Time
+2591:
+  Type: daylight
+  Name: Tocantins Standard Time
+2592:
+  Type: standard
+  Name: Tocantins Standard Time
+2610:
+  Type: display
+  Name: Bougainville Standard Time
+2611:
+  Type: daylight
+  Name: Bougainville Standard Time
+2612:
+  Type: standard
+  Name: Bougainville Standard Time
+2630:
+  Type: display
+  Name: Norfolk Standard Time
+2631:
+  Type: daylight
+  Name: Norfolk Standard Time
+2632:
+  Type: standard
+  Name: Norfolk Standard Time
+2650:
+  Type: display
+  Name: Morocco Standard Time
+2670:
+  Type: display
+  Name: GMT Standard Time
+2690:
+  Type: display
+  Name: Greenwich Standard Time
+2710:
+  Type: display
+  Name: E. Europe Standard Time
+2730:
+  Type: display
+  Name: Venezuela Standard Time
+2750:
+  Type: display
+  Name: Tomsk Standard Time
+2751:
+  Type: daylight
+  Name: Tomsk Standard Time
+2752:
+  Type: standard
+  Name: Tomsk Standard Time
+2770:
+  Type: display
+  Name: Omsk Standard Time
+2771:
+  Type: daylight
+  Name: Omsk Standard Time
+2772:
+  Type: standard
+  Name: Omsk Standard Time
+2790:
+  Type: display
+  Name: N. Central Asia Standard Time
+2791:
+  Type: daylight
+  Name: N. Central Asia Standard Time
+2792:
+  Type: standard
+  Name: N. Central Asia Standard Time
+2810:
+  Type: display
+  Name: Turkey Standard Time
+2840:
+  Type: display
+  Name: Saratov Standard Time
+2841:
+  Type: daylight
+  Name: Saratov Standard Time
+2842:
+  Type: standard
+  Name: Saratov Standard Time
+2870:
+  Type: display
+  Name: Magallanes Standard Time
+2871:
+  Type: daylight
+  Name: Magallanes Standard Time
+2872:
+  Type: standard
+  Name: Magallanes Standard Time
+20:
+  Type: display
+  Name: Cape Verde Standard Time
+21:
+  Type: daylight
+  Name: Cape Verde Standard Time
+22:
+  Type: standard
+  Name: Cape Verde Standard Time
+30:
+  Type: display
+  Name: Mid-Atlantic Standard Time
+60:
+  Type: display
+  Name: SA Eastern Standard Time
+61:
+  Type: daylight
+  Name: SA Eastern Standard Time
+62:
+  Type: standard
+  Name: SA Eastern Standard Time
+100:
+  Type: display
+  Name: SA Western Standard Time
+101:
+  Type: daylight
+  Name: SA Western Standard Time
+102:
+  Type: standard
+  Name: SA Western Standard Time
+103:
+  Type: display
+  Name: Central Brazilian Standard Time
+213:
+  Type: display
+  Name: Pacific Standard Time (Mexico)
+240:
+  Type: display
+  Name: Samoa Standard Time
+260:
+  Type: display
+  Name: GMT Standard Time
+270:
+  Type: display
+  Name: Greenwich Standard Time
+330:
+  Type: display
+  Name: E. Europe Standard Time
+360:
+  Type: display
+  Name: GTB Standard Time
+383:
+  Type: display
+  Name: Namibia Standard Time
+420:
+  Type: display
+  Name: Russian Standard Time
+421:
+  Type: daylight
+  Name: Russian Standard Time
+422:
+  Type: standard
+  Name: Russian Standard Time
+433:
+  Type: display
+  Name: Georgian Standard Time
+470:
+  Type: display
+  Name: Ekaterinburg Standard Time
+471:
+  Type: daylight
+  Name: Ekaterinburg Standard Time
+472:
+  Type: standard
+  Name: Ekaterinburg Standard Time
+480:
+  Type: display
+  Name: West Asia Standard Time
+510:
+  Type: display
+  Name: Central Asia Standard Time
+520:
+  Type: display
+  Name: N. Central Asia Standard Time
+521:
+  Type: daylight
+  Name: N. Central Asia Standard Time
+522:
+  Type: standard
+  Name: N. Central Asia Standard Time
+550:
+  Type: display
+  Name: North Asia Standard Time
+551:
+  Type: daylight
+  Name: North Asia Standard Time
+552:
+  Type: standard
+  Name: North Asia Standard Time
+580:
+  Type: display
+  Name: North Asia East Standard Time
+581:
+  Type: daylight
+  Name: North Asia East Standard Time
+582:
+  Type: standard
+  Name: North Asia East Standard Time
+640:
+  Type: display
+  Name: Yakutsk Standard Time
+641:
+  Type: daylight
+  Name: Yakutsk Standard Time
+642:
+  Type: standard
+  Name: Yakutsk Standard Time
+700:
+  Type: display
+  Name: Vladivostok Standard Time
+701:
+  Type: daylight
+  Name: Vladivostok Standard Time
+702:
+  Type: standard
+  Name: Vladivostok Standard Time
+720:
+  Type: display
+  Name: Central Pacific Standard Time
+730:
+  Type: display
+  Name: Fiji Standard Time
+790:
+  Type: display
+  Name: SA Western Standard Time
+810:
+  Type: display
+  Name: Venezuela Standard Time
+830:
+  Type: display
+  Name: SA Eastern Standard Time
+840:
+  Type: display
+  Name: Argentina Standard Time
+890:
+  Type: display
+  Name: Morocco Standard Time
+980:
+  Type: display
+  Name: Kamchatka Standard Time
+1060:
+  Type: display
+  Name: North Pacific Standard Time
+1061:
+  Type: daylight
+  Name: North Pacific Standard Time
+1062:
+  Type: standard
+  Name: North Pacific Standard Time
+1150:
+  Type: display
+  Name: UTC-01
+1151:
+  Type: daylight
+  Name: UTC-01
+1152:
+  Type: standard
+  Name: UTC-01
+1170:
+  Type: display
+  Name: UTC-03
+1171:
+  Type: daylight
+  Name: UTC-03
+1172:
+  Type: standard
+  Name: UTC-03
+1180:
+  Type: display
+  Name: UTC-04
+1181:
+  Type: daylight
+  Name: UTC-04
+1182:
+  Type: standard
+  Name: UTC-04
+1190:
+  Type: display
+  Name: UTC-05
+1191:
+  Type: daylight
+  Name: UTC-05
+1192:
+  Type: standard
+  Name: UTC-05
+1200:
+  Type: display
+  Name: UTC-06
+1201:
+  Type: daylight
+  Name: UTC-06
+1202:
+  Type: standard
+  Name: UTC-06
+1210:
+  Type: display
+  Name: UTC-07
+1211:
+  Type: daylight
+  Name: UTC-07
+1212:
+  Type: standard
+  Name: UTC-07
+1240:
+  Type: display
+  Name: UTC-10
+1241:
+  Type: daylight
+  Name: UTC-10
+1242:
+  Type: standard
+  Name: UTC-10
+1260:
+  Type: display
+  Name: UTC-12
+1261:
+  Type: daylight
+  Name: UTC-12
+1262:
+  Type: standard
+  Name: UTC-12
+1270:
+  Type: display
+  Name: UTC+01
+1271:
+  Type: daylight
+  Name: UTC+01
+1272:
+  Type: standard
+  Name: UTC+01
+1280:
+  Type: display
+  Name: UTC+02
+1281:
+  Type: daylight
+  Name: UTC+02
+1282:
+  Type: standard
+  Name: UTC+02
+1290:
+  Type: display
+  Name: UTC+03
+1291:
+  Type: daylight
+  Name: UTC+03
+1292:
+  Type: standard
+  Name: UTC+03
+1300:
+  Type: display
+  Name: UTC+04
+1301:
+  Type: daylight
+  Name: UTC+04
+1302:
+  Type: standard
+  Name: UTC+04
+1310:
+  Type: display
+  Name: UTC+05
+1311:
+  Type: daylight
+  Name: UTC+05
+1312:
+  Type: standard
+  Name: UTC+05
+1320:
+  Type: display
+  Name: UTC+06
+1321:
+  Type: daylight
+  Name: UTC+06
+1322:
+  Type: standard
+  Name: UTC+06
+1330:
+  Type: display
+  Name: UTC+07
+1331:
+  Type: daylight
+  Name: UTC+07
+1332:
+  Type: standard
+  Name: UTC+07
+1340:
+  Type: display
+  Name: UTC+08
+1341:
+  Type: daylight
+  Name: UTC+08
+1342:
+  Type: standard
+  Name: UTC+08
+1350:
+  Type: display
+  Name: UTC+09
+1351:
+  Type: daylight
+  Name: UTC+09
+1352:
+  Type: standard
+  Name: UTC+09
+1360:
+  Type: display
+  Name: UTC+10
+1361:
+  Type: daylight
+  Name: UTC+10
+1362:
+  Type: standard
+  Name: UTC+10
+1370:
+  Type: display
+  Name: UTC+11
+1371:
+  Type: daylight
+  Name: UTC+11
+1372:
+  Type: standard
+  Name: UTC+11
+1500:
+  Type: display
+  Name: Turkey Standard Time
+1600:
+  Type: display
+  Name: Kaliningrad Standard Time
+1601:
+  Type: daylight
+  Name: Kaliningrad Standard Time
+1602:
+  Type: standard
+  Name: Kaliningrad Standard Time
+1720:
+  Type: display
+  Name: Libya Standard Time
+1820:
+  Type: display
+  Name: Russia TZ 1 Standard Time
+1830:
+  Type: display
+  Name: Russia TZ 2 Standard Time
+1840:
+  Type: display
+  Name: Russia TZ 4 Standard Time
+1850:
+  Type: display
+  Name: Russia TZ 5 Standard Time
+1851:
+  Type: daylight
+  Name: Russia TZ 5 Standard Time
+1852:
+  Type: standard
+  Name: Russia TZ 5 Standard Time
+1860:
+  Type: display
+  Name: Russia TZ 6 Standard Time
+1870:
+  Type: display
+  Name: Russia TZ 7 Standard Time
+1880:
+  Type: display
+  Name: Russia TZ 8 Standard Time
+1890:
+  Type: display
+  Name: Russia TZ 3 Standard Time
+1910:
+  Type: display
+  Name: Russia TZ 10 Standard Time
+1930:
+  Type: display
+  Name: Russia TZ 11 Standard Time
+1950:
+  Type: display
+  Name: Russia TZ 9 Standard Time
