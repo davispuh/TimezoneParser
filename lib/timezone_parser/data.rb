@@ -2,7 +2,7 @@
 require 'pathname'
 require 'set'
 require 'tzinfo'
-require 'timezone_parser/data/storage'
+require_relative 'data/storage'
 
 module TimezoneParser
     # Timezone data

@@ -7,7 +7,7 @@ require 'rubygems/package'
 require 'zlib'
 require 'yaml'
 require 'pathname'
-require 'timezone_parser/data'
+require_relative '../data'
 
 module TimezoneParser
     # TZInfo module

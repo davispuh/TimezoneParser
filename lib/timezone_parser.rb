@@ -1,11 +1,11 @@
 # encoding: utf-8
-require 'timezone_parser/version'
-require 'timezone_parser/data'
-require 'timezone_parser/zone_info'
-require 'timezone_parser/abbreviation'
-require 'timezone_parser/timezone'
-require 'timezone_parser/windows_zone'
-require 'timezone_parser/rails_zone'
+require_relative 'timezone_parser/version'
+require_relative 'timezone_parser/data'
+require_relative 'timezone_parser/zone_info'
+require_relative 'timezone_parser/abbreviation'
+require_relative 'timezone_parser/timezone'
+require_relative 'timezone_parser/windows_zone'
+require_relative 'timezone_parser/rails_zone'
 
 # TimezoneParser module
 module TimezoneParser
