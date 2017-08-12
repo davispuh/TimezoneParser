@@ -1561,13 +1561,13 @@
   Name: Libya Standard Time
 1820:
   Type: display
-  Name: Russia TZ 1 Standard Time
+  Name: Kaliningrad Standard Time
 1830:
   Type: display
-  Name: Russia TZ 2 Standard Time
+  Name: Russian Standard Time
 1840:
   Type: display
-  Name: Russia TZ 4 Standard Time
+  Name: Ekaterinburg Standard Time
 1850:
   Type: display
   Name: Russia TZ 5 Standard Time
@@ -1579,22 +1579,22 @@
   Name: Russia TZ 5 Standard Time
 1860:
   Type: display
-  Name: Russia TZ 6 Standard Time
+  Name: North Asia Standard Time
 1870:
   Type: display
-  Name: Russia TZ 7 Standard Time
+  Name: North Asia East Standard Time
 1880:
   Type: display
-  Name: Russia TZ 8 Standard Time
+  Name: Yakutsk Standard Time
 1890:
   Type: display
-  Name: Russia TZ 3 Standard Time
+  Name: Russia Time Zone 3
 1910:
   Type: display
-  Name: Russia TZ 10 Standard Time
+  Name: Russia Time Zone 10
 1930:
   Type: display
-  Name: Russia TZ 11 Standard Time
+  Name: Russia Time Zone 11
 1950:
   Type: display
-  Name: Russia TZ 9 Standard Time
+  Name: Vladivostok Standard Time

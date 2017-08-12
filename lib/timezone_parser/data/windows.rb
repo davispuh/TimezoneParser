@@ -114,6 +114,22 @@ module TimezoneParser
                 data['Name'] = baseMetazone[(id / 10) * 10 + type_base + types.index('standard')]
                 offsets[id] = data unless data['Name'].nil?
             end
+            Hash[offsets.to_a.sort_by { |o| o.first }]
+        end
+
+        def self.correctMUIOffsetNames(offsets, metazoneList, locales)
+            enUS = locales.key('en-US')
+            baseMetazone = metazoneList[enUS]
+            offsets.each do |id, data|
+                actualMetazone = nil
+                baseMetazone.each do |zoneid, name|
+                    if id != zoneid and name == data['Name']
+                        actualMetazone = offsets[zoneid]['Name']
+                        break
+                    end
+                end
+                data['Name'] = actualMetazone if actualMetazone
+            end
             offsets
         end
 

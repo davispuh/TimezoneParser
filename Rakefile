@@ -98,7 +98,7 @@ def update_windows_mui
         tzres = data_location + 'windows_tzres.yaml'
         require 'timezone_parser/data/windows'
         offsets = YAML.load_file(tzres)
-	offsets.merge!(TimezoneParser::Windows.getMUIOffsets)
+        offsets.merge!(TimezoneParser::Windows.getMUIOffsets)
         write_yaml(tzres, offsets)
     else
         puts 'Can update Windows tzres MUI offsets only from Windows!'
@@ -111,6 +111,9 @@ def update_windows_mui_extended(metazones, locales)
     offsets.merge!(TimezoneParser::Windows.collectMUIOffsets(metazones, locales))
     write_yaml(tzres, offsets)
     update_windows_mui
+    offsets = YAML.load_file(tzres)
+    TimezoneParser::Windows.correctMUIOffsetNames(offsets, metazones, locales)
+    write_yaml(tzres, offsets)
 end
 
 def import_timezones

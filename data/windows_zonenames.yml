@@ -167,7 +167,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kaïro":
     Types:
     - daylight
@@ -239,7 +239,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -293,7 +293,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -341,7 +341,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Gekoördineerde Universele Tyd+05":
     Types:
     - daylight
@@ -461,7 +461,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -503,7 +503,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Kuala Lumpur, Singapoer":
     Types:
     - daylight
@@ -575,7 +575,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -629,7 +629,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe-eiland":
     Types:
     - daylight
@@ -653,7 +653,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Gekoördineerde Universele Tyd+11":
     Types:
     - daylight
@@ -701,7 +701,7 @@ af-ZA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -2844,7 +2844,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) ካይሮ":
     Types:
     - daylight
@@ -2892,7 +2892,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) ባግዳድ":
     Types:
     - daylight
@@ -2982,7 +2982,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) የርቫን":
     Types:
     - daylight
@@ -3030,7 +3030,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ኤክተሪንበርግ":
     Types:
     - daylight
@@ -3150,7 +3150,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) የተቀናጀ ዓለም አቀፋዊ ጊዜ+07":
     Types:
     - daylight
@@ -3186,7 +3186,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ኢርኩትስክ፣ ኡላን ባታር":
     Types:
     - daylight
@@ -3258,7 +3258,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) አዴላይድ":
     Types:
     - daylight
@@ -3294,7 +3294,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ካንቤራ፣ ሜልቦርን፣ ሲዲኒ":
     Types:
     - daylight
@@ -3354,7 +3354,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ቾኩርዳክህ":
     Types:
     - daylight
@@ -3384,7 +3384,7 @@ am-ET:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ኦክላንድ፣ ዌሊንግተን":
     Types:
     - daylight
@@ -5533,7 +5533,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) كالينينغراد":
     Types:
     - daylight
@@ -5611,7 +5611,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) مينسك":
     Types:
     - daylight
@@ -5653,7 +5653,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) التوقيت العالمي المتفق عليه+04":
     Types:
     - daylight
@@ -5725,7 +5725,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) التوقيت العالمي المتفق عليه+05":
     Types:
     - daylight
@@ -5833,7 +5833,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) نوفوسيبرسك":
     Types:
     - daylight
@@ -5869,7 +5869,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) التوقيت العالمي المتفق عليه+08":
     Types:
     - daylight
@@ -5947,7 +5947,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) أديلايد":
     Types:
     - daylight
@@ -5989,7 +5989,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) كانبيرا، ملبورن، سيدني":
     Types:
     - daylight
@@ -6049,7 +6049,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ماجادان":
     Types:
     - daylight
@@ -6073,7 +6073,7 @@ ar-SA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) أوكلاند، ولنجتون":
     Types:
     - daylight
@@ -8188,7 +8188,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Koordinasiya Edilmiş Universal Vaxt+02":
     Types:
     - daylight
@@ -8284,7 +8284,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, Sankt-Peterburq, Volqoqrad":
     Types:
     - daylight
@@ -8374,7 +8374,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:30) Kabul":
     Types:
     - daylight
@@ -8404,7 +8404,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) İslamabad, Karaçi":
     Types:
     - daylight
@@ -8518,7 +8518,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -8578,7 +8578,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) İrkutsk, Ulan Bator":
     Types:
     - daylight
@@ -8626,7 +8626,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Çita":
     Types:
     - daylight
@@ -8686,7 +8686,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Houv Adası":
     Types:
     - daylight
@@ -8746,7 +8746,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadır, Petropavlovsk-Kamçatski":
     Types:
     - daylight
@@ -8758,7 +8758,7 @@ az-Latn-AZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auklend, Vellinqton":
     Types:
     - daylight
@@ -10889,7 +10889,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Каір":
     Types:
     - daylight
@@ -10967,7 +10967,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Мінск":
     Types:
     - daylight
@@ -11015,7 +11015,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Абу-Дабі, Мускат":
     Types:
     - daylight
@@ -11099,7 +11099,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Універсальны каардынаваны час+05":
     Types:
     - daylight
@@ -11195,7 +11195,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новасібірск":
     Types:
     - daylight
@@ -11231,7 +11231,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Іркуцк, Улан-Батар":
     Types:
     - daylight
@@ -11321,7 +11321,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Адэлаіда":
     Types:
     - daylight
@@ -11363,7 +11363,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Універсальны каардынаваны час+10":
     Types:
     - daylight
@@ -11423,7 +11423,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) востраў Буганвіль":
     Types:
     - daylight
@@ -11447,7 +11447,7 @@ be-BY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Окленд, Велінгтан":
     Types:
     - daylight
@@ -13584,7 +13584,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Кишинев":
     Types:
     - daylight
@@ -13668,7 +13668,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Найроби":
     Types:
     - daylight
@@ -13722,7 +13722,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Координирано универсално време+04":
     Types:
     - daylight
@@ -13770,7 +13770,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Екатерининбург":
     Types:
     - daylight
@@ -13890,7 +13890,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новосибирск":
     Types:
     - daylight
@@ -13920,7 +13920,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Иркутск, Улан Батор":
     Types:
     - daylight
@@ -14010,7 +14010,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Аделаида":
     Types:
     - daylight
@@ -14040,7 +14040,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Гуам, Порт Морсби":
     Types:
     - daylight
@@ -14124,7 +14124,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Анадир, Петропавловск Камчатски":
     Types:
     - daylight
@@ -14136,7 +14136,7 @@ bg-BG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Координирано универсално време+12":
     Types:
     - daylight
@@ -16219,7 +16219,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) কায়রো":
     Types:
     - daylight
@@ -16333,7 +16333,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) মিনস্ক":
     Types:
     - daylight
@@ -16375,7 +16375,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) ইয়েরেভান":
     Types:
     - daylight
@@ -16447,7 +16447,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) সমন্বিত আন্তর্জাতিক সময়+05":
     Types:
     - daylight
@@ -16531,7 +16531,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) তোমস্ক":
     Types:
     - daylight
@@ -16579,7 +16579,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ইরকুতস্ক, উলান বাতার":
     Types:
     - daylight
@@ -16645,7 +16645,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) ওসাকা, সাপ্পোরো, টোকিও":
     Types:
     - daylight
@@ -16711,7 +16711,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) সমন্বিত আন্তর্জাতিক সময়+10":
     Types:
     - daylight
@@ -16741,7 +16741,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) নিরফোক দ্বীপ":
     Types:
     - daylight
@@ -16795,7 +16795,7 @@ bn-BD:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) অ্যানাদিয়ার, পেট্রোপাভলোস্ক-কামচাস্কি":
     Types:
     - daylight
@@ -18950,7 +18950,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -19016,7 +19016,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -19070,7 +19070,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -19124,7 +19124,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -19238,7 +19238,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -19268,7 +19268,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -19334,7 +19334,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tòquio":
     Types:
     - daylight
@@ -19412,7 +19412,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Illa de Lord Howe":
     Types:
     - daylight
@@ -19430,7 +19430,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Illa Norfolk":
     Types:
     - daylight
@@ -19478,7 +19478,7 @@ ca-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anàdir, Petropavlovsk de Kamtxatka":
     Types:
     - daylight
@@ -21615,7 +21615,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišiněv":
     Types:
     - daylight
@@ -21705,7 +21705,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, Sant Petěrburg, Volgograd":
     Types:
     - daylight
@@ -21759,7 +21759,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -21825,7 +21825,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Koordinovaný světový čas+05":
     Types:
     - daylight
@@ -21933,7 +21933,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -21957,7 +21957,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulánbátar":
     Types:
     - daylight
@@ -22023,7 +22023,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Koordinovaný světový čas+09":
     Types:
     - daylight
@@ -22101,7 +22101,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ostrov Lorda Howa":
     Types:
     - daylight
@@ -22155,7 +22155,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Šalamounovy ostrovy, Nová Kaledonie":
     Types:
     - daylight
@@ -22173,7 +22173,7 @@ cs-CZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -24328,7 +24328,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -24394,7 +24394,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -24448,7 +24448,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -24502,7 +24502,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -24628,7 +24628,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -24664,7 +24664,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaanbataar":
     Types:
     - daylight
@@ -24724,7 +24724,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokyo":
     Types:
     - daylight
@@ -24796,7 +24796,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe Island":
     Types:
     - daylight
@@ -24820,7 +24820,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -24862,7 +24862,7 @@ da-DK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamtjatskij":
     Types:
     - daylight
@@ -27017,7 +27017,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Koordinierte Weltzeit+02":
     Types:
     - daylight
@@ -27095,7 +27095,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -27149,7 +27149,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Koordinierte Weltzeit+04":
     Types:
     - daylight
@@ -27209,7 +27209,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Koordinierte Weltzeit+05":
     Types:
     - daylight
@@ -27317,7 +27317,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Nowosibirsk":
     Types:
     - daylight
@@ -27341,7 +27341,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan-Bator":
     Types:
     - daylight
@@ -27413,7 +27413,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Koordinierte Weltzeit+09":
     Types:
     - daylight
@@ -27485,7 +27485,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord-Howe-Insel":
     Types:
     - daylight
@@ -27545,7 +27545,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadyr, Petropawlowsk-Kamtschatski":
     Types:
     - daylight
@@ -27557,7 +27557,7 @@ de-DE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -29700,7 +29700,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Κισινάου":
     Types:
     - daylight
@@ -29778,7 +29778,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Ναϊρόμπι":
     Types:
     - daylight
@@ -29832,7 +29832,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Μπακού":
     Types:
     - daylight
@@ -29886,7 +29886,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Ισλαμαμπάντ, Καράτσι":
     Types:
     - daylight
@@ -29982,7 +29982,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Μπανγκόκ, Ανόι, Τζακάρτα":
     Types:
     - daylight
@@ -30030,7 +30030,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Ιρκούτσκ, Ουλάν Μπατόρ":
     Types:
     - daylight
@@ -30096,7 +30096,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Οσάκα, Σαππόρο, Τόκιο":
     Types:
     - daylight
@@ -30144,7 +30144,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Γκουάμ, Πορτ Μόρεσμπι":
     Types:
     - daylight
@@ -30228,7 +30228,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Τσοκουρντάχ":
     Types:
     - daylight
@@ -30252,7 +30252,7 @@ el-GR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Πετροπαβλόσκ-Καμτσάτσκι":
     Types:
     - daylight
@@ -32401,7 +32401,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -32467,7 +32467,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -32521,7 +32521,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -32575,7 +32575,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -32689,7 +32689,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -32725,7 +32725,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -32803,7 +32803,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -32857,7 +32857,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe Island":
     Types:
     - daylight
@@ -32881,7 +32881,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Co-ordinated Universal Time+11":
     Types:
     - daylight
@@ -32929,7 +32929,7 @@ en-GB:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -35084,7 +35084,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -35150,7 +35150,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -35204,7 +35204,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -35258,7 +35258,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -35372,7 +35372,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -35408,7 +35408,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -35486,7 +35486,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -35540,7 +35540,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe Island":
     Types:
     - daylight
@@ -35564,7 +35564,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -35612,7 +35612,7 @@ en-US:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -37773,7 +37773,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -37839,7 +37839,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moscú, San Petersburgo, Volgogrado":
     Types:
     - daylight
@@ -37905,7 +37905,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -37947,7 +37947,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Hora universal coordinada+05":
     Types:
     - daylight
@@ -38067,7 +38067,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -38097,7 +38097,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulán Bator":
     Types:
     - daylight
@@ -38181,7 +38181,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaida":
     Types:
     - daylight
@@ -38235,7 +38235,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Isla Lord Howe":
     Types:
     - daylight
@@ -38253,7 +38253,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Hora universal coordinada+11":
     Types:
     - daylight
@@ -38307,7 +38307,7 @@ es-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -40457,7 +40457,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -40523,7 +40523,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moscú, San Petersburgo, Volgogrado":
     Types:
     - daylight
@@ -40589,7 +40589,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -40631,7 +40631,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Hora universal coordinada+05":
     Types:
     - daylight
@@ -40751,7 +40751,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -40781,7 +40781,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulán Bator":
     Types:
     - daylight
@@ -40865,7 +40865,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaida":
     Types:
     - daylight
@@ -40919,7 +40919,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Isla Lord Howe":
     Types:
     - daylight
@@ -40937,7 +40937,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Hora universal coordinada+11":
     Types:
     - daylight
@@ -40991,7 +40991,7 @@ es-MX:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -43135,7 +43135,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Maailmaaeg + 02:00":
     Types:
     - daylight
@@ -43207,7 +43207,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -43255,7 +43255,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -43321,7 +43321,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Maailmaaeg + 05:00":
     Types:
     - daylight
@@ -43423,7 +43423,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Maailmaaeg + 07:00":
     Types:
     - daylight
@@ -43453,7 +43453,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaanbaatar":
     Types:
     - daylight
@@ -43525,7 +43525,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Maailmaaeg + 09:00":
     Types:
     - daylight
@@ -43597,7 +43597,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe'i saar":
     Types:
     - daylight
@@ -43657,7 +43657,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamchatsky":
     Types:
     - daylight
@@ -43669,7 +43669,7 @@ et-EE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -45796,7 +45796,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -45868,7 +45868,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -45928,7 +45928,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Ordu Unibertsal Koordinatua+04":
     Types:
     - daylight
@@ -45988,7 +45988,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Ordu Unibertsal Koordinatua+05":
     Types:
     - daylight
@@ -46090,7 +46090,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -46120,7 +46120,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -46186,7 +46186,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Ordu Unibertsal Koordinatua+09":
     Types:
     - daylight
@@ -46264,7 +46264,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe uhartea":
     Types:
     - daylight
@@ -46324,7 +46324,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamtxatka":
     Types:
     - daylight
@@ -46336,7 +46336,7 @@ eu-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -48515,7 +48515,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+03:00) استانبول":
     Types:
     - daylight
@@ -48545,7 +48545,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) مسکو، سن پترزبورگ، وولگوگراد":
     Types:
     - daylight
@@ -48611,7 +48611,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) ایژفسک، سامارا":
     Types:
     - daylight
@@ -48665,7 +48665,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ساعت هماهنگ جهانی+05":
     Types:
     - daylight
@@ -48797,7 +48797,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+08:00) اولان باتار":
     Types:
     - daylight
@@ -48815,7 +48815,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ایرکوتسک، اولان باتار":
     Types:
     - daylight
@@ -48899,7 +48899,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) آدلاید":
     Types:
     - daylight
@@ -48941,7 +48941,7 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ولادیووستوک":
     Types:
     - daylight
@@ -49019,13 +49019,13 @@ fa-IR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) آنادیر، پتروپاولوسک-کاماچاتسکی (RTZ 11)":
     Types:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) آنادیر، پتروپاولوفسک-کامچاتسکی":
     Types:
     - daylight
@@ -51192,7 +51192,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -51258,7 +51258,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -51312,7 +51312,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -51378,7 +51378,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) Chennai, Kolkata (Kalkutta), Mumbai, New Delhi":
     Types:
     - daylight
@@ -51480,7 +51480,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -51516,7 +51516,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaanbaatar":
     Types:
     - daylight
@@ -51576,7 +51576,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokio":
     Types:
     - daylight
@@ -51648,7 +51648,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howen saari":
     Types:
     - daylight
@@ -51708,7 +51708,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamtšatski":
     Types:
     - daylight
@@ -51720,7 +51720,7 @@ fi-FI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -53867,7 +53867,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -53933,7 +53933,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -53987,7 +53987,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -54041,7 +54041,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -54155,7 +54155,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -54191,7 +54191,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -54269,7 +54269,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -54323,7 +54323,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe Island":
     Types:
     - daylight
@@ -54347,7 +54347,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -54395,7 +54395,7 @@ fil-PH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -56544,7 +56544,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Le Caire":
     Types:
     - daylight
@@ -56616,7 +56616,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -56676,7 +56676,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -56724,7 +56724,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -56838,7 +56838,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novossibirsk":
     Types:
     - daylight
@@ -56874,7 +56874,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkoutsk, Oulan-Bator":
     Types:
     - daylight
@@ -56964,7 +56964,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adélaïde":
     Types:
     - daylight
@@ -57018,7 +57018,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Île Lord Howe":
     Types:
     - daylight
@@ -57036,7 +57036,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -57084,7 +57084,7 @@ fr-CA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamtchatski":
     Types:
     - daylight
@@ -59217,7 +59217,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Le Caire":
     Types:
     - daylight
@@ -59289,7 +59289,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -59349,7 +59349,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -59397,7 +59397,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -59511,7 +59511,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -59547,7 +59547,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkoutsk, Oulan-Bator":
     Types:
     - daylight
@@ -59637,7 +59637,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adélaïde":
     Types:
     - daylight
@@ -59691,7 +59691,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Île Lord Howe":
     Types:
     - daylight
@@ -59709,7 +59709,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -59757,7 +59757,7 @@ fr-FR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadyr, Petropavlovsk-Kamtchatski":
     Types:
     - daylight
@@ -61896,7 +61896,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -61968,7 +61968,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -62028,7 +62028,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -62070,7 +62070,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Hora Universal Coordinada+05":
     Types:
     - daylight
@@ -62190,7 +62190,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -62220,7 +62220,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulán Bátor":
     Types:
     - daylight
@@ -62304,7 +62304,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaida":
     Types:
     - daylight
@@ -62358,7 +62358,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Illas de Lord Howe":
     Types:
     - daylight
@@ -62376,7 +62376,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Hora Universal Coordinada+11":
     Types:
     - daylight
@@ -62430,7 +62430,7 @@ gl-ES:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -64573,7 +64573,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -64639,7 +64639,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -64693,7 +64693,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -64747,7 +64747,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -64861,7 +64861,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -64897,7 +64897,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -64981,7 +64981,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -65035,7 +65035,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Tsibirin Lord Howe":
     Types:
     - daylight
@@ -65053,7 +65053,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -65107,7 +65107,7 @@ ha-Latn-NG:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -67279,7 +67279,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) רבת עמון":
     Types:
     - daylight
@@ -67321,7 +67321,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) מוסקבה, סנט פטרסבורג, וולגוגרד":
     Types:
     - daylight
@@ -67369,7 +67369,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) איז'בסק, סמרה":
     Types:
     - daylight
@@ -67459,7 +67459,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) סרי ג'איאוורדנפורה":
     Types:
     - daylight
@@ -67573,7 +67573,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) קרסנוירסק":
     Types:
     - daylight
@@ -67597,7 +67597,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) בייג'ינג, צ'ונגצ'ינג, הונג קונג, אורומצ'י":
     Types:
     - daylight
@@ -67669,7 +67669,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) סיאול":
     Types:
     - daylight
@@ -67723,7 +67723,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) זמן אוניברסלי מתואם+10":
     Types:
     - daylight
@@ -67795,7 +67795,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) אוקלנד, וולינגטון":
     Types:
     - daylight
@@ -67813,7 +67813,7 @@ he-IL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) זמן אוניברסלי מתואם+12":
     Types:
     - daylight
@@ -69919,7 +69919,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) किसिनौ":
     Types:
     - daylight
@@ -70027,7 +70027,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) मिन्स्क":
     Types:
     - daylight
@@ -70069,7 +70069,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) इज़्हेव्स्क, समारा":
     Types:
     - daylight
@@ -70147,7 +70147,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) समन्वित वैश्विक समय+05":
     Types:
     - daylight
@@ -70231,7 +70231,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) टॉम्स्क":
     Types:
     - daylight
@@ -70285,7 +70285,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) उलानबातर":
     Types:
     - daylight
@@ -70357,7 +70357,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) समन्वित वैश्विक समय+09":
     Types:
     - daylight
@@ -70411,7 +70411,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) समन्वित वैश्विक समय+10":
     Types:
     - daylight
@@ -70435,7 +70435,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) चोकुरदाख":
     Types:
     - daylight
@@ -70495,7 +70495,7 @@ hi-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ऑकलैंड, वैलिंगटन":
     Types:
     - daylight
@@ -72650,7 +72650,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -72710,7 +72710,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, Sankt-Peterburg, Volgograd":
     Types:
     - daylight
@@ -72782,7 +72782,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -72830,7 +72830,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karači":
     Types:
     - daylight
@@ -72944,7 +72944,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -72974,7 +72974,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -73040,7 +73040,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokio":
     Types:
     - daylight
@@ -73118,7 +73118,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Otok Lord Howe":
     Types:
     - daylight
@@ -73178,7 +73178,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadir, Petropavlovsk-Kamčatski":
     Types:
     - daylight
@@ -73190,7 +73190,7 @@ hr-HR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -75345,7 +75345,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minszk":
     Types:
     - daylight
@@ -75411,7 +75411,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -75465,7 +75465,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jereván":
     Types:
     - daylight
@@ -75531,7 +75531,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) Chennai, Kolkata, Mumbai, Új-Delhi":
     Types:
     - daylight
@@ -75633,7 +75633,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novoszibirszk":
     Types:
     - daylight
@@ -75663,7 +75663,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutszk, Ulánbátor":
     Types:
     - daylight
@@ -75735,7 +75735,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Oszaka, Szapporo, Tokió":
     Types:
     - daylight
@@ -75801,7 +75801,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe-sziget":
     Types:
     - daylight
@@ -75825,7 +75825,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Egyezményes világidő+11":
     Types:
     - daylight
@@ -75873,7 +75873,7 @@ hu-HU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -78012,7 +78012,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -78078,7 +78078,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskow, St. Petersburg, Volgograd":
     Types:
     - daylight
@@ -78138,7 +78138,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -78192,7 +78192,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -78306,7 +78306,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -78342,7 +78342,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -78426,7 +78426,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -78474,7 +78474,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Waktu Universal Terkoordinasi+10":
     Types:
     - daylight
@@ -78498,7 +78498,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -78552,7 +78552,7 @@ id-ID:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -80701,7 +80701,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kaíró":
     Types:
     - daylight
@@ -80773,7 +80773,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Naíróbí":
     Types:
     - daylight
@@ -80827,7 +80827,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -80893,7 +80893,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Samræmdur heimstími+05":
     Types:
     - daylight
@@ -80995,7 +80995,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -81019,7 +81019,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Úlan Bator":
     Types:
     - daylight
@@ -81097,7 +81097,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Samræmdur heimstími+09":
     Types:
     - daylight
@@ -81169,7 +81169,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe-eyja":
     Types:
     - daylight
@@ -81193,7 +81193,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -81241,7 +81241,7 @@ is-IS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -83384,7 +83384,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -83450,7 +83450,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -83504,7 +83504,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -83558,7 +83558,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -83672,7 +83672,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -83702,7 +83702,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -83786,7 +83786,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -83840,7 +83840,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Isola di Lord Howe":
     Types:
     - daylight
@@ -83864,7 +83864,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -83912,7 +83912,7 @@ it-IT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -86041,7 +86041,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) ガザ、ヘブロン":
     Types:
     - daylight
@@ -86149,7 +86149,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) 協定世界時+03":
     Types:
     - daylight
@@ -86185,7 +86185,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) エレバン":
     Types:
     - daylight
@@ -86263,7 +86263,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) 協定世界時+05":
     Types:
     - daylight
@@ -86347,7 +86347,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) トムスク":
     Types:
     - daylight
@@ -86395,7 +86395,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) イルクーツク、ウランバートル":
     Types:
     - daylight
@@ -86473,7 +86473,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) 協定世界時+09":
     Types:
     - daylight
@@ -86509,7 +86509,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) キャンベラ、メルボルン、シドニー":
     Types:
     - daylight
@@ -86569,7 +86569,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ノーフォーク島":
     Types:
     - daylight
@@ -86605,7 +86605,7 @@ ja-JP:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) アナディリ、ペトロパブロフスク・カムチャツキー":
     Types:
     - daylight
@@ -88732,7 +88732,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Кишинев":
     Types:
     - daylight
@@ -88798,7 +88798,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Мәскеу, Санкт-Петербург, Волгоград":
     Types:
     - daylight
@@ -88870,7 +88870,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Порт-Луи":
     Types:
     - daylight
@@ -88918,7 +88918,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Исламабад, Карачи":
     Types:
     - daylight
@@ -89026,7 +89026,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новосибирск":
     Types:
     - daylight
@@ -89068,7 +89068,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Иркутск, Улан-Батор":
     Types:
     - daylight
@@ -89152,7 +89152,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Аделаида":
     Types:
     - daylight
@@ -89182,7 +89182,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Гуам, Порт Моресби":
     Types:
     - daylight
@@ -89266,7 +89266,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Анадырь, Петропавловск-Камчатский":
     Types:
     - daylight
@@ -89278,7 +89278,7 @@ kk-KZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Камчатка, Фиджи, Маршалл аралдары":
     Types:
     - daylight
@@ -91403,7 +91403,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) វីកហូក":
     Types:
     - daylight
@@ -91499,7 +91499,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) មូស្ផ្គូរផ្គង សង់ពីតឺស្ប៊ើក វ៉ុលកូក្រាដ":
     Types:
     - daylight
@@ -91583,7 +91583,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:30) កាប៊ុល":
     Types:
     - daylight
@@ -91613,7 +91613,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) អ៊ីស្លាម៉ាបាត ការ៉ាឈី":
     Types:
     - daylight
@@ -91697,7 +91697,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) ក្រាស្នូយ៉ាសក៍":
     Types:
     - daylight
@@ -91775,7 +91775,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) អ៊ុលអានបាតា":
     Types:
     - daylight
@@ -91829,7 +91829,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) យ៉ាគុតស្ក៍":
     Types:
     - daylight
@@ -91883,7 +91883,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ហូប៊ាត":
     Types:
     - daylight
@@ -91925,7 +91925,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ម៉ាកាដាន កោះសូឡូម៉ូន នូវេកាឡេដូញ៉ា":
     Types:
     - daylight
@@ -91997,7 +91997,7 @@ km-KH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) អូកឡែន វេលិងតុន":
     Types:
     - daylight
@@ -94068,7 +94068,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) ಕಾಲಿನಿನ್‌ಗ್ರಾಡ್":
     Types:
     - daylight
@@ -94194,7 +94194,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) ಮಿನ್ಸ್ಕ್":
     Types:
     - daylight
@@ -94236,7 +94236,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) ಟಿಬಿಲಿಸಿ":
     Types:
     - daylight
@@ -94308,7 +94308,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ಸಹಯೋಜಿತ ಸಾರ್ವತ್ರಿಕ ಸಮಯ+05":
     Types:
     - daylight
@@ -94392,7 +94392,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) ಟೋಮ್ಸ್ಕ್":
     Types:
     - daylight
@@ -94440,7 +94440,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ಇರ್ಕುಟ್ಸ್ಕ್, ಉಲಾನ್ ಬತಾರ್":
     Types:
     - daylight
@@ -94518,7 +94518,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) ಸಹಯೋಜಿತ ಸಾರ್ವತ್ರಿಕ ಸಮಯ+09":
     Types:
     - daylight
@@ -94572,7 +94572,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ಸಹಯೋಜಿತ ಸಾರ್ವತ್ರಿಕ ಸಮಯ+10":
     Types:
     - daylight
@@ -94602,7 +94602,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ನಾರ್ಫೊಕ್ ದ್ವೀಪ":
     Types:
     - daylight
@@ -94656,7 +94656,7 @@ kn-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ಆಕ್ಲಾಂಡ್, ವೆಲ್ಲಿಂಗ್ಟನ್":
     Types:
     - daylight
@@ -96805,7 +96805,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) 키시네프":
     Types:
     - daylight
@@ -96853,7 +96853,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) 민스크":
     Types:
     - daylight
@@ -96943,7 +96943,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) 트빌리시":
     Types:
     - daylight
@@ -96985,7 +96985,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) 이슬라마바드, 카라치":
     Types:
     - daylight
@@ -97099,7 +97099,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) 톰스크":
     Types:
     - daylight
@@ -97141,7 +97141,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) 이르쿠츠크, 울란바토르":
     Types:
     - daylight
@@ -97201,7 +97201,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) 오사카, 삿포로, 도쿄":
     Types:
     - daylight
@@ -97255,7 +97255,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) 캔버라, 멜버른, 시드니":
     Types:
     - daylight
@@ -97327,7 +97327,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) 협정 세계시+11":
     Types:
     - daylight
@@ -97345,7 +97345,7 @@ ko-KR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) 오클랜드, 웰링턴":
     Types:
     - daylight
@@ -99403,7 +99403,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) ຄາລິນິນກຣາດ":
     Types:
     - daylight
@@ -99535,7 +99535,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) ອິດ​ສະ​ຕານ​ບູນ":
     Types:
     - daylight
@@ -99613,7 +99613,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) ເຢ​ເຣ​ວານ":
     Types:
     - daylight
@@ -99661,7 +99661,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ເວ​ລາ​ສາ​ກົນ​ມາດ​ຕະ​ຖານ+05":
     Types:
     - daylight
@@ -99745,7 +99745,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) ບາຣນັລ, ກໍໂນ-ອາລຕາຍສຄ":
     Types:
     - daylight
@@ -99823,7 +99823,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ເອີ​ກຸດ​ສ​ກ໌, ອູ​ລັນ​ບາ​ຕໍ":
     Types:
     - daylight
@@ -99865,7 +99865,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) ເຊ​ອູນ":
     Types:
     - daylight
@@ -99919,7 +99919,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ເວ​ລາ​ສາ​ກົນ​ມາດ​ຕະ​ຖານ+10":
     Types:
     - daylight
@@ -99985,7 +99985,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) ​ເກາະນໍ​ຟອກ":
     Types:
     - daylight
@@ -100015,7 +100015,7 @@ lo-LA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ອານາເດີ, ເປໂຕຣປາໂລວສຄ-ຄາມຈາດສກີ":
     Types:
     - daylight
@@ -102152,7 +102152,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišiniovas":
     Types:
     - daylight
@@ -102218,7 +102218,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Minskas":
     Types:
     - daylight
@@ -102284,7 +102284,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevanas":
     Types:
     - daylight
@@ -102350,7 +102350,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Pasaulinis koordinuotasis laikas+05":
     Types:
     - daylight
@@ -102452,7 +102452,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirskas":
     Types:
     - daylight
@@ -102482,7 +102482,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutskas, Ulan Batoras":
     Types:
     - daylight
@@ -102548,7 +102548,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Saporas, Tokijas":
     Types:
     - daylight
@@ -102626,7 +102626,7 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lordo Hau sala":
     Types:
     - daylight
@@ -102686,13 +102686,13 @@ lt-LT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadyris, Kamčiatkos Petropavlovskas (RTZ 11)":
     Types:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadyris, Petropavlovskas-Kamčatskas":
     Types:
     - daylight
@@ -104835,7 +104835,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišiņeva":
     Types:
     - daylight
@@ -104901,7 +104901,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Minska":
     Types:
     - daylight
@@ -104973,7 +104973,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Portluija":
     Types:
     - daylight
@@ -105033,7 +105033,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Universālais koordinētais laiks + 05":
     Types:
     - daylight
@@ -105135,7 +105135,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirska":
     Types:
     - daylight
@@ -105165,7 +105165,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutska, Ulanbatora":
     Types:
     - daylight
@@ -105231,7 +105231,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Saporo, Tokija":
     Types:
     - daylight
@@ -105309,7 +105309,7 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lorda Hava sala":
     Types:
     - daylight
@@ -105369,13 +105369,13 @@ lv-LV:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadira, Petropavlovska-Kamčatka (RTZ 11)":
     Types:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadira, Petropavlovska-Kamčatska":
     Types:
     - daylight
@@ -107502,7 +107502,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Кишињев":
     Types:
     - daylight
@@ -107586,7 +107586,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Најроби":
     Types:
     - daylight
@@ -107640,7 +107640,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Координирано универзално време+04":
     Types:
     - daylight
@@ -107688,7 +107688,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Исламабад, Карачи":
     Types:
     - daylight
@@ -107802,7 +107802,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новосибирск":
     Types:
     - daylight
@@ -107832,7 +107832,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Иркутск, Улан Батор":
     Types:
     - daylight
@@ -107898,7 +107898,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Координирано универзално време+09":
     Types:
     - daylight
@@ -107952,7 +107952,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Гуам, Порт Морзби":
     Types:
     - daylight
@@ -108036,7 +108036,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Анадир, Петропавловск-Камчатски":
     Types:
     - daylight
@@ -108048,7 +108048,7 @@ mk-MK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Координирано универзално време+12":
     Types:
     - daylight
@@ -110155,7 +110155,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) കെയിറോ":
     Types:
     - daylight
@@ -110293,7 +110293,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:30) ടെഹ്റാൻ":
     Types:
     - daylight
@@ -110323,7 +110323,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) കോർഡിനേറ്റഡ് യൂണിവേഴ്സൽ സമയം+04":
     Types:
     - daylight
@@ -110383,7 +110383,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ഇസ്ലാമാബാദ്, കറാച്ചി":
     Types:
     - daylight
@@ -110491,7 +110491,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) ക്രാസ്‌നോയാർസ്‌ക്":
     Types:
     - daylight
@@ -110539,7 +110539,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ഇർകുട്‌സ്ക്, ഉലാൻ ബതാർ":
     Types:
     - daylight
@@ -110617,7 +110617,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) യാകുട്‌സ്ക്":
     Types:
     - daylight
@@ -110683,7 +110683,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) വ്ലാഡിവോസ്റ്റോക്":
     Types:
     - daylight
@@ -110719,7 +110719,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) നോര്‍ഫോക്ക് ദ്വീപ്":
     Types:
     - daylight
@@ -110767,7 +110767,7 @@ ml-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ഓക്‌ലൻഡ്, വെല്ലിംഗ്‌ടൻ":
     Types:
     - daylight
@@ -112922,7 +112922,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -112988,7 +112988,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -113042,7 +113042,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -113096,7 +113096,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -113210,7 +113210,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -113246,7 +113246,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -113330,7 +113330,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -113378,7 +113378,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Waktu Sejagat Diselaras+10":
     Types:
     - daylight
@@ -113402,7 +113402,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Kepulauan Solomon, New Caledonia":
     Types:
     - daylight
@@ -113456,7 +113456,7 @@ ms-MY:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -115617,7 +115617,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -115683,7 +115683,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -115737,7 +115737,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -115803,7 +115803,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi":
     Types:
     - daylight
@@ -115905,7 +115905,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -115941,7 +115941,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -116001,7 +116001,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokyo":
     Types:
     - daylight
@@ -116073,7 +116073,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe-øya":
     Types:
     - daylight
@@ -116097,7 +116097,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -116145,7 +116145,7 @@ nb-NO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -118294,7 +118294,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -118366,7 +118366,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -118426,7 +118426,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -118474,7 +118474,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -118588,7 +118588,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -118624,7 +118624,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkoetsk, Ulaan Bataar":
     Types:
     - daylight
@@ -118708,7 +118708,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -118762,7 +118762,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Wladiwostok":
     Types:
     - daylight
@@ -118792,7 +118792,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -118840,7 +118840,7 @@ nl-NL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -120969,7 +120969,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kiszyniów":
     Types:
     - daylight
@@ -121041,7 +121041,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -121107,7 +121107,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -121167,7 +121167,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Uniwersalny czas koordynowany + 05":
     Types:
     - daylight
@@ -121269,7 +121269,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Nowosybirsk":
     Types:
     - daylight
@@ -121299,7 +121299,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkuck, Ułan Bator":
     Types:
     - daylight
@@ -121371,7 +121371,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokio":
     Types:
     - daylight
@@ -121443,7 +121443,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Wyspa Lord Howe":
     Types:
     - daylight
@@ -121461,7 +121461,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -121515,7 +121515,7 @@ pl-PL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -123616,7 +123616,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Chisinau":
     Types:
     - daylight
@@ -123730,7 +123730,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairóbi":
     Types:
     - daylight
@@ -123790,7 +123790,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -123838,7 +123838,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -123952,7 +123952,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -123982,7 +123982,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan-Bator":
     Types:
     - daylight
@@ -124072,7 +124072,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -124126,7 +124126,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ilha Lord Howe":
     Types:
     - daylight
@@ -124144,7 +124144,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Ilha Bougainville":
     Types:
     - daylight
@@ -124198,7 +124198,7 @@ pt-BR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -126339,7 +126339,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -126405,7 +126405,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -126459,7 +126459,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -126507,7 +126507,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Hora Universal Coordenada+05":
     Types:
     - daylight
@@ -126627,7 +126627,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -126657,7 +126657,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -126741,7 +126741,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -126795,7 +126795,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ilha de Lord Howe":
     Types:
     - daylight
@@ -126813,7 +126813,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Hora Universal Coordenada+11":
     Types:
     - daylight
@@ -126867,7 +126867,7 @@ pt-PT:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -129015,7 +129015,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -129081,7 +129081,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -129141,7 +129141,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Ora universală+04":
     Types:
     - daylight
@@ -129189,7 +129189,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -129303,7 +129303,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -129339,7 +129339,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -129399,7 +129399,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Iakuțk":
     Types:
     - daylight
@@ -129483,7 +129483,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Insula Lord Howe":
     Types:
     - daylight
@@ -129501,7 +129501,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Insula Bougainville":
     Types:
     - daylight
@@ -129555,7 +129555,7 @@ ro-RO:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -131692,7 +131692,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Кишинев":
     Types:
     - daylight
@@ -131746,7 +131746,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Время в формате UTC +03":
     Types:
     - daylight
@@ -131842,7 +131842,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Порт-Луи":
     Types:
     - daylight
@@ -131890,7 +131890,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Исламабад, Карачи":
     Types:
     - daylight
@@ -131998,7 +131998,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новосибирск":
     Types:
     - daylight
@@ -132040,7 +132040,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Иркутск, Улан-Батор":
     Types:
     - daylight
@@ -132118,7 +132118,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Аделаида":
     Types:
     - daylight
@@ -132148,7 +132148,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Время в формате UTC +10":
     Types:
     - daylight
@@ -132232,7 +132232,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Анадырь, Петропавловск-Камчатский":
     Types:
     - daylight
@@ -132244,7 +132244,7 @@ ru-RU:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Веллингтон, Окленд":
     Types:
     - daylight
@@ -134381,7 +134381,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišiňov":
     Types:
     - daylight
@@ -134459,7 +134459,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, Sankt Peterburg, Volgograd":
     Types:
     - daylight
@@ -134513,7 +134513,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -134579,7 +134579,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Koordinovaný svetový čas+05":
     Types:
     - daylight
@@ -134687,7 +134687,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -134711,7 +134711,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulánbátar":
     Types:
     - daylight
@@ -134777,7 +134777,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Koordinovaný svetový čas+09":
     Types:
     - daylight
@@ -134855,7 +134855,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ostrov lorda Howa":
     Types:
     - daylight
@@ -134909,7 +134909,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Šalamúnove ostrovy, Nová Kaledónia":
     Types:
     - daylight
@@ -134927,7 +134927,7 @@ sk-SK:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -137060,7 +137060,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišinjev":
     Types:
     - daylight
@@ -137132,7 +137132,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -137186,7 +137186,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Iževsk, Samara":
     Types:
     - daylight
@@ -137252,7 +137252,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Usklajen univerzalni čas+05":
     Types:
     - daylight
@@ -137354,7 +137354,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -137384,7 +137384,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -137450,7 +137450,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Saporo, Tokio":
     Types:
     - daylight
@@ -137528,7 +137528,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Otork Lord Howe":
     Types:
     - daylight
@@ -137546,7 +137546,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Magadan":
     Types:
     - daylight
@@ -137600,7 +137600,7 @@ sl-SI:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -139729,7 +139729,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -139801,7 +139801,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Najrobi":
     Types:
     - daylight
@@ -139861,7 +139861,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -139915,7 +139915,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karaçi":
     Types:
     - daylight
@@ -140029,7 +140029,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -140059,7 +140059,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulanbator":
     Types:
     - daylight
@@ -140125,7 +140125,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Ora universale e koordinuar+09":
     Types:
     - daylight
@@ -140203,7 +140203,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ishulli i Lordit Hau":
     Types:
     - daylight
@@ -140263,7 +140263,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadir, Petropavlovsk-Kamçatski":
     Types:
     - daylight
@@ -140275,7 +140275,7 @@ sq-AL:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Fixhi":
     Types:
     - daylight
@@ -142424,7 +142424,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kišinjev":
     Types:
     - daylight
@@ -142502,7 +142502,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, St. Petersburg, Volgograd":
     Types:
     - daylight
@@ -142556,7 +142556,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -142628,7 +142628,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Koordinisano univerzalno vreme+05":
     Types:
     - daylight
@@ -142736,7 +142736,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -142760,7 +142760,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -142826,7 +142826,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Koordinisano univerzalno vreme+09":
     Types:
     - daylight
@@ -142904,7 +142904,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Ostrvo Lord Houv":
     Types:
     - daylight
@@ -142964,7 +142964,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) Anadir, Petropavlovsk Kamčatski":
     Types:
     - daylight
@@ -142976,7 +142976,7 @@ sr-Latn-RS:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Fidži":
     Types:
     - daylight
@@ -145137,7 +145137,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -145203,7 +145203,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Moskva, St. Petersburg, Volgograd":
     Types:
     - daylight
@@ -145263,7 +145263,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Jerevan":
     Types:
     - daylight
@@ -145329,7 +145329,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi":
     Types:
     - daylight
@@ -145431,7 +145431,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -145467,7 +145467,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Bator":
     Types:
     - daylight
@@ -145527,7 +145527,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) Osaka, Sapporo, Tokyo":
     Types:
     - daylight
@@ -145599,7 +145599,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howeön":
     Types:
     - daylight
@@ -145623,7 +145623,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Coordinated Universal Time+11":
     Types:
     - daylight
@@ -145671,7 +145671,7 @@ sv-SE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -147814,7 +147814,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -147886,7 +147886,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Muda Ulioratibiwa wa Duniani+03":
     Types:
     - daylight
@@ -147940,7 +147940,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Muda Ulioratibiwa wa Duniani+04":
     Types:
     - daylight
@@ -147994,7 +147994,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Islamabad, Karachi":
     Types:
     - daylight
@@ -148108,7 +148108,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Muda Ulioratibiwa wa Duniani+07":
     Types:
     - daylight
@@ -148144,7 +148144,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -148228,7 +148228,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -148282,7 +148282,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Kisiwa cha Lord Howe":
     Types:
     - daylight
@@ -148300,7 +148300,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Kisiwa cha Bougainville":
     Types:
     - daylight
@@ -148354,7 +148354,7 @@ sw-KE:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -150467,7 +150467,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) காஸா, ஹெப்ரான்":
     Types:
     - daylight
@@ -150587,7 +150587,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) மின்ஸ்க்":
     Types:
     - daylight
@@ -150629,7 +150629,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) எரேவன்":
     Types:
     - daylight
@@ -150695,7 +150695,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ஒருங்கிணைக்கப்பட்ட உலக நேரம்+05":
     Types:
     - daylight
@@ -150791,7 +150791,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) டோம்ஸ்க்":
     Types:
     - daylight
@@ -150833,7 +150833,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) இர்குட்ஸ்க், உலான் பாட்டர்":
     Types:
     - daylight
@@ -150923,7 +150923,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) அடிலெய்ட்":
     Types:
     - daylight
@@ -150971,7 +150971,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) ஹொபார்ட்":
     Types:
     - daylight
@@ -151001,7 +151001,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) சாலமன் தீவு, நியூ கலிடோனியா":
     Types:
     - daylight
@@ -151055,7 +151055,7 @@ ta-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ஆக்லாந்து, வெலிங்டன்":
     Types:
     - daylight
@@ -153156,7 +153156,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) కెయిరో":
     Types:
     - daylight
@@ -153276,7 +153276,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) మిన్స్క్":
     Types:
     - daylight
@@ -153318,7 +153318,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) పోర్ట్ లూయిస్":
     Types:
     - daylight
@@ -153384,7 +153384,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) ఎకటరీన్బర్గ్":
     Types:
     - daylight
@@ -153474,7 +153474,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) టామ్స్క్":
     Types:
     - daylight
@@ -153516,7 +153516,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) ఇర్కుట్స్క్":
     Types:
     - daylight
@@ -153588,7 +153588,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) యాకుట్స్క్":
     Types:
     - daylight
@@ -153648,7 +153648,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) వ్ల్యాడిపాస్టాక్":
     Types:
     - daylight
@@ -153690,7 +153690,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) నార్ఫోక్ దీవి":
     Types:
     - daylight
@@ -153744,7 +153744,7 @@ te-IN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) ఆక్‌లాండ్, వెల్లింగ్టన్":
     Types:
     - daylight
@@ -155827,7 +155827,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) คาลีนินกราด":
     Types:
     - daylight
@@ -155953,7 +155953,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) มินสก์":
     Types:
     - daylight
@@ -156031,7 +156031,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) อีเจฟสค์ ซามารา":
     Types:
     - daylight
@@ -156091,7 +156091,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) ศรีชยาวาเดเนปุระ":
     Types:
     - daylight
@@ -156169,7 +156169,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) คลาสโนยาร์สค์":
     Types:
     - daylight
@@ -156241,7 +156241,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) เออคุทสค์":
     Types:
     - daylight
@@ -156289,7 +156289,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) เวลามาตรฐานสากล+09":
     Types:
     - daylight
@@ -156343,7 +156343,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) เวลามาตรฐานสากล+10":
     Types:
     - daylight
@@ -156421,7 +156421,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+12:00) ฟิจิ":
     Types:
     - daylight
@@ -156439,7 +156439,7 @@ th-TH:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) อนาไดร์ ปิตราปัฟลัฟสค์-คัมชัตสกี":
     Types:
     - daylight
@@ -158566,7 +158566,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kudüs":
     Types:
     - daylight
@@ -158650,7 +158650,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -158710,7 +158710,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -158758,7 +158758,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Eşgüdümlü Evrensel Saat+05":
     Types:
     - daylight
@@ -158884,7 +158884,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -158908,7 +158908,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan Batur":
     Types:
     - daylight
@@ -158998,7 +158998,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -159052,7 +159052,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord Howe Adası":
     Types:
     - daylight
@@ -159070,7 +159070,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Eşgüdümlü Evrensel Saat+11":
     Types:
     - daylight
@@ -159118,7 +159118,7 @@ tr-TR:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Anadır, Petropavlovsk-Kamçatski":
     Types:
     - daylight
@@ -161248,7 +161248,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Каїр":
     Types:
     - daylight
@@ -161326,7 +161326,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Москва, Санкт-Петербург, Волґоґрад":
     Types:
     - daylight
@@ -161386,7 +161386,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Абу-Дабі, Мускат":
     Types:
     - daylight
@@ -161446,7 +161446,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Єкатеринбурґ":
     Types:
     - daylight
@@ -161572,7 +161572,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Новосибірськ":
     Types:
     - daylight
@@ -161602,7 +161602,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Іркутськ, Улан-Батор":
     Types:
     - daylight
@@ -161686,7 +161686,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) всесвітній координований час+09":
     Types:
     - daylight
@@ -161722,7 +161722,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) Гобарт":
     Types:
     - daylight
@@ -161800,7 +161800,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) всесвітній координований час+11":
     Types:
     - daylight
@@ -161818,7 +161818,7 @@ uk-UA:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Окленд, Веллінґтон":
     Types:
     - daylight
@@ -163927,7 +163927,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Kishinyov":
     Types:
     - daylight
@@ -164017,7 +164017,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nayrobi":
     Types:
     - daylight
@@ -164071,7 +164071,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port-Luis":
     Types:
     - daylight
@@ -164143,7 +164143,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:30) Chennay, Kalkutta, Mumbay, Dehli":
     Types:
     - daylight
@@ -164233,7 +164233,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -164269,7 +164269,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulan-Bator":
     Types:
     - daylight
@@ -164359,7 +164359,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaida":
     Types:
     - daylight
@@ -164413,7 +164413,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Lord-Xau oroli":
     Types:
     - daylight
@@ -164431,7 +164431,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Chokurdax":
     Types:
     - daylight
@@ -164485,7 +164485,7 @@ uz-Latn-UZ:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Fiji":
     Types:
     - daylight
@@ -166640,7 +166640,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) Minsk":
     Types:
     - daylight
@@ -166706,7 +166706,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:00) Nairobi":
     Types:
     - daylight
@@ -166760,7 +166760,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) Port Louis":
     Types:
     - daylight
@@ -166808,7 +166808,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) Giờ Quốc tế Phối hợp+05":
     Types:
     - daylight
@@ -166928,7 +166928,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) Novosibirsk":
     Types:
     - daylight
@@ -166964,7 +166964,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) Irkutsk, Ulaan Bataar":
     Types:
     - daylight
@@ -167042,7 +167042,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:30) Adelaide":
     Types:
     - daylight
@@ -167096,7 +167096,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:30) Đảo Lord Howe":
     Types:
     - daylight
@@ -167114,7 +167114,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) Giờ Quốc tế Phối hợp+11":
     Types:
     - daylight
@@ -167168,7 +167168,7 @@ vi-VN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:00) Auckland, Wellington":
     Types:
     - daylight
@@ -169263,7 +169263,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) 协调世界时+02":
     Types:
     - daylight
@@ -169407,7 +169407,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:30) 德黑兰":
     Types:
     - daylight
@@ -169425,7 +169425,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) 协调世界时+04":
     Types:
     - daylight
@@ -169509,7 +169509,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) 阿什哈巴德，塔什干":
     Types:
     - daylight
@@ -169593,7 +169593,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) 协调世界时+07":
     Types:
     - daylight
@@ -169647,7 +169647,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) 伊尔库茨克，乌兰巴托":
     Types:
     - daylight
@@ -169725,7 +169725,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) 首尔":
     Types:
     - daylight
@@ -169779,7 +169779,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) 霍巴特":
     Types:
     - daylight
@@ -169803,7 +169803,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) 协调世界时+11":
     Types:
     - daylight
@@ -169893,7 +169893,7 @@ zh-CN:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:45) 查塔姆群岛":
     Types:
     - daylight
@@ -171940,7 +171940,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 1 Standard Time
+    - Kaliningrad Standard Time
   "(UTC+02:00) 哈拉雷，皮托里":
     Types:
     - daylight
@@ -172084,7 +172084,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 2 Standard Time
+    - Russian Standard Time
   "(UTC+03:30) 德黑蘭":
     Types:
     - daylight
@@ -172102,7 +172102,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 3 Standard Time
+    - Russia Time Zone 3
   "(UTC+04:00) 國際標準時間+04":
     Types:
     - daylight
@@ -172168,7 +172168,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 4 Standard Time
+    - Ekaterinburg Standard Time
   "(UTC+05:00) 伊斯蘭馬巴德，克洛奇":
     Types:
     - daylight
@@ -172270,7 +172270,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 6 Standard Time
+    - North Asia Standard Time
   "(UTC+07:00) 哈霍德":
     Types:
     - daylight
@@ -172318,7 +172318,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 7 Standard Time
+    - North Asia East Standard Time
   "(UTC+08:00) 伊爾庫次克，烏蘭巴圖":
     Types:
     - daylight
@@ -172384,7 +172384,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 8 Standard Time
+    - Yakutsk Standard Time
   "(UTC+09:00) 國際標準時間+09":
     Types:
     - daylight
@@ -172450,7 +172450,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 9 Standard Time
+    - Vladivostok Standard Time
   "(UTC+10:00) 關島，莫爾斯貝港":
     Types:
     - daylight
@@ -172480,7 +172480,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 10 Standard Time
+    - Russia Time Zone 10
   "(UTC+11:00) 國際標準時間+11":
     Types:
     - daylight
@@ -172570,7 +172570,7 @@ zh-TW:
     - daylight
     - standard
     Metazones:
-    - Russia TZ 11 Standard Time
+    - Russia Time Zone 11
   "(UTC+12:45) 查塔姆群島":
     Types:
     - daylight
