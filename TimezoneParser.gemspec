@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
   spec.license       = 'UNLICENSE'
 
   spec.files         = `git ls-files`.split($/)
-  spec.files.delete_if { |name| name[-4, 4] == '.yml' }
-  spec.files         << 'data/version.yml'
+  spec.files.delete_if { |name| name[-4, 4] == '.yaml' }
+  spec.files         << 'data/version.yaml'
   ['abbreviations.dat', 'countries.dat', 'metazones.dat',
   'rails.dat', 'rails_i18n.dat', 'timezones.dat',
   'windows_offsets.dat', 'windows_timezones.dat', 'windows_zonenames.dat'].each do |name|

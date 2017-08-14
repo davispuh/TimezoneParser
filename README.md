@@ -127,7 +127,7 @@ Feel free to improve as you see.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Export `.yml` data files to binary `.dat` with `rake export`
+3. Export `.yaml` data files to binary `.dat` with `rake export`
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request

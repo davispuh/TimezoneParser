@@ -45,20 +45,20 @@ def update
     metazones = TimezoneParser::CLDR::getMetazones
     windowsZones = TimezoneParser::CLDR::getWindowsZones
     TimezoneParser::CLDR::updateAbbreviations(abbreviations)
-    version = YAML.load_file(data_location + 'version.yml')
+    version = YAML.load_file(data_location + 'version.yaml')
     version['TZInfo'] = TimezoneParser::TZInfo::getVersion
     version['CLDR'] = TimezoneParser::CLDR::getVersion
     version['Rails'] = ActiveSupport::VERSION::STRING
     version['WindowsZones'] = nil unless version.has_key?('WindowsZones')
-    write_yaml(data_location + 'countries.yml', countries)
-    write_yaml(data_location + 'timezones.yml', timezones)
-    write_yaml(data_location + 'metazones.yml', metazones)
-    write_yaml(data_location + 'windows_timezones.yml', windowsZones)
+    write_yaml(data_location + 'countries.yaml', countries)
+    write_yaml(data_location + 'timezones.yaml', timezones)
+    write_yaml(data_location + 'metazones.yaml', metazones)
+    write_yaml(data_location + 'windows_timezones.yaml', windowsZones)
     abbreviations = Hash[abbreviations.to_a.sort_by { |d| d.first } ]
-    write_yaml(data_location + 'abbreviations.yml', abbreviations)
+    write_yaml(data_location + 'abbreviations.yaml', abbreviations)
     rails = Hash[ActiveSupport::TimeZone::MAPPING.to_a.sort_by { |d| d.first } ]
-    write_yaml(data_location + 'rails.yml', rails)
-    write_yaml(data_location + 'version.yml', version)
+    write_yaml(data_location + 'rails.yaml', rails)
+    write_yaml(data_location + 'version.yaml', version)
 end
 
 def update_rails
@@ -71,21 +71,21 @@ def update_rails
             names[locale] = Hash[namesArray.sort_by { |d| d.first } ]
         end
     end
-    write_yaml(data_location + 'rails_i18n.yml', names)
+    write_yaml(data_location + 'rails_i18n.yaml', names)
 end
 
 def update_windows
     os = Gem::Platform.local.os
     if (os == 'mingw32' or os == 'mingw64')
         require 'timezone_parser/data/windows'
-        version = YAML.load_file(data_location + 'version.yml')
+        version = YAML.load_file(data_location + 'version.yaml')
         version['WindowsZones'] = TimezoneParser::Windows.getVersion
         if version['WindowsZones'].nil?
             $stderr.puts TimezoneParser::Windows.errors
         else
             timezones = TimezoneParser::Windows.getTimezones
-            write_yaml(data_location + 'windows_offsets.yml', timezones)
-            write_yaml(data_location + 'version.yml', version)
+            write_yaml(data_location + 'windows_offsets.yaml', timezones)
+            write_yaml(data_location + 'version.yaml', version)
         end
     else
         puts 'Skipped Windows Zone update. Need to be run from Windows.'
@@ -132,7 +132,7 @@ def import_timezones
         tzres = data_location + 'windows_tzres.yaml'
         offsets = YAML.load_file(tzres)
         metazone_names = TimezoneParser::Windows.parseMetazones(metazones, offsets, locales)
-        write_yaml(data_location + 'windows_zonenames.yml', metazone_names)
+        write_yaml(data_location + 'windows_zonenames.yaml', metazone_names)
     else
         puts 'Can\'t import Windows Zone names. Need to be run from Windows.'
     end
@@ -184,7 +184,7 @@ task 'update:windows_mui' do
     update_windows_mui
 end
 
-desc 'Import Windows localized timezones from tzres.yml'
+desc 'Import Windows localized timezones from tzres.yaml'
 task 'update:windowszones' do
     import_timezones
 end
@@ -199,9 +199,9 @@ end
 
 desc 'Export data'
 task 'export' do
-    ['abbreviations.yml', 'timezones.yml', 'countries.yml', 'metazones.yml',
-        'windows_zonenames.yml', 'windows_timezones.yml', 'windows_offsets.yml',
-        'rails.yml', 'rails_i18n.yml'].each do |name|
+    ['abbreviations.yaml', 'timezones.yaml', 'countries.yaml', 'metazones.yaml',
+        'windows_zonenames.yaml', 'windows_timezones.yaml', 'windows_offsets.yaml',
+        'rails.yaml', 'rails_i18n.yaml'].each do |name|
         path = data_location + name
         Marshal.dump(YAML.load_file(path), File.open(path.dirname + (path.basename('.*').to_s + '.dat'), 'wb'))
     end
