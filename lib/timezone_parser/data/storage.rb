@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'yaml'
 require 'date'
 require 'insensitive_hash'
 
@@ -19,6 +18,7 @@ module TimezoneParser
             @@RailsTranslated = nil
 
             public
+
             def self.Abbreviations
                 unless @@Abbreviations
                     @@Abbreviations = Marshal.load(File.open(Data::DataDir + 'abbreviations.dat'))

@@ -56,7 +56,7 @@ describe TimezoneParser do
                 end
 
                 it 'should find timezones in only "GR", "FI" and "BG" regions' do
-                    expect(TimezoneParser::Timezone.new('აღმოსავლეთ ევროპის დრო').set(nil, ['GR', 'FI', 'BG']).getTimezones).to eq(['Europe/Athens', 'Europe/Helsinki', 'Europe/Sofia'])
+                    expect(TimezoneParser::Timezone.new('აღმოსავლეთ ევროპის დრო').set(nil, ['GR', 'FI', 'BG']).getTimezones).to eq(['Europe/Athens', 'Europe/Helsinki', 'Europe/Mariehamn', 'Europe/Sofia'])
                 end
             end
 

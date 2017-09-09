@@ -68,6 +68,11 @@ module TimezoneParser
                         @@TimezoneCountries[timezone].sort!
                     end
                 end
+                ::TZInfo::Timezone.all_linked_zones.each do |zone|
+                    timezone = zone.identifier
+                    actual_timezone = zone.canonical_zone.identifier
+                    @@TimezoneCountries[timezone] = @@TimezoneCountries[actual_timezone].dup unless @@TimezoneCountries[actual_timezone].nil?
+                end
                 @@TimezoneCountries = Hash[@@TimezoneCountries.to_a.sort_by { |pair| pair.first }]
             end
             @@TimezoneCountries

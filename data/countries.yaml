@@ -13,26 +13,307 @@ Africa/Abidjan:
 - TG
 Africa/Accra:
 - GH
+Africa/Addis_Ababa:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Africa/Algiers:
 - DZ
+Africa/Asmara:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
+Africa/Asmera:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
+Africa/Bamako:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Bangui:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Banjul:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
 Africa/Bissau:
 - GW
+Africa/Blantyre:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
+Africa/Brazzaville:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Bujumbura:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
 Africa/Cairo:
 - EG
 Africa/Casablanca:
 - MA
 Africa/Ceuta:
 - ES
+Africa/Conakry:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Dakar:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Dar_es_Salaam:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
+Africa/Djibouti:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
+Africa/Douala:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
 Africa/El_Aaiun:
 - EH
+Africa/Freetown:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Gaborone:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
+Africa/Harare:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
 Africa/Johannesburg:
 - LS
 - SZ
 - ZA
+Africa/Juba:
+- SD
+- SS
+Africa/Kampala:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Africa/Khartoum:
 - SD
 - SS
+Africa/Kigali:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
+Africa/Kinshasa:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
 Africa/Lagos:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Libreville:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Lome:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Luanda:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Lubumbashi:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
+Africa/Lusaka:
+- BI
+- BW
+- CD
+- MW
+- MZ
+- RW
+- ZM
+- ZW
+Africa/Malabo:
 - AO
 - BJ
 - CD
@@ -52,6 +333,25 @@ Africa/Maputo:
 - RW
 - ZM
 - ZW
+Africa/Maseru:
+- LS
+- SZ
+- ZA
+Africa/Mbabane:
+- LS
+- SZ
+- ZA
+Africa/Mogadishu:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Africa/Monrovia:
 - LR
 Africa/Nairobi:
@@ -67,6 +367,76 @@ Africa/Nairobi:
 - YT
 Africa/Ndjamena:
 - TD
+Africa/Niamey:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Nouakchott:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Ouagadougou:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Porto-Novo:
+- AO
+- BJ
+- CD
+- CF
+- CG
+- CM
+- GA
+- GQ
+- NE
+- NG
+Africa/Sao_Tome:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
+Africa/Timbuktu:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
 Africa/Tripoli:
 - LY
 Africa/Tunis:
@@ -77,11 +447,43 @@ America/Adak:
 - US
 America/Anchorage:
 - US
+America/Anguilla:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
+America/Antigua:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Araguaina:
 - BR
 America/Argentina/Buenos_Aires:
 - AR
 America/Argentina/Catamarca:
+- AR
+America/Argentina/ComodRivadavia:
 - AR
 America/Argentina/Cordoba:
 - AR
@@ -103,10 +505,17 @@ America/Argentina/Tucuman:
 - AR
 America/Argentina/Ushuaia:
 - AR
+America/Aruba:
+- AW
+- BQ
+- CW
+- SX
 America/Asuncion:
 - PY
 America/Atikokan:
 - CA
+America/Atka:
+- US
 America/Bahia:
 - BR
 America/Bahia_Banderas:
@@ -125,6 +534,8 @@ America/Bogota:
 - CO
 America/Boise:
 - US
+America/Buenos_Aires:
+- AR
 America/Cambridge_Bay:
 - CA
 America/Campo_Grande:
@@ -133,12 +544,21 @@ America/Cancun:
 - MX
 America/Caracas:
 - VE
+America/Catamarca:
+- AR
 America/Cayenne:
 - GF
+America/Cayman:
+- KY
+- PA
 America/Chicago:
 - US
 America/Chihuahua:
 - MX
+America/Coral_Harbour:
+- CA
+America/Cordoba:
+- AR
 America/Costa_Rica:
 - CR
 America/Creston:
@@ -160,14 +580,33 @@ America/Denver:
 - US
 America/Detroit:
 - US
+America/Dominica:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Edmonton:
 - CA
 America/Eirunepe:
 - BR
 America/El_Salvador:
 - SV
+America/Ensenada:
+- MX
 America/Fort_Nelson:
 - CA
+America/Fort_Wayne:
+- US
 America/Fortaleza:
 - BR
 America/Glace_Bay:
@@ -178,6 +617,36 @@ America/Goose_Bay:
 - CA
 America/Grand_Turk:
 - TC
+America/Grenada:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
+America/Guadeloupe:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Guatemala:
 - GT
 America/Guayaquil:
@@ -206,36 +675,71 @@ America/Indiana/Vincennes:
 - US
 America/Indiana/Winamac:
 - US
+America/Indianapolis:
+- US
 America/Inuvik:
 - CA
 America/Iqaluit:
 - CA
 America/Jamaica:
 - JM
+America/Jujuy:
+- AR
 America/Juneau:
 - US
 America/Kentucky/Louisville:
 - US
 America/Kentucky/Monticello:
 - US
+America/Knox_IN:
+- US
+America/Kralendijk:
+- AW
+- BQ
+- CW
+- SX
 America/La_Paz:
 - BO
 America/Lima:
 - PE
 America/Los_Angeles:
 - US
+America/Louisville:
+- US
+America/Lower_Princes:
+- AW
+- BQ
+- CW
+- SX
 America/Maceio:
 - BR
 America/Managua:
 - NI
 America/Manaus:
 - BR
+America/Marigot:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Martinique:
 - MQ
 America/Matamoros:
 - MX
 America/Mazatlan:
 - MX
+America/Mendoza:
+- AR
 America/Menominee:
 - US
 America/Merida:
@@ -252,6 +756,23 @@ America/Monterrey:
 - MX
 America/Montevideo:
 - UY
+America/Montreal:
+- CA
+America/Montserrat:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Nassau:
 - BS
 America/New_York:
@@ -296,6 +817,8 @@ America/Port_of_Spain:
 - VC
 - VG
 - VI
+America/Porto_Acre:
+- BR
 America/Porto_Velho:
 - BR
 America/Puerto_Rico:
@@ -314,6 +837,10 @@ America/Resolute:
 - CA
 America/Rio_Branco:
 - BR
+America/Rosario:
+- AR
+America/Santa_Isabel:
+- MX
 America/Santarem:
 - BR
 America/Santiago:
@@ -324,10 +851,87 @@ America/Sao_Paulo:
 - BR
 America/Scoresbysund:
 - GL
+America/Shiprock:
+- US
 America/Sitka:
 - US
+America/St_Barthelemy:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/St_Johns:
 - CA
+America/St_Kitts:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
+America/St_Lucia:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
+America/St_Thomas:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
+America/St_Vincent:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Swift_Current:
 - CA
 America/Tegucigalpa:
@@ -340,8 +944,38 @@ America/Tijuana:
 - MX
 America/Toronto:
 - CA
+America/Tortola:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Vancouver:
 - CA
+America/Virgin:
+- AG
+- AI
+- BL
+- DM
+- GD
+- GP
+- KN
+- LC
+- MF
+- MS
+- TT
+- VC
+- VG
+- VI
 America/Whitehorse:
 - CA
 America/Winnipeg:
@@ -360,16 +994,29 @@ Antarctica/Macquarie:
 - AU
 Antarctica/Mawson:
 - AQ
+Antarctica/McMurdo:
+- AQ
+- NZ
 Antarctica/Palmer:
 - AQ
 Antarctica/Rothera:
 - AQ
+Antarctica/South_Pole:
+- AQ
+- NZ
 Antarctica/Syowa:
 - AQ
 Antarctica/Troll:
 - AQ
 Antarctica/Vostok:
 - AQ
+Arctic/Longyearbyen:
+- 'NO'
+- SJ
+Asia/Aden:
+- KW
+- SA
+- YE
 Asia/Almaty:
 - KZ
 Asia/Amman:
@@ -382,10 +1029,15 @@ Asia/Aqtobe:
 - KZ
 Asia/Ashgabat:
 - TM
+Asia/Ashkhabad:
+- TM
 Asia/Atyrau:
 - KZ
 Asia/Baghdad:
 - IQ
+Asia/Bahrain:
+- BH
+- QA
 Asia/Baku:
 - AZ
 Asia/Bangkok:
@@ -401,12 +1053,20 @@ Asia/Bishkek:
 - KG
 Asia/Brunei:
 - BN
+Asia/Calcutta:
+- IN
 Asia/Chita:
 - RU
 Asia/Choibalsan:
 - MN
+Asia/Chongqing:
+- CN
+Asia/Chungking:
+- CN
 Asia/Colombo:
 - LK
+Asia/Dacca:
+- BD
 Asia/Damascus:
 - SY
 Asia/Dhaka:
@@ -422,6 +1082,8 @@ Asia/Famagusta:
 - CY
 Asia/Gaza:
 - PS
+Asia/Harbin:
+- CN
 Asia/Hebron:
 - PS
 Asia/Ho_Chi_Minh:
@@ -432,6 +1094,8 @@ Asia/Hovd:
 - MN
 Asia/Irkutsk:
 - RU
+Asia/Istanbul:
+- TR
 Asia/Jakarta:
 - ID
 Asia/Jayapura:
@@ -444,7 +1108,11 @@ Asia/Kamchatka:
 - RU
 Asia/Karachi:
 - PK
+Asia/Kashgar:
+- CN
 Asia/Kathmandu:
+- NP
+Asia/Katmandu:
 - NP
 Asia/Khandyga:
 - RU
@@ -456,6 +1124,12 @@ Asia/Kuala_Lumpur:
 - MY
 Asia/Kuching:
 - MY
+Asia/Kuwait:
+- KW
+- SA
+- YE
+Asia/Macao:
+- MO
 Asia/Macau:
 - MO
 Asia/Magadan:
@@ -464,6 +1138,9 @@ Asia/Makassar:
 - ID
 Asia/Manila:
 - PH
+Asia/Muscat:
+- AE
+- OM
 Asia/Nicosia:
 - CY
 Asia/Novokuznetsk:
@@ -474,6 +1151,11 @@ Asia/Omsk:
 - RU
 Asia/Oral:
 - KZ
+Asia/Phnom_Penh:
+- KH
+- LA
+- TH
+- VN
 Asia/Pontianak:
 - ID
 Asia/Pyongyang:
@@ -483,10 +1165,14 @@ Asia/Qatar:
 - QA
 Asia/Qyzylorda:
 - KZ
+Asia/Rangoon:
+- MM
 Asia/Riyadh:
 - KW
 - SA
 - YE
+Asia/Saigon:
+- VN
 Asia/Sakhalin:
 - RU
 Asia/Samarkand:
@@ -507,18 +1193,31 @@ Asia/Tbilisi:
 - GE
 Asia/Tehran:
 - IR
+Asia/Tel_Aviv:
+- IL
+Asia/Thimbu:
+- BT
 Asia/Thimphu:
 - BT
 Asia/Tokyo:
 - JP
 Asia/Tomsk:
 - RU
+Asia/Ujung_Pandang:
+- ID
 Asia/Ulaanbaatar:
+- MN
+Asia/Ulan_Bator:
 - MN
 Asia/Urumqi:
 - CN
 Asia/Ust-Nera:
 - RU
+Asia/Vientiane:
+- KH
+- LA
+- TH
+- VN
 Asia/Vladivostok:
 - RU
 Asia/Yakutsk:
@@ -537,21 +1236,42 @@ Atlantic/Canary:
 - ES
 Atlantic/Cape_Verde:
 - CV
+Atlantic/Faeroe:
+- FO
 Atlantic/Faroe:
 - FO
+Atlantic/Jan_Mayen:
+- 'NO'
+- SJ
 Atlantic/Madeira:
 - PT
 Atlantic/Reykjavik:
 - IS
 Atlantic/South_Georgia:
 - GS
+Atlantic/St_Helena:
+- BF
+- CI
+- GM
+- GN
+- ML
+- MR
+- SH
+- SL
+- SN
+- ST
+- TG
 Atlantic/Stanley:
 - FK
+Australia/ACT:
+- AU
 Australia/Adelaide:
 - AU
 Australia/Brisbane:
 - AU
 Australia/Broken_Hill:
+- AU
+Australia/Canberra:
 - AU
 Australia/Currie:
 - AU
@@ -561,16 +1281,70 @@ Australia/Eucla:
 - AU
 Australia/Hobart:
 - AU
+Australia/LHI:
+- AU
 Australia/Lindeman:
 - AU
 Australia/Lord_Howe:
 - AU
 Australia/Melbourne:
 - AU
+Australia/NSW:
+- AU
+Australia/North:
+- AU
 Australia/Perth:
+- AU
+Australia/Queensland:
+- AU
+Australia/South:
 - AU
 Australia/Sydney:
 - AU
+Australia/Tasmania:
+- AU
+Australia/Victoria:
+- AU
+Australia/West:
+- AU
+Australia/Yancowinna:
+- AU
+Brazil/Acre:
+- BR
+Brazil/DeNoronha:
+- BR
+Brazil/East:
+- BR
+Brazil/West:
+- BR
+Canada/Atlantic:
+- CA
+Canada/Central:
+- CA
+Canada/East-Saskatchewan:
+- CA
+Canada/Eastern:
+- CA
+Canada/Mountain:
+- CA
+Canada/Newfoundland:
+- CA
+Canada/Pacific:
+- CA
+Canada/Saskatchewan:
+- CA
+Canada/Yukon:
+- CA
+Chile/Continental:
+- CL
+Chile/EasterIsland:
+- CL
+Cuba:
+- CU
+Egypt:
+- EG
+Eire:
+- IE
 Europe/Amsterdam:
 - NL
 Europe/Andorra:
@@ -579,6 +1353,11 @@ Europe/Astrakhan:
 - RU
 Europe/Athens:
 - GR
+Europe/Belfast:
+- GB
+- GG
+- IM
+- JE
 Europe/Belgrade:
 - BA
 - HR
@@ -588,12 +1367,19 @@ Europe/Belgrade:
 - SI
 Europe/Berlin:
 - DE
+Europe/Bratislava:
+- CZ
+- SK
 Europe/Brussels:
 - BE
 Europe/Bucharest:
 - RO
 Europe/Budapest:
 - HU
+Europe/Busingen:
+- CH
+- DE
+- LI
 Europe/Chisinau:
 - MD
 Europe/Copenhagen:
@@ -602,11 +1388,26 @@ Europe/Dublin:
 - IE
 Europe/Gibraltar:
 - GI
+Europe/Guernsey:
+- GB
+- GG
+- IM
+- JE
 Europe/Helsinki:
 - AX
 - FI
+Europe/Isle_of_Man:
+- GB
+- GG
+- IM
+- JE
 Europe/Istanbul:
 - TR
+Europe/Jersey:
+- GB
+- GG
+- IM
+- JE
 Europe/Kaliningrad:
 - RU
 Europe/Kiev:
@@ -615,6 +1416,13 @@ Europe/Kirov:
 - RU
 Europe/Lisbon:
 - PT
+Europe/Ljubljana:
+- BA
+- HR
+- ME
+- MK
+- RS
+- SI
 Europe/London:
 - GB
 - GG
@@ -626,17 +1434,29 @@ Europe/Madrid:
 - ES
 Europe/Malta:
 - MT
+Europe/Mariehamn:
+- AX
+- FI
 Europe/Minsk:
 - BY
 Europe/Monaco:
 - MC
 Europe/Moscow:
 - RU
+Europe/Nicosia:
+- CY
 Europe/Oslo:
 - 'NO'
 - SJ
 Europe/Paris:
 - FR
+Europe/Podgorica:
+- BA
+- HR
+- ME
+- MK
+- RS
+- SI
 Europe/Prague:
 - CZ
 - SK
@@ -648,10 +1468,28 @@ Europe/Rome:
 - VA
 Europe/Samara:
 - RU
+Europe/San_Marino:
+- IT
+- SM
+- VA
+Europe/Sarajevo:
+- BA
+- HR
+- ME
+- MK
+- RS
+- SI
 Europe/Saratov:
 - RU
 Europe/Simferopol:
 - RU
+Europe/Skopje:
+- BA
+- HR
+- ME
+- MK
+- RS
+- SI
 Europe/Sofia:
 - BG
 Europe/Stockholm:
@@ -660,10 +1498,20 @@ Europe/Tallinn:
 - EE
 Europe/Tirane:
 - AL
+Europe/Tiraspol:
+- MD
 Europe/Ulyanovsk:
 - RU
 Europe/Uzhgorod:
 - UA
+Europe/Vaduz:
+- CH
+- DE
+- LI
+Europe/Vatican:
+- IT
+- SM
+- VA
 Europe/Vienna:
 - AT
 Europe/Vilnius:
@@ -672,18 +1520,61 @@ Europe/Volgograd:
 - RU
 Europe/Warsaw:
 - PL
+Europe/Zagreb:
+- BA
+- HR
+- ME
+- MK
+- RS
+- SI
 Europe/Zaporozhye:
 - UA
 Europe/Zurich:
 - CH
 - DE
 - LI
+GB:
+- GB
+- GG
+- IM
+- JE
+GB-Eire:
+- GB
+- GG
+- IM
+- JE
+Hongkong:
+- HK
+Iceland:
+- IS
+Indian/Antananarivo:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Indian/Chagos:
 - IO
 Indian/Christmas:
 - CX
 Indian/Cocos:
 - CC
+Indian/Comoro:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Indian/Kerguelen:
 - TF
 Indian/Mahe:
@@ -692,9 +1583,47 @@ Indian/Maldives:
 - MV
 Indian/Mauritius:
 - MU
+Indian/Mayotte:
+- DJ
+- ER
+- ET
+- KE
+- KM
+- MG
+- SO
+- TZ
+- UG
+- YT
 Indian/Reunion:
 - RE
 - TF
+Iran:
+- IR
+Israel:
+- IL
+Jamaica:
+- JM
+Japan:
+- JP
+Kwajalein:
+- MH
+Libya:
+- LY
+Mexico/BajaNorte:
+- MX
+Mexico/BajaSur:
+- MX
+Mexico/General:
+- MX
+NZ:
+- AQ
+- NZ
+NZ-CHAT:
+- NZ
+Navajo:
+- US
+PRC:
+- CN
 Pacific/Apia:
 - WS
 Pacific/Auckland:
@@ -730,6 +1659,9 @@ Pacific/Guam:
 Pacific/Honolulu:
 - UM
 - US
+Pacific/Johnston:
+- UM
+- US
 Pacific/Kiritimati:
 - KI
 Pacific/Kosrae:
@@ -740,6 +1672,9 @@ Pacific/Majuro:
 - MH
 Pacific/Marquesas:
 - PF
+Pacific/Midway:
+- AS
+- UM
 Pacific/Nauru:
 - NR
 Pacific/Niue:
@@ -757,17 +1692,71 @@ Pacific/Pitcairn:
 - PN
 Pacific/Pohnpei:
 - FM
+Pacific/Ponape:
+- FM
 Pacific/Port_Moresby:
 - PG
 Pacific/Rarotonga:
 - CK
+Pacific/Saipan:
+- GU
+- MP
+Pacific/Samoa:
+- AS
+- UM
 Pacific/Tahiti:
 - PF
 Pacific/Tarawa:
 - KI
 Pacific/Tongatapu:
 - TO
+Pacific/Truk:
+- FM
 Pacific/Wake:
 - UM
 Pacific/Wallis:
 - WF
+Pacific/Yap:
+- FM
+Poland:
+- PL
+Portugal:
+- PT
+ROC:
+- TW
+ROK:
+- KR
+Singapore:
+- SG
+Turkey:
+- TR
+US/Alaska:
+- US
+US/Aleutian:
+- US
+US/Arizona:
+- US
+US/Central:
+- US
+US/East-Indiana:
+- US
+US/Eastern:
+- US
+US/Hawaii:
+- UM
+- US
+US/Indiana-Starke:
+- US
+US/Michigan:
+- US
+US/Mountain:
+- US
+US/Pacific:
+- US
+US/Pacific-New:
+- US
+US/Samoa:
+- AS
+- UM
+W-SU:
+- RU
