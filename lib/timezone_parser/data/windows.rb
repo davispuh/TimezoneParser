@@ -32,6 +32,10 @@ module TimezoneParser
 
         def self.getTimezones(path = TimeZonePath)
             timezones = {}
+
+            timezones['North Pacific Standard Time'] = { 'standard' => 3600 * -8, 'daylight' => 3600 * -7 }
+            timezones['Russia TZ 5 Standard Time']   = { 'standard' => 3600 *  6, 'daylight' => 3600 *  6 }
+
             begin
                 Win32::Registry::HKEY_LOCAL_MACHINE.open(path, Win32::Registry::KEY_READ).each_key do |key, wtime|
                     Win32::Registry::HKEY_LOCAL_MACHINE.open(path + '\\' + key, Win32::Registry::KEY_READ) do |reg|
@@ -54,7 +58,18 @@ module TimezoneParser
             rescue Win32::Registry::Error => e
                 @@Errors << e.message
             end
+
             timezones = Hash[timezones.to_a.sort_by { |d| d.first } ]
+            timezones
+        end
+
+        def self.getTimezonesUTC()
+            timezones = {}
+            ((1..13).to_a + (-12..-1).to_a.reverse).each do |o|
+                name = "UTC%+03d" % o
+                timezones[name] = { 'standard' => 3600 * o }
+                timezones[name]['daylight'] = timezones[name]['standard']
+            end
             timezones
         end
 

@@ -248,6 +248,9 @@ North Asia Standard Time:
 North Korea Standard Time:
   standard: 30600
   daylight: 34200
+North Pacific Standard Time:
+  standard: -28800
+  daylight: -25200
 Omsk Standard Time:
   standard: 21600
   daylight: 25200
@@ -269,6 +272,9 @@ Paraguay Standard Time:
 Romance Standard Time:
   standard: 3600
   daylight: 7200
+Russia TZ 5 Standard Time:
+  standard: 21600
+  daylight: 21600
 Russia Time Zone 10:
   standard: 39600
   daylight: 43200
@@ -353,24 +359,81 @@ US Mountain Standard Time:
 UTC:
   standard: 0
   daylight: 0
+UTC+01:
+  standard: 3600
+  daylight: 3600
+UTC+02:
+  standard: 7200
+  daylight: 7200
+UTC+03:
+  standard: 10800
+  daylight: 10800
+UTC+04:
+  standard: 14400
+  daylight: 14400
+UTC+05:
+  standard: 18000
+  daylight: 18000
+UTC+06:
+  standard: 21600
+  daylight: 21600
+UTC+07:
+  standard: 25200
+  daylight: 25200
+UTC+08:
+  standard: 28800
+  daylight: 28800
+UTC+09:
+  standard: 32400
+  daylight: 32400
+UTC+10:
+  standard: 36000
+  daylight: 36000
+UTC+11:
+  standard: 39600
+  daylight: 39600
 UTC+12:
   standard: 43200
   daylight: 43200
 UTC+13:
   standard: 46800
   daylight: 46800
+UTC-01:
+  standard: -3600
+  daylight: -3600
 UTC-02:
   standard: -7200
   daylight: -7200
+UTC-03:
+  standard: -10800
+  daylight: -10800
+UTC-04:
+  standard: -14400
+  daylight: -14400
+UTC-05:
+  standard: -18000
+  daylight: -18000
+UTC-06:
+  standard: -21600
+  daylight: -21600
+UTC-07:
+  standard: -25200
+  daylight: -25200
 UTC-08:
   standard: -28800
   daylight: -28800
 UTC-09:
   standard: -32400
   daylight: -32400
+UTC-10:
+  standard: -36000
+  daylight: -36000
 UTC-11:
   standard: -39600
   daylight: -39600
+UTC-12:
+  standard: -43200
+  daylight: -43200
 Ulaanbaatar Standard Time:
   standard: 28800
   daylight: 32400

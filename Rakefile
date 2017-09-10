@@ -83,7 +83,9 @@ def update_windows
         if version['WindowsZones'].nil?
             $stderr.puts TimezoneParser::Windows.errors
         else
-            timezones = TimezoneParser::Windows.getTimezones
+            timezones = TimezoneParser::Windows.getTimezonesUTC
+            timezones.merge!(TimezoneParser::Windows.getTimezones)
+            timezones = Hash[timezones.to_a.sort_by { |d| d.first } ]
             write_yaml(data_location + 'windows_offsets.yaml', timezones)
             write_yaml(data_location + 'version.yaml', version)
         end
