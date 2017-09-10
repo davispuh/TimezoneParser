@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'win32/registry'
 require 'fiddle'
+require 'insensitive_hash/minimal'
 
 module TimezoneParser
     # Windows module
@@ -156,7 +157,7 @@ module TimezoneParser
                     puts "Warning: No translation to locale name from LCID (#{lcid}), skipping!"
                     next
                 end
-                metazones[locale] = {}
+                metazones[locale] = InsensitiveHash.new
                 offsets.each do |id, info|
                     unless data.has_key?(id)
                         puts "Warning: Didn't found timezone name for #{id} for #{locale} locale, skipping!"

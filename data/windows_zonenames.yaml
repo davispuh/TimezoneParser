@@ -128612,11 +128612,6 @@ pt-PT:
     - standard
     Metazones:
     - Eastern Standard Time
-  Hora padrão do Leste da AS:
-    Types:
-    - standard
-    Metazones:
-    - SA Eastern Standard Time
   Hora padrão do Leste dos E.U.A.:
     Types:
     - standard
@@ -128627,11 +128622,6 @@ pt-PT:
     - standard
     Metazones:
     - Nepal Standard Time
-  Hora padrão do Oeste da AS:
-    Types:
-    - standard
-    Metazones:
-    - SA Western Standard Time
   Hora padrão do Pacífico:
     Types:
     - standard
