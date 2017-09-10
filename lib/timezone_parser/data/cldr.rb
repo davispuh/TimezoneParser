@@ -3,6 +3,7 @@ require 'cldr'
 require 'cldr/download'
 require 'cldr/export/data'
 require 'cldr/export/data/timezones'
+require 'cldr/export/data/territories_containment'
 require 'pathname'
 
 module TimezoneParser
@@ -14,6 +15,8 @@ module TimezoneParser
 
         protected
         @@Version = nil
+        @@Locales = nil
+        @@Territories = nil
 
         public
         def self.download(source = 'http://unicode.org/Public/cldr/latest/core.zip', target = nil)
@@ -37,9 +40,26 @@ module TimezoneParser
             @@Version
         end
 
+        def self.getLocales
+            unless @@Locales
+                @@Locales = Cldr::Export::Data.locales.sort
+            end
+            @@Locales
+        end
+
+        def self.getTerritories
+            unless @@Territories
+                @@Territories = {}
+                Cldr::Export::Data::TerritoriesContainment.new.territories.each do |territory, info|
+                    @@Territories[territory] = info[:contains]
+                end
+            end
+            @@Territories
+        end
+
         def self.getTimezones
             timezones = { }
-            Cldr::Export::Data.locales.sort.each do |locale|
+            getLocales.each do |locale|
                 tz = Cldr::Export::Data::Timezones.new(locale)
                 next if tz.timezones.empty? and tz.metazones.empty?
 
@@ -84,7 +104,7 @@ module TimezoneParser
         end
 
         def self.updateAbbreviations(abbreviations)
-            Cldr::Export::Data.locales.sort.each do |locale|
+            getLocales.each do |locale|
                 tz = Cldr::Export::Data::Timezones.new(locale)
                 next if tz.timezones.empty? and tz.metazones.empty?
                 tz.timezones.each do |timezone, data|
