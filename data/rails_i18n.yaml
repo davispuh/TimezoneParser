@@ -383,7 +383,6 @@ es:
   Krasnoyarsk: Krasnoyarsk
   Kuala Lumpur: Kuala Lumpur
   Kuwait: Kuwait
-  Kyev: Kyev
   La Paz: La Paz
   Lima: Lima
   Lisboa: Lisbon
@@ -441,8 +440,7 @@ es:
   Tijuana: Tijuana
   Tokio: Tokyo
   UTC: UTC
-  Ulaanbaatar: Ulaanbaatar
-  Ulán Bator: Ulaan Bataar
+  Ulán Bator: Ulaanbaatar
   Urumqi: Urumqi
   Varsovia: Warsaw
   Viena: Vienna
@@ -609,7 +607,6 @@ he:
   אבו דאבי: Abu Dhabi
   אדינבורו: Edinburgh
   אדלייד: Adelaide
-  אולאן באטאר: Ulaan Bataar
   אולן בטור: Ulaanbaatar
   אוסקה: Osaka
   אוקלנד: Auckland
@@ -899,7 +896,6 @@ it:
   Tokyo: Tokyo
   UTC: UTC
   Ulaanbaatar: Ulaanbaatar
-  Ulan Bator: Ulaan Bataar
   Varsavia: Warsaw
   Vienna: Vienna
   Vilnius: Vilnius
@@ -1348,7 +1344,6 @@ nl:
   Tokelau Eilanden: Tokelau Is.
   Tokyo: Tokyo
   UTC: UTC
-  Ulaan Bataar: Ulaan Bataar
   Ulaanbaatar: Ulaanbaatar
   Urumqi: Urumqi
   Vijf: Lima
@@ -1514,158 +1509,6 @@ pl:
   Zagrzeb: Zagreb
   Zurych: Zurich
   Środkowoatlantycki: Mid-Atlantic
-pt-BR:
-  Abu Dabi: Abu Dhabi
-  Adelaide: Adelaide
-  Alasca: Alaska
-  Almaty: Almaty
-  Amsterdã: Amsterdam
-  América Central: Central America
-  Arizona: Arizona
-  Astana: Astana
-  Atenas: Athens
-  Atlântico Médio: Mid-Atlantic
-  Auckland: Auckland
-  Açores: Azores
-  Bagdá: Baghdad
-  Baku: Baku
-  Bangoc: Bangkok
-  Belgrado: Belgrade
-  Berlim: Berlin
-  Berna: Bern
-  Bogotá: Bogota
-  Brasília: Brasilia
-  Bratislava: Bratislava
-  Brisbane: Brisbane
-  Bruxelas: Brussels
-  Bucareste: Bucharest
-  Budapeste: Budapest
-  Buenos Aires: Buenos Aires
-  Cabul: Kabul
-  Cairo: Cairo
-  Canberra: Canberra
-  Caracas: Caracas
-  Casablanca: Casablanca
-  Chennai: Chennai
-  Chihuahua: Chihuahua
-  Chongqing: Chongqing
-  Cidade do México: Mexico City
-  Cingapura: Singapore
-  Copenhague: Copenhagen
-  Daca: Dhaka
-  Darwin: Darwin
-  Dublin: Dublin
-  Edimburgo: Edinburgh
-  Ekaterinburg: Ekaterinburg
-  Estocolmo: Stockholm
-  Fiji: Fiji
-  Georgetown: Georgetown
-  Groenlândia: Greenland
-  Guadalajara: Guadalajara
-  Guam: Guam
-  Hanoi: Hanoi
-  Harare: Harare
-  Havaí: Hawaii
-  Helsinque: Helsinki
-  Hobart: Hobart
-  Hong Kong: Hong Kong
-  Hora da Região Central (EUA e Canadá): Central Time (US & Canada)
-  Hora da Região Leste (EUA e Canadá): Eastern Time (US & Canada)
-  Hora das Montanhas (EUA e Canadá): Mountain Time (US & Canada)
-  Hora do Atlântico (Canadá): Atlantic Time (Canada)
-  Hora do Pacífico (EUA e Canadá): Pacific Time (US & Canada)
-  Ilha Chatham: Chatham Is.
-  Ilha Tokelau: Tokelau Is.
-  Ilha de Cabo Verde: Cape Verde Is.
-  Ilhas Marshall: Marshall Is.
-  Ilhas Midway: Midway Island
-  Ilhas Salomão: Solomon Is.
-  Indiana (Leste): Indiana (East)
-  Irkutsk: Irkutsk
-  Islamabad: Islamabad
-  Istambul: Istanbul
-  Jakarta: Jakarta
-  Jerusalém: Jerusalem
-  Kaliningrado: Kaliningrad
-  Kamchatka: Kamchatka
-  Karachi: Karachi
-  Kathmandu: Kathmandu
-  Kolkata: Kolkata
-  Krasnoyarsk: Krasnoyarsk
-  Kuala Lumpur: Kuala Lumpur
-  Kuwait: Kuwait
-  Kyiv: Kyiv
-  La Paz: La Paz
-  Lima: Lima
-  Linha Internacional de Data - Oeste: International Date Line West
-  Lisboa: Lisbon
-  Liubliana: Ljubljana
-  Londres: London
-  Madri: Madrid
-  Magadan: Magadan
-  Mazatlan: Mazatlan
-  Melbourne: Melbourne
-  Minsk: Minsk
-  Monróvia: Monrovia
-  Monterrey: Monterrey
-  Montevidéu: Montevideo
-  Moscou: Moscow
-  Mumbai: Mumbai
-  Muscat: Muscat
-  Nairobi: Nairobi
-  Newfoundland: Newfoundland
-  Nova Caledônia: New Caledonia
-  Nova Deli: New Delhi
-  Novosibirsk: Novosibirsk
-  Nuku'alofa: Nuku'alofa
-  Oeste da África Central: West Central Africa
-  Osaka: Osaka
-  Paris: Paris
-  Pequim: Beijing
-  Perth: Perth
-  Port Moresby: Port Moresby
-  Praga: Prague
-  Pretória: Pretoria
-  Quito: Quito
-  Rangoon: Rangoon
-  Riad: Riyadh
-  Riga: Riga
-  Roma: Rome
-  Samara: Samara
-  Samoa: Samoa
-  Samoa Americana: American Samoa
-  Santiago: Santiago
-  Sapporo: Sapporo
-  Sarajevo: Sarajevo
-  Saskatchewan: Saskatchewan
-  Seul: Seoul
-  Skopje: Skopje
-  Sofia: Sofia
-  Srednekolymsk: Srednekolymsk
-  Sri Jayawardenepura: Sri Jayawardenepura
-  Sydney: Sydney
-  São Petersburgo: St. Petersburg
-  Taipei: Taipei
-  Tallinn: Tallinn
-  Tashkent: Tashkent
-  Tbilisi: Tbilisi
-  Teerã: Tehran
-  Tijuana: Tijuana
-  Tóquio: Tokyo
-  UTC: UTC
-  Ulaan Bataar: Ulaan Bataar
-  Ulaanbaatar: Ulaanbaatar
-  Urumqi: Urumqi
-  Varsóvia: Warsaw
-  Viena: Vienna
-  Vilnius: Vilnius
-  Vladivostok: Vladivostok
-  Volgograd: Volgograd
-  Wellington: Wellington
-  Yakutsk: Yakutsk
-  Yerevan: Yerevan
-  Zagreb: Zagreb
-  Zurique: Zurich
 pt:
   Abu Dabi: Abu Dhabi
   Adelaide: Adelaide
@@ -1805,7 +1648,157 @@ pt:
   Tijuana: Tijuana
   Tóquio: Tokyo
   UTC: UTC
-  Ulaan Bataar: Ulaan Bataar
+  Ulaanbaatar: Ulaanbaatar
+  Urumqi: Urumqi
+  Varsóvia: Warsaw
+  Viena: Vienna
+  Vilnius: Vilnius
+  Vladivostok: Vladivostok
+  Volgograd: Volgograd
+  Wellington: Wellington
+  Yakutsk: Yakutsk
+  Yerevan: Yerevan
+  Zagreb: Zagreb
+  Zurique: Zurich
+pt-BR:
+  Abu Dabi: Abu Dhabi
+  Adelaide: Adelaide
+  Alasca: Alaska
+  Almaty: Almaty
+  Amsterdã: Amsterdam
+  América Central: Central America
+  Arizona: Arizona
+  Astana: Astana
+  Atenas: Athens
+  Atlântico Médio: Mid-Atlantic
+  Auckland: Auckland
+  Açores: Azores
+  Bagdá: Baghdad
+  Baku: Baku
+  Bangoc: Bangkok
+  Belgrado: Belgrade
+  Berlim: Berlin
+  Berna: Bern
+  Bogotá: Bogota
+  Brasília: Brasilia
+  Bratislava: Bratislava
+  Brisbane: Brisbane
+  Bruxelas: Brussels
+  Bucareste: Bucharest
+  Budapeste: Budapest
+  Buenos Aires: Buenos Aires
+  Cabul: Kabul
+  Cairo: Cairo
+  Canberra: Canberra
+  Caracas: Caracas
+  Casablanca: Casablanca
+  Chennai: Chennai
+  Chihuahua: Chihuahua
+  Chongqing: Chongqing
+  Cidade do México: Mexico City
+  Cingapura: Singapore
+  Copenhague: Copenhagen
+  Daca: Dhaka
+  Darwin: Darwin
+  Dublin: Dublin
+  Edimburgo: Edinburgh
+  Ekaterinburg: Ekaterinburg
+  Estocolmo: Stockholm
+  Fiji: Fiji
+  Georgetown: Georgetown
+  Groenlândia: Greenland
+  Guadalajara: Guadalajara
+  Guam: Guam
+  Hanoi: Hanoi
+  Harare: Harare
+  Havaí: Hawaii
+  Helsinque: Helsinki
+  Hobart: Hobart
+  Hong Kong: Hong Kong
+  Hora da Região Central (EUA e Canadá): Central Time (US & Canada)
+  Hora da Região Leste (EUA e Canadá): Eastern Time (US & Canada)
+  Hora das Montanhas (EUA e Canadá): Mountain Time (US & Canada)
+  Hora do Atlântico (Canadá): Atlantic Time (Canada)
+  Hora do Pacífico (EUA e Canadá): Pacific Time (US & Canada)
+  Ilha Chatham: Chatham Is.
+  Ilha Tokelau: Tokelau Is.
+  Ilha de Cabo Verde: Cape Verde Is.
+  Ilhas Marshall: Marshall Is.
+  Ilhas Midway: Midway Island
+  Ilhas Salomão: Solomon Is.
+  Indiana (Leste): Indiana (East)
+  Irkutsk: Irkutsk
+  Islamabad: Islamabad
+  Istambul: Istanbul
+  Jakarta: Jakarta
+  Jerusalém: Jerusalem
+  Kaliningrado: Kaliningrad
+  Kamchatka: Kamchatka
+  Karachi: Karachi
+  Kathmandu: Kathmandu
+  Kolkata: Kolkata
+  Krasnoyarsk: Krasnoyarsk
+  Kuala Lumpur: Kuala Lumpur
+  Kuwait: Kuwait
+  Kyiv: Kyiv
+  La Paz: La Paz
+  Lima: Lima
+  Linha Internacional de Data - Oeste: International Date Line West
+  Lisboa: Lisbon
+  Liubliana: Ljubljana
+  Londres: London
+  Madri: Madrid
+  Magadan: Magadan
+  Mazatlan: Mazatlan
+  Melbourne: Melbourne
+  Minsk: Minsk
+  Monróvia: Monrovia
+  Monterrey: Monterrey
+  Montevidéu: Montevideo
+  Moscou: Moscow
+  Mumbai: Mumbai
+  Muscat: Muscat
+  Nairobi: Nairobi
+  Newfoundland: Newfoundland
+  Nova Caledônia: New Caledonia
+  Nova Deli: New Delhi
+  Novosibirsk: Novosibirsk
+  Nuku'alofa: Nuku'alofa
+  Oeste da África Central: West Central Africa
+  Osaka: Osaka
+  Paris: Paris
+  Pequim: Beijing
+  Perth: Perth
+  Port Moresby: Port Moresby
+  Praga: Prague
+  Pretória: Pretoria
+  Quito: Quito
+  Rangoon: Rangoon
+  Riad: Riyadh
+  Riga: Riga
+  Roma: Rome
+  Samara: Samara
+  Samoa: Samoa
+  Samoa Americana: American Samoa
+  Santiago: Santiago
+  Sapporo: Sapporo
+  Sarajevo: Sarajevo
+  Saskatchewan: Saskatchewan
+  Seul: Seoul
+  Skopje: Skopje
+  Sofia: Sofia
+  Srednekolymsk: Srednekolymsk
+  Sri Jayawardenepura: Sri Jayawardenepura
+  Sydney: Sydney
+  São Petersburgo: St. Petersburg
+  Taipei: Taipei
+  Tallinn: Tallinn
+  Tashkent: Tashkent
+  Tbilisi: Tbilisi
+  Teerã: Tehran
+  Tijuana: Tijuana
+  Tóquio: Tokyo
+  UTC: UTC
   Ulaanbaatar: Ulaanbaatar
   Urumqi: Urumqi
   Varsóvia: Warsaw

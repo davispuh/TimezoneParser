@@ -71,6 +71,7 @@ def update_rails
             names[locale] = Hash[namesArray.sort_by { |d| d.first } ]
         end
     end
+    names = Hash[names.to_a.sort_by { |d| d.first } ]
     write_yaml(data_location + 'rails_i18n.yaml', names)
 end
 
