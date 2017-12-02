@@ -1,34 +1,11 @@
 # encoding: utf-8
 
 module TimezoneParser
-    # Rails zone data
-    class RailsData < Data
-        protected
-        @RailsZone = nil
-
-        public
-        attr_reader :RailsZone
-        def processEntry(data, rails)
-            if rails
-                @RailsZone = rails
-                @Metazones << rails
-                @Timezones << data
-            else
-                rails = Storage.RailsZones[data]
-                if rails
-                    @RailsZone = data
-                    @Metazones << data
-                    @Timezones << rails
-                end
-            end
-            self
-        end
-    end
-
     # Rails zone
     class RailsZone < ZoneInfo
         protected
         @@Locales = []
+        @@Regions = []
 
         public
         # Locales which will be used for RailsZone methods if not specified there
@@ -40,26 +17,38 @@ module TimezoneParser
             @@Locales
         end
 
-        attr_accessor :All
+        # Regions which will be used for WindowsZone methods if not specified there
+        #
+        # Each region is either ISO 3166-1 alpha-2 code
+        # @return [Array<String>] list containing region identifiers
+        # @see http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+        def self.Regions
+            @@Regions
+        end
+
+        attr_accessor :Locales
+        attr_accessor :Regions
+        attr_accessor :Types
 
         # Rails zone instance
         # @param name [String] Rails zone name
         def initialize(name)
             @Name = name
-            @Data = RailsData.new
             @Valid = nil
             setTime
-            set(@@Locales.dup, true)
+            set(@@Locales.dup, @@Regions.dup)
         end
 
-        # Set locales and all
+        # Set locales and regions
         # @param locales [Array<String>] search only in these locales
-        # @param all [Boolean] specify whether should search for all zones or return as soon as found any
-        # @return [RailsZone] self
+        # @param regions [Array<String>] filter for these regions
+        # @return [WindowsZone] self
         # @see Locales
-        def set(locales = nil, all = true)
+        # @see Regions
+        def set(locales = nil, regions = nil, types = nil)
             @Locales = locales unless locales.nil?
-            @All = all ? true : false
+            @Regions = regions unless regions.nil?
+            @Types = types unless types.nil?
             self
         end
 
@@ -67,61 +56,31 @@ module TimezoneParser
         # @return [Boolean] whether Rails zone is valid
         def isValid?
             if @Valid.nil?
-                @Valid = false
-                @Valid = Data::Storage.RailsZones.has_key?(@Name) if (not @Locales) or (@Locales and @Locales.include?('en'))
-                return @Valid if @Valid
-                locales = @Locales
-                locales = Data::Storage.RailsTranslated.keys if locales.empty?
-                locales.each do |locale|
-                    next unless Data::Storage.RailsTranslated.has_key?(locale)
-                    @Valid = Data::Storage.RailsTranslated[locale].has_key?(@Name)
-                    return @Valid if @Valid
-                end
-            end
-            @Valid = false
-        end
+                params = []
+                joins = ''
+                where = ''
 
-        # Rails zone data
-        # @return [RailsData] data
-        def getData
-            unless @Loaded
-                @Loaded = true
-                @Valid = false
-                @Valid = Data::Storage.RailsZones.has_key?(@Name) if (not @Locales) or (@Locales and @Locales.include?('en'))
-                if @Valid
-                    @Data.processEntry(Data::Storage.RailsZones[@Name], @Name)
-                    return @Data unless @All
+                if not @Locales.empty?
+                    joins += ' LEFT JOIN `Locales` AS L ON RI.Locale = L.ID'
+                    where = 'L.Name COLLATE NOCASE IN (' + Array.new(@Locales.count, '?').join(',') + ') AND '
+                    params += @Locales
                 end
-                locales = @Locales
-                locales = Data::Storage.RailsTranslated.keys if locales.empty?
-                locales.each do |locale|
-                    next unless Data::Storage.RailsTranslated.has_key?(locale)
-                    entry = Data::Storage.RailsTranslated[locale][@Name]
-                    if entry
-                        @Data.processEntry(entry, false)
-                        @Valid = true
-                        return @Data unless @All
-                    end
-                end
-            end
-            @Data
-        end
 
-        # Get UTC offsets in seconds
-        # @return [Array<Fixnum>] list of timezone offsets in seconds
-        def getOffsets
-            if not @Offsets and not getTimezones.empty?
-                @Offsets = @Data.findOffsets(@ToTime, @FromTime).to_a
-            else
-                super
+                sql = "SELECT 1 FROM `RailsI18N` RI #{joins} WHERE #{where}RI.`NameLowercase` = ? LIMIT 1"
+                params << @Name.downcase
+
+                @Valid = Data::Storage.getStatement(sql).execute(*params).count > 0
             end
-            @Offsets
+            @Valid
         end
 
         # Rails zone identifier
         # @return [String] Rails zone identifier
         def getZone
-            getData.RailsZone
+            unless @Zone
+                @Zone = self.getFilteredData(:Zone).first
+            end
+            @Zone
         end
 
         # Check if given Rails zone name is a valid timezone
@@ -138,41 +97,93 @@ module TimezoneParser
         # @param toTime [DateTime] look for offsets which came into effect before this date, exclusive
         # @param fromTime [DateTime] look for offsets which came into effect at this date, inclusive
         # @param locales [Array<String>] search zone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<Fixnum>] list of timezone offsets in seconds
         # @see Locales
-        def self.getOffsets(name, toTime = nil, fromTime = nil, locales = nil, all = true)
-            self.new(name).setTime(toTime, fromTime).set(locales, all).getOffsets
+        def self.getOffsets(name, toTime = nil, fromTime = nil, locales = nil, types = nil)
+            self.new(name).setTime(toTime, fromTime).set(locales, nil, types).getOffsets
         end
 
         # Get Timezone identifiers for given Rails zone name
         # @param name [String] Rails zone name
         # @param locales [Array<String>] search zone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<String>] list of timezone identifiers
         # @see Locales
-        def self.getTimezones(name, locales = nil, all = true)
-            self.new(name).set(locales, all).getTimezones
+        def self.getTimezones(name, locales = nil)
+            self.new(name).set(locales).getTimezones
         end
 
         # Get Metazone identifiers for given Rails zone name
         # @param name [String] Rails zone name
         # @param locales [Array<String>] search zone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<String>] list of metazone identifiers
         # @see Locales
         # @see Regions
-        def self.getMetazones(name, locales = nil, all = true)
-            self.new(name).set(locales, all).getMetazones
+        def self.getMetazones(name, locales = nil)
+            self.new(name).set(locales).getMetazones
         end
 
         # Rails zone identifier
         # @param name [String] Rails zone name
         # @param locales [Array<String>] search zone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [String] Timezone identifier
-        def self.getZone(name, locales = nil, all = true)
-            self.new(name).set(locales, all).getZone
+        def self.getZone(name, locales = nil)
+            self.new(name).set(locales).getZone
         end
+
+
+        protected
+
+        def getFilteredData(dataType)
+            params = []
+            column = nil
+            joins = ''
+            regionJoins = ''
+            useRegionFilter = !@Regions.nil? && !@Regions.empty?
+            case dataType
+            when :Zone
+                column = '`RailsTimezones`.`Name`'
+                joins += ' INNER JOIN `RailsTimezones` ON RailsTimezones.ID = RI.Zone'
+            when :Offsets, :Timezones
+                column = '`Timezones`.`Name`'
+                joins += ' INNER JOIN `RailsTimezones` ON RailsTimezones.ID = RI.Zone'
+                joins += ' INNER JOIN `Timezones` ON RailsTimezones.Timezone = Timezones.ID'
+                regionJoins += ' LEFT JOIN `TimezoneTerritories` ON TimezoneTerritories.Timezone = RailsTimezones.Timezone'
+                regionJoins += ' LEFT JOIN `Territories` ON TimezoneTerritories.Territory = Territories.ID'
+            when :Metazones
+                raise StandardError, "Metazones is not implemented!"
+            when :Types
+                raise StandardError, "Types is not implemented!"
+            else
+                raise StandardError, "Unkown dataType '#{dataType}'"
+            end
+
+            if not @Locales.empty?
+                joins += ' LEFT JOIN `Locales` AS L ON RI.Locale = L.ID'
+                where = 'L.Name COLLATE NOCASE IN (' + Array.new(@Locales.count, '?').join(',')  + ') AND '
+                params += @Locales
+            end
+
+            sql = 'SELECT DISTINCT ' + column + ' FROM `RailsI18N` AS RI'
+            sql += joins
+            if useRegionFilter
+                sql += regionJoins
+            end
+
+            sql += " WHERE #{where}RI.NameLowercase = ?"
+            params << @Name.downcase
+
+            if useRegionFilter
+                sql += ' AND Territories.Territory IN (' + Array.new(@Regions.count, '?').join(',')  + ')'
+                params += @Regions
+            end
+            sql += ' ORDER BY ' + column
+
+            result = Data::Storage.getStatement(sql).execute(*params).collect { |row| row.first }
+            if dataType == :Offsets
+                result = self.class.findOffsets(result, @ToTime, @FromTime, @Types)
+            end
+            result
+        end
+
     end
 end

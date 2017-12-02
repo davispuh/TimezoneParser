@@ -47,6 +47,13 @@ describe TimezoneParser do
             end
         end
 
+        describe '#getTypes' do
+            it 'should return types for timezones' do
+                expect(TimezoneParser::WindowsZone.new('Arabský čas (normálny)').getTypes).to eq([:standard])
+                expect(TimezoneParser::WindowsZone.new('Azerbaijan Summer Time').getTypes).to eq([:daylight])
+            end
+        end
+
         describe '.isValid?' do
             it 'should be valid Windows zone' do
                 expect(TimezoneParser::WindowsZone::isValid?('Ekaterinburg, oră standard', ['ro-RO'])).to be true
@@ -66,8 +73,8 @@ describe TimezoneParser do
         end
 
         describe '.getMetazones' do
-            it 'should find metazones for "Južnoafriški poletni čas"' do
-                expect(TimezoneParser::WindowsZone::getMetazones('Južnoafriški poletni čas')).to eq(['South Africa Standard Time'])
+            it 'should raise error' do
+                expect { TimezoneParser::WindowsZone::getMetazones('Južnoafriški poletni čas') }.to raise_error(StandardError)
             end
         end
 

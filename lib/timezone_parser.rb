@@ -49,17 +49,6 @@ module TimezoneParser
         @@Locales
     end
 
-    # Load Timezone data in memory from files
-    #
-    # If no modules are specified it will load default modules
-    # @param modules [Array<Symbol>] list of modules
-    # @see Modules
-    # @see AllModules
-    def self.preload(modules = @@Modules)
-        modules = AllModules if modules.nil? or modules.empty?
-        Data::Storage.preload(modules)
-    end
-
     # Check if given Timezone name is a valid timezone
     # @param name [String] either Timezone name or abbreviation
     # @param locales [Array<String>] check only for these locales
@@ -112,13 +101,13 @@ module TimezoneParser
         offsets += Abbreviation::getOffsets(name, toTime, fromTime, regions, type) if modules.include?(:Abbreviations)
         return offsets.to_a if not all and not offsets.empty?
 
-        offsets += Timezone::getOffsets(name, toTime, fromTime, locales, regions, all) if modules.include?(:Timezones)
+        offsets += Timezone::getOffsets(name, toTime, fromTime, locales, regions) if modules.include?(:Timezones)
         return offsets.to_a if not all and not offsets.empty?
 
-        offsets += WindowsZone::getOffsets(name, locales, all) if modules.include?(:WindowsZones)
+        offsets += WindowsZone::getOffsets(name, locales) if modules.include?(:WindowsZones)
         return offsets.to_a if not all and not offsets.empty?
 
-        offsets += RailsZone::getOffsets(name, toTime, fromTime, locales, all) if modules.include?(:RailsZones)
+        offsets += RailsZone::getOffsets(name, toTime, fromTime, locales) if modules.include?(:RailsZones)
         offsets.to_a
     end
 
@@ -146,13 +135,13 @@ module TimezoneParser
         timezones += Abbreviation::getTimezones(name, toTime, fromTime, regions, type) if modules.include?(:Abbreviations)
         return timezones.to_a if not all and not timezones.empty?
 
-        timezones += Timezone::getTimezones(name, toTime, fromTime, locales, regions, all) if modules.include?(:Timezones)
+        timezones += Timezone::getTimezones(name, toTime, fromTime, locales, regions) if modules.include?(:Timezones)
         return timezones.to_a if not all and not timezones.empty?
 
-        timezones += WindowsZone::getTimezones(name, locales, regions, all) if modules.include?(:WindowsZones)
+        timezones += WindowsZone::getTimezones(name, locales, regions) if modules.include?(:WindowsZones)
         return timezones.to_a if not all and not timezones.empty?
 
-        timezones += RailsZone::getTimezones(name, locales, all) if modules.include?(:RailsZones)
+        timezones += RailsZone::getTimezones(name, locales) if modules.include?(:RailsZones)
         timezones.to_a
     end
 end

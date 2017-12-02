@@ -5,6 +5,7 @@ require 'yard'
 require 'yaml'
 require 'pathname'
 require 'timezone_parser/data'
+require 'timezone_parser/data/exporter'
 
 desc 'Default: run specs.'
 task :default => :spec
@@ -206,10 +207,7 @@ end
 
 desc 'Export data'
 task 'export' do
-    ['abbreviations.yaml', 'timezones.yaml', 'countries.yaml', 'metazones.yaml',
-        'windows_zonenames.yaml', 'windows_timezones.yaml', 'windows_offsets.yaml',
-        'rails.yaml', 'rails_i18n.yaml'].each do |name|
-        path = data_location + name
-        Marshal.dump(YAML.load_file(path), File.open(path.dirname + (path.basename('.*').to_s + '.dat'), 'wb'))
-    end
+    exporter = TimezoneParser::Data::Exporter.new(data_location)
+    exporter.exportDatabase
 end
+

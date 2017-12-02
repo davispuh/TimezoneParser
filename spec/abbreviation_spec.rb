@@ -76,7 +76,7 @@ describe TimezoneParser do
 
         describe '#getTimezones' do
             it 'should return all timezones for KMT abbreviation' do
-                expect(TimezoneParser::Abbreviation.new('KMT').getTimezones).to eq(['Europe/Kiev'])
+                expect(TimezoneParser::Abbreviation.new('KMT').setTime(DateTime.parse('1920-01-01T00:00:00+00:00')).getTimezones).to eq(['Europe/Kiev', 'Europe/Vilnius'])
             end
 
             context 'between specified time' do
@@ -86,11 +86,35 @@ describe TimezoneParser do
                     expect(TimezoneParser::Abbreviation.new('EET').setTime(DateTime.parse('1985-04-19T21:00:00+00:00'), DateTime.parse('1978-10-14T21:00:00+00:00')).getTimezones).to_not include('Europe/Istanbul')
                 end
             end
+
+            context 'between times' do
+                it 'should include correct timezones for AWT' do
+                    abbr = TimezoneParser::Abbreviation.new('AWT')
+                    abbr.FromTime = nil
+                    abbr.ToTime = DateTime.parse('1990-01-01T00:00:00+00:00')
+                    expect(abbr.getTimezones).to eq(['Antarctica/Casey', 'Australia/Perth'])
+
+                    abbr.reset
+                    abbr.FromTime = DateTime.parse('2014-01-01T00:00:00+00:00')
+                    abbr.ToTime = nil
+                    expect(abbr.getTimezones).to eq(['Antarctica/Casey', 'Australia/Perth'])
+
+                    abbr.reset
+                    expect(abbr.setTime(DateTime.parse('2015-01-01T00:00:00+00:00'), DateTime.parse('1985-01-01T00:00:00+00:00')).getTimezones).to eq(['Antarctica/Casey', 'Australia/Perth'])
+                end
+            end
         end
 
         describe '#getMetazones' do
             it 'should return all metazones for HAT abbreviation' do
                 expect(TimezoneParser::Abbreviation.new('HAT').getMetazones).to eq(['Hawaii_Aleutian', 'Newfoundland'])
+            end
+        end
+
+        describe '#getTypes' do
+            it 'should return types for abbreviations' do
+                expect(TimezoneParser::Abbreviation.new('EET').getTypes).to eq([:daylight, :standard])
+                expect(TimezoneParser::Abbreviation.new('EEST').getTypes).to eq([:daylight])
             end
         end
 

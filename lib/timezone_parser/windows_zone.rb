@@ -1,27 +1,6 @@
 # encoding: utf-8
 
 module TimezoneParser
-    # Windows Timezone data
-    class WindowsData < Data
-        protected
-        @WindowsZone = nil
-
-        public
-        attr_reader :WindowsZone
-        def processEntry(entry, region)
-            @Types += entry['Types'] if entry['Types']
-            if entry.has_key?('Metazones')
-                entry['Metazones'].each do |zone|
-                    @WindowsZone = zone
-                    @Metazones << zone
-                    @Timezones += Storage.getTimezones2(zone, region)
-                    @Offsets += Storage.getOffsets(zone, entry['Types'])
-                end
-            end
-            self
-        end
-    end
-
     # Windows Timezone
     class WindowsZone < ZoneInfo
         protected
@@ -49,28 +28,24 @@ module TimezoneParser
 
         attr_accessor :Locales
         attr_accessor :Regions
-        attr_accessor :All
 
         # Windows Timezone instance
         # @param name [String] Windows Timezone name
         def initialize(name)
             @Name = name
-            @Data = WindowsData.new
             @Valid = nil
-            set(@@Locales.dup, @@Regions.dup, true)
+            set(@@Locales.dup, @@Regions.dup)
         end
 
-        # Set locales, regions and all
+        # Set locales and regions
         # @param locales [Array<String>] search only in these locales
         # @param regions [Array<String>] filter for these regions
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [WindowsZone] self
         # @see Locales
         # @see Regions
-        def set(locales = nil, regions = nil, all = true)
+        def set(locales = nil, regions = nil)
             @Locales = locales unless locales.nil?
             @Regions = regions unless regions.nil?
-            @All = all ? true : false
             self
         end
 
@@ -78,42 +53,31 @@ module TimezoneParser
         # @return [Boolean] whether timezone is valid
         def isValid?
             if @Valid.nil?
-                locales = @Locales
-                locales = Data::Storage.WindowsZones.keys if locales.empty?
-                locales.each do |locale|
-                    next unless Data::Storage.WindowsZones.has_key?(locale)
-                    @Valid = Data::Storage.WindowsZones[locale].has_key?(@Name)
-                    return @Valid if @Valid
-                end
-            end
-            @Valid = false
-        end
+                params = []
+                joins = ''
+                where = ''
 
-        # Windows Timezone data
-        # @return [WindowsData] data
-        def getData
-            unless @Loaded
-                @Loaded = true
-                @Valid = false
-                locales = @Locales
-                locales = Data::Storage.WindowsZones.keys if locales.empty?
-                locales.each do |locale|
-                    next unless Data::Storage.WindowsZones.has_key?(locale)
-                    entry = Data::Storage.WindowsZones[locale][@Name]
-                    if entry
-                        @Data.processEntry(entry, @Regions)
-                        @Valid = true
-                        return @Data unless @All
-                    end
+                if not @Locales.empty?
+                    joins += ' LEFT JOIN `Locales` AS L ON TN.Locale = L.ID'
+                    where = 'L.Name COLLATE NOCASE IN (' + Array.new(@Locales.count, '?').join(',') + ') AND '
+                    params += @Locales
                 end
+
+                sql = "SELECT 1 FROM `WindowsZoneNames` TN #{joins} WHERE #{where}TN.`NameLowercase` = ? LIMIT 1"
+                params << @Name.downcase
+
+                @Valid = Data::Storage.getStatement(sql).execute(*params).count > 0
             end
-            @Data
+            @Valid
         end
 
         # Windows Timezone identifier
         # @return [String] Timezone identifier
         def getZone
-            getData.WindowsZone
+            unless @Zone
+                @Zone = self.getFilteredData(:Zone).first
+            end
+            @Zone
         end
 
         # Check if given Windows Timezone name is a valid timezone
@@ -128,42 +92,108 @@ module TimezoneParser
         # Get UTC offsets in seconds for given Windows Timezone name
         # @param name [String] Windows Timezone name
         # @param locales [Array<String>] search Timezone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<Fixnum>] list of timezone offsets in seconds
         # @see Locales
-        def self.getOffsets(name, locales = nil, all = true)
-            self.new(name).set(locales, nil, all).getOffsets
+        def self.getOffsets(name, locales = nil)
+            self.new(name).set(locales, nil).getOffsets
         end
 
         # Get Timezone identifiers for given Windows Timezone name
         # @param name [String] Windows Timezone name
         # @param locales [Array<String>] search Timezone name only for these locales
         # @param regions [Array<String>] look for timezones only for these regions
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<String>] list of timezone identifiers
         # @see Locales
         # @see Regions
-        def self.getTimezones(name, locales = nil, regions = nil, all = true)
-            self.new(name).set(locales, regions, all).getTimezones
+        def self.getTimezones(name, locales = nil, regions = nil)
+            self.new(name).set(locales, regions).getTimezones
         end
 
         # Get Metazone identifiers for given Windows Timezone name
         # @param name [String] Windows Timezone name
         # @param locales [Array<String>] search Timezone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [Array<String>] list of metazone identifiers
         # @see Locales
-        def self.getMetazones(name, locales = nil, all = true)
-            self.new(name).set(locales, nil, all).getMetazones
+        def self.getMetazones(name, locales = nil)
+            self.new(name).set(locales, nil).getMetazones
         end
 
         # Windows Timezone identifier
         # @param name [String] Windows Timezone name
         # @param locales [Array<String>] search Timezone name only for these locales
-        # @param all [Boolean] specify whether should search for all timezones or return as soon as found any
         # @return [String] Timezone identifier
-        def self.getZone(name, locales = nil, all = true)
-            self.new(name).set(locales, nil, all).getZone
+        def self.getZone(name, locales = nil)
+            self.new(name).set(locales, nil).getZone
         end
+
+        protected
+
+        def getFilteredData(dataType)
+            params = []
+            column = nil
+            joins = ''
+            regionJoins = ''
+            useRegionFilter = !@Regions.nil? && !@Regions.empty?
+            case dataType
+            when :Zone
+                column = '`WindowsZones`.`Name`'
+                joins += ' LEFT JOIN `WindowsZoneName_Zones` AS NameZones ON NameZones.Name = ZN.ID'
+                joins += ' INNER JOIN `WindowsZones` ON WindowsZones.ID = NameZones.Zone'
+            when :Offsets
+                column = '`WindowsZones`.`Standard`, `WindowsZones`.`Daylight`, ZN.`Types`'
+                joins += ' LEFT JOIN `WindowsZoneName_Zones` AS NameZones ON NameZones.Name = ZN.ID'
+                joins += ' INNER JOIN `WindowsZones` ON WindowsZones.ID = NameZones.Zone'
+            when :Timezones
+                column = '`Timezones`.`Name`'
+                joins += ' LEFT JOIN `WindowsZoneName_Zones` AS NameZones ON NameZones.Name = ZN.ID'
+                joins += ' INNER JOIN `WindowsZone_Timezones` ZoneTimezones ON ZoneTimezones.Zone = NameZones.Zone'
+                joins += ' INNER JOIN `Timezones` ON ZoneTimezones.Timezone = Timezones.ID'
+                regionJoins += ' LEFT JOIN `Territories` ON ZoneTimezones.Territory = Territories.ID'
+            when :Metazones
+                raise StandardError, "Metazones is not implemented!"
+            when :Types
+                column = 'ZN.`Types`'
+                useRegionFilter = false
+            else
+                raise StandardError, "Unkown dataType '#{dataType}'"
+            end
+
+            if not @Locales.empty?
+                joins += ' LEFT JOIN `Locales` AS L ON ZN.Locale = L.ID'
+                where = 'L.Name COLLATE NOCASE IN (' + Array.new(@Locales.count, '?').join(',')  + ') AND '
+                params += @Locales
+            end
+
+            sql = 'SELECT DISTINCT ' + column + ' FROM `WindowsZoneNames` AS ZN'
+            sql += joins
+            if useRegionFilter
+                sql += regionJoins
+            end
+
+            sql += " WHERE #{where}ZN.NameLowercase = ?"
+            params << @Name.downcase
+
+            if useRegionFilter
+                sql += ' AND Territories.Territory IN (' + Array.new(@Regions.count, '?').join(',')  + ')'
+                params += @Regions
+            end
+            sql += ' ORDER BY ' + column
+
+            if dataType == :Offsets
+                allOffsets = Set.new
+                Data::Storage.getStatement(sql).execute(*params).each do |row|
+                    allOffsets << row[0] if not (row.last & 0x01).zero?
+                    allOffsets << row[1] if not (row.last & 0x02).zero?
+                end
+                result = allOffsets.sort
+            else
+                result = Data::Storage.getStatement(sql).execute(*params).collect { |row| row.first }
+                if dataType == :Types
+                    result = self.class.convertTypes(result)
+                end
+            end
+            result
+        end
+
     end
 end

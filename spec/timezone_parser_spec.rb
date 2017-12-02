@@ -2,12 +2,6 @@
 require 'spec_helper'
 
 describe TimezoneParser do
-    describe '.preload' do
-        it 'should preload data files' do
-            expect(TimezoneParser.preload).to be true
-        end
-    end
-
     describe '.isValid?' do
         it 'should be valid timezone abbreviation' do
             expect(TimezoneParser.isValid?('HAP')).to be true

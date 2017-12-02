@@ -15,6 +15,7 @@ module TimezoneParser
 
         protected
         @@Version = nil
+        @@Timezones = nil
         @@TimezoneCountries = nil
 
         public
@@ -55,6 +56,13 @@ module TimezoneParser
 
         def self.init
             ::TZInfo::DataSource.set(:ruby, TZInfoData)
+        end
+
+        def self.getTimezones
+            unless @@Timezones
+                @@Timezones = ::TZInfo::Timezone.all_identifiers
+            end
+            @@Timezones
         end
 
         def self.getTimezoneCountries

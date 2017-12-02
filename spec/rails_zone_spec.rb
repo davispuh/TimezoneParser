@@ -27,6 +27,10 @@ describe TimezoneParser do
             it 'should return all offsets for "Grönland"' do
                 expect(TimezoneParser::RailsZone.new('Grönland').getOffsets).to eq([-10800, -7200])
             end
+
+            it 'should return all offsets for "Ньюфаундленд" in CA region' do
+                expect(TimezoneParser::RailsZone.new('Ньюфаундленд').set( nil, ['CA']).getOffsets).to eq([-12600, -9000])
+            end
         end
 
         describe '#getTimezones' do
@@ -66,13 +70,13 @@ describe TimezoneParser do
 
         describe '.getTimezones' do
             it 'should find timezones' do
-                expect(TimezoneParser::RailsZone::getTimezones('치와와', [], true)).to eq(['America/Chihuahua'])
+                expect(TimezoneParser::RailsZone::getTimezones('치와와', [])).to eq(['America/Chihuahua'])
             end
         end
 
         describe '.getMetazones' do
-            it 'should return zone names' do
-                expect(TimezoneParser::RailsZone::getMetazones('치와와')).to eq(['Chihuahua'])
+            it 'should raise error' do
+                expect { TimezoneParser::RailsZone::getMetazones('치와와') }.to raise_error(StandardError)
             end
         end
 

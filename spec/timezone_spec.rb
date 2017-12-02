@@ -29,6 +29,21 @@ describe TimezoneParser do
             it 'should return all offsets for "Ալյասկայի ամառային ժամանակ"' do
                 expect(TimezoneParser::Timezone.new('Ալյասկայի ամառային ժամանակ').getOffsets).to eq([-28800])
             end
+
+            it 'should find offsets using time range' do
+                timezone = TimezoneParser::Timezone.new('җәйге Үзәк Европа вакыты')
+                timezone.FromTime = nil
+                timezone.ToTime = DateTime.parse('1990-05-03T22:00:00+00:00')
+                expect(timezone.getOffsets).to eq([0, 3600, 4772, 4800, 7200, 10800])
+
+                timezone.reset
+                timezone.FromTime = DateTime.parse('2013-10-26T00:00:00+00:00')
+                timezone.ToTime = nil
+                expect(timezone.getOffsets).to eq([7200])
+
+                timezone.reset
+                expect(timezone.setTime(DateTime.parse('2015-01-01T00:00:00+00:00'), DateTime.parse('1985-01-01T00:00:00+00:00')).getOffsets).to eq([3600, 7200])
+            end
         end
 
         describe '#getTimezones' do
