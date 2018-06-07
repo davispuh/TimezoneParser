@@ -56,7 +56,7 @@ Helsinki: Europe/Helsinki
 Hobart: Australia/Hobart
 Hong Kong: Asia/Hong_Kong
 Indiana (East): America/Indiana/Indianapolis
-International Date Line West: Pacific/Midway
+International Date Line West: Etc/GMT+12
 Irkutsk: Asia/Irkutsk
 Islamabad: Asia/Karachi
 Istanbul: Europe/Istanbul
@@ -106,6 +106,7 @@ Perth: Australia/Perth
 Port Moresby: Pacific/Port_Moresby
 Prague: Europe/Prague
 Pretoria: Africa/Johannesburg
+Puerto Rico: America/Puerto_Rico
 Quito: America/Lima
 Rangoon: Asia/Rangoon
 Riga: Europe/Riga

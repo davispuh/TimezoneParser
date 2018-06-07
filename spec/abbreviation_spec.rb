@@ -116,13 +116,13 @@ describe TimezoneParser do
 
         describe '.getOffsets' do
             it 'should return offsets for WAST abbreviation in NA region' do
-                expect(TimezoneParser::Abbreviation::getOffsets('WAST', DateTime.now, nil, ['NA'])).to eq([7200])
+                expect(TimezoneParser::Abbreviation::getOffsets('WAST', DateTime.now, nil, ['NA'])).to eq([3600])
             end
         end
 
         describe '.getTimezones' do
             it 'should return timezones for WAST abbreviation' do
-                expect(TimezoneParser::Abbreviation::getTimezones('WAST', DateTime.parse('1988-07-28T03:26:56+00:00'), DateTime.parse('1994-07-28T01:14:40+00:00'), ['NA'])).to eq(['Africa/Windhoek'])
+                expect(TimezoneParser::Abbreviation::getTimezones('WAST', DateTime.parse('1994-07-28T01:14:40+00:00'), DateTime.parse('1988-07-28T03:26:56+00:00'), ['NA'])).to eq(['Africa/Windhoek'])
             end
         end
 

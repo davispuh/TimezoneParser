@@ -83,7 +83,6 @@ Astrakhan Standard Time:
   - Europe/Astrakhan
   RU:
   - Europe/Astrakhan
-  - Europe/Saratov
   - Europe/Ulyanovsk
 Atlantic Standard Time:
   '001':
@@ -232,8 +231,6 @@ Central European Standard Time:
 Central Pacific Standard Time:
   '001':
   - Pacific/Guadalcanal
-  AQ:
-  - Antarctica/Casey
   AU:
   - Antarctica/Macquarie
   FM:
@@ -316,8 +313,6 @@ E. Africa Standard Time:
   - Indian/Comoro
   MG:
   - Indian/Antananarivo
-  SD:
-  - Africa/Khartoum
   SO:
   - Africa/Mogadishu
   SS:
@@ -436,6 +431,7 @@ GTB Standard Time:
   '001':
   - Europe/Bucharest
   CY:
+  - Asia/Famagusta
   - Asia/Nicosia
   GR:
   - Europe/Athens
@@ -480,8 +476,6 @@ Greenwich Standard Time:
   - Africa/Freetown
   SN:
   - Africa/Dakar
-  ST:
-  - Africa/Sao_Tome
   TG:
   - Africa/Lome
 Haiti Standard Time:
@@ -554,6 +548,13 @@ Magadan Standard Time:
   - Asia/Magadan
   RU:
   - Asia/Magadan
+Magallanes Standard Time:
+  '001':
+  - America/Punta_Arenas
+  AQ:
+  - Antarctica/Palmer
+  CL:
+  - America/Punta_Arenas
 Marquesas Standard Time:
   '001':
   - Pacific/Marquesas
@@ -740,15 +741,12 @@ SA Eastern Standard Time:
   - America/Cayenne
   AQ:
   - Antarctica/Rothera
-  - Antarctica/Palmer
   BR:
   - America/Fortaleza
   - America/Belem
   - America/Maceio
   - America/Recife
   - America/Santarem
-  CL:
-  - America/Punta_Arenas
   FK:
   - Atlantic/Stanley
   GF:
@@ -873,6 +871,11 @@ Samoa Standard Time:
   - Pacific/Apia
   WS:
   - Pacific/Apia
+Saratov Standard Time:
+  '001':
+  - Europe/Saratov
+  RU:
+  - Europe/Saratov
 Singapore Standard Time:
   '001':
   - Asia/Singapore
@@ -921,6 +924,11 @@ Sri Lanka Standard Time:
   - Asia/Colombo
   LK:
   - Asia/Colombo
+Sudan Standard Time:
+  '001':
+  - Africa/Khartoum
+  SD:
+  - Africa/Khartoum
 Syria Standard Time:
   '001':
   - Asia/Damascus
@@ -963,14 +971,8 @@ Tomsk Standard Time:
 Tonga Standard Time:
   '001':
   - Pacific/Tongatapu
-  KI:
-  - Pacific/Enderbury
-  TK:
-  - Pacific/Fakaofo
   TO:
   - Pacific/Tongatapu
-  ZZ:
-  - Etc/GMT-13
 Transbaikal Standard Time:
   '001':
   - Asia/Chita
@@ -979,8 +981,6 @@ Transbaikal Standard Time:
 Turkey Standard Time:
   '001':
   - Europe/Istanbul
-  CY:
-  - Asia/Famagusta
   TR:
   - Europe/Istanbul
 Turks And Caicos Standard Time:
@@ -1034,6 +1034,15 @@ UTC+12:
   - Pacific/Wallis
   ZZ:
   - Etc/GMT-12
+UTC+13:
+  '001':
+  - Etc/GMT-13
+  KI:
+  - Pacific/Enderbury
+  TK:
+  - Pacific/Fakaofo
+  ZZ:
+  - Etc/GMT-13
 UTC-02:
   '001':
   - Etc/GMT+2
@@ -1088,6 +1097,8 @@ Vladivostok Standard Time:
 W. Australia Standard Time:
   '001':
   - Australia/Perth
+  AQ:
+  - Antarctica/Casey
   AU:
   - Australia/Perth
 W. Central Africa Standard Time:
@@ -1115,6 +1126,8 @@ W. Central Africa Standard Time:
   - Africa/Niamey
   NG:
   - Africa/Lagos
+  ST:
+  - Africa/Sao_Tome
   TD:
   - Africa/Ndjamena
   TN:

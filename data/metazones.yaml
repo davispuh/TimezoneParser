@@ -15,7 +15,7 @@ Africa_Central:
 - Timezones:
   - Africa/Windhoek
   From: '1990-03-20T22:00:00+00:00'
-  To: '1994-04-02T22:00:00+00:00'
+  To: '1994-03-20T22:00:00+00:00'
 - Timezones:
   - Africa/Juba
   - Africa/Khartoum
@@ -29,7 +29,17 @@ Africa_Central:
   - Africa/Lubumbashi
   - Africa/Lusaka
   - Africa/Maputo
+- Timezones:
+  - Africa/Windhoek
+  From: '2017-10-23T22:00:00+00:00'
+- Timezones:
+  - Africa/Khartoum
+  From: '2017-10-31T21:00:00+00:00'
 Africa_Eastern:
+- Timezones:
+  - Africa/Khartoum
+  From: '2000-01-15T10:00:00+00:00'
+  To: '2017-10-31T21:00:00+00:00'
 - Timezones:
   - Africa/Addis_Ababa
   - Africa/Asmera
@@ -43,7 +53,6 @@ Africa_Eastern:
   - Indian/Mayotte
 - Timezones:
   - Africa/Juba
-  - Africa/Khartoum
   From: '2000-01-15T10:00:00+00:00'
 Africa_FarWestern:
 - Timezones:
@@ -62,6 +71,10 @@ Africa_Southern:
   - Africa/Mbabane
 Africa_Western:
 - Timezones:
+  - Africa/Windhoek
+  From: '1994-03-20T22:00:00+00:00'
+  To: '2017-10-23T22:00:00+00:00'
+- Timezones:
   - Africa/Bangui
   - Africa/Brazzaville
   - Africa/Douala
@@ -74,8 +87,8 @@ Africa_Western:
   - Africa/Niamey
   - Africa/Porto-Novo
 - Timezones:
-  - Africa/Windhoek
-  From: '1994-04-02T22:00:00+00:00'
+  - Africa/Sao_Tome
+  From: '2018-01-01T01:00:00+00:00'
 Aktyubinsk:
 - Timezones:
   - Asia/Aqtobe
@@ -332,6 +345,9 @@ America_Eastern:
 - Timezones:
   - America/Cancun
   From: '2015-02-01T08:00:00+00:00'
+- Timezones:
+  - America/Grand_Turk
+  From: '2018-03-11T07:00:00+00:00'
 America_Mountain:
 - Timezones:
   - America/Swift_Current
@@ -577,6 +593,10 @@ Atlantic:
   From: '1974-10-27T05:00:00+00:00'
   To: '2000-10-29T06:00:00+00:00'
 - Timezones:
+  - America/Grand_Turk
+  From: '2015-11-01T06:00:00+00:00'
+  To: '2018-03-11T07:00:00+00:00'
+- Timezones:
   - America/Anguilla
   - America/Antigua
   - America/Aruba
@@ -610,9 +630,6 @@ Atlantic:
 - Timezones:
   - America/Santo_Domingo
   From: '2000-12-03T06:00:00+00:00'
-- Timezones:
-  - America/Grand_Turk
-  From: '2015-11-01T06:00:00+00:00'
 Australia_Central:
 - Timezones:
   - Australia/Adelaide
@@ -649,6 +666,9 @@ Australia_Western:
   To: '2016-10-21T16:00:00+00:00'
 - Timezones:
   - Australia/Perth
+- Timezones:
+  - Antarctica/Casey
+  From: '2018-03-10T17:00:00+00:00'
 Azerbaijan:
 - Timezones:
   - Asia/Baku
@@ -723,6 +743,7 @@ Casey:
 - Timezones:
   - Antarctica/Casey
   From: '2016-10-21T16:00:00+00:00'
+  To: '2018-03-10T17:00:00+00:00'
 Chamorro:
 - Timezones:
   - Pacific/Guam
@@ -1030,6 +1051,9 @@ Frunze:
   To: '1991-08-30T20:00:00+00:00'
 GMT:
 - Timezones:
+  - Africa/Sao_Tome
+  To: '2018-01-01T01:00:00+00:00'
+- Timezones:
   - Africa/Abidjan
   - Africa/Accra
   - Africa/Bamako
@@ -1040,7 +1064,6 @@ GMT:
   - Africa/Lome
   - Africa/Nouakchott
   - Africa/Ouagadougou
-  - Africa/Sao_Tome
   - Antarctica/Troll
   - Atlantic/Reykjavik
   - Atlantic/St_Helena
@@ -1222,6 +1245,9 @@ Korea:
   To: '2015-08-14T15:00:00+00:00'
 - Timezones:
   - Asia/Seoul
+- Timezones:
+  - Asia/Pyongyang
+  From: '2018-05-04T15:30:00+00:00'
 Kosrae:
 - Timezones:
   - Pacific/Kosrae
@@ -1470,6 +1496,7 @@ Pyongyang:
 - Timezones:
   - Asia/Pyongyang
   From: '2015-08-14T15:00:00+00:00'
+  To: '2018-05-04T15:30:00+00:00'
 Qyzylorda:
 - Timezones:
   - Asia/Qyzylorda

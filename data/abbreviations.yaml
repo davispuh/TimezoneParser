@@ -1831,6 +1831,13 @@
   To: '2016-12-03T23:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
+  Countries:
+  - CY
+  From: '2016-09-07T21:00:00+00:00'
+  To: '2017-10-29T01:00:00+00:00'
+- Offset: 10800
+  Timezones:
   - Asia/Riyadh
   Countries:
   - KW
@@ -1875,12 +1882,6 @@
   Countries:
   - TR
   From: '2016-09-06T21:00:00+00:00'
-- Offset: 10800
-  Timezones:
-  - Asia/Famagusta
-  Countries:
-  - CY
-  From: '2016-09-07T21:00:00+00:00'
 "+0330":
 - Offset: 12600
   Timezones:
@@ -5549,16 +5550,21 @@
   - Asia/Yangon
   Countries:
   - MM
-  From: '1919-12-31T17:35:20+00:00'
+  From: '1919-12-31T17:35:13+00:00'
   To: '1942-04-30T17:30:00+00:00'
 - Offset: 23400
   Timezones:
   - Asia/Dhaka
-  - Asia/Kolkata
   Countries:
   - BD
-  - IN
   From: '1941-09-30T18:06:40+00:00'
+  To: '1942-05-14T17:30:00+00:00'
+- Offset: 23400
+  Timezones:
+  - Asia/Kolkata
+  Countries:
+  - IN
+  From: '1941-09-30T18:30:00+00:00'
   To: '1942-05-14T17:30:00+00:00'
 - Offset: 23400
   Timezones:
@@ -7716,6 +7722,12 @@
   Countries:
   - MN
   From: '2016-09-23T15:00:00+00:00'
+- Offset: 28800
+  Timezones:
+  - Antarctica/Casey
+  Countries:
+  - AQ
+  From: '2018-03-10T17:00:00+00:00'
 "+0820":
 - Offset: 30000
   Timezones:
@@ -10368,6 +10380,20 @@
   Countries:
   - AU
   From: '2014-10-04T15:30:00+00:00'
+  To: '2017-04-01T15:00:00+00:00'
+- Offset: 39600
+  Timezones:
+  - Antarctica/Casey
+  Countries:
+  - AQ
+  From: '2016-10-21T16:00:00+00:00'
+  To: '2018-03-10T17:00:00+00:00'
+- Offset: 39600
+  Timezones:
+  - Australia/Lord_Howe
+  Countries:
+  - AU
+  From: '2017-09-30T15:30:00+00:00'
   To: '2037-04-04T15:00:00+00:00'
 - Offset: 39600
   Timezones:
@@ -10435,12 +10461,6 @@
   Countries:
   - RU
   From: '2016-04-23T16:00:00+00:00'
-- Offset: 39600
-  Timezones:
-  - Antarctica/Casey
-  Countries:
-  - AQ
-  From: '2016-10-21T16:00:00+00:00'
 - Offset: 39600
   Timezones:
   - Australia/Lord_Howe
@@ -11459,18 +11479,11 @@
   To: '2017-09-23T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2017-01-14T13:00:00+00:00'
-  To: '2017-11-04T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
   From: '2017-11-04T14:00:00+00:00'
-  To: '2018-01-20T14:00:00+00:00'
+  To: '2018-01-13T14:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Apia
@@ -11478,13 +11491,6 @@
   - WS
   From: '2018-03-31T14:00:00+00:00'
   To: '2018-09-29T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2018-01-20T13:00:00+00:00'
-  To: '2018-11-03T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11501,13 +11507,6 @@
   To: '2019-09-28T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2019-01-19T13:00:00+00:00'
-  To: '2019-11-02T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11520,13 +11519,6 @@
   - WS
   From: '2020-04-04T14:00:00+00:00'
   To: '2020-09-26T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2020-01-18T13:00:00+00:00'
-  To: '2020-10-31T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11543,13 +11535,6 @@
   To: '2021-09-25T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2021-01-16T13:00:00+00:00'
-  To: '2021-11-06T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11562,13 +11547,6 @@
   - WS
   From: '2022-04-02T14:00:00+00:00'
   To: '2022-09-24T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2022-01-15T13:00:00+00:00'
-  To: '2022-11-05T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11585,18 +11563,11 @@
   To: '2023-09-23T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2023-01-14T13:00:00+00:00'
-  To: '2023-11-04T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
   From: '2023-11-04T14:00:00+00:00'
-  To: '2024-01-20T14:00:00+00:00'
+  To: '2024-01-13T14:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Apia
@@ -11604,13 +11575,6 @@
   - WS
   From: '2024-04-06T14:00:00+00:00'
   To: '2024-09-28T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2024-01-20T13:00:00+00:00'
-  To: '2024-11-02T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11627,13 +11591,6 @@
   To: '2025-09-27T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2025-01-18T13:00:00+00:00'
-  To: '2025-11-01T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11646,13 +11603,6 @@
   - WS
   From: '2026-04-04T14:00:00+00:00'
   To: '2026-09-26T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2026-01-17T13:00:00+00:00'
-  To: '2026-10-31T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11669,13 +11619,6 @@
   To: '2027-09-25T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2027-01-16T13:00:00+00:00'
-  To: '2027-11-06T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11690,18 +11633,11 @@
   To: '2028-09-23T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2028-01-15T13:00:00+00:00'
-  To: '2028-11-04T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
   From: '2028-11-04T14:00:00+00:00'
-  To: '2029-01-20T14:00:00+00:00'
+  To: '2029-01-13T14:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Apia
@@ -11709,13 +11645,6 @@
   - WS
   From: '2029-03-31T14:00:00+00:00'
   To: '2029-09-29T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2029-01-20T13:00:00+00:00'
-  To: '2029-11-03T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11732,13 +11661,6 @@
   To: '2030-09-28T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2030-01-19T13:00:00+00:00'
-  To: '2030-11-02T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11751,13 +11673,6 @@
   - WS
   From: '2031-04-05T14:00:00+00:00'
   To: '2031-09-27T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2031-01-18T13:00:00+00:00'
-  To: '2031-11-01T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11774,13 +11689,6 @@
   To: '2032-09-25T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2032-01-17T13:00:00+00:00'
-  To: '2032-11-06T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11793,13 +11701,6 @@
   - WS
   From: '2033-04-02T14:00:00+00:00'
   To: '2033-09-24T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2033-01-15T13:00:00+00:00'
-  To: '2033-11-05T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11816,18 +11717,11 @@
   To: '2034-09-23T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2034-01-14T13:00:00+00:00'
-  To: '2034-11-04T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
   From: '2034-11-04T14:00:00+00:00'
-  To: '2035-01-20T14:00:00+00:00'
+  To: '2035-01-13T14:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Apia
@@ -11835,13 +11729,6 @@
   - WS
   From: '2035-03-31T14:00:00+00:00'
   To: '2035-09-29T14:00:00+00:00'
-- Offset: 46800
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2035-01-20T13:00:00+00:00'
-  To: '2035-11-03T13:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fiji
@@ -11858,13 +11745,6 @@
   To: '2036-09-27T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2036-01-19T13:00:00+00:00'
-  To: '2036-11-01T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11879,13 +11759,6 @@
   To: '2037-09-26T14:00:00+00:00'
 - Offset: 46800
   Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2037-01-17T13:00:00+00:00'
-  To: '2037-10-31T13:00:00+00:00'
-- Offset: 46800
-  Timezones:
   - Pacific/Fiji
   Countries:
   - FJ
@@ -11896,7 +11769,7 @@
   - Pacific/Enderbury
   Countries:
   - KI
-  From: '1995-01-01T11:00:00+00:00'
+  From: '1994-12-31T11:00:00+00:00'
 - Offset: 46800
   Timezones:
   - Pacific/Fakaofo
@@ -11908,7 +11781,7 @@
   - Pacific/Tongatapu
   Countries:
   - TO
-  From: '2038-01-16T13:00:00+00:00'
+  From: '2017-01-14T13:00:00+00:00'
 "+1345":
 - Offset: 49500
   Timezones:
@@ -11951,300 +11824,13 @@
   Countries:
   - WS
   From: '2016-09-24T14:00:00+00:00'
-  To: '2017-04-01T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2017-11-04T13:00:00+00:00'
-  To: '2018-01-20T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2017-09-23T14:00:00+00:00'
-  To: '2018-03-31T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2018-11-03T13:00:00+00:00'
-  To: '2019-01-19T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2018-09-29T14:00:00+00:00'
-  To: '2019-04-06T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2019-11-02T13:00:00+00:00'
-  To: '2020-01-18T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2019-09-28T14:00:00+00:00'
-  To: '2020-04-04T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2020-10-31T13:00:00+00:00'
-  To: '2021-01-16T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2020-09-26T14:00:00+00:00'
-  To: '2021-04-03T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2021-11-06T13:00:00+00:00'
-  To: '2022-01-15T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2021-09-25T14:00:00+00:00'
-  To: '2022-04-02T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2022-11-05T13:00:00+00:00'
-  To: '2023-01-14T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2022-09-24T14:00:00+00:00'
-  To: '2023-04-01T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2023-11-04T13:00:00+00:00'
-  To: '2024-01-20T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2023-09-23T14:00:00+00:00'
-  To: '2024-04-06T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2024-11-02T13:00:00+00:00'
-  To: '2025-01-18T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2024-09-28T14:00:00+00:00'
-  To: '2025-04-05T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2025-11-01T13:00:00+00:00'
-  To: '2026-01-17T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2025-09-27T14:00:00+00:00'
-  To: '2026-04-04T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2026-10-31T13:00:00+00:00'
-  To: '2027-01-16T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2026-09-26T14:00:00+00:00'
-  To: '2027-04-03T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2027-11-06T13:00:00+00:00'
-  To: '2028-01-15T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2027-09-25T14:00:00+00:00'
-  To: '2028-04-01T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2028-11-04T13:00:00+00:00'
-  To: '2029-01-20T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2028-09-23T14:00:00+00:00'
-  To: '2029-03-31T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2029-11-03T13:00:00+00:00'
-  To: '2030-01-19T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2029-09-29T14:00:00+00:00'
-  To: '2030-04-06T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2030-11-02T13:00:00+00:00'
-  To: '2031-01-18T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2030-09-28T14:00:00+00:00'
-  To: '2031-04-05T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2031-11-01T13:00:00+00:00'
-  To: '2032-01-17T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2031-09-27T14:00:00+00:00'
-  To: '2032-04-03T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2032-11-06T13:00:00+00:00'
-  To: '2033-01-15T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2032-09-25T14:00:00+00:00'
-  To: '2033-04-02T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2033-11-05T13:00:00+00:00'
-  To: '2034-01-14T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2033-09-24T14:00:00+00:00'
-  To: '2034-04-01T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2034-11-04T13:00:00+00:00'
-  To: '2035-01-20T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2034-09-23T14:00:00+00:00'
-  To: '2035-03-31T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2035-11-03T13:00:00+00:00'
-  To: '2036-01-19T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2035-09-29T14:00:00+00:00'
-  To: '2036-04-05T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2036-11-01T13:00:00+00:00'
-  To: '2037-01-17T13:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Apia
-  Countries:
-  - WS
-  From: '2036-09-27T14:00:00+00:00'
   To: '2037-04-04T14:00:00+00:00'
-- Offset: 50400
-  Timezones:
-  - Pacific/Tongatapu
-  Countries:
-  - TO
-  From: '2037-10-31T13:00:00+00:00'
-  To: '2038-01-16T13:00:00+00:00'
 - Offset: 50400
   Timezones:
   - Pacific/Kiritimati
   Countries:
   - KI
-  From: '1995-01-01T10:00:00+00:00'
+  From: '1994-12-31T10:00:00+00:00'
 - Offset: 50400
   Timezones:
   - Pacific/Apia
@@ -12279,7 +11865,7 @@
   - Atlantic/Madeira
   Countries:
   - PT
-  From: '1912-01-01T01:07:36+00:00'
+  From: '1912-01-01T01:00:00+00:00'
   To: '1916-06-18T00:00:00+00:00'
 - Offset: -3600
   Timezones:
@@ -13231,7 +12817,7 @@
   - Africa/Bissau
   Countries:
   - GW
-  From: '1912-01-01T01:02:20+00:00'
+  From: '1912-01-01T01:00:00+00:00'
   To: '1975-01-01T01:00:00+00:00'
 - Offset: -3600
   Timezones:
@@ -13535,13 +13121,21 @@
   - GL
   - PT
   From: '2037-10-25T01:00:00+00:00'
+"-0130":
+- Offset: -5400
+  Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1974-01-13T03:00:00+00:00'
+  To: '1974-03-10T01:30:00+00:00'
 "-02":
 - Offset: -7200
   Timezones:
   - Atlantic/Azores
   Countries:
   - PT
-  From: '1912-01-01T01:54:32+00:00'
+  From: '1912-01-01T02:00:00+00:00'
   To: '1931-04-19T01:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -13602,7 +13196,7 @@
   - Atlantic/Cape_Verde
   Countries:
   - CV
-  From: '1907-01-01T01:34:04+00:00'
+  From: '1912-01-01T02:00:00+00:00'
   To: '1942-09-01T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -13610,20 +13204,6 @@
   Countries:
   - PT
   From: '1942-10-25T01:00:00+00:00'
-  To: '1943-03-14T01:00:00+00:00'
-- Offset: -7200
-  Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1942-12-14T03:30:00+00:00'
-  To: '1943-03-14T02:00:00+00:00'
-- Offset: -7200
-  Timezones:
-  - Atlantic/Azores
-  Countries:
-  - PT
-  From: '1943-10-31T01:00:00+00:00'
   To: '1949-04-03T04:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -13731,7 +13311,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1959-05-24T03:00:00+00:00'
+  From: '1960-01-17T03:00:00+00:00'
   To: '1960-03-06T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -13836,13 +13416,6 @@
   To: '1966-04-03T04:00:00+00:00'
 - Offset: -7200
   Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1966-04-03T03:00:00+00:00'
-  To: '1966-10-31T02:00:00+00:00'
-- Offset: -7200
-  Timezones:
   - America/Noronha
   Countries:
   - BR
@@ -13861,13 +13434,6 @@
   - BR
   From: '1966-11-01T03:00:00+00:00'
   To: '1967-03-01T02:00:00+00:00'
-- Offset: -7200
-  Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1967-04-02T03:00:00+00:00'
-  To: '1967-10-31T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Noronha
@@ -13893,8 +13459,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1972-04-24T03:00:00+00:00'
-  To: '1972-08-15T02:00:00+00:00'
+  From: '1970-04-25T03:00:00+00:00'
+  To: '1972-07-16T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Argentina/Buenos_Aires
@@ -13917,6 +13483,13 @@
   To: '1974-05-01T02:00:00+00:00'
 - Offset: -7200
   Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1974-12-22T03:00:00+00:00'
+  To: '1975-03-30T02:00:00+00:00'
+- Offset: -7200
+  Timezones:
   - Atlantic/Cape_Verde
   Countries:
   - CV
@@ -13927,8 +13500,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1974-12-22T02:30:00+00:00'
-  To: '1978-04-01T02:00:00+00:00'
+  From: '1976-12-19T03:00:00+00:00'
+  To: '1980-03-16T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Scoresbysund
@@ -13936,13 +13509,6 @@
   - GL
   From: '1916-07-28T01:27:52+00:00'
   To: '1980-04-06T04:00:00+00:00'
-- Offset: -7200
-  Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1979-10-01T03:00:00+00:00'
-  To: '1980-05-01T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Danmarkshavn
@@ -14085,7 +13651,7 @@
   Countries:
   - UY
   From: '1987-12-14T03:00:00+00:00'
-  To: '1988-03-14T02:00:00+00:00'
+  To: '1988-02-28T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Danmarkshavn
@@ -14144,7 +13710,7 @@
   Countries:
   - UY
   From: '1988-12-11T03:00:00+00:00'
-  To: '1989-03-12T02:00:00+00:00'
+  To: '1989-03-05T02:00:00+00:00'
 - Offset: -7200
   Timezones:
   - America/Danmarkshavn
@@ -14181,6 +13747,13 @@
   To: '1990-02-11T02:00:00+00:00'
 - Offset: -7200
   Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1989-10-29T03:00:00+00:00'
+  To: '1990-02-25T02:00:00+00:00'
+- Offset: -7200
+  Timezones:
   - America/Argentina/Buenos_Aires
   - America/Argentina/Catamarca
   - America/Argentina/Cordoba
@@ -14195,13 +13768,6 @@
   Countries:
   - AR
   From: '1989-10-15T03:00:00+00:00'
-  To: '1990-03-04T02:00:00+00:00'
-- Offset: -7200
-  Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1989-10-29T03:00:00+00:00'
   To: '1990-03-04T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15087,7 +14653,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2018-10-21T03:00:00+00:00'
+  From: '2018-11-04T03:00:00+00:00'
   To: '2019-02-17T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15108,7 +14674,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2019-10-20T03:00:00+00:00'
+  From: '2019-11-03T03:00:00+00:00'
   To: '2020-02-16T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15129,7 +14695,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2020-10-18T03:00:00+00:00'
+  From: '2020-11-01T03:00:00+00:00'
   To: '2021-02-21T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15150,7 +14716,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2021-10-17T03:00:00+00:00'
+  From: '2021-11-07T03:00:00+00:00'
   To: '2022-02-20T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15171,7 +14737,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2022-10-16T03:00:00+00:00'
+  From: '2022-11-06T03:00:00+00:00'
   To: '2023-02-26T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15192,7 +14758,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2023-10-15T03:00:00+00:00'
+  From: '2023-11-05T03:00:00+00:00'
   To: '2024-02-18T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15213,7 +14779,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2024-10-20T03:00:00+00:00'
+  From: '2024-11-03T03:00:00+00:00'
   To: '2025-02-16T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15234,7 +14800,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2025-10-19T03:00:00+00:00'
+  From: '2025-11-02T03:00:00+00:00'
   To: '2026-02-22T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15255,7 +14821,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2026-10-18T03:00:00+00:00'
+  From: '2026-11-01T03:00:00+00:00'
   To: '2027-02-21T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15276,7 +14842,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2027-10-17T03:00:00+00:00'
+  From: '2027-11-07T03:00:00+00:00'
   To: '2028-02-20T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15297,7 +14863,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2028-10-15T03:00:00+00:00'
+  From: '2028-11-05T03:00:00+00:00'
   To: '2029-02-18T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15318,7 +14884,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2029-10-21T03:00:00+00:00'
+  From: '2029-11-04T03:00:00+00:00'
   To: '2030-02-17T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15339,7 +14905,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2030-10-20T03:00:00+00:00'
+  From: '2030-11-03T03:00:00+00:00'
   To: '2031-02-16T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15360,7 +14926,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2031-10-19T03:00:00+00:00'
+  From: '2031-11-02T03:00:00+00:00'
   To: '2032-02-15T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15381,7 +14947,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2032-10-17T03:00:00+00:00'
+  From: '2032-11-07T03:00:00+00:00'
   To: '2033-02-20T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15402,7 +14968,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2033-10-16T03:00:00+00:00'
+  From: '2033-11-06T03:00:00+00:00'
   To: '2034-02-26T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15423,7 +14989,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2034-10-15T03:00:00+00:00'
+  From: '2034-11-05T03:00:00+00:00'
   To: '2035-02-18T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15444,7 +15010,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2035-10-21T03:00:00+00:00'
+  From: '2035-11-04T03:00:00+00:00'
   To: '2036-02-17T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15465,7 +15031,7 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2036-10-19T03:00:00+00:00'
+  From: '2036-11-02T03:00:00+00:00'
   To: '2037-02-22T02:00:00+00:00'
 - Offset: -7200
   Timezones:
@@ -15498,22 +15064,22 @@
   - America/Sao_Paulo
   Countries:
   - BR
-  From: '2037-10-18T03:00:00+00:00'
+  From: '2037-11-01T03:00:00+00:00'
 "-0230":
 - Offset: -9000
   Timezones:
   - America/Montevideo
   Countries:
   - UY
-  From: '1968-05-27T03:00:00+00:00'
-  To: '1974-12-22T02:30:00+00:00'
+  From: '1942-12-14T03:00:00+00:00'
+  To: '1974-09-01T02:30:00+00:00'
 "-03":
 - Offset: -10800
   Timezones:
   - America/Montevideo
   Countries:
   - UY
-  From: '1923-10-02T03:30:00+00:00'
+  From: '1923-10-01T04:00:00+00:00'
   To: '1926-04-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -15753,7 +15319,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1936-11-01T03:30:00+00:00'
+  From: '1936-10-25T03:30:00+00:00'
   To: '1937-03-28T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -15849,7 +15415,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1939-10-29T03:30:00+00:00'
+  From: '1939-10-01T03:30:00+00:00'
   To: '1940-03-31T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -15885,17 +15451,24 @@
   To: '1941-06-15T03:00:00+00:00'
 - Offset: -10800
   Timezones:
+  - Atlantic/Stanley
+  Countries:
+  - FK
+  From: '1941-09-28T04:00:00+00:00'
+  To: '1942-03-22T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
   - America/Montevideo
   Countries:
   - UY
   From: '1941-08-01T03:30:00+00:00'
-  To: '1942-01-01T03:00:00+00:00'
+  To: '1942-12-14T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - Atlantic/Stanley
   Countries:
   - FK
-  From: '1941-09-28T04:00:00+00:00'
+  From: '1942-09-27T04:00:00+00:00'
   To: '1943-01-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16027,7 +15600,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1943-03-14T02:00:00+00:00'
+  From: '1943-03-14T02:30:00+00:00'
   To: '1960-01-17T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16200,13 +15773,6 @@
   To: '1966-03-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1965-09-26T02:00:00+00:00'
-  To: '1966-04-03T03:00:00+00:00'
-- Offset: -10800
-  Timezones:
   - America/Araguaina
   - America/Bahia
   - America/Belem
@@ -16249,13 +15815,6 @@
   - AQ
   - AR
   From: '1966-10-15T04:00:00+00:00'
-  To: '1967-04-02T03:00:00+00:00'
-- Offset: -10800
-  Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1966-10-31T02:00:00+00:00'
   To: '1967-04-02T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16307,7 +15866,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1967-10-31T02:00:00+00:00'
+  From: '1965-09-26T02:00:00+00:00'
   To: '1968-05-27T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16339,13 +15898,6 @@
   To: '1969-04-06T03:00:00+00:00'
 - Offset: -10800
   Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1968-12-02T02:30:00+00:00'
-  To: '1969-05-27T03:00:00+00:00'
-- Offset: -10800
-  Timezones:
   - America/Punta_Arenas
   - America/Santiago
   Countries:
@@ -16357,8 +15909,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1969-12-02T02:30:00+00:00'
-  To: '1970-05-27T03:00:00+00:00'
+  From: '1968-12-01T02:30:00+00:00'
+  To: '1970-04-25T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Punta_Arenas
@@ -16372,8 +15924,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1970-12-02T02:30:00+00:00'
-  To: '1972-04-24T03:00:00+00:00'
+  From: '1970-06-14T02:00:00+00:00'
+  To: '1972-04-23T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Punta_Arenas
@@ -16382,6 +15934,13 @@
   - CL
   From: '1972-10-15T04:00:00+00:00'
   To: '1973-03-11T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1972-07-16T02:00:00+00:00'
+  To: '1974-01-13T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Argentina/Buenos_Aires
@@ -16404,13 +15963,6 @@
   To: '1974-01-23T03:00:00+00:00'
 - Offset: -10800
   Timezones:
-  - America/Montevideo
-  Countries:
-  - UY
-  From: '1972-08-15T02:00:00+00:00'
-  To: '1974-03-10T03:00:00+00:00'
-- Offset: -10800
-  Timezones:
   - America/Punta_Arenas
   - America/Santiago
   Countries:
@@ -16424,6 +15976,13 @@
   - PY
   From: '1972-10-01T04:00:00+00:00'
   To: '1974-04-01T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1974-09-01T02:30:00+00:00'
+  To: '1974-12-22T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Punta_Arenas
@@ -16449,6 +16008,13 @@
   To: '1976-03-14T03:00:00+00:00'
 - Offset: -10800
   Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1975-03-30T02:00:00+00:00'
+  To: '1976-12-19T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
   - America/Asuncion
   Countries:
   - PY
@@ -16467,7 +16033,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1976-10-01T02:00:00+00:00'
+  From: '1977-03-06T02:00:00+00:00'
   To: '1977-12-04T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16483,6 +16049,21 @@
   Countries:
   - CL
   From: '1977-10-09T04:00:00+00:00'
+  To: '1978-03-12T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1978-03-05T02:00:00+00:00'
+  To: '1978-12-17T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
+  - America/Punta_Arenas
+  - America/Santiago
+  Countries:
+  - CL
+  From: '1978-10-15T04:00:00+00:00'
   To: '1979-03-11T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16496,8 +16077,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1978-04-01T02:00:00+00:00'
-  To: '1979-10-01T03:00:00+00:00'
+  From: '1979-03-04T02:00:00+00:00'
+  To: '1979-04-29T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Punta_Arenas
@@ -16815,7 +16396,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1980-05-01T02:00:00+00:00'
+  From: '1980-03-16T02:00:00+00:00'
   To: '1987-12-14T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16903,7 +16484,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1988-03-14T02:00:00+00:00'
+  From: '1988-02-28T02:00:00+00:00'
   To: '1988-12-11T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -16987,7 +16568,7 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1989-03-12T02:00:00+00:00'
+  From: '1989-03-05T02:00:00+00:00'
   To: '1989-10-29T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -17046,6 +16627,13 @@
   To: '1990-10-21T03:00:00+00:00'
 - Offset: -10800
   Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1990-02-25T02:00:00+00:00'
+  To: '1990-10-21T03:00:00+00:00'
+- Offset: -10800
+  Timezones:
   - America/Argentina/Buenos_Aires
   - America/Argentina/Catamarca
   - America/Argentina/Cordoba
@@ -17055,10 +16643,8 @@
   - America/Argentina/San_Juan
   - America/Argentina/Tucuman
   - America/Argentina/Ushuaia
-  - America/Montevideo
   Countries:
   - AR
-  - UY
   From: '1990-03-04T02:00:00+00:00'
   To: '1990-10-21T03:00:00+00:00'
 - Offset: -10800
@@ -18857,14 +18443,14 @@
   Countries:
   - BR
   From: '2018-02-18T02:00:00+00:00'
-  To: '2018-10-21T03:00:00+00:00'
+  To: '2018-11-04T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2018-10-21T04:00:00+00:00'
+  From: '2018-11-04T04:00:00+00:00'
   To: '2019-02-17T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -18900,14 +18486,14 @@
   Countries:
   - BR
   From: '2019-02-17T02:00:00+00:00'
-  To: '2019-10-20T03:00:00+00:00'
+  To: '2019-11-03T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2019-10-20T04:00:00+00:00'
+  From: '2019-11-03T04:00:00+00:00'
   To: '2020-02-16T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -18943,14 +18529,14 @@
   Countries:
   - BR
   From: '2020-02-16T02:00:00+00:00'
-  To: '2020-10-18T03:00:00+00:00'
+  To: '2020-11-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2020-10-18T04:00:00+00:00'
+  From: '2020-11-01T04:00:00+00:00'
   To: '2021-02-21T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -18986,14 +18572,14 @@
   Countries:
   - BR
   From: '2021-02-21T02:00:00+00:00'
-  To: '2021-10-17T03:00:00+00:00'
+  To: '2021-11-07T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2021-10-17T04:00:00+00:00'
+  From: '2021-11-07T04:00:00+00:00'
   To: '2022-02-20T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19029,14 +18615,14 @@
   Countries:
   - BR
   From: '2022-02-20T02:00:00+00:00'
-  To: '2022-10-16T03:00:00+00:00'
+  To: '2022-11-06T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2022-10-16T04:00:00+00:00'
+  From: '2022-11-06T04:00:00+00:00'
   To: '2023-02-26T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19072,14 +18658,14 @@
   Countries:
   - BR
   From: '2023-02-26T02:00:00+00:00'
-  To: '2023-10-15T03:00:00+00:00'
+  To: '2023-11-05T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2023-10-15T04:00:00+00:00'
+  From: '2023-11-05T04:00:00+00:00'
   To: '2024-02-18T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19115,14 +18701,14 @@
   Countries:
   - BR
   From: '2024-02-18T02:00:00+00:00'
-  To: '2024-10-20T03:00:00+00:00'
+  To: '2024-11-03T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2024-10-20T04:00:00+00:00'
+  From: '2024-11-03T04:00:00+00:00'
   To: '2025-02-16T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19158,14 +18744,14 @@
   Countries:
   - BR
   From: '2025-02-16T02:00:00+00:00'
-  To: '2025-10-19T03:00:00+00:00'
+  To: '2025-11-02T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2025-10-19T04:00:00+00:00'
+  From: '2025-11-02T04:00:00+00:00'
   To: '2026-02-22T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19201,14 +18787,14 @@
   Countries:
   - BR
   From: '2026-02-22T02:00:00+00:00'
-  To: '2026-10-18T03:00:00+00:00'
+  To: '2026-11-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2026-10-18T04:00:00+00:00'
+  From: '2026-11-01T04:00:00+00:00'
   To: '2027-02-21T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19244,14 +18830,14 @@
   Countries:
   - BR
   From: '2027-02-21T02:00:00+00:00'
-  To: '2027-10-17T03:00:00+00:00'
+  To: '2027-11-07T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2027-10-17T04:00:00+00:00'
+  From: '2027-11-07T04:00:00+00:00'
   To: '2028-02-20T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19287,14 +18873,14 @@
   Countries:
   - BR
   From: '2028-02-20T02:00:00+00:00'
-  To: '2028-10-15T03:00:00+00:00'
+  To: '2028-11-05T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2028-10-15T04:00:00+00:00'
+  From: '2028-11-05T04:00:00+00:00'
   To: '2029-02-18T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19330,14 +18916,14 @@
   Countries:
   - BR
   From: '2029-02-18T02:00:00+00:00'
-  To: '2029-10-21T03:00:00+00:00'
+  To: '2029-11-04T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2029-10-21T04:00:00+00:00'
+  From: '2029-11-04T04:00:00+00:00'
   To: '2030-02-17T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19373,14 +18959,14 @@
   Countries:
   - BR
   From: '2030-02-17T02:00:00+00:00'
-  To: '2030-10-20T03:00:00+00:00'
+  To: '2030-11-03T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2030-10-20T04:00:00+00:00'
+  From: '2030-11-03T04:00:00+00:00'
   To: '2031-02-16T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19416,14 +19002,14 @@
   Countries:
   - BR
   From: '2031-02-16T02:00:00+00:00'
-  To: '2031-10-19T03:00:00+00:00'
+  To: '2031-11-02T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2031-10-19T04:00:00+00:00'
+  From: '2031-11-02T04:00:00+00:00'
   To: '2032-02-15T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19459,14 +19045,14 @@
   Countries:
   - BR
   From: '2032-02-15T02:00:00+00:00'
-  To: '2032-10-17T03:00:00+00:00'
+  To: '2032-11-07T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2032-10-17T04:00:00+00:00'
+  From: '2032-11-07T04:00:00+00:00'
   To: '2033-02-20T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19502,14 +19088,14 @@
   Countries:
   - BR
   From: '2033-02-20T02:00:00+00:00'
-  To: '2033-10-16T03:00:00+00:00'
+  To: '2033-11-06T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2033-10-16T04:00:00+00:00'
+  From: '2033-11-06T04:00:00+00:00'
   To: '2034-02-26T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19545,14 +19131,14 @@
   Countries:
   - BR
   From: '2034-02-26T02:00:00+00:00'
-  To: '2034-10-15T03:00:00+00:00'
+  To: '2034-11-05T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2034-10-15T04:00:00+00:00'
+  From: '2034-11-05T04:00:00+00:00'
   To: '2035-02-18T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19588,14 +19174,14 @@
   Countries:
   - BR
   From: '2035-02-18T02:00:00+00:00'
-  To: '2035-10-21T03:00:00+00:00'
+  To: '2035-11-04T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2035-10-21T04:00:00+00:00'
+  From: '2035-11-04T04:00:00+00:00'
   To: '2036-02-17T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19631,14 +19217,14 @@
   Countries:
   - BR
   From: '2036-02-17T02:00:00+00:00'
-  To: '2036-10-19T03:00:00+00:00'
+  To: '2036-11-02T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Campo_Grande
   - America/Cuiaba
   Countries:
   - BR
-  From: '2036-10-19T04:00:00+00:00'
+  From: '2036-11-02T04:00:00+00:00'
   To: '2037-02-22T03:00:00+00:00'
 - Offset: -10800
   Timezones:
@@ -19674,7 +19260,7 @@
   Countries:
   - BR
   From: '2037-02-22T02:00:00+00:00'
-  To: '2037-10-18T03:00:00+00:00'
+  To: '2037-11-01T03:00:00+00:00'
 - Offset: -10800
   Timezones:
   - America/Cayenne
@@ -19786,21 +19372,17 @@
   From: '2037-10-04T04:00:00+00:00'
 - Offset: -10800
   Timezones:
-  - America/Campo_Grande
-  - America/Cuiaba
-  Countries:
-  - BR
-  From: '2037-10-18T04:00:00+00:00'
-- Offset: -10800
-  Timezones:
   - America/Godthab
   Countries:
   - GL
   From: '2037-10-25T01:00:00+00:00'
 - Offset: -10800
   Timezones:
+  - America/Campo_Grande
+  - America/Cuiaba
   - America/Miquelon
   Countries:
+  - BR
   - PM
   From: '2037-11-01T04:00:00+00:00'
 "-0330":
@@ -19809,8 +19391,8 @@
   - America/Montevideo
   Countries:
   - UY
-  From: '1920-05-01T03:44:44+00:00'
-  To: '1942-12-14T03:30:00+00:00'
+  From: '1924-04-01T03:00:00+00:00'
+  To: '1941-08-01T03:30:00+00:00'
 - Offset: -12600
   Timezones:
   - America/Paramaribo
@@ -19834,6 +19416,21 @@
   Countries:
   - CL
   From: '1918-09-10T04:42:46+00:00'
+  To: '1919-07-01T04:00:00+00:00'
+- Offset: -14400
+  Timezones:
+  - America/Montevideo
+  Countries:
+  - UY
+  From: '1920-05-01T03:44:51+00:00'
+  To: '1923-10-01T04:00:00+00:00'
+- Offset: -14400
+  Timezones:
+  - America/Punta_Arenas
+  - America/Santiago
+  Countries:
+  - CL
+  From: '1927-09-01T04:42:46+00:00'
   To: '1930-04-01T04:00:00+00:00'
 - Offset: -14400
   Timezones:
@@ -21975,7 +21572,7 @@
   Countries:
   - BR
   From: '2018-02-18T03:00:00+00:00'
-  To: '2018-10-21T04:00:00+00:00'
+  To: '2018-11-04T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -21997,7 +21594,7 @@
   Countries:
   - BR
   From: '2019-02-17T03:00:00+00:00'
-  To: '2019-10-20T04:00:00+00:00'
+  To: '2019-11-03T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22019,7 +21616,7 @@
   Countries:
   - BR
   From: '2020-02-16T03:00:00+00:00'
-  To: '2020-10-18T04:00:00+00:00'
+  To: '2020-11-01T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22041,7 +21638,7 @@
   Countries:
   - BR
   From: '2021-02-21T03:00:00+00:00'
-  To: '2021-10-17T04:00:00+00:00'
+  To: '2021-11-07T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22063,7 +21660,7 @@
   Countries:
   - BR
   From: '2022-02-20T03:00:00+00:00'
-  To: '2022-10-16T04:00:00+00:00'
+  To: '2022-11-06T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22085,7 +21682,7 @@
   Countries:
   - BR
   From: '2023-02-26T03:00:00+00:00'
-  To: '2023-10-15T04:00:00+00:00'
+  To: '2023-11-05T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22107,7 +21704,7 @@
   Countries:
   - BR
   From: '2024-02-18T03:00:00+00:00'
-  To: '2024-10-20T04:00:00+00:00'
+  To: '2024-11-03T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22129,7 +21726,7 @@
   Countries:
   - BR
   From: '2025-02-16T03:00:00+00:00'
-  To: '2025-10-19T04:00:00+00:00'
+  To: '2025-11-02T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22151,7 +21748,7 @@
   Countries:
   - BR
   From: '2026-02-22T03:00:00+00:00'
-  To: '2026-10-18T04:00:00+00:00'
+  To: '2026-11-01T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22173,7 +21770,7 @@
   Countries:
   - BR
   From: '2027-02-21T03:00:00+00:00'
-  To: '2027-10-17T04:00:00+00:00'
+  To: '2027-11-07T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22195,7 +21792,7 @@
   Countries:
   - BR
   From: '2028-02-20T03:00:00+00:00'
-  To: '2028-10-15T04:00:00+00:00'
+  To: '2028-11-05T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22217,7 +21814,7 @@
   Countries:
   - BR
   From: '2029-02-18T03:00:00+00:00'
-  To: '2029-10-21T04:00:00+00:00'
+  To: '2029-11-04T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22239,7 +21836,7 @@
   Countries:
   - BR
   From: '2030-02-17T03:00:00+00:00'
-  To: '2030-10-20T04:00:00+00:00'
+  To: '2030-11-03T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22261,7 +21858,7 @@
   Countries:
   - BR
   From: '2031-02-16T03:00:00+00:00'
-  To: '2031-10-19T04:00:00+00:00'
+  To: '2031-11-02T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22283,7 +21880,7 @@
   Countries:
   - BR
   From: '2032-02-15T03:00:00+00:00'
-  To: '2032-10-17T04:00:00+00:00'
+  To: '2032-11-07T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22305,7 +21902,7 @@
   Countries:
   - BR
   From: '2033-02-20T03:00:00+00:00'
-  To: '2033-10-16T04:00:00+00:00'
+  To: '2033-11-06T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22327,7 +21924,7 @@
   Countries:
   - BR
   From: '2034-02-26T03:00:00+00:00'
-  To: '2034-10-15T04:00:00+00:00'
+  To: '2034-11-05T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22349,7 +21946,7 @@
   Countries:
   - BR
   From: '2035-02-18T03:00:00+00:00'
-  To: '2035-10-21T04:00:00+00:00'
+  To: '2035-11-04T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22371,7 +21968,7 @@
   Countries:
   - BR
   From: '2036-02-17T03:00:00+00:00'
-  To: '2036-10-19T04:00:00+00:00'
+  To: '2036-11-02T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Santiago
@@ -22393,7 +21990,7 @@
   Countries:
   - BR
   From: '2037-02-22T03:00:00+00:00'
-  To: '2037-10-18T04:00:00+00:00'
+  To: '2037-11-01T04:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/La_Paz
@@ -22806,7 +22403,7 @@
   Countries:
   - KI
   From: '1979-10-01T10:40:00+00:00'
-  To: '1995-01-01T10:00:00+00:00'
+  To: '1994-12-31T10:00:00+00:00'
 - Offset: -36000
   Timezones:
   - Pacific/Apia
@@ -22849,7 +22446,7 @@
   Countries:
   - KI
   From: '1979-10-01T12:00:00+00:00'
-  To: '1995-01-01T11:00:00+00:00'
+  To: '1994-12-31T11:00:00+00:00'
 - Offset: -39600
   Timezones:
   - Pacific/Apia
@@ -22908,6 +22505,17 @@
   - MH
   From: '1969-09-30T13:00:00+00:00'
   To: '1993-08-20T12:00:00+00:00'
+AAC:
+- Types:
+  - daylight
+  - standard
+  Metazones:
+  - America_Pacific
+ACAC:
+- Types:
+  - standard
+  Metazones:
+  - America_Pacific
 ACDT:
 - Offset: 37800
   Timezones:
@@ -25416,6 +25024,11 @@ ART:
   - standard
   Metazones:
   - Argentina
+ASAC:
+- Types:
+  - daylight
+  Metazones:
+  - America_Pacific
 ASB:
 - Types:
   - daylight
@@ -26473,6 +26086,27 @@ AST:
   - CA
   - GL
   From: '2011-11-06T05:00:00+00:00'
+  To: '2018-03-11T06:00:00+00:00'
+- Offset: -14400
+  Timezones:
+  - America/Grand_Turk
+  Countries:
+  - TC
+  From: '2015-11-01T06:00:00+00:00'
+  To: '2018-03-11T07:00:00+00:00'
+- Offset: -14400
+  Timezones:
+  - America/Glace_Bay
+  - America/Goose_Bay
+  - America/Halifax
+  - America/Moncton
+  - America/Thule
+  - Atlantic/Bermuda
+  Countries:
+  - BM
+  - CA
+  - GL
+  From: '2018-11-04T05:00:00+00:00'
   To: '2037-03-08T06:00:00+00:00'
 - Offset: -14400
   Timezones:
@@ -26528,12 +26162,6 @@ AST:
   Countries:
   - DO
   From: '2000-12-03T06:00:00+00:00'
-- Offset: -14400
-  Timezones:
-  - America/Grand_Turk
-  Countries:
-  - TC
-  From: '2015-11-01T06:00:00+00:00'
 - Offset: -14400
   Timezones:
   - America/Glace_Bay
@@ -26713,14 +26341,6 @@ BMT:
   - BB
   From: '1924-01-01T03:58:29+00:00'
   To: '1932-01-01T03:58:29+00:00'
-BOST:
-- Offset: -12756
-  Timezones:
-  - America/La_Paz
-  Countries:
-  - BO
-  From: '1931-10-15T04:32:36+00:00'
-  To: '1932-03-21T03:32:36+00:00'
 BOT:
 - Types:
   - standard
@@ -26775,6 +26395,25 @@ BST:
   - IM
   - JE
   From: '1922-03-26T02:00:00+00:00'
+  To: '1931-10-04T02:00:00+00:00'
+- Offset: -12756
+  Timezones:
+  - America/La_Paz
+  Countries:
+  - BO
+  From: '1931-10-15T04:32:36+00:00'
+  To: '1932-03-21T03:32:36+00:00'
+- Offset: 3600
+  Timezones:
+  - Europe/Gibraltar
+  - Europe/London
+  Countries:
+  - GB
+  - GG
+  - GI
+  - IM
+  - JE
+  From: '1932-04-17T02:00:00+00:00'
   To: '1956-10-07T02:00:00+00:00'
 - Offset: 3600
   Timezones:
@@ -27032,6 +26671,7 @@ BT:
 CAST:
 - Offset: 10800
   Timezones:
+  - Africa/Juba
   - Africa/Khartoum
   Countries:
   - SD
@@ -27044,8 +26684,30 @@ CAT:
   - Africa/Khartoum
   Countries:
   - SD
-  - SS
   From: '1930-12-31T21:49:52+00:00'
+  To: '1970-04-30T22:00:00+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Juba
+  Countries:
+  - SS
+  From: '1930-12-31T21:53:32+00:00'
+  To: '1971-04-29T22:00:00+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Khartoum
+  Countries:
+  - SD
+  From: '1970-10-14T21:00:00+00:00'
+  To: '1971-04-29T22:00:00+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Juba
+  - Africa/Khartoum
+  Countries:
+  - SD
+  - SS
+  From: '1971-10-14T21:00:00+00:00'
   To: '1985-04-27T22:00:00+00:00'
 - Offset: 7200
   Timezones:
@@ -27053,15 +26715,23 @@ CAT:
   Countries:
   - NA
   From: '1990-03-20T22:00:00+00:00'
-  To: '1994-04-02T22:00:00+00:00'
+  To: '1999-04-04T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Africa/Juba
   - Africa/Khartoum
   Countries:
   - SD
   - SS
   From: '1985-10-14T21:00:00+00:00'
   To: '2000-01-15T10:00:00+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Windhoek
+  Countries:
+  - NA
+  From: '1999-09-05T01:00:00+00:00'
+  To: '2017-04-02T00:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Africa/Maputo
@@ -27075,6 +26745,18 @@ CAT:
   - ZM
   - ZW
   From: '1903-02-28T21:49:40+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Windhoek
+  Countries:
+  - NA
+  From: '2017-09-03T01:00:00+00:00'
+- Offset: 7200
+  Timezones:
+  - Africa/Khartoum
+  Countries:
+  - SD
+  From: '2017-10-31T21:00:00+00:00'
 - Types:
   - standard
   Metazones:
@@ -31029,13 +30711,10 @@ CEST:
 - Offset: 7200
   Timezones:
   - Europe/Brussels
-  - Europe/Prague
   - Europe/Rome
   Countries:
   - BE
-  - CZ
   - IT
-  - SK
   - SM
   - VA
   From: '1944-04-03T01:00:00+00:00'
@@ -31064,6 +30743,7 @@ CEST:
   - Europe/Copenhagen
   - Europe/Kaliningrad
   - Europe/Oslo
+  - Europe/Prague
   - Europe/Riga
   - Europe/Sofia
   - Europe/Vienna
@@ -31071,6 +30751,7 @@ CEST:
   - AT
   - BA
   - BG
+  - CZ
   - DE
   - DK
   - HR
@@ -31084,6 +30765,7 @@ CEST:
   - RU
   - SI
   - SJ
+  - SK
   From: '1944-04-03T01:00:00+00:00'
   To: '1944-10-02T01:00:00+00:00'
 - Offset: 7200
@@ -31194,9 +30876,12 @@ CEST:
 - Offset: 7200
   Timezones:
   - Europe/Oslo
+  - Europe/Prague
   Countries:
+  - CZ
   - 'NO'
   - SJ
+  - SK
   From: '1945-04-02T01:00:00+00:00'
   To: '1945-10-01T01:00:00+00:00'
 - Offset: 10800
@@ -31220,14 +30905,6 @@ CEST:
   - HU
   From: '1945-05-01T22:00:00+00:00'
   To: '1945-10-31T22:00:00+00:00'
-- Offset: 7200
-  Timezones:
-  - Europe/Prague
-  Countries:
-  - CZ
-  - SK
-  From: '1945-04-08T01:00:00+00:00'
-  To: '1945-11-18T01:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Europe/Berlin
@@ -33807,14 +33484,17 @@ CET:
   - Europe/Berlin
   - Europe/Copenhagen
   - Europe/Oslo
+  - Europe/Prague
   - Europe/Vienna
   Countries:
   - AT
+  - CZ
   - DE
   - DK
   - NL
   - 'NO'
   - SJ
+  - SK
   From: '1944-10-02T01:00:00+00:00'
   To: '1945-04-02T01:00:00+00:00'
 - Offset: 3600
@@ -33838,14 +33518,6 @@ CET:
   - BG
   From: '1944-10-02T01:00:00+00:00'
   To: '1945-04-02T02:00:00+00:00'
-- Offset: 3600
-  Timezones:
-  - Europe/Prague
-  Countries:
-  - CZ
-  - SK
-  From: '1944-09-17T01:00:00+00:00'
-  To: '1945-04-08T01:00:00+00:00'
 - Offset: 3600
   Timezones:
   - Europe/Madrid
@@ -33959,7 +33631,7 @@ CET:
   Countries:
   - CZ
   - SK
-  From: '1945-11-18T01:00:00+00:00'
+  From: '1945-10-01T01:00:00+00:00'
   To: '1946-05-06T01:00:00+00:00'
 - Offset: 3600
   Timezones:
@@ -33977,6 +33649,14 @@ CET:
   - DZ
   From: '1945-09-15T23:00:00+00:00'
   To: '1946-10-06T23:00:00+00:00'
+- Offset: 3600
+  Timezones:
+  - Europe/Prague
+  Countries:
+  - CZ
+  - SK
+  From: '1946-10-06T01:00:00+00:00'
+  To: '1946-12-01T02:00:00+00:00'
 - Offset: 3600
   Timezones:
   - Europe/Malta
@@ -34010,7 +33690,7 @@ CET:
   Countries:
   - CZ
   - SK
-  From: '1946-10-06T01:00:00+00:00'
+  From: '1947-02-23T02:00:00+00:00'
   To: '1947-04-20T01:00:00+00:00'
 - Offset: 3600
   Timezones:
@@ -37399,7 +37079,7 @@ CST:
   - Asia/Macau
   Countries:
   - MO
-  From: '1911-12-31T16:25:40+00:00'
+  From: '1911-12-31T16:00:00+00:00'
   To: '1961-03-18T19:30:00+00:00'
 - Offset: -21600
   Timezones:
@@ -40518,11 +40198,33 @@ EAT:
   - UG
   - YT
   From: '1928-06-30T21:32:44+00:00'
+  To: '1929-12-31T21:00:00+00:00'
 - Offset: 10800
   Timezones:
   - Africa/Khartoum
   Countries:
   - SD
+  From: '2000-01-15T10:00:00+00:00'
+  To: '2017-10-31T21:00:00+00:00'
+- Offset: 10800
+  Timezones:
+  - Africa/Nairobi
+  Countries:
+  - DJ
+  - ER
+  - ET
+  - KE
+  - KM
+  - MG
+  - SO
+  - TZ
+  - UG
+  - YT
+  From: '1959-12-31T21:15:00+00:00'
+- Offset: 10800
+  Timezones:
+  - Africa/Juba
+  Countries:
   - SS
   From: '2000-01-15T10:00:00+00:00'
 - Types:
@@ -40894,13 +40596,6 @@ EDT:
   - CA
   - US
   From: '1967-04-30T07:00:00+00:00'
-  To: '1967-10-29T06:00:00+00:00'
-- Offset: -14400
-  Timezones:
-  - America/Detroit
-  Countries:
-  - US
-  From: '1967-06-14T07:00:00+00:00'
   To: '1967-10-29T06:00:00+00:00'
 - Offset: -14400
   Timezones:
@@ -41730,6 +41425,35 @@ EDT:
   - HT
   - US
   From: '2017-03-12T07:00:00+00:00'
+  To: '2017-11-05T06:00:00+00:00'
+- Offset: -14400
+  Timezones:
+  - America/Detroit
+  - America/Grand_Turk
+  - America/Indiana/Indianapolis
+  - America/Indiana/Marengo
+  - America/Indiana/Petersburg
+  - America/Indiana/Vevay
+  - America/Indiana/Vincennes
+  - America/Indiana/Winamac
+  - America/Iqaluit
+  - America/Kentucky/Louisville
+  - America/Kentucky/Monticello
+  - America/Nassau
+  - America/New_York
+  - America/Nipigon
+  - America/Pangnirtung
+  - America/Port-au-Prince
+  - America/Thunder_Bay
+  - America/Toronto
+  - EST5EDT
+  Countries:
+  - BS
+  - CA
+  - HT
+  - TC
+  - US
+  From: '2018-03-11T07:00:00+00:00'
   To: '2037-11-01T06:00:00+00:00'
 - Types:
   - daylight
@@ -45349,7 +45073,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2018-03-30T23:00:00+00:00'
+  From: '2018-03-23T23:00:00+00:00'
   To: '2018-10-26T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -45367,6 +45091,7 @@ EEST:
   To: '2018-10-28T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45412,7 +45137,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2019-03-29T23:00:00+00:00'
+  From: '2019-03-22T23:00:00+00:00'
   To: '2019-10-25T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -45430,6 +45155,7 @@ EEST:
   To: '2019-10-27T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45471,6 +45197,7 @@ EEST:
   To: '2020-10-25T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45556,6 +45283,7 @@ EEST:
   To: '2021-10-31T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45619,6 +45347,7 @@ EEST:
   To: '2022-10-30T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45682,6 +45411,7 @@ EEST:
   To: '2023-10-29T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45727,7 +45457,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2024-03-29T23:00:00+00:00'
+  From: '2024-03-22T23:00:00+00:00'
   To: '2024-10-25T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -45745,6 +45475,7 @@ EEST:
   To: '2024-10-27T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45776,7 +45507,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2025-03-28T23:00:00+00:00'
+  From: '2025-03-21T23:00:00+00:00'
   To: '2025-10-24T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -45794,6 +45525,7 @@ EEST:
   To: '2025-10-26T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45849,6 +45581,7 @@ EEST:
   To: '2026-10-25T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45934,6 +45667,7 @@ EEST:
   To: '2027-10-31T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -45997,6 +45731,7 @@ EEST:
   To: '2028-10-29T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46042,7 +45777,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2029-03-30T23:00:00+00:00'
+  From: '2029-03-23T23:00:00+00:00'
   To: '2029-10-26T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -46060,6 +45795,7 @@ EEST:
   To: '2029-10-28T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46105,7 +45841,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2030-03-29T23:00:00+00:00'
+  From: '2030-03-22T23:00:00+00:00'
   To: '2030-10-25T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -46123,6 +45859,7 @@ EEST:
   To: '2030-10-27T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46154,7 +45891,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2031-03-28T23:00:00+00:00'
+  From: '2031-03-21T23:00:00+00:00'
   To: '2031-10-24T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -46172,6 +45909,7 @@ EEST:
   To: '2031-10-26T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46249,6 +45987,7 @@ EEST:
   To: '2032-10-31T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46312,6 +46051,7 @@ EEST:
   To: '2033-10-30T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46375,6 +46115,7 @@ EEST:
   To: '2034-10-29T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46420,7 +46161,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2035-03-30T23:00:00+00:00'
+  From: '2035-03-23T23:00:00+00:00'
   To: '2035-10-26T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -46438,6 +46179,7 @@ EEST:
   To: '2035-10-28T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46469,7 +46211,7 @@ EEST:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2036-03-28T23:00:00+00:00'
+  From: '2036-03-21T23:00:00+00:00'
   To: '2036-10-24T22:00:00+00:00'
 - Offset: 10800
   Timezones:
@@ -46487,6 +46229,7 @@ EEST:
   To: '2036-10-26T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -46542,6 +46285,7 @@ EEST:
   To: '2037-10-25T00:00:00+00:00'
 - Offset: 10800
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50316,6 +50060,14 @@ EET:
   To: '2017-03-30T22:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2017-10-27T22:00:00+00:00'
+  To: '2018-03-23T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -50330,6 +50082,7 @@ EET:
   To: '2018-03-25T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50375,8 +50128,8 @@ EET:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2017-10-27T22:00:00+00:00'
-  To: '2018-03-30T23:00:00+00:00'
+  From: '2018-10-26T22:00:00+00:00'
+  To: '2019-03-22T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Damascus
@@ -50393,14 +50146,6 @@ EET:
   To: '2019-03-28T22:00:00+00:00'
 - Offset: 7200
   Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2018-10-26T22:00:00+00:00'
-  To: '2019-03-29T23:00:00+00:00'
-- Offset: 7200
-  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -50415,6 +50160,7 @@ EET:
   To: '2019-03-31T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50478,6 +50224,7 @@ EET:
   To: '2020-03-29T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50541,6 +50288,7 @@ EET:
   To: '2021-03-28T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50597,6 +50345,7 @@ EET:
   To: '2022-03-27T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50653,6 +50402,7 @@ EET:
   To: '2023-03-26T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50694,6 +50444,14 @@ EET:
   To: '2023-03-30T22:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2023-10-27T22:00:00+00:00'
+  To: '2024-03-22T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Damascus
   Countries:
   - SY
@@ -50706,14 +50464,6 @@ EET:
   - JO
   From: '2023-10-26T22:00:00+00:00'
   To: '2024-03-28T22:00:00+00:00'
-- Offset: 7200
-  Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2023-10-27T22:00:00+00:00'
-  To: '2024-03-29T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Beirut
@@ -50730,6 +50480,7 @@ EET:
   To: '2024-03-31T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50757,6 +50508,14 @@ EET:
   To: '2024-03-31T01:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2024-10-25T22:00:00+00:00'
+  To: '2025-03-21T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Damascus
   Countries:
   - SY
@@ -50769,14 +50528,6 @@ EET:
   - JO
   From: '2024-10-24T22:00:00+00:00'
   To: '2025-03-27T22:00:00+00:00'
-- Offset: 7200
-  Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2024-10-25T22:00:00+00:00'
-  To: '2025-03-28T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Beirut
@@ -50793,6 +50544,7 @@ EET:
   To: '2025-03-30T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50856,6 +50608,7 @@ EET:
   To: '2026-03-29T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50919,6 +50672,7 @@ EET:
   To: '2027-03-28T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -50968,6 +50722,7 @@ EET:
   To: '2028-03-26T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51009,6 +50764,14 @@ EET:
   To: '2028-03-30T22:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2028-10-27T22:00:00+00:00'
+  To: '2029-03-23T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -51023,6 +50786,7 @@ EET:
   To: '2029-03-25T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51068,8 +50832,8 @@ EET:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2028-10-27T22:00:00+00:00'
-  To: '2029-03-30T23:00:00+00:00'
+  From: '2029-10-26T22:00:00+00:00'
+  To: '2030-03-22T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Damascus
@@ -51086,14 +50850,6 @@ EET:
   To: '2030-03-28T22:00:00+00:00'
 - Offset: 7200
   Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2029-10-26T22:00:00+00:00'
-  To: '2030-03-29T23:00:00+00:00'
-- Offset: 7200
-  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -51108,6 +50864,7 @@ EET:
   To: '2030-03-31T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51135,6 +50892,14 @@ EET:
   To: '2030-03-31T01:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2030-10-25T22:00:00+00:00'
+  To: '2031-03-21T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Damascus
   Countries:
   - SY
@@ -51147,14 +50912,6 @@ EET:
   - JO
   From: '2030-10-24T22:00:00+00:00'
   To: '2031-03-27T22:00:00+00:00'
-- Offset: 7200
-  Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2030-10-25T22:00:00+00:00'
-  To: '2031-03-28T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Beirut
@@ -51171,6 +50928,7 @@ EET:
   To: '2031-03-30T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51234,6 +50992,7 @@ EET:
   To: '2032-03-28T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51290,6 +51049,7 @@ EET:
   To: '2033-03-27T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51346,6 +51106,7 @@ EET:
   To: '2034-03-26T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51387,6 +51148,14 @@ EET:
   To: '2034-03-30T22:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Gaza
+  - Asia/Hebron
+  Countries:
+  - PS
+  From: '2034-10-27T22:00:00+00:00'
+  To: '2035-03-23T23:00:00+00:00'
+- Offset: 7200
+  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -51401,6 +51170,7 @@ EET:
   To: '2035-03-25T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51446,8 +51216,8 @@ EET:
   - Asia/Hebron
   Countries:
   - PS
-  From: '2034-10-27T22:00:00+00:00'
-  To: '2035-03-30T23:00:00+00:00'
+  From: '2035-10-26T22:00:00+00:00'
+  To: '2036-03-21T23:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Damascus
@@ -51464,14 +51234,6 @@ EET:
   To: '2036-03-27T22:00:00+00:00'
 - Offset: 7200
   Timezones:
-  - Asia/Gaza
-  - Asia/Hebron
-  Countries:
-  - PS
-  From: '2035-10-26T22:00:00+00:00'
-  To: '2036-03-28T23:00:00+00:00'
-- Offset: 7200
-  Timezones:
   - Asia/Beirut
   Countries:
   - LB
@@ -51486,6 +51248,7 @@ EET:
   To: '2036-03-30T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51549,6 +51312,7 @@ EET:
   To: '2037-03-29T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -51606,6 +51370,7 @@ EET:
   From: '2037-10-25T00:00:00+00:00'
 - Offset: 7200
   Timezones:
+  - Asia/Famagusta
   - Asia/Nicosia
   - EET
   - Europe/Athens
@@ -52142,13 +51907,6 @@ EST:
   To: '1967-04-30T07:00:00+00:00'
 - Offset: -18000
   Timezones:
-  - America/Detroit
-  Countries:
-  - US
-  From: '1948-09-26T06:00:00+00:00'
-  To: '1967-06-14T07:00:00+00:00'
-- Offset: -18000
-  Timezones:
   - America/Kentucky/Louisville
   Countries:
   - US
@@ -52300,7 +52058,7 @@ EST:
   - America/Detroit
   Countries:
   - US
-  From: '1967-10-29T06:00:00+00:00'
+  From: '1948-09-26T06:00:00+00:00'
   To: '1973-04-29T07:00:00+00:00'
 - Offset: -18000
   Timezones:
@@ -52335,7 +52093,7 @@ EST:
   - America/Jamaica
   Countries:
   - JM
-  From: '1912-02-01T05:07:11+00:00'
+  From: '1912-02-01T05:07:10+00:00'
   To: '1974-01-06T07:00:00+00:00'
 - Offset: -18000
   Timezones:
@@ -52439,7 +52197,7 @@ EST:
   - America/Grand_Turk
   Countries:
   - TC
-  From: '1912-02-01T05:07:11+00:00'
+  From: '1912-02-01T05:07:10+00:00'
   To: '1979-04-29T07:00:00+00:00'
 - Offset: -18000
   Timezones:
@@ -53338,6 +53096,35 @@ EST:
   - HT
   - US
   From: '2017-11-05T06:00:00+00:00'
+  To: '2018-03-11T07:00:00+00:00'
+- Offset: -18000
+  Timezones:
+  - America/Detroit
+  - America/Grand_Turk
+  - America/Indiana/Indianapolis
+  - America/Indiana/Marengo
+  - America/Indiana/Petersburg
+  - America/Indiana/Vevay
+  - America/Indiana/Vincennes
+  - America/Indiana/Winamac
+  - America/Iqaluit
+  - America/Kentucky/Louisville
+  - America/Kentucky/Monticello
+  - America/Nassau
+  - America/New_York
+  - America/Nipigon
+  - America/Pangnirtung
+  - America/Port-au-Prince
+  - America/Thunder_Bay
+  - America/Toronto
+  - EST5EDT
+  Countries:
+  - BS
+  - CA
+  - HT
+  - TC
+  - US
+  From: '2018-11-04T06:00:00+00:00'
   To: '2037-03-08T07:00:00+00:00'
 - Offset: -18000
   Timezones:
@@ -53367,6 +53154,7 @@ EST:
 - Offset: -18000
   Timezones:
   - America/Detroit
+  - America/Grand_Turk
   - America/Indiana/Indianapolis
   - America/Indiana/Marengo
   - America/Indiana/Petersburg
@@ -53388,6 +53176,7 @@ EST:
   - BS
   - CA
   - HT
+  - TC
   - US
   From: '2037-11-01T06:00:00+00:00'
 - Types:
@@ -53436,7 +53225,7 @@ FMT:
   Countries:
   - PT
   From: '1884-01-01T01:07:36+00:00'
-  To: '1912-01-01T01:07:36+00:00'
+  To: '1912-01-01T01:00:00+00:00'
 GFT:
 - Types:
   - standard
@@ -53944,10 +53733,25 @@ GMT:
   To: '1946-04-14T02:00:00+00:00'
 - Offset: 0
   Timezones:
-  - Europe/Dublin
+  - Europe/Prague
   Countries:
+  - CZ
+  - SK
+  From: '1946-12-01T02:00:00+00:00'
+  To: '1947-02-23T02:00:00+00:00'
+- Offset: 0
+  Timezones:
+  - Europe/Dublin
+  - Europe/Gibraltar
+  - Europe/London
+  Countries:
+  - GB
+  - GG
+  - GI
   - IE
-  From: '1946-10-06T01:00:00+00:00'
+  - IM
+  - JE
+  From: '1946-10-06T02:00:00+00:00'
   To: '1947-03-16T02:00:00+00:00'
 - Offset: 0
   Timezones:
@@ -53959,14 +53763,14 @@ GMT:
   - GI
   - IM
   - JE
-  From: '1946-10-06T02:00:00+00:00'
+  From: '1947-11-02T02:00:00+00:00'
   To: '1948-03-14T02:00:00+00:00'
 - Offset: 0
   Timezones:
   - Europe/Dublin
   Countries:
   - IE
-  From: '1947-11-02T01:00:00+00:00'
+  From: '1947-11-02T02:00:00+00:00'
   To: '1949-04-03T02:00:00+00:00'
 - Offset: 0
   Timezones:
@@ -54005,6 +53809,25 @@ GMT:
   - IM
   - JE
   From: '1957-10-06T02:00:00+00:00'
+  To: '2017-03-26T01:00:00+00:00'
+- Offset: 0
+  Timezones:
+  - Africa/Sao_Tome
+  Countries:
+  - ST
+  From: '1912-01-01T00:00:00+00:00'
+  To: '2018-01-01T01:00:00+00:00'
+- Offset: 0
+  Timezones:
+  - Europe/Dublin
+  - Europe/London
+  Countries:
+  - GB
+  - GG
+  - IE
+  - IM
+  - JE
+  From: '2017-10-29T01:00:00+00:00'
   To: '2037-03-29T01:00:00+00:00'
 - Offset: 0
   Timezones:
@@ -54019,7 +53842,6 @@ GMT:
   - SH
   - SL
   - SN
-  - ST
   - TG
   From: '1912-01-01T00:16:08+00:00'
 - Offset: 0
@@ -54275,13 +54097,20 @@ HKT:
   Metazones:
   - Hong_Kong
 HMT:
+- Offset: 21200
+  Timezones:
+  - Asia/Kolkata
+  Countries:
+  - IN
+  From: '1854-06-27T18:06:32+00:00'
+  To: '1869-12-31T18:06:40+00:00'
 - Offset: -6872
   Timezones:
   - Atlantic/Azores
   Countries:
   - PT
   From: '1884-01-01T01:42:40+00:00'
-  To: '1912-01-01T01:54:32+00:00'
+  To: '1912-01-01T02:00:00+00:00'
 - Offset: 5989
   Timezones:
   - Europe/Helsinki
@@ -54297,13 +54126,6 @@ HMT:
   - CU
   From: '1890-01-01T05:29:28+00:00'
   To: '1925-07-19T17:29:36+00:00'
-- Offset: 21200
-  Timezones:
-  - Asia/Kolkata
-  Countries:
-  - IN
-  From: '1879-12-31T18:06:32+00:00'
-  To: '1941-09-30T18:06:40+00:00'
 - Offset: 21200
   Timezones:
   - Asia/Dhaka
@@ -54566,7 +54388,7 @@ IST:
   - Asia/Kolkata
   Countries:
   - IN
-  From: '1942-05-14T17:30:00+00:00'
+  From: '1905-12-31T18:38:50+00:00'
   To: '1942-08-31T18:30:00+00:00'
 - Offset: 7200
   Timezones:
@@ -54581,7 +54403,7 @@ IST:
   Countries:
   - IE
   From: '1940-02-25T02:00:00+00:00'
-  To: '1947-11-02T01:00:00+00:00'
+  To: '1947-11-02T02:00:00+00:00'
 - Offset: 7200
   Timezones:
   - Asia/Jerusalem
@@ -55569,8 +55391,8 @@ JDT:
   - Asia/Tokyo
   Countries:
   - JP
-  From: '1948-05-01T17:00:00+00:00'
-  To: '1951-09-07T16:00:00+00:00'
+  From: '1948-05-01T15:00:00+00:00'
+  To: '1951-09-08T14:00:00+00:00'
 - Types:
   - daylight
   Metazones:
@@ -55638,20 +55460,20 @@ KDT:
   From: '1987-05-09T17:00:00+00:00'
   To: '1988-10-08T17:00:00+00:00'
 KMT:
-- Offset: -18431
+- Offset: -18430
   Timezones:
   - America/Grand_Turk
   Countries:
   - TC
   From: '1890-01-01T04:44:32+00:00'
-  To: '1912-02-01T05:07:11+00:00'
-- Offset: -18431
+  To: '1912-02-01T05:07:10+00:00'
+- Offset: -18430
   Timezones:
   - America/Jamaica
   Countries:
   - JM
-  From: '1890-01-01T05:07:11+00:00'
-  To: '1912-02-01T05:07:11+00:00'
+  From: '1890-01-01T05:07:10+00:00'
+  To: '1912-02-01T05:07:10+00:00'
 - Offset: 5736
   Timezones:
   - Europe/Vilnius
@@ -55709,18 +55531,25 @@ KST:
   - KP
   From: '1945-08-23T15:00:00+00:00'
   To: '2015-08-14T15:00:00+00:00'
-- Offset: 32400
-  Timezones:
-  - Asia/Seoul
-  Countries:
-  - KR
-  From: '1988-10-08T17:00:00+00:00'
 - Offset: 30600
   Timezones:
   - Asia/Pyongyang
   Countries:
   - KP
   From: '2015-08-14T15:00:00+00:00'
+  To: '2018-05-04T15:30:00+00:00'
+- Offset: 32400
+  Timezones:
+  - Asia/Seoul
+  Countries:
+  - KR
+  From: '1988-10-08T17:00:00+00:00'
+- Offset: 32400
+  Timezones:
+  - Asia/Pyongyang
+  Countries:
+  - KP
+  From: '2018-05-04T15:30:00+00:00'
 LHDT:
 - Types:
   - daylight
@@ -56989,6 +56818,13 @@ MEZ:
   Metazones:
   - Europe_Central
 MMT:
+- Offset: 19270
+  Timezones:
+  - Asia/Kolkata
+  Countries:
+  - IN
+  From: '1869-12-31T18:06:40+00:00'
+  To: '1905-12-31T18:38:50+00:00'
 - Offset: 19172
   Timezones:
   - Asia/Colombo
@@ -57017,13 +56853,13 @@ MMT:
   - LR
   From: '1882-01-01T00:43:08+00:00'
   To: '1919-03-01T00:43:08+00:00'
-- Offset: -13484
+- Offset: -13491
   Timezones:
   - America/Montevideo
   Countries:
   - UY
-  From: '1898-06-28T03:44:44+00:00'
-  To: '1920-05-01T03:44:44+00:00'
+  From: '1908-06-10T03:44:51+00:00'
+  To: '1920-05-01T03:44:51+00:00'
 - Offset: 6600
   Timezones:
   - Europe/Minsk
@@ -61238,13 +61074,13 @@ RMT:
   - LV
   From: '1879-12-31T22:23:26+00:00'
   To: '1919-04-01T00:23:26+00:00'
-- Offset: 23080
+- Offset: 23087
   Timezones:
   - Asia/Yangon
   Countries:
   - MM
-  From: '1879-12-31T17:35:20+00:00'
-  To: '1919-12-31T17:35:20+00:00'
+  From: '1879-12-31T17:35:13+00:00'
+  To: '1919-12-31T17:35:13+00:00'
 - Offset: 5794
   Timezones:
   - Europe/Riga
@@ -61516,12 +61352,6 @@ WAST:
   - TD
   From: '1979-10-13T23:00:00+00:00'
   To: '1980-03-07T22:00:00+00:00'
-- Offset: 7200
-  Timezones:
-  - Africa/Windhoek
-  Countries:
-  - NA
-  From: '1994-09-04T01:00:00+00:00'
 - Types:
   - daylight
   Metazones:
@@ -61539,8 +61369,8 @@ WAT:
   - Africa/Windhoek
   Countries:
   - NA
-  From: '1994-04-02T22:00:00+00:00'
-  To: '2037-09-06T01:00:00+00:00'
+  From: '1994-03-20T22:00:00+00:00'
+  To: '2017-09-03T01:00:00+00:00'
 - Offset: 3600
   Timezones:
   - Africa/Lagos
@@ -61562,6 +61392,12 @@ WAT:
   Countries:
   - TD
   From: '1980-03-07T22:00:00+00:00'
+- Offset: 3600
+  Timezones:
+  - Africa/Sao_Tome
+  Countries:
+  - ST
+  From: '2018-01-01T01:00:00+00:00'
 - Types:
   - daylight
   - standard
@@ -63306,7 +63142,7 @@ WET:
   - Europe/Lisbon
   Countries:
   - PT
-  From: '1912-01-01T00:36:45+00:00'
+  From: '1912-01-01T00:00:00+00:00'
   To: '1917-02-28T23:00:00+00:00'
 - Offset: 0
   Timezones:
@@ -65156,6 +64992,11 @@ YWT:
   - US
   From: '1942-02-09T11:00:00+00:00'
   To: '1945-08-14T23:00:00+00:00'
+م ع و:
+- Types:
+  - standard
+  Timezones:
+  - Etc/UTC
 ভা. স.:
 - Types:
   - standard

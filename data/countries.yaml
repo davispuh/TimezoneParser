@@ -9,7 +9,6 @@ Africa/Abidjan:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Accra:
 - GH
@@ -58,7 +57,6 @@ Africa/Bamako:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Bangui:
 - AO
@@ -81,7 +79,6 @@ Africa/Banjul:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Bissau:
 - GW
@@ -130,7 +127,6 @@ Africa/Conakry:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Dakar:
 - BF
@@ -142,7 +138,6 @@ Africa/Dakar:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Dar_es_Salaam:
 - DJ
@@ -189,7 +184,6 @@ Africa/Freetown:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Gaborone:
 - BI
@@ -214,7 +208,6 @@ Africa/Johannesburg:
 - SZ
 - ZA
 Africa/Juba:
-- SD
 - SS
 Africa/Kampala:
 - DJ
@@ -229,7 +222,6 @@ Africa/Kampala:
 - YT
 Africa/Khartoum:
 - SD
-- SS
 Africa/Kigali:
 - BI
 - BW
@@ -282,7 +274,6 @@ Africa/Lome:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Luanda:
 - AO
@@ -388,7 +379,6 @@ Africa/Nouakchott:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Ouagadougou:
 - BF
@@ -400,7 +390,6 @@ Africa/Ouagadougou:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Porto-Novo:
 - AO
@@ -414,17 +403,7 @@ Africa/Porto-Novo:
 - NE
 - NG
 Africa/Sao_Tome:
-- BF
-- CI
-- GM
-- GN
-- ML
-- MR
-- SH
-- SL
-- SN
 - ST
-- TG
 Africa/Timbuktu:
 - BF
 - CI
@@ -435,7 +414,6 @@ Africa/Timbuktu:
 - SH
 - SL
 - SN
-- ST
 - TG
 Africa/Tripoli:
 - LY
@@ -1259,7 +1237,6 @@ Atlantic/St_Helena:
 - SH
 - SL
 - SN
-- ST
 - TG
 Atlantic/Stanley:
 - FK
@@ -1320,8 +1297,6 @@ Brazil/West:
 Canada/Atlantic:
 - CA
 Canada/Central:
-- CA
-Canada/East-Saskatchewan:
 - CA
 Canada/Eastern:
 - CA

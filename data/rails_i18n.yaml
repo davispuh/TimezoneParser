@@ -1916,7 +1916,6 @@ ru:
   Рангун: Rangoon
   Рига: Riga
   Рим: Rome
-  Саломоновы острова: Solomon Is.
   Самара: Samara
   Самоа: Samoa
   Санкт-Петербург: St. Petersburg
@@ -1933,6 +1932,7 @@ ru:
   Сидней: Sydney
   Сингапур: Singapore
   Скопье: Skopje
+  Соломоновы острова: Solomon Is.
   София: Sofia
   Среднеколымск: Srednekolymsk
   Стамбул: Istanbul
@@ -1963,7 +1963,7 @@ ru:
   Эр-Рияд: Riyadh
   Якутск: Yakutsk
 zh-CN:
-  世界标準时间: UTC
+  世界标准时间: UTC
   东京: Tokyo
   东部时区(美国与加拿大): Eastern Time (US & Canada)
   中科雷姆斯克: Srednekolymsk
@@ -1989,7 +1989,7 @@ zh-CN:
   利马: Lima
   加尔各答: Kolkata
   加德满都: Kathmandu
-  加里寧格勒: Kaliningrad
+  加里宁格勒: Kaliningrad
   努瓜娄发: Nuku'alofa
   北京: Beijing
   华沙: Warsaw
@@ -2083,10 +2083,10 @@ zh-CN:
   莫斯科: Moscow
   萨摩亚: Samoa
   萨斯喀彻温: Saskatchewan
+  萨马拉: Samara
   蒙得维的亚: Montevideo
   蒙特雷: Monterrey
   蒙罗维亚: Monrovia
-  薩馬拉: Samara
   贝尔格勒: Belgrade
   赫尔辛基: Helsinki
   达卡: Dhaka

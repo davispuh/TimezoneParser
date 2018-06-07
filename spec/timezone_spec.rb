@@ -93,8 +93,8 @@ describe TimezoneParser do
         end
 
         describe '.getTimezones' do
-            it 'should return all timezones for "Britain dzomeŋɔli gaƒoƒome"' do
-                expect(TimezoneParser::Timezone::getTimezones('Britain dzomeŋɔli gaƒoƒome', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/London'])
+            it 'should return all timezones for "British dzomeŋɔli gaƒoƒo me"' do
+                expect(TimezoneParser::Timezone::getTimezones('British dzomeŋɔli gaƒoƒo me', nil, nil, ['dz', 'ee'], ['IM'])).to eq(['Europe/London'])
             end
         end
 

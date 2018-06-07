@@ -81,6 +81,9 @@
 - ca_ES_VALENCIA
 - ca_FR
 - ca_IT
+- ccp
+- ccp_BD
+- ccp_IN
 - ce
 - ce_RU
 - cgg
@@ -588,6 +591,8 @@
 - saq_KE
 - sbp
 - sbp_TZ
+- sd
+- sd_PK
 - se
 - se_FI
 - se_NO
@@ -652,6 +657,8 @@
 - teo
 - teo_KE
 - teo_UG
+- tg
+- tg_TJ
 - th
 - th_TH
 - ti
@@ -664,6 +671,8 @@
 - tr
 - tr_CY
 - tr_TR
+- tt
+- tt_RU
 - twq
 - twq_NE
 - tzm
@@ -695,6 +704,8 @@
 - vun_TZ
 - wae
 - wae_CH
+- wo
+- wo_SN
 - xog
 - xog_UG
 - yav
@@ -705,7 +716,10 @@
 - yo_BJ
 - yo_NG
 - yue
-- yue_HK
+- yue_Hans
+- yue_Hans_CN
+- yue_Hant
+- yue_Hant_HK
 - zgh
 - zgh_MA
 - zh

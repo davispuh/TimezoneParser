@@ -1,5 +1,5 @@
 ---
-TZInfo: 2017b
-CLDR: 31.0.1
-Rails: 5.1.4
+TZInfo: 2018e
+CLDR: '33.1'
+Rails: 5.2.0
 WindowsZones: 7e10400
