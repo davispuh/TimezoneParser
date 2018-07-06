@@ -53,12 +53,10 @@ module TimezoneParser
                 end
                 next unless tz
                 offsets = []
-                ts = false
+                self.class.addOffset(offsets, tz.period_for_utc(fromTime).offset, types)
                 tz.transitions_up_to(toTime, fromTime).each do |transition|
-                    ts = true
                     self.class.addOffset(offsets, transition.offset, types)
                 end
-                self.class.addOffset(offsets, tz.period_for_utc(toTime - 0.001).offset, types) unless ts
                 @Offsets += offsets
             end
             @Offsets

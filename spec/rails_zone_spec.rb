@@ -58,7 +58,9 @@ describe TimezoneParser do
 
         describe '.getOffsets' do
             it 'should return all offsets for "Nuku\'alofa"' do
-                expect(TimezoneParser::RailsZone::getOffsets('Nuku\'alofa', DateTime.now, nil, ['en', 'ru'], true)).to eq([46800, 50400])
+                expect(TimezoneParser::RailsZone::getOffsets('Nuku\'alofa', DateTime.parse('2018-01-01T00:00:00+00:00'), nil, ['en', 'ru'])).to eq([46800, 50400])
+                expect(TimezoneParser::RailsZone::getOffsets('Nuku\'alofa', DateTime.parse('2017-01-15T02:59:59+14:00'), DateTime.parse('2016-11-06T02:00:00+13:00'), ['en', 'ru'])).to eq([50400])
+                expect(TimezoneParser::RailsZone::getOffsets('Nuku\'alofa', DateTime.parse('2018-07-01T00:00:00+00:00'), DateTime.parse('2017-01-15T03:00:00+14:00'), ['en', 'ru'])).to eq([46800])
             end
         end
 
