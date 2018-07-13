@@ -1598,3 +1598,24 @@
 1950:
   Type: display
   Name: Vladivostok Standard Time
+2890:
+  Type: display
+  Name: Sudan Standard Time
+2891:
+  Type: daylight
+  Name: Sudan Standard Time
+2892:
+  Type: standard
+  Name: Sudan Standard Time
+2910:
+  Type: display
+  Name: Turks And Caicos Standard Time
+2940:
+  Type: display
+  Name: Sao Tome Standard Time
+2941:
+  Type: daylight
+  Name: Sao Tome Standard Time
+2942:
+  Type: standard
+  Name: Sao Tome Standard Time

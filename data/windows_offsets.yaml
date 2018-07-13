@@ -225,8 +225,8 @@ N. Central Asia Standard Time:
   standard: 25200
   daylight: 28800
 Namibia Standard Time:
-  standard: 3600
-  daylight: 7200
+  standard: 7200
+  daylight: 10800
 Nepal Standard Time:
   standard: 20700
   daylight: 24300
@@ -308,6 +308,9 @@ Sakhalin Standard Time:
 Samoa Standard Time:
   standard: 46800
   daylight: 50400
+Sao Tome Standard Time:
+  standard: 3600
+  daylight: 0
 Saratov Standard Time:
   standard: 14400
   daylight: 18000
@@ -320,6 +323,9 @@ South Africa Standard Time:
 Sri Lanka Standard Time:
   standard: 19800
   daylight: 23400
+Sudan Standard Time:
+  standard: 7200
+  daylight: 10800
 Syria Standard Time:
   standard: 7200
   daylight: 10800
@@ -348,8 +354,8 @@ Turkey Standard Time:
   standard: 10800
   daylight: 14400
 Turks And Caicos Standard Time:
-  standard: -14400
-  daylight: -10800
+  standard: -18000
+  daylight: -14400
 US Eastern Standard Time:
   standard: -18000
   daylight: -14400
